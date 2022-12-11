@@ -10,7 +10,6 @@ export default {
   },
   async mounted() {
     const { data: images } = await http.get(`/api/v1/gallery`);
-    console.log(images);
     this.images = images;
   },
   methods: {
