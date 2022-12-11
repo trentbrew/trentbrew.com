@@ -2,6 +2,5 @@
   "version": 2,
   "outputDirectory": "dist",
   "installCommand": "npm install -f",
-  "buildCommand": "npm run build",
-  "nodeVersion": "16.15.1"
+  "buildCommand": "npm run build"
 }
