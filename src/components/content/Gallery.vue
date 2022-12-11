@@ -14,6 +14,7 @@ export default {
   },
   methods: {
     handleImageClick(image) {
+      console.log("fetching images");
       this.$root.$emit("galleryClicked", image.url);
     },
   },
