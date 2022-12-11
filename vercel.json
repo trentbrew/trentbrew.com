@@ -1,6 +1,6 @@
 {
   "version": 2,
   "outputDirectory": "dist",
-  "installCommand": "npm install -f",
+  "installCommand": "nvm use 16 && npm install -f",
   "buildCommand": "npm run build"
 }
