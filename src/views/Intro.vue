@@ -186,13 +186,12 @@ export default {
                   <div class="side bottom">
                     <div class="screen" :style="`${popup && 'display: none;'}`">
                       <img
-                        v-if="hovering"
                         :src="`${
                           boot
                             ? require('@/assets/intro/boot.gif')
                             : preboot
                             ? require('@/assets/intro/static.gif')
-                            : require('@/assets/intro/hello.gif')
+                            : require('@/assets/intro/glitch1.gif')
                         }`"
                         width="100%"
                         height="100%"
