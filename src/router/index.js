@@ -5,15 +5,20 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'Intro',
-    component: () => import('@/views/Intro.vue')
+    path: "/",
+    name: "Intro",
+    component: () => import("@/views/Intro.vue"),
   },
   {
-    path: '/desktop',
-    name: 'Desktop',
-    component: () => import('@/views/Screen.vue')
-  }
+    path: "/desktop",
+    name: "Desktop",
+    component: () => import("@/views/Screen.vue"),
+  },
+  {
+    path: "/go/:id",
+    name: "Redirect",
+    component: () => import("@/views/Redirect.vue"),
+  },
 ];
 
 const router = new VueRouter({

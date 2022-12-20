@@ -1,6 +1,6 @@
 <script>
-import Screen from '@/views/Screen.vue';
-import GradientMesh from '@/components/GradientMesh.vue';
+import Screen from "@/views/Screen.vue";
+import GradientMesh from "@/components/GradientMesh.vue";
 
 export default {
   name: "Intro",
@@ -28,9 +28,9 @@ export default {
     isMobile: () => window.innerWidth <= 600,
   },
   mounted() {
-    console.log('👋🏾');
+    console.log("👋🏾");
     if (this.isMobile) {
-      window.open('https://read.cv/trentbrew', '_self'); // open CV on mobile
+      window.open("https://read.cv/trentbrew", "_self"); // open CV on mobile
     }
     setTimeout(() => {
       this.unveilMobile = true;
@@ -76,105 +76,161 @@ export default {
 </script>
 
 <template>
-<div>
-  <router-link v-if="!isMobile" to="/desktop" class="absolute skip" :style="(beginBoot || hovering) && 'transform: translateX(-60px); opacity: 0'">
-    <span class="arrow">➔</span><b> skip</b>
-  </router-link>
-  <div class="root" :style="clickActive && 'transform: scale(0.95)'">
-    <div
-    v-if="isMobile"
-    class="mobile-veil absolute flex justify-center align-end fill-screen"
-    style="z-index: 9999; width: 100%; text-align: center; bottom: 64px; transition: 2s;"
-    :style="unveilMobile ? 'opacity: 1' : 'opacity: 0'"
+  <div>
+    <router-link
+      v-if="!isMobile"
+      to="/desktop"
+      class="absolute skip"
+      :style="
+        (beginBoot || hovering) && 'transform: translateX(-60px); opacity: 0'
+      "
     >
-      <div style="max-width: 75vw; letter-spacing: 1px; color: #9999aa;">
-        <p style="margin-top: 24px">Hi! 👋🏾 Thanks for visiting my portfolio.</p>
-        <p style="margin-top: 24px">Unfortunately this website is not optimized for mobile devices...</p>
-        <p style="margin-top: 24px">Apologies for the inconvenience</p>
-      </div>
-    </div>
-    <div
-    class="intro-container flex-center fill-screen"
-    :style="`${ clicked ? 'background: black' : ( hovering ? 'background: #BCC3C9' : 'background: #CFD5DB' )};`"
-    >
+      <span class="arrow">➔</span><b> skip</b>
+    </router-link>
+    <div class="root" :style="clickActive && 'transform: scale(0.95)'">
       <div
-      v-if="(!isMobile && !unveil) || isMobile"
-      class="veil absolute flex-center fill-screen"
-      :style="isMobile && 'transform: scale(0.75); animation: mobile-shrink !important;'"
+        v-if="isMobile"
+        class="mobile-veil absolute flex justify-center align-end fill-screen"
+        style="
+          z-index: 9999;
+          width: 100%;
+          text-align: center;
+          bottom: 64px;
+          transition: 2s;
+        "
+        :style="unveilMobile ? 'opacity: 1' : 'opacity: 0'"
       >
-        <svg height="400" viewBox="0 0 1400 1000" fill="none">
-          <path class="path1" d="M100 0V600C100 700 160 900 400 900" stroke="#000000" stroke-width="200" />
-          <path class="path2" d="M560 300H193.5" stroke="#000000" stroke-width="200" />
-          <path class="path3" d="M700 0V600C700 700 760 900 1000 900C1240 900 1300 700 1300 600C1300 500 1240 300 1000 300H840" stroke="#000000" stroke-width="200" />
-        </svg>
+        <div style="max-width: 75vw; letter-spacing: 1px; color: #9999aa">
+          <p style="margin-top: 24px">
+            Hi! 👋🏾 Thanks for visiting my portfolio.
+          </p>
+          <p style="margin-top: 24px">
+            Unfortunately this website is not optimized for mobile devices...
+          </p>
+          <p style="margin-top: 24px">Apologies for the inconvenience</p>
+        </div>
       </div>
-      <div v-if="!isMobile" class="zoomable">
+      <div
+        class="intro-container flex-center fill-screen"
+        :style="`${
+          clicked
+            ? 'background: black'
+            : hovering
+            ? 'background: #BCC3C9'
+            : 'background: #CFD5DB'
+        };`"
+      >
         <div
-        class="flex-center window"
-        :class="clicked ? 'next window-hover' : ( boot || preboot ? 'window-hover' : 'window flex-center')"
-        @mouseenter="handleMouseEnter"
-        @mouseleave="handleMouseLeave"
-        @click="handleClick"
+          v-if="(!isMobile && !unveil) || isMobile"
+          class="veil absolute flex-center fill-screen"
+          :style="
+            isMobile &&
+            'transform: scale(0.75); animation: mobile-shrink !important;'
+          "
         >
-          <div class="laptop-aura" :style="clicked && 'transition-delay: 20s !important'"></div>
-          <div class="laptop">
-            <div class="base">
-              <div class="side top"></div>
-              <div class="side bottom"></div>
-              <div class="side right"></div>
-              <div class="side left"></div>
-              <div class="side front"></div>
-              <div class="side back"></div>
-            </div>
-            <div class="lid">
-              <div class="side top"></div>
-              <div class="side bottom">
-                <div class="screen" :style="`${ popup && 'display: none;' }`">
-                  <!--GradientMesh :index="1"/-->
-                  <img :src="`${
-                    boot ?
-                    require('@/assets/intro/boot.gif') :
-                    (
-                      preboot ?
-                      require('@/assets/intro/static1.gif') :
-                      require('@/assets/intro/glitch1.gif')
-                    )
-                  }`" width="100%" height="100%" />
-                </div>
+          <svg height="400" viewBox="0 0 1400 1000" fill="none">
+            <path
+              class="path1"
+              d="M100 0V600C100 700 160 900 400 900"
+              stroke="#000000"
+              stroke-width="200"
+            />
+            <path
+              class="path2"
+              d="M560 300H193.5"
+              stroke="#000000"
+              stroke-width="200"
+            />
+            <path
+              class="path3"
+              d="M700 0V600C700 700 760 900 1000 900C1240 900 1300 700 1300 600C1300 500 1240 300 1000 300H840"
+              stroke="#000000"
+              stroke-width="200"
+            />
+          </svg>
+        </div>
+        <div v-if="!isMobile" class="zoomable">
+          <div
+            class="flex-center window"
+            :class="
+              clicked
+                ? 'next window-hover'
+                : boot || preboot
+                ? 'window-hover'
+                : 'window flex-center'
+            "
+            @mouseenter="handleMouseEnter"
+            @mouseleave="handleMouseLeave"
+            @click="handleClick"
+          >
+            <div
+              class="laptop-aura"
+              :style="clicked && 'transition-delay: 20s !important'"
+            ></div>
+            <div class="laptop">
+              <div class="base">
+                <div class="side top"></div>
+                <div class="side bottom"></div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side front"></div>
+                <div class="side back"></div>
               </div>
-              <div class="side right"></div>
-              <div class="side left"></div>
-              <div class="side front"></div>
-              <div class="side back"></div>
+              <div class="lid">
+                <div class="side top"></div>
+                <div class="side bottom">
+                  <div class="screen" :style="`${popup && 'display: none;'}`">
+                    <!--GradientMesh :index="1"/-->
+                    <img
+                      :src="`${
+                        boot
+                          ? require('@/assets/intro/boot.gif')
+                          : preboot
+                          ? require('@/assets/intro/static.gif')
+                          : require('@/assets/intro/glitch1.gif')
+                      }`"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
+                </div>
+                <div class="side right"></div>
+                <div class="side left"></div>
+                <div class="side front"></div>
+                <div class="side back"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  
-    <div
-    class="absolute bg-image"
-    :class="clicked ? 'desktop-modal-transition' : 'desktop-modal'"
-    :style="`${hovering && 'animation-play-state: paused'};`"
-    >
-      <!--GradientMesh :index="2" :style="`${popup && 'display: none;'}`" /-->
-    </div>
-    <div
-    class="desktop-modal-final absolute bg-image"
-    :style="desktopReady ? `
+
+      <div
+        class="absolute bg-image"
+        :class="clicked ? 'desktop-modal-transition' : 'desktop-modal'"
+        :style="`${hovering && 'animation-play-state: paused'};`"
+      >
+        <!--GradientMesh :index="2" :style="`${popup && 'display: none;'}`" /-->
+      </div>
+      <div
+        class="desktop-modal-final absolute bg-image"
+        :style="
+          desktopReady
+            ? `
       opacity: 1;
       pointer-events: all;
       transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
-    ` : `
+    `
+            : `
       opacity: 0;
       pointer-events: none;
       transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
-    `"
-    >
-      <Screen :popup="popup" />
+    `
+        "
+      >
+        <Screen :popup="popup" />
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <style lang="scss" scoped>
@@ -191,11 +247,11 @@ $lid-ease-out: ease;
 $lid-delay-out: 0ms;
 $lid-delay-in: 150ms;
 
-$laptop_color: #EDEDF1;
+$laptop_color: #ededf1;
 $laptop_height: 11em; // 161px
 $laptop_width: 15em; // 225px
 
-$trackpad_color: #CFD5DB;
+$trackpad_color: #cfd5db;
 //$keyboard_color: #3b454e;
 $keyboard_color: #000000;
 $keyboard_frame_color: $trackpad_color;
@@ -248,8 +304,8 @@ $background: $trackpad_color;
 
 .skip {
   color: #000000;
-  bottom: 64px; 
-  left: 120px; 
+  bottom: 64px;
+  left: 120px;
   opacity: 0.4;
   font-size: 16px;
   transform: translateX(-32px);
@@ -339,13 +395,12 @@ video {
   transition: 3s;
 }
 
-
 .next {
   opacity: 0 !important;
 }
 
 .mini-desktop {
-   zoom: 0.154;
+  zoom: 0.154;
 }
 
 .intro-container {
@@ -399,8 +454,10 @@ svg {
 .laptop-aura {
   position: absolute;
   margin: auto;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   opacity: 1;
   height: $laptop_height * 0.15;
   width: $laptop_width * 0.25;
@@ -417,11 +474,12 @@ svg {
   top: 4.5em;
   transform: rotateZ(180deg);
   transform-style: preserve-3d;
-  transition: all $base-timing ease
+  transition: all $base-timing ease;
   //box-shadow: $light_shadow;
 }
 
-.window:hover, .window-hover {
+.window:hover,
+.window-hover {
   animation-play-state: paused;
 }
 
@@ -461,14 +519,16 @@ svg {
 
 .laptop .base {
   position: absolute;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   transition: 3s;
   transform-style: preserve-3d;
 }
 
 .laptop .base:after {
- /* content: '';
+  /* content: '';
   position: absolute;
   bottom: .2em; top: .2em;
   left: .2em; right: .2em;
@@ -481,108 +541,150 @@ svg {
   position: absolute;
 }
 
-.laptop .base .side.top { // laptop base
+.laptop .base .side.top {
+  // laptop base
   //background: linear-gradient(45deg, #bbb 0%, #999 30%, #666 100%);
   background: $laptop_color;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.laptop .base .side.top:before { // keyboard
-  content: '';
+.laptop .base .side.top:before {
+  // keyboard
+  content: "";
   position: absolute;
-  left: 1em; right: 1em;
-  top: .5em; bottom: 5.5em;
-  border-radius: .1em;
+  left: 1em;
+  right: 1em;
+  top: 0.5em;
+  bottom: 5.5em;
+  border-radius: 0.1em;
   background-color: $keyboard_color;
-  background-image: repeating-linear-gradient(0deg, transparent 0, transparent .8em, $keyboard_frame_color .9em, $keyboard_frame_color 1em), repeating-linear-gradient(90deg, transparent 0, transparent 0.9em, $keyboard_frame_color 0.9em, $keyboard_frame_color 1.1em);
+  background-image: repeating-linear-gradient(
+      0deg,
+      transparent 0,
+      transparent 0.8em,
+      $keyboard_frame_color 0.9em,
+      $keyboard_frame_color 1em
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 0.9em,
+      $keyboard_frame_color 0.9em,
+      $keyboard_frame_color 1.1em
+    );
 }
 
-.laptop .base .side.top:after { // trackpad
-  content: '';
+.laptop .base .side.top:after {
+  // trackpad
+  content: "";
   position: absolute;
-  left: 4.5em; right: 4.5em;
-  top: 6.5em; bottom: 1em;
+  left: 4.5em;
+  right: 4.5em;
+  top: 6.5em;
+  bottom: 1em;
   background: $trackpad_color;
-  border-radius: .1em;
+  border-radius: 0.1em;
   //border: .05em solid #0003;
 }
 
-.laptop .base .side.bottom { // bottom of laptop
+.laptop .base .side.bottom {
+  // bottom of laptop
   //background: linear-gradient(45deg, #bbb 0%, #999 30%, #666 100%);
   background: $laptop_color;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   transform: translateZ(-0.3em) rotateX(-180deg);
 }
 
 .laptop .base .side.right {
   background: $laptop_color;
-  top: 0; bottom: 0;
-  left: 0; width: .3em;
-  transform: translateX(14.85em) translateZ(-.15em) rotateY(90deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0.3em;
+  transform: translateX(14.85em) translateZ(-0.15em) rotateY(90deg);
 }
 
 .laptop .base .side.left {
   background: $laptop_color;
-  top: 0; bottom: 0;
-  left: 0; width: .3em;
-  transform: translateX(-.15em) translateZ(-.15em) rotateY(90deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0.3em;
+  transform: translateX(-0.15em) translateZ(-0.15em) rotateY(90deg);
 }
 
-.laptop .base .side.right:before, .laptop .base .side.right:after, 
-.laptop .base .side.left:before, .laptop .base .side.left:after {
-  content: '';
+.laptop .base .side.right:before,
+.laptop .base .side.right:after,
+.laptop .base .side.left:before,
+.laptop .base .side.left:after {
+  content: "";
   background: #000a;
-  width: .15em; height: .5em;
+  width: 0.15em;
+  height: 0.5em;
   position: absolute;
-  left: .05em;
-  border-radius: 1em
+  left: 0.05em;
+  border-radius: 1em;
 }
 
-.laptop .base .side.right:before, .laptop .base .side.left:before {
-  top: .5em;
+.laptop .base .side.right:before,
+.laptop .base .side.left:before {
+  top: 0.5em;
 }
 
-.laptop .base .side.right:after, .laptop .base .side.left:after {
+.laptop .base .side.right:after,
+.laptop .base .side.left:after {
   top: 1.3em;
 }
 
 .laptop .base .side.front {
   background: $trackpad_color;
-  top: 0; height: .3em;
-  left: 0; right: 0;
-  transform: translateY(10.85em) translateZ(-.15em) rotateX(90deg);
+  top: 0;
+  height: 0.3em;
+  left: 0;
+  right: 0;
+  transform: translateY(10.85em) translateZ(-0.15em) rotateX(90deg);
 }
 
 .laptop .base .side.back {
   background: $laptop_color;
-  top: 0; height: .3em;
-  left: 0; right: 0;
-  transform: translateY(-.15em) translateZ(-.15em) rotateX(90deg);
+  top: 0;
+  height: 0.3em;
+  left: 0;
+  right: 0;
+  transform: translateY(-0.15em) translateZ(-0.15em) rotateX(90deg);
 }
 
 .laptop .lid {
   position: absolute;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   transition: $lid-timing-out $lid-ease-out $lid-delay-out;
   transform-origin: top;
   transform-style: preserve-3d;
 }
 
-.window:hover .laptop .lid { // open lid
+.window:hover .laptop .lid {
+  // open lid
   transform: rotateX(115deg);
   transition-timing-function: $lid-ease-in;
   transition-delay: $lid-delay-in;
-  transition-duration: $lid-timing-in; 
+  transition-duration: $lid-timing-in;
 }
 
-.window-hover .laptop .lid { // open lid
+.window-hover .laptop .lid {
+  // open lid
   transform: rotateX(115deg);
   transition-timing-function: $lid-ease-in;
   transition-delay: $lid-delay-in;
-  transition-duration: $lid-timing-in; 
+  transition-duration: $lid-timing-in;
 }
 
 .laptop .side {
@@ -593,44 +695,59 @@ svg {
   position: absolute;
 }
 
-.laptop .lid .side.top { // laptop lid
+.laptop .lid .side.top {
+  // laptop lid
   //background: linear-gradient(45deg, rgb(134, 105, 105) 0%, #999 30%, #666 100%);
   background: $laptop_color;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
-  transform: translateZ(.2em);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateZ(0.2em);
 }
 
-.laptop .lid .side.top:before { // laptop logo
-  content: url('../assets/logo_icon.svg');
-  top: 4.7em; bottom: 4.7em;
-  left: 6.7em; right: 6.7em;
+.laptop .lid .side.top:before {
+  // laptop logo
+  content: url("../assets/logo_icon.svg");
+  top: 4.7em;
+  bottom: 4.7em;
+  left: 6.7em;
+  right: 6.7em;
   transform: rotate(180deg);
   //opacity: 0.4;
   position: absolute;
   border-radius: 50%;
 }
 
-.laptop .lid .side.bottom { // screen bezel
+.laptop .lid .side.bottom {
+  // screen bezel
   background: $keyboard_color;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   transform: rotateX(180deg);
 }
 
-.laptop .lid .side.bottom:before { // screen bezel logo
-  content: '';
+.laptop .lid .side.bottom:before {
+  // screen bezel logo
+  content: "";
   position: absolute;
-  height: .3em; width: 2em;
-  bottom: .3em; left: 6.5em;
+  height: 0.3em;
+  width: 2em;
+  bottom: 0.3em;
+  left: 6.5em;
   background: #fff3;
   display: none;
 }
 
 .laptop .lid .side.bottom:after {
-  content: '';
+  content: "";
   position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   //background-image: linear-gradient(25deg, transparent 25%, #fff1 27%, #fff4 40%, transparent 45%);
   background-position: 0% 300%;
   background-size: 40em 40em;
@@ -643,37 +760,48 @@ svg {
 
 .laptop .lid .side.right {
   background: $trackpad_color;
-  top: 0; bottom: 0;
-  left: 0; width: .2em;
-  transform: translateX(14.9em) translateZ(.1em) rotateY(90deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0.2em;
+  transform: translateX(14.9em) translateZ(0.1em) rotateY(90deg);
 }
 
 .laptop .lid .side.left {
   background: $trackpad_color;
-  top: 0; bottom: 0;
-  left: 0; width: .2em;
-  transform: translateX(-.1em) translateZ(.1em) rotateY(90deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0.2em;
+  transform: translateX(-0.1em) translateZ(0.1em) rotateY(90deg);
 }
 
 .laptop .lid .side.front {
   background: $laptop_color;
-  top: 0; height: .2em;
-  left: 0; right: 0;
-  transform: translateY(10.9em) translateZ(.1em) rotateX(90deg);
+  top: 0;
+  height: 0.2em;
+  left: 0;
+  right: 0;
+  transform: translateY(10.9em) translateZ(0.1em) rotateX(90deg);
 }
 
 .laptop .lid .side.back {
   background: $laptop_color;
-  top: 0; height: .2em;
-  left: 0; right: 0;
-  transform: translateY(-.1em) translateZ(.1em) rotateX(90deg);
+  top: 0;
+  height: 0.2em;
+  left: 0;
+  right: 0;
+  transform: translateY(-0.1em) translateZ(0.1em) rotateX(90deg);
 }
 
-.laptop .screen { // laptop screen
+.laptop .screen {
+  // laptop screen
   position: absolute;
-  top: .7em; bottom: .8em;
-  left: .2em; right: .2em;
-  border-radius: .1em;
+  top: 0.7em;
+  bottom: 0.8em;
+  left: 0.2em;
+  right: 0.2em;
+  border-radius: 0.1em;
   /*background-image: url('../assets/laptop_screen.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -683,5 +811,4 @@ svg {
   //background: linear-gradient(to bottom right, #FFF152, #FFA84A);
   //border-top: .3em solid rgba(0,0,0,0.2);
 }
-
 </style>
