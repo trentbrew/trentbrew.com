@@ -1,12 +1,16 @@
 <script>
 import Screen from "@/views/Screen.vue";
 import GradientMesh from "@/components/GradientMesh.vue";
+import Channels from "@/components/Channels.vue";
+import Noise from "@/components/Noise.vue";
 
 export default {
   name: "Intro",
   components: {
     Screen,
     GradientMesh,
+    Channels,
+    Noise,
   },
   data() {
     return {
@@ -76,161 +80,163 @@ export default {
 </script>
 
 <template>
-  <div>
-    <router-link
-      v-if="!isMobile"
-      to="/desktop"
-      class="absolute skip"
-      :style="
-        (beginBoot || hovering) && 'transform: translateX(-60px); opacity: 0'
-      "
-    >
-      <span class="arrow">➔</span><b> skip</b>
-    </router-link>
-    <div class="root" :style="clickActive && 'transform: scale(0.95)'">
-      <div
-        v-if="isMobile"
-        class="mobile-veil absolute flex justify-center align-end fill-screen"
-        style="
-          z-index: 9999;
-          width: 100%;
-          text-align: center;
-          bottom: 64px;
-          transition: 2s;
+  <main>
+    <div>
+      <router-link
+        v-if="!isMobile"
+        to="/desktop"
+        class="absolute skip"
+        :style="
+          (beginBoot || hovering) && 'transform: translateX(-60px); opacity: 0'
         "
-        :style="unveilMobile ? 'opacity: 1' : 'opacity: 0'"
       >
-        <div style="max-width: 75vw; letter-spacing: 1px; color: #9999aa">
-          <p style="margin-top: 24px">
-            Hi! 👋🏾 Thanks for visiting my portfolio.
-          </p>
-          <p style="margin-top: 24px">
-            Unfortunately this website is not optimized for mobile devices...
-          </p>
-          <p style="margin-top: 24px">Apologies for the inconvenience</p>
-        </div>
-      </div>
-      <div
-        class="intro-container flex-center fill-screen"
-        :style="`${
-          clicked
-            ? 'background: black'
-            : hovering
-            ? 'background: #BCC3C9'
-            : 'background: #CFD5DB'
-        };`"
-      >
+        <span class="arrow">➔</span><b> skip</b>
+      </router-link>
+      <div class="root" :style="clickActive && 'transform: scale(0.95)'">
         <div
-          v-if="(!isMobile && !unveil) || isMobile"
-          class="veil absolute flex-center fill-screen"
-          :style="
-            isMobile &&
-            'transform: scale(0.75); animation: mobile-shrink !important;'
+          v-if="isMobile"
+          class="mobile-veil absolute flex justify-center align-end fill-screen"
+          style="
+            z-index: 9999;
+            width: 100%;
+            text-align: center;
+            bottom: 64px;
+            transition: 2s;
           "
+          :style="unveilMobile ? 'opacity: 1' : 'opacity: 0'"
         >
-          <svg height="400" viewBox="0 0 1400 1000" fill="none">
-            <path
-              class="path1"
-              d="M100 0V600C100 700 160 900 400 900"
-              stroke="#000000"
-              stroke-width="200"
-            />
-            <path
-              class="path2"
-              d="M560 300H193.5"
-              stroke="#000000"
-              stroke-width="200"
-            />
-            <path
-              class="path3"
-              d="M700 0V600C700 700 760 900 1000 900C1240 900 1300 700 1300 600C1300 500 1240 300 1000 300H840"
-              stroke="#000000"
-              stroke-width="200"
-            />
-          </svg>
+          <div style="max-width: 75vw; letter-spacing: 1px; color: #9999aa">
+            <p style="margin-top: 24px">
+              Hi! 👋🏾 Thanks for visiting my portfolio.
+            </p>
+            <p style="margin-top: 24px">
+              Unfortunately this website is not optimized for mobile devices...
+            </p>
+            <p style="margin-top: 24px">Apologies for the inconvenience</p>
+          </div>
         </div>
-        <div v-if="!isMobile" class="zoomable">
+        <div
+          class="intro-container flex-center fill-screen"
+          :style="`${
+            clicked
+              ? 'background: black'
+              : hovering
+              ? 'background: #BCC3C9'
+              : 'background: #CFD5DB'
+          };`"
+        >
           <div
-            class="flex-center window"
-            :class="
-              clicked
-                ? 'next window-hover'
-                : boot || preboot
-                ? 'window-hover'
-                : 'window flex-center'
+            v-if="(!isMobile && !unveil) || isMobile"
+            class="veil absolute flex-center fill-screen"
+            :style="
+              isMobile &&
+              'transform: scale(0.75); animation: mobile-shrink !important;'
             "
-            @mouseenter="handleMouseEnter"
-            @mouseleave="handleMouseLeave"
-            @click="handleClick"
           >
+            <svg height="400" viewBox="0 0 1400 1000" fill="none">
+              <path
+                class="path1"
+                d="M100 0V600C100 700 160 900 400 900"
+                stroke="#000000"
+                stroke-width="200"
+              />
+              <path
+                class="path2"
+                d="M560 300H193.5"
+                stroke="#000000"
+                stroke-width="200"
+              />
+              <path
+                class="path3"
+                d="M700 0V600C700 700 760 900 1000 900C1240 900 1300 700 1300 600C1300 500 1240 300 1000 300H840"
+                stroke="#000000"
+                stroke-width="200"
+              />
+            </svg>
+          </div>
+          <div v-if="!isMobile" class="zoomable">
             <div
-              class="laptop-aura"
-              :style="clicked && 'transition-delay: 20s !important'"
-            ></div>
-            <div class="laptop">
-              <div class="base">
-                <div class="side top"></div>
-                <div class="side bottom"></div>
-                <div class="side right"></div>
-                <div class="side left"></div>
-                <div class="side front"></div>
-                <div class="side back"></div>
-              </div>
-              <div class="lid">
-                <div class="side top"></div>
-                <div class="side bottom">
-                  <div class="screen" :style="`${popup && 'display: none;'}`">
-                    <!--GradientMesh :index="1"/-->
-                    <img
-                      :src="`${
-                        boot
-                          ? require('@/assets/intro/boot.gif')
-                          : preboot
-                          ? require('@/assets/intro/static.gif')
-                          : require('@/assets/intro/glitch1.gif')
-                      }`"
-                      width="100%"
-                      height="100%"
-                    />
-                  </div>
+              class="flex-center window"
+              :class="
+                clicked
+                  ? 'next window-hover'
+                  : boot || preboot
+                  ? 'window-hover'
+                  : 'window flex-center'
+              "
+              @mouseenter="handleMouseEnter"
+              @mouseleave="handleMouseLeave"
+              @click="handleClick"
+            >
+              <div
+                class="laptop-aura"
+                :style="clicked && 'transition-delay: 20s !important'"
+              ></div>
+              <div class="laptop">
+                <div class="base">
+                  <div class="side top"></div>
+                  <div class="side bottom"></div>
+                  <div class="side right"></div>
+                  <div class="side left"></div>
+                  <div class="side front"></div>
+                  <div class="side back"></div>
                 </div>
-                <div class="side right"></div>
-                <div class="side left"></div>
-                <div class="side front"></div>
-                <div class="side back"></div>
+                <div class="lid">
+                  <div class="side top"></div>
+                  <div class="side bottom">
+                    <div class="screen" :style="`${popup && 'display: none;'}`">
+                      <img
+                        v-if="hovering"
+                        :src="`${
+                          boot
+                            ? require('@/assets/intro/boot.gif')
+                            : preboot
+                            ? require('@/assets/intro/static.gif')
+                            : require('@/assets/intro/hello.gif')
+                        }`"
+                        width="100%"
+                        height="100%"
+                      />
+                      <!-- <Channels v-else loop /> -->
+                    </div>
+                  </div>
+                  <div class="side right"></div>
+                  <div class="side left"></div>
+                  <div class="side front"></div>
+                  <div class="side back"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div
-        class="absolute bg-image"
-        :class="clicked ? 'desktop-modal-transition' : 'desktop-modal'"
-        :style="`${hovering && 'animation-play-state: paused'};`"
-      >
-        <!--GradientMesh :index="2" :style="`${popup && 'display: none;'}`" /-->
-      </div>
-      <div
-        class="desktop-modal-final absolute bg-image"
-        :style="
-          desktopReady
-            ? `
-      opacity: 1;
-      pointer-events: all;
-      transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
-    `
-            : `
-      opacity: 0;
-      pointer-events: none;
-      transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
-    `
-        "
-      >
-        <Screen :popup="popup" />
+        <div
+          class="absolute bg-image"
+          :class="clicked ? 'desktop-modal-transition' : 'desktop-modal'"
+          :style="`${hovering && 'animation-play-state: paused'};`"
+        >
+          <!--GradientMesh :index="2" :style="`${popup && 'display: none;'}`" /-->
+        </div>
+        <div
+          class="desktop-modal-final absolute bg-image"
+          :style="
+            desktopReady
+              ? `
+        opacity: 1;
+        pointer-events: all;
+        transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
+      `
+              : `
+        opacity: 0;
+        pointer-events: none;
+        transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
+      `
+          "
+        >
+          <Screen :popup="popup" />
+        </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <style lang="scss" scoped>
