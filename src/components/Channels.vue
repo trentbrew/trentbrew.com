@@ -34,10 +34,11 @@ export default {
     },
   },
   mounted() {
+    let url = this.urls[this.$route.params.id];
     if (this.skip) {
       window.open(url, "_self");
     } else {
-      this.runGifs();
+      this.runGifs(url);
     }
   },
   computed: {
@@ -46,8 +47,7 @@ export default {
     },
   },
   methods: {
-    runGifs() {
-      let url = this.urls[this.$route.params.id];
+    runGifs(url) {
       if (!this.loop) this.bgKey = "standby";
       setTimeout(
         () => {
