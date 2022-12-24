@@ -8,6 +8,7 @@ export default {
   },
   data() {
     return {
+      skip: true,
       bgKey: null,
       assets: {
         standby: require("@/assets/intro/standby.gif"),
@@ -33,7 +34,11 @@ export default {
     },
   },
   mounted() {
-    this.runGifs();
+    if (this.skip) {
+      window.open(url, "_self");
+    } else {
+      this.runGifs();
+    }
   },
   computed: {
     bg() {
