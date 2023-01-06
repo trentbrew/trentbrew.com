@@ -81,7 +81,7 @@ export default {
           icon: "music_color.svg",
           label: "What I'm Listening To",
           embed:
-            "https://open.spotify.com/embed-legacy/playlist/7uUkcVP0SpSzyt9UUS9AJT?si=7242e2d218ed4d71?utm_source=generator",
+            "https://open.spotify.com/embed-legacy/album/07bQPrG1jSRCkd9SvBXsy4?si=TMkS9EXFRHSood1uznALAg?utm_source=generator",
         },
         // {
         //   icon: 'about.svg',
