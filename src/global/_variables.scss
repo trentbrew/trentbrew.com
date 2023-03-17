@@ -1,0 +1,105 @@
+$japanese_indigo: #3b454e;
+$laptop_background: #24292e;
+
+//$inactive_window: rgba(black, 0.25);
+$inactive_window: #161616;
+//$active_window: rgba(white, 0.1);
+$active_window: #161616;
+$active_text: white;
+$inactive_text: rgba(white, 0.2);
+
+$top_height: 24px;
+$dock_height: 64px;
+
+$ui_width: calc(100vw - 24px);
+$ui_height: calc(100vh - 24px);
+
+$bordered: solid 1px rgba(255, 255, 255, 0.1);
+$bordered_light: solid 1px #ffffff11;
+$rad: 18px;
+
+$blur: saturate(120%) blur(42px) brightness(0.4);
+
+$bezel_color: #161616;
+$bezel_width: 12px;
+
+$shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03), 0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07);
+$light_shadow: 0px -6px 36px 12px rgba(0, 0, 0, 0.05);
+$tight_shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.05);
+
+$quick: 200ms;
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.fill-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background: black;
+  border-radius: 8px;
+}
+
+iframe,
+embed {
+  border: none;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+}
