@@ -24,7 +24,7 @@ export default {
       urls: {
         holiday2022:
           "https://trentbrew.notion.site/ORD-IAD-954926db63f84a40b152f64ce193e759",
-        podular_proposal:
+        podular:
           "https://www.notion.so/trentbrew/PODULAR-Development-Proposal-7c97e372484a4a42811a548d393680a1",
       },
     };
