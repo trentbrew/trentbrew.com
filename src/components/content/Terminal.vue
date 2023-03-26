@@ -1,12 +1,12 @@
 <script>
-import { VueTyper } from 'vue-typer';
+import { VueTyper } from "vue-typer";
 
 export default {
-  name: 'Terminal',
+  name: "Terminal",
   components: {
-    VueTyper
-  }
-}
+    VueTyper,
+  },
+};
 </script>
 
 <template>
@@ -15,30 +15,30 @@ export default {
       :text="[
         `Hi!`,
         `My name's Trent`,
-        `I'm a Software Engineer based in Chicago`,
+        `I'm a Software Engineer based in LA`,
         `Welcome to my website ^-^`,
-        `Feel free to click around & explore my work...`
+        `Feel free to click around & explore my work...`,
       ]"
-      :repeat='0'
-      :shuffle='false'
-      initial-action='typing'
-      :pre-type-delay='200'
-      :type-delay='100'
-      :pre-erase-delay='2000'
-      :erase-delay='200'
-      erase-style='select-all'
-      :erase-on-complete='false'
-      caret-animation='smooth'
+      :repeat="0"
+      :shuffle="false"
+      initial-action="typing"
+      :pre-type-delay="200"
+      :type-delay="100"
+      :pre-erase-delay="2000"
+      :erase-delay="200"
+      erase-style="select-all"
+      :erase-on-complete="false"
+      caret-animation="smooth"
     ></vue-typer>
   </div>
 </template>
 
-<style lang='scss'>
+<style lang="scss">
 .terminal-container {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background:#222222;
+  background: #222222;
   border-radius: 8px;
   padding: 24px;
 }
@@ -46,15 +46,15 @@ export default {
   font-family: monospace;
   font-size: 16px;
   &::before {
-    content: '$ ';
-    color: #619B5C;
+    content: "$ ";
+    color: #619b5c;
   }
 }
 .vue-typer .custom.char {
   color: white;
 }
 .vue-typer .custom.char.selected {
-  background-color: #264F78;
+  background-color: #264f78;
 }
 .vue-typer .custom.caret {
   display: inline-block !important;
