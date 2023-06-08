@@ -22,7 +22,7 @@ export default {
           category: "Games",
           content: {
             embed:
-              "https://github.com/trentbrew/trentbrew.com/blob/main/src/content/games/walls/qr.png?raw=true",
+              "https://trentbrew.pockethost.io/api/files/swvnum16u65or8w/b4rp2t947h5p4z8/qr79D4c80BeK_FA6d8n9gcU.png?token=",
           },
           dims: "400x400",
         },
