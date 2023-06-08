@@ -24,7 +24,7 @@ export default {
             embed:
               "https://trentbrew.pockethost.io/api/files/swvnum16u65or8w/b4rp2t947h5p4z8/qr79D4c80BeK_FA6d8n9gcU.png?token=",
           },
-          dims: "400x400",
+          dims: "420x420",
         },
         {
           title: "Solar System",
