@@ -26,6 +26,8 @@ export default {
           "https://trentbrew.notion.site/ORD-IAD-954926db63f84a40b152f64ce193e759",
         podular:
           "https://www.notion.so/trentbrew/PODULAR-Development-Proposal-7c97e372484a4a42811a548d393680a1",
+        "turtle-labs-business-plan":
+          "https://trentbrew.notion.site/Turtle-Labs-LLC-Business-Plan-a5e5a7b1f1bf4b729998a2123941f6aa",
       },
     };
   },
