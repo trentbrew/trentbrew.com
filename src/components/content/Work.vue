@@ -141,15 +141,6 @@ export default {
           content: { video: "animations/friends.mp4" },
           dims: "1000x450",
         },
-        /*{
-                    title: 'Sonic Run Cycle',
-                    description: '0:06',
-                    stack: ['AdobeAnimate'],
-                    thumb: require('@/content/animations/sonic-thumb.gif'),
-                    category: 'Animation',
-                    content: { video: 'animations/sonic.mp4' },
-                    dims: '1000x450',
-                },*/
         {
           title: "Pebble",
           description: "🕒 0:20",
@@ -160,8 +151,13 @@ export default {
           dims: "1000x450",
         },
         {
-          title: "Placeholder",
+          title: "Smileys",
+          description: "🕒 0:10",
+          stack: ["Loom"],
+          thumb: require("@/content/animations/smileys-thumb.gif"),
           category: "Animation",
+          content: { video: "animations/smileys.mp4" },
+          dims: "1000x450",
         },
       ],
     };
