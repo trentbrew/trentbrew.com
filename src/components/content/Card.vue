@@ -118,6 +118,10 @@ export default {
   background: rgba(#ffee93, 0.16);
   color: #ffee93 !important;
 }
+.Loom {
+  background: rgba(#dfabbf, 0.16);
+  color: #dfabbf !important;
+}
 .Stop-Motion {
   background: rgba(#bcb7be, 0.16);
   color: #bcb7be !important;
