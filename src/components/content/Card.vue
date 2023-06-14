@@ -164,6 +164,7 @@ figure.card {
   position: relative;
   height: 100%;
   aspect-ratio: 16 / 9;
+  background-color: rgba(white, 0.1);
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
