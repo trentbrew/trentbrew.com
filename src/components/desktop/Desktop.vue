@@ -88,7 +88,7 @@ export default {
           icon: "music_color.svg",
           label: "What I'm Listening To",
           embed:
-            "https://open.spotify.com/embed/playlist/71WKJ3yghARupISoX7ru4s?utm_source=generator&theme=0",
+            "https://open.spotify.com/embed/album/6LPNhAYlht7AQcKhmEyBA5?utm_source=generator&theme=0",
           windowWidth: 680,
           windowHeight: 420,
         },
