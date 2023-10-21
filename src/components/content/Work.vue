@@ -159,6 +159,17 @@ export default {
           content: { video: "animations/smileys.mp4" },
           dims: "1000x450",
         },
+
+          {
+            title: "Bless You",
+            description: "🕒 0:13",
+            stack: ["Procreate"],
+            thumb: require("@/content/animations/achoo.gif"),
+            category: "Animation",
+            content: { video: "animations/achoo.mp4" },
+            dims: "1000x450",
+          },
+
       ],
     };
   },

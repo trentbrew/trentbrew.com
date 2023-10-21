@@ -122,6 +122,11 @@ export default {
   background: rgba(#dfabbf, 0.16);
   color: #dfabbf !important;
 }
+.Procreate {
+  background: rgba(#dfabbf, 0.16);
+  color: #dfabbf !important;
+}
+
 .Stop-Motion {
   background: rgba(#bcb7be, 0.16);
   color: #bcb7be !important;
