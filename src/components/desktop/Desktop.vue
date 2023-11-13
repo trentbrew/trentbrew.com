@@ -56,7 +56,7 @@ export default {
         {
           icon: "document_square.svg",
           label: "CV",
-          embed: "https://cv-proxy.vercel.app/",
+          embed: "https://cv-proxy.vercel.app/trentbrew",
           windowWidth: 1000,
           windowHeight: 400,
           center: true,
@@ -87,7 +87,8 @@ export default {
         {
           icon: "music_color.svg",
           label: "What I'm Listening To",
-          embed: "https://open.spotify.com/embed/album/45sXGKufWTdb6OKthZogRQ?utm_source=generator&theme=0",
+          embed:
+            "https://open.spotify.com/embed/album/45sXGKufWTdb6OKthZogRQ?utm_source=generator&theme=0",
           windowWidth: 680,
           windowHeight: 420,
         },
@@ -142,7 +143,7 @@ export default {
     ) {
       this.pushWindow({
         title: "CV",
-        embed: "https://cv-proxy.vercel.app/",
+        embed: "https://cv-proxy.vercel.app/trentbrew",
         width: 900,
         height: 400,
         center: true,
