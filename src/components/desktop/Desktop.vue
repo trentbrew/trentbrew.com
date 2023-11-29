@@ -88,7 +88,7 @@ export default {
           icon: "music_color.svg",
           label: "What I'm Listening To",
           embed:
-            "https://open.spotify.com/embed/album/45sXGKufWTdb6OKthZogRQ?utm_source=generator&theme=0",
+            "https://open.spotify.com/embed/playlist/7uUkcVP0SpSzyt9UUS9AJT?utm_source=generator&theme=0",
           windowWidth: 680,
           windowHeight: 420,
         },
@@ -144,6 +144,7 @@ export default {
       this.pushWindow({
         title: "CV",
         embed: "https://cv-proxy.vercel.app/trentbrew",
+        deproxy: "https://read.cv/trentbrew",
         width: 900,
         height: 400,
         center: true,
@@ -264,21 +265,6 @@ export default {
       <!--GradientMesh :index="3" /-->
     </div>
     <div ref="desktop" class="desktop">
-      <!--div
-      @click="() => { clicked = null; pushWindow({
-        title: 'about.me',
-        center: true,
-        width: 660,
-        height: 375,
-        component: About
-      })}"
-      class="item-container absolute flex-column flex-center"
-      :style="`top: 50px; left: 48px; ${clicked == 1 ? 'background: rgba(0,0,0,0.4)' : ''};`"
-      >
-        <div class="icon" :style="'background-image: url(' + require('@/assets/icons/document.svg') + ');'"></div>
-        <span class="title">about.me</span>
-      </div-->
-
       <Window
         v-for="(window, index) in windows"
         :key="index"

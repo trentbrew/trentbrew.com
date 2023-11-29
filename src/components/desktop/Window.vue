@@ -36,6 +36,7 @@ export default {
   },
   props: {
     embed: String,
+    deproxy: String,
     video: String,
     index: Number,
     id: String,
@@ -265,7 +266,7 @@ export default {
               <div
                 v-if="embed"
                 class="newtab"
-                @click="window.open(embed, '_blank')"
+                @click="window.open(deproxy || embed, '_blank')"
               ></div>
             </div>
             <div class="window-controls">
