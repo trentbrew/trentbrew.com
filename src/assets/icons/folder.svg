@@ -1,5 +1,5 @@
-<svg width="58" height="53" viewBox="0 0 58 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M27.6586 4C26.8349 1.66961 24.6124 0 22 0H9C5.68629 0 3 2.68629 3 6V10V38C3 41.3137 5.68629 44 9 44H22L49 44C52.3137 44 55 41.3137 55 38V10C55 6.68629 52.3137 4 49 4L27.6586 4Z" fill="#DED4CA"/>
-<rect x="56" y="7" width="41" height="54" rx="6" transform="rotate(90 56 7)" fill="white"/>
-<rect x="58" y="9" width="44" height="58" rx="6" transform="rotate(90 58 9)" fill="#DED4CA"/>
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.4581 3.03467C19.4257 1.22216 17.476 0 15.2409 0H8.27539C4.96168 0 2.27539 2.68629 2.27539 6L2.27539 27.3793C2.27539 30.4341 4.55834 32.9557 7.51121 33.3311C7.56126 33.3375 7.6115 33.3432 7.66193 33.3483C7.86415 33.3689 8.06935 33.3795 8.27701 33.3795H35.7253C39.039 33.3795 41.7253 30.6932 41.7253 27.3795V9.03467C41.7253 5.72096 39.039 3.03467 35.7253 3.03467L20.4581 3.03467Z" fill="#B6AD8F"/>
+<rect x="42.4824" y="5.31055" width="31.1034" height="40.9655" rx="6" transform="rotate(90 42.4824 5.31055)" fill="white"/>
+<rect x="44" y="6.82764" width="37.1724" height="44" rx="6" transform="rotate(90 44 6.82764)" fill="#B6AD8F"/>
 </svg>

@@ -1,7 +1,7 @@
-<svg width="44" height="58" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M21.9847 0H6C2.6863 0 3.69728e-06 2.68629 3.55243e-06 6L0 52C0 55.3137 2.68629 58 6 58H38C41.3137 58 44 55.3137 44 52L44 22.0153L21.9847 0Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M22 0.0153809V16C22 19.3137 24.6863 22 28 22H43.9847L22 0.0153809Z" fill="#CFD5DB"/>
-<rect x="10" y="31" width="24" height="2" rx="1" fill="#CFD5DB"/>
-<rect x="10" y="38" width="24" height="2" rx="1" fill="#CFD5DB"/>
-<rect x="10" y="45" width="24" height="2" rx="1" fill="#CFD5DB"/>
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2985 -1.46062e-06L38 -5.24537e-07C41.3137 -3.74702e-07 44 2.68629 44 6L44 38C44 41.3137 41.3137 44 38 44L6 44C2.68629 44 2.02938e-07 41.3137 4.92631e-07 38L2.35456e-06 16.702L17.2985 -1.46062e-06Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2852 0.0107422L17.2852 10.6894C17.2852 14.0031 14.5989 16.6894 11.2852 16.6894L0.0108342 16.6894L17.2852 0.0107422Z" fill="#BCC3C9"/>
+<rect width="24" height="2.25" rx="1.125" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 34 35)" fill="#BCC3C9"/>
+<rect width="24" height="2.25" rx="1.125" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 34 29.5)" fill="#BCC3C9"/>
+<rect width="24" height="2.25" rx="1.125" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 34 24)" fill="#BCC3C9"/>
 </svg>

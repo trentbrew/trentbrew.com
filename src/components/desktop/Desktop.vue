@@ -40,44 +40,23 @@ export default {
       fullscreen: false,
       dividerIndex: 5,
       dockItems: [
-        {
-          icon: "term.svg",
-          label: "Terminal",
-          component: Terminal,
-          center: true,
-        },
+        // {
+        //   icon: "term.svg",
+        //   label: "Terminal",
+        //   component: Terminal,
+        //   center: true,
+        // },
         // {
         //   icon: "about.svg",
-        //   label: "About Me",
-        //   windowWidth: 660,
-        //   windowHeight: 375,
+        //   label: "The Garden",
+        //   windowWidth: 1100,
+        //   windowHeight: 400,
         //   component: About,
+        //   // embed: "https://",
         // },
-        {
-          icon: "document_square.svg",
-          label: "CV",
-          embed: "https://api.trentbrew.com/trentbrew",
-          windowWidth: 1000,
-          windowHeight: 400,
-          center: true,
-        },
-        {
-          icon: "doodles2.svg",
-          label: "Doodles",
-          component: Art,
-          windowWidth: 800,
-          windowHeight: 400,
-        },
-        {
-          icon: "folder_square.svg",
-          label: "Playground",
-          component: Work,
-          windowWidth: 1100,
-          windowHeight: 400,
-        },
         // {
         //   icon: "shop.svg",
-        //   label: "⏳ Shop Coming Soon",
+        //   label: "⏳ Shop coming soon",
         //   //component: Shop,
         //   component: WIP,
         //   windowWidth: 600,
@@ -85,24 +64,43 @@ export default {
         //   center: true,
         // },
         {
-          icon: "music_color.svg",
-          label: "What I'm Listening To",
+          icon: "music.svg",
+          label: "Music",
           embed:
             "https://open.spotify.com/embed/album/6NSTroWyAp3htlhO61s3Ep?utm_source=generator&theme=0",
           windowWidth: 680,
           windowHeight: 420,
         },
-        // {
-        //   icon: "feedback.svg",
-        //   label: "Feedback",
-        //   component: About,
-        // },
-        // {
-        //   icon: "in.svg",
-        //   label: "LinkedIn",
-        //   link: "https://linkedin.com/in/trentbrew",
-        //   newtab: true,
-        // },
+        {
+          icon: "document.svg",
+          label: "CV",
+          embed: "https://api.trentbrew.com/trentbrew",
+          windowWidth: 1000,
+          windowHeight: 400,
+          center: true,
+        },
+        {
+          icon: "doodles.svg",
+          label: "Doodles",
+          component: Art,
+          windowWidth: 800,
+          windowHeight: 400,
+        },
+        {
+          icon: "folder.svg",
+          label: "Playground",
+          // embed: "https://",
+          component: Work,
+          windowWidth: 1100,
+          windowHeight: 400,
+        },
+        {
+          icon: "garden.svg",
+          label: "Coming Soon",
+          component: WIP,
+          windowWidth: 450,
+          windowHeight: 300,
+        },
         {
           icon: "t_color.svg",
           label: "Twitter",
@@ -116,8 +114,11 @@ export default {
           newtab: true,
         },
         {
-          icon: "mail2.svg",
+          icon: "mail.svg",
           label: "Mail",
+          // component: WIP,
+          // windowWidth: 450,
+          // windowHeight: 300,
           link: "mailto:hello@trentbrew.com",
           newtab: true,
         },
@@ -349,13 +350,32 @@ export default {
       >
         <div v-if="index === dividerIndex" class="divider"></div>
         <div class="tooltip flex-center absolute">
-          <span>{{ item.label }}</span>
+          <span style="text-wrap: nowrap">{{ item.label }}</span>
           <div v-if="item.newtab" class="newtab"></div>
         </div>
         <div
           class="dock-icon"
           :style="`background-image: url('${require(`@/assets/icons/${item.icon}`)}')`"
-        ></div>
+        >
+          <!-- <div
+            v-if="index === 0"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: #9d555d;
+              height: 24px;
+              width: 24px;
+              position: absolute;
+              left: 60px;
+              top: 10px;
+              border-radius: 100%;
+              font-weight: bold;
+            "
+          >
+            <b style="color: white; font-size: 12px; line-height: 24px">2</b>
+          </div> -->
+        </div>
         <div
           class="active-indicator"
           :style="
@@ -526,5 +546,46 @@ video {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(white, 0.4);
+}
+
+.pulse {
+  margin: 100px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #cca92c;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
 }
 </style>
