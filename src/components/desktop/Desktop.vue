@@ -100,7 +100,7 @@ export default {
           component: About,
           // embed: "https://maggieappleton.com/garden",
           windowWidth: 800,
-          windowHeight: 440,
+          windowHeight: 480,
         },
         {
           icon: "t_color.svg",

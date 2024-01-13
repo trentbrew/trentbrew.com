@@ -7,7 +7,7 @@
       height="120"
       alt="hello"
     />
-    <div style="display: block; align-items: center; margin-top: 0px;">
+    <div style="display: block; align-items: center; margin-top: 0px">
       <svg
         width="80"
         height="80"
@@ -22,24 +22,30 @@
           fill="#598681"
         />
       </svg>
-      <h1 style="margin-top:0px;">The Garden is Intcipient</h1>
+      <h1 style="margin-top: 0px">The Garden is Intcipient</h1>
     </div>
     <p>
-      <img src="" alt="" srcset="">I recently discovered the concept of a digital garden while studying the work of
+      <img src="" alt="" srcset="" />I recently discovered the concept of
+      digital gardens while studying the work of
       <a
-        style="color: #598681 !important; text-decoration: none !important; font-weight: bold !important;"
+        style="
+          color: #598681 !important;
+          text-decoration: none !important;
+          font-weight: bold !important;
+        "
         href="https://maggieappleton.com/garden"
         >Maggie Appleton</a
       >.
     </p>
-    <p>I love the concept of learning out loud and I believe it's the best way to debug my brain.</p>
     <p>
-      <p>More to come soon ~</p>
-      <p></p>
-      <!-- <br /><br /><br /> -->
-      <!-- <b>A bit about me</b> -->
+      I've been looking for a way to organize my thoughts and ideas in a way
+      that's more personal and less formal than a blog.
     </p>
-
+    <p>
+      I'm hoping that this will be a place where I can share my thoughts and
+      ideas in a way that's more personal and less formal than a blog.
+    </p>
+    <p>More to come ✌🏿</p>
     <!-- <ul>
       <li>
         <span
