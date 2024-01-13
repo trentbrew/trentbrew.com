@@ -56,7 +56,7 @@ export default {
         {
           icon: "document_square.svg",
           label: "CV",
-          embed: "https://cv-proxy.vercel.app/trentbrew",
+          embed: "https://api.trentbrew.com/trentbrew",
           windowWidth: 1000,
           windowHeight: 400,
           center: true,
@@ -143,7 +143,7 @@ export default {
     ) {
       this.pushWindow({
         title: "CV",
-        embed: "https://cv-proxy.vercel.app/trentbrew",
+        embed: "https://api.trentbrew.com/trentbrew",
         deproxy: "https://read.cv/trentbrew",
         width: 900,
         height: 400,
