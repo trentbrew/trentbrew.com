@@ -96,10 +96,11 @@ export default {
         },
         {
           icon: "garden.svg",
-          label: "Coming Soon",
-          component: WIP,
-          windowWidth: 450,
-          windowHeight: 300,
+          label: "The Garden",
+          component: About,
+          // embed: "https://maggieappleton.com/garden",
+          windowWidth: 800,
+          windowHeight: 440,
         },
         {
           icon: "t_color.svg",

@@ -312,13 +312,6 @@ export default {
           };
         `"
         >
-          <!-- <img
-          v-if="embed"
-          src="../../assets/loading.gif"
-          width="48"
-          height="48"
-          style="position: absolute; z-index: -1;"
-          /> -->
           <slot id="slot">
             <div class="empty-slot-container">
               <span>W: {{ width && width.toFixed(0) }}</span
