@@ -34,6 +34,7 @@
           font-weight: bold !important;
         "
         href="https://maggieappleton.com/garden"
+        target="_blank"
         >Maggie Appleton</a
       >.
     </p>
