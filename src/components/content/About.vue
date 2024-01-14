@@ -39,11 +39,8 @@
     </p>
     <p>
       I've been looking for a way to organize my thoughts and ideas in a way
-      that's more personal and less formal than a blog.
-    </p>
-    <p>
-      I'm hoping that this will be a place where I can share my thoughts and
-      ideas in a way that's more personal and less formal than a blog.
+      that's more personal and less formal than a blog. I hope this can be that
+      place.
     </p>
     <p>More to come ✌🏿</p>
     <!-- <ul>
