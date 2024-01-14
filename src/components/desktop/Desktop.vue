@@ -96,7 +96,7 @@ export default {
         },
         {
           icon: "garden.svg",
-          label: "The Garden",
+          label: "Garden",
           component: About,
           // embed: "https://maggieappleton.com/garden",
           windowWidth: 800,
