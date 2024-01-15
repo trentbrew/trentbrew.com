@@ -405,7 +405,7 @@ export default {
 .window-container {
   transition: 400ms;
   &:active {
-    transform: scale(0.95);
+    transform: scale(0.98);
   }
 }
 
