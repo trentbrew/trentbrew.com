@@ -30,7 +30,7 @@ export default {
           title: "AI DJ",
           description: "Discover new music by describing the vibe",
           stack: ["HTML5", "VanillaJS"],
-          thumb: require("@/content/UX/dj/dj.gif"),
+          thumb: require("@/content/UX/dj/dj2.gif"),
           category: "Websites",
           // content: { link: "https://dj-gemini.vercel.app" },
           // newtab: true,
