@@ -46,14 +46,14 @@ export default {
         //   component: Terminal,
         //   center: true,
         // },
-        // {
-        //   icon: "about.svg",
-        //   label: "The Garden",
-        //   windowWidth: 1100,
-        //   windowHeight: 400,
-        //   component: About,
-        //   // embed: "https://",
-        // },
+        {
+          icon: "music.svg",
+          label: "Music",
+          embed:
+            "https://open.spotify.com/embed/album/6NSTroWyAp3htlhO61s3Ep?utm_source=generator&theme=0",
+          windowWidth: 680,
+          windowHeight: 420,
+        },
         // {
         //   icon: "shop.svg",
         //   label: "⏳ Shop coming soon",
@@ -64,19 +64,11 @@ export default {
         //   center: true,
         // },
         {
-          icon: "music.svg",
-          label: "Music",
-          embed:
-            "https://open.spotify.com/embed/album/6NSTroWyAp3htlhO61s3Ep?utm_source=generator&theme=0",
-          windowWidth: 680,
-          windowHeight: 420,
-        },
-        {
           icon: "document.svg",
           label: "CV",
           embed: "https://api.trentbrew.com/trentbrew",
-          windowWidth: 1000,
-          windowHeight: 400,
+          windowWidth: 800,
+          windowHeight: 350,
           center: true,
         },
         {
@@ -89,9 +81,8 @@ export default {
         {
           icon: "folder.svg",
           label: "Playground",
-          // embed: "https://",
           component: Work,
-          windowWidth: 1100,
+          windowWidth: 1000,
           windowHeight: 400,
         },
         {
