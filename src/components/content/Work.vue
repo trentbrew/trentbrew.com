@@ -38,6 +38,12 @@ export default {
           center: true,
           dims: "1100x650",
         },
+        // {
+        //   title: "Toybox",
+        //   description: "A collection of components for playful UIs",
+        //   stack: ["Vue"],
+        //   thumb: require("@/content/UX/toybox/toybox.gif"),
+        // },
         {
           title: "Drummerboi",
           description: "Tap to make music",
