@@ -15,18 +15,6 @@ export default {
       categoryCaption: "",
       projects: [
         {
-          title: "Don't Touch the Walls",
-          description: "Tilt your phone to solve the maze",
-          stack: ["HTML5", "p5js"],
-          thumb: require("@/content/games/walls/img1.gif"),
-          category: "Games",
-          content: {
-            embed:
-              "https://trentbrew.pockethost.io/api/files/swvnum16u65or8w/b4rp2t947h5p4z8/qr79D4c80BeK_FA6d8n9gcU.png?token=",
-          },
-          dims: "420x420",
-        },
-        {
           title: "AI DJ",
           description: "Discover new music by describing the vibe",
           stack: ["HTML5", "VanillaJS"],
@@ -97,6 +85,18 @@ export default {
           category: "Games",
           content: { link: "https://gamejolt.com/games/sonic-velocity/18934" },
           newtab: true,
+        },
+        {
+          title: "Don't Touch the Walls",
+          description: "Tilt your phone to solve the maze",
+          stack: ["HTML5", "p5js"],
+          thumb: require("@/content/games/walls/img1.gif"),
+          category: "Games",
+          content: {
+            embed:
+              "https://trentbrew.pockethost.io/api/files/swvnum16u65or8w/b4rp2t947h5p4z8/qr79D4c80BeK_FA6d8n9gcU.png?token=",
+          },
+          dims: "420x420",
         },
         /*{
                     title: 'Sonic Voyage',
