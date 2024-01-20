@@ -52,9 +52,16 @@ export default {
           stack: ["HTML5", "JQuery"],
           thumb: require("@/content/games/drummerboi/drummerboi.gif"),
           category: "Websites",
-          //content: { embed: 'https://trentbrew.github.io/drummer-boi-v1/' },
-          //dims: '1100x550',
           content: { link: "https://trentbrew.github.io/drummerboi-sampler/" },
+          newtab: true,
+        },
+        {
+          title: "AI DJ",
+          description: "Discover new music by describing the vibe",
+          stack: ["HTML5", "VanillaJS"],
+          thumb: require("@/content/UX/dj/dj.gif"),
+          category: "Websites",
+          content: { link: "https://dj-gemini.vercel.app" },
           newtab: true,
         },
         {
