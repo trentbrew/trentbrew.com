@@ -137,7 +137,7 @@
   width: 100%;
   height: 100%;
   color: white;
-  background: #fff;
+  background: #fff; // #E9F1F0
   border-radius: 8px;
   padding: 36px 240px 32px 64px;
   box-sizing: border-box;
