@@ -48,9 +48,9 @@ export default {
         // },
         {
           icon: "music.svg",
-          label: "Music",
+          label: "What I'm Listening To",
           embed:
-            "https://open.spotify.com/embed/album/6NSTroWyAp3htlhO61s3Ep?utm_source=generator&theme=0",
+            "https://open.spotify.com/embed/playlist/71WKJ3yghARupISoX7ru4s?utm_source=generator&theme=0",
           windowWidth: 680,
           windowHeight: 420,
         },
