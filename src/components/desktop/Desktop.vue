@@ -40,19 +40,11 @@ export default {
       fullscreen: false,
       dividerIndex: 5,
       dockItems: [
-        // {
-        //   icon: "term.svg",
-        //   label: "Terminal",
-        //   component: Terminal,
-        //   center: true,
-        // },
         {
-          icon: "music.svg",
-          label: "What I'm Listening To",
-          embed:
-            "https://open.spotify.com/embed/album/28ZgWDtVKZMYuI8GOiRSCe?utm_source=generator&theme=0",
-          windowWidth: 680,
-          windowHeight: 420,
+          icon: "term.svg",
+          label: "Terminal",
+          component: Terminal,
+          center: true,
         },
         // {
         //   icon: "shop.svg",
@@ -85,13 +77,21 @@ export default {
           windowWidth: 1000,
           windowHeight: 400,
         },
+        // {
+        //   icon: "garden.svg",
+        //   label: "The Garden",
+        //   embed:
+        //     "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FvxEq0BTJBjcH0mbcbrROWb%2FHiveOS%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DOOimTQDvXmj2zWQm-1",
+        //   windowWidth: 1000,
+        //   windowHeight: 580,
+        // },
         {
-          icon: "garden.svg",
-          label: "Garden",
-          component: About,
-          // embed: "https://maggieappleton.com/garden",
-          windowWidth: 800,
-          windowHeight: 480,
+          icon: "music_color.svg",
+          label: "What I'm Listening To",
+          embed:
+            "https://open.spotify.com/embed/playlist/5nT0QzhslzKrkvGm60pBVb?si=8682cc06d9764c4e",
+          windowWidth: 680,
+          windowHeight: 420,
         },
         {
           icon: "t_color.svg",
