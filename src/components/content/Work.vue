@@ -15,8 +15,8 @@ export default {
       categoryCaption: "",
       projects: [
         {
-          title: "3D Data Viz Playground",
-          description: "3D Map UI pocwered by DeckGL",
+          title: "Geodata Playground",
+          description: "3D geodata visualization powered by DeckGL",
           stack: ["Vue"],
           thumb: require("@/content/UX/decker/dgl.gif"),
           content: { embed: "https://deckgl-playground.web.app/" },
