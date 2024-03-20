@@ -95,8 +95,8 @@ export default {
         },
         {
           icon: "t_color.svg",
-          label: "Twitter",
-          link: "https://twitter.com/trent_brew",
+          label: "Twixxer",
+          link: "https://x.com/trent_brew",
           newtab: true,
         },
         {
