@@ -40,21 +40,20 @@ export default {
       fullscreen: false,
       dividerIndex: 5,
       dockItems: [
-        {
-          icon: "term.svg",
-          label: "Terminal",
-          component: Terminal,
-          center: true,
-        },
         // {
-        //   icon: "shop.svg",
-        //   label: "⏳ Shop coming soon",
-        //   //component: Shop,
-        //   component: WIP,
-        //   windowWidth: 600,
-        //   windowHeight: 450,
+        //   icon: "term.svg",
+        //   label: "Terminal",
+        //   component: Terminal,
         //   center: true,
         // },
+        {
+          icon: "music.svg",
+          label: "What I'm Listening To",
+          embed:
+            "https://open.spotify.com/embed/playlist/5nT0QzhslzKrkvGm60pBVb?si=8682cc06d9764c4e",
+          windowWidth: 680,
+          windowHeight: 420,
+        },
         {
           icon: "document.svg",
           label: "CV",
@@ -77,21 +76,12 @@ export default {
           windowWidth: 1000,
           windowHeight: 400,
         },
-        // {
-        //   icon: "garden.svg",
-        //   label: "The Garden",
-        //   embed:
-        //     "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FvxEq0BTJBjcH0mbcbrROWb%2FHiveOS%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DOOimTQDvXmj2zWQm-1",
-        //   windowWidth: 1000,
-        //   windowHeight: 580,
-        // },
         {
-          icon: "music_color.svg",
-          label: "What I'm Listening To",
-          embed:
-            "https://open.spotify.com/embed/playlist/5nT0QzhslzKrkvGm60pBVb?si=8682cc06d9764c4e",
-          windowWidth: 680,
-          windowHeight: 420,
+          icon: "garden.svg",
+          label: "The Garden",
+          component: About,
+          windowWidth: 800,
+          windowHeight: 450,
         },
         {
           icon: "t_color.svg",
@@ -104,6 +94,15 @@ export default {
           label: "GitHub",
           link: "https://github.com/trentbrew",
           newtab: true,
+        },
+        {
+          icon: "shop.svg",
+          label: "⏳ Shop coming soon",
+          //component: Shop,
+          component: WIP,
+          windowWidth: 600,
+          windowHeight: 450,
+          // center: true,
         },
         {
           icon: "mail.svg",
@@ -255,7 +254,7 @@ export default {
     "
   >
     <div class="backdrop">
-      <!--GradientMesh :index="3" /-->
+      <!-- <GradientMesh :index="3" /> -->
     </div>
     <div ref="desktop" class="desktop">
       <Window
