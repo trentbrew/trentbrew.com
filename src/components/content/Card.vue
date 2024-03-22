@@ -48,6 +48,18 @@ export default {
   background: rgba(#adf7b6, 0.16);
   color: #adf7b6 !important;
 }
+.Svelte {
+  background: rgba(#debcaf, 0.16);
+  color: #debcaf !important;
+}
+.Gemini {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
+.OpenAI {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
 .Flutter {
   background: rgba(#6e9dc8, 0.16);
   color: #6e9dc8 !important;
@@ -87,6 +99,10 @@ export default {
 .HTML5 {
   background: rgba(#ffee93, 0.16);
   color: #ffee93 !important;
+}
+.WebGL {
+  background: rgba(#bcb7be, 0.16);
+  color: #bcb7be !important;
 }
 .JQuery {
   background: rgba(#adf7b6, 0.16);

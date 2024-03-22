@@ -15,22 +15,32 @@ export default {
       categoryCaption: "",
       projects: [
         {
+          title: "Brevity",
+          category: "Web",
+          description: "A minimalistic generative writing app (WIP)",
+          stack: ["Svelte", "Gemini"],
+          thumb: require("@/content/UX/brevity/brevity.gif"),
+          content: { embed: "https://app.brevity.ink/" },
+          center: true,
+          dims: "1040x600",
+        },
+        {
           title: "Geodata Playground",
+          category: "Web",
           description: "3D geodata visualization powered by DeckGL",
-          stack: ["Vue"],
+          stack: ["Vue", "WebGL"],
           thumb: require("@/content/UX/decker/dgl.gif"),
           content: { embed: "https://deckgl-playground.web.app/" },
-          category: "Websites",
           center: true,
           dims: "1100x650",
         },
         {
-          title: "AI DJ",
-          description: "Discover new music by describing the vibe",
-          stack: ["HTML5", "VanillaJS"],
-          thumb: require("@/content/UX/dj/dj2.gif"),
-          category: "Websites",
-          content: { embed: "https://dj-gemini.vercel.app" },
+          title: "Solar System",
+          description: "Explore the planets of the solar system",
+          stack: ["HTML5", "JQuery"],
+          thumb: require("@/content/games/solar-system/hellofromspace.gif"),
+          category: "Web",
+          content: { embed: "https://trentbrew.github.io/solar-system-map/" },
           center: true,
           dims: "1100x650",
         },
@@ -39,17 +49,17 @@ export default {
           description: "Tap to make music",
           stack: ["HTML5", "JQuery"],
           thumb: require("@/content/games/drummerboi/drummerboi.gif"),
-          category: "Websites",
+          category: "Web",
           content: { link: "https://trentbrew.github.io/drummerboi-sampler/" },
           newtab: true,
         },
         {
-          title: "Solar System",
-          description: "Explore the planets of the solar system",
-          stack: ["HTML5", "JQuery"],
-          thumb: require("@/content/games/solar-system/hellofromspace.gif"),
-          category: "Websites",
-          content: { embed: "https://trentbrew.github.io/solar-system-map/" },
+          title: "AI DJ",
+          description: "Discover new music by describing the vibe (WIP)",
+          stack: ["HTML5", "VanillaJS"],
+          thumb: require("@/content/UX/dj/dj2.gif"),
+          category: "Web",
+          content: { embed: "https://dj-gemini.vercel.app" },
           center: true,
           dims: "1100x650",
         },
@@ -64,11 +74,11 @@ export default {
         },
         {
           title: "Placeholder",
-          category: "Websites",
+          category: "Web",
         },
         {
           title: "Placeholder",
-          category: "Websites",
+          category: "Web",
         },
         {
           title: "Sonic GX",
@@ -159,21 +169,21 @@ export default {
           dims: "1000x450",
         },
         {
-          title: "Pebble",
-          description: "🕒 0:20",
-          stack: ["Stop-Motion"],
-          thumb: require("@/content/animations/pebble-thumb.gif"),
-          category: "Animation",
-          content: { video: "animations/pebble.mp4" },
-          dims: "1000x450",
-        },
-        {
           title: "Smileys",
           description: "🕒 0:10",
           stack: ["Loom"],
           thumb: require("@/content/animations/smileys-thumb.gif"),
           category: "Animation",
           content: { video: "animations/smileys.mp4" },
+          dims: "1000x450",
+        },
+        {
+          title: "Pebble",
+          description: "🕒 0:20",
+          stack: ["Stop-Motion"],
+          thumb: require("@/content/animations/pebble-thumb.gif"),
+          category: "Animation",
+          content: { video: "animations/pebble.mp4" },
           dims: "1000x450",
         },
 
@@ -190,7 +200,7 @@ export default {
     };
   },
   mounted() {
-    this.updateCategory("Websites");
+    this.updateCategory("Web");
   },
   methods: {
     updateCategory(category) {
@@ -219,8 +229,8 @@ export default {
 
             <div class="side-menu">
               <a
-                :class="category == 'Websites' && 'category-active'"
-                @click="updateCategory('Websites')"
+                :class="category == 'Web' && 'category-active'"
+                @click="updateCategory('Web')"
                 href="#"
               >
                 <div class="item-left">
@@ -235,7 +245,7 @@ export default {
                       d="M15 300H211V360H136H133C124.716 360 118 366.716 118 375C118 383.284 124.716 390 133 390H136H271H318C326.284 390 333 383.284 333 375C333 366.716 326.284 360 318 360H271H241V300H256H271H436C444.284 300 451 293.284 451 285V90V15C451 10.858 449.321 7.108 446.607 4.3935C443.933 1.7197 440.254 0.0505867 436.186 0.00113106C436.124 0.000377655 436.062 0 436 0H256H15C6.716 0 0 6.716 0 15V285C0 293.284 6.716 300 15 300ZM25 32C25 28.6863 27.6863 26 31 26H420C423.314 26 426 28.6863 426 32V266C426 269.314 423.314 272 420 272H31C27.6863 272 25 269.314 25 266V32ZM403 47H49V252H403V47Z"
                     />
                   </svg>
-                  Websites
+                  Web
                 </div>
               </a>
               <a
@@ -519,7 +529,6 @@ body.light-mode .video-bg:before {
   display: flex;
   flex-direction: column;
   white-space: nowrap;
-  //margin-bottom: 6px;
 
   a {
     text-decoration: none;
@@ -531,7 +540,6 @@ body.light-mode .video-bg:before {
     padding: 10px;
     font-size: 14px;
     border-radius: $rad;
-    //transition: 200ms;
     &:hover {
       background-color: rgba(black, 0.3);
       transition: 0ms;
