@@ -44,6 +44,17 @@
       place.
     </p>
     <p>More to come ✌🏿</p>
+
+    <!-- <p>
+      I can feel the shift when I present myself.
+      It feels outside of myself.
+      It feels like a force that nudges me further into myself.
+      I've learned to become okay with it.
+      I would rather not be okay with it,
+      but it's my responsibility to be okay with it.
+      Inhibition is ... a choice.
+    </p> -->
+
     <!-- <ul>
       <li>
         <span

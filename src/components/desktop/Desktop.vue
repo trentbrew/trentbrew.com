@@ -48,7 +48,7 @@ export default {
         // },
         {
           icon: "music.svg",
-          label: "What I'm Listening To",
+          label: "Soundtrack",
           embed:
             "https://open.spotify.com/embed/playlist/5nT0QzhslzKrkvGm60pBVb?si=8682cc06d9764c4e",
           windowWidth: 680,
@@ -78,7 +78,7 @@ export default {
         },
         {
           icon: "garden.svg",
-          label: "The Garden",
+          label: "Garden",
           component: About,
           windowWidth: 800,
           windowHeight: 450,
