@@ -50,7 +50,7 @@ export default {
           icon: "music.svg",
           label: "Soundtrack",
           embed:
-            "https://open.spotify.com/embed/playlist/7uUkcVP0SpSzyt9UUS9AJT?si=8682cc06d9764c4e",
+            "https://open.spotify.com/embed/album/0Tk8MaqC00Dqg7fsFmB9DI?si=8682cc06d9764c4e",
           windowWidth: 680,
           windowHeight: 420,
         },
