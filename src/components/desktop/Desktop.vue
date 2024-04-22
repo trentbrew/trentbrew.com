@@ -48,7 +48,7 @@ export default {
         // },
         {
           icon: "music.svg",
-          label: "Soundtrack",
+          label: "Music",
           embed: "https://open.spotify.com/embed/album/51HFfu3GhuXa4VUnlpJJy8",
           windowWidth: 680,
           windowHeight: 420,
