@@ -81,6 +81,6 @@ section {
   height: 100vh;
   width: 100vw;
   object-fit: cover;
-  background-color: red;
+  background-color: black;
 }
 </style>
