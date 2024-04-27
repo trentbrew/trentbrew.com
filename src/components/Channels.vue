@@ -8,7 +8,7 @@ export default {
   },
   data() {
     return {
-      skip: true,
+      skip: false,
       bgKey: null,
       assets: {
         standby: require("@/assets/intro/standby.gif"),
@@ -34,71 +34,29 @@ export default {
   props: {
     loop: {
       type: Boolean,
-      default: false,
+      default: true,
     },
   },
   mounted() {
     let url = this.urls[this.$route.params.id];
-    if (this.skip) {
-      window.open(url, "_self");
-    } else {
-      this.runGifs(url);
-    }
-  },
-  computed: {
-    bg() {
-      return this.assets[this.bgKey];
-    },
+    if (this.skip) window.open(url, "_self");
+    else this.runGifs(url);
   },
   methods: {
     runGifs(url) {
-      if (!this.loop) this.bgKey = "standby";
-      setTimeout(
-        () => {
-          this.bgKey = "glitch";
-        },
-        this.loop ? 1000 : 2100
-      );
-      setTimeout(
-        () => {
-          this.bgKey = "static2";
-        },
-        this.loop ? 1400 : 2300
-      );
-      setTimeout(
-        () => {
-          this.bgKey = "ed";
-        },
-        this.loop ? 2000 : 2700
-      );
-      setTimeout(() => {
-        this.bgKey = "static";
-      }, 3700);
-      setTimeout(() => {
-        this.bgKey = "nostalgia";
-      }, 4100);
-      setTimeout(() => {
-        this.bgKey = "static";
-      }, 5400);
-      setTimeout(() => {
-        this.bgKey = "cab";
-      }, 5800);
-      setTimeout(() => {
-        this.bgKey = "static";
-      }, 7400);
-      setTimeout(() => {
-        this.bgKey = "sonic";
-      }, 7800);
-      setTimeout(() => {
-        this.bgKey = "static";
-      }, 9800);
-      setTimeout(() => {
-        this.bgKey = "glitch";
-      }, 10000);
-      setTimeout(() => {
-        if (!this.loop) window.open(url, "_self");
-        else this.runGifs();
-      }, 10400);
+      this.bgKey = "standby";
+      setTimeout(() => (this.bgKey = "glitch"), 1000);
+      setTimeout(() => (this.bgKey = "static2"), 2000);
+      setTimeout(() => (this.bgKey = "ed"), 3000);
+      setTimeout(() => (this.bgKey = "static"), 4000);
+      setTimeout(() => (this.bgKey = "nostalgia"), 5000);
+      setTimeout(() => (this.bgKey = "static"), 6000);
+      setTimeout(() => (this.bgKey = "cab"), 7000);
+      setTimeout(() => (this.bgKey = "static"), 8000);
+      setTimeout(() => (this.bgKey = "sonic"), 9000);
+      setTimeout(() => (this.bgKey = "static"), 10000);
+      setTimeout(() => (this.bgKey = "glitch2"), 11000);
+      setTimeout(() => this.runGifs(url), 12000); // Loop back to start
     },
   },
 };
@@ -106,14 +64,7 @@ export default {
 
 <template>
   <section>
-    <div
-      id="tv"
-      :style="`background-image: url(${bg}); ${
-        !loop
-          ? 'filter: blur(3px) contrast(1); height: 100vh; background-size: cover;'
-          : 'aspect-ratio: 3 / 2; background-size: 120%;'
-      }`"
-    ></div>
+    <img id="tv" :src="assets[bgKey]" alt="Nothing to see here..." />
   </section>
 </template>
 
@@ -123,12 +74,12 @@ section {
 }
 
 #tv {
-  overflow: hidden;
-  position: absoluite;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: black;
-  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  background-color: red;
 }
 </style>

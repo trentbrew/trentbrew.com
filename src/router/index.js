@@ -16,7 +16,17 @@ const routes = [
   },
   {
     path: "/go/:id",
+    name: "Go",
+    component: () => import("@/views/Redirect.vue"),
+  },
+  {
+    path: "/redirect",
     name: "Redirect",
+    component: () => import("@/views/Redirect.vue"),
+  },
+  {
+    path: "/tv",
+    name: "Channels",
     component: () => import("@/views/Redirect.vue"),
   },
 ];
