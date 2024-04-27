@@ -1,3 +1,3 @@
 <template>
-    <img src="../../content/animations/comingsoon.gif" height="100%" style="border-radius: 8px" alt="under construction" />
+  <iframe src="https://trentbrew.com/tv" height="100%" width="100%" />
 </template>
