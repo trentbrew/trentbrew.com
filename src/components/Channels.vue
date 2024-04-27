@@ -20,6 +20,8 @@ export default {
         sonic: require("@/assets/intro/sonic.gif"),
         nostalgia: require("@/assets/intro/nostalgia.gif"),
         cab: require("@/assets/intro/cabcalloway.gif"),
+        ippo: require("@/assets/intro/ippo.gif"),
+        soon: require("@/assets/intro/soon.gif"),
       },
       urls: {
         holiday2022:
@@ -49,14 +51,14 @@ export default {
       setTimeout(() => (this.bgKey = "static2"), 2000);
       setTimeout(() => (this.bgKey = "ed"), 3000);
       setTimeout(() => (this.bgKey = "static"), 4000);
-      setTimeout(() => (this.bgKey = "nostalgia"), 5000);
-      setTimeout(() => (this.bgKey = "static"), 6000);
-      setTimeout(() => (this.bgKey = "cab"), 7000);
-      setTimeout(() => (this.bgKey = "static"), 8000);
-      setTimeout(() => (this.bgKey = "sonic"), 9000);
-      setTimeout(() => (this.bgKey = "static"), 10000);
-      setTimeout(() => (this.bgKey = "glitch2"), 11000);
-      setTimeout(() => this.runGifs(url), 12000); // Loop back to start
+      setTimeout(() => (this.bgKey = "ippo"), 5000);
+      setTimeout(() => (this.bgKey = "static"), 7000);
+      setTimeout(() => (this.bgKey = "cab"), 8000);
+      setTimeout(() => (this.bgKey = "static"), 9000);
+      setTimeout(() => (this.bgKey = "sonic"), 10000);
+      setTimeout(() => (this.bgKey = "static"), 11000);
+      setTimeout(() => (this.bgKey = "glitch2"), 12000);
+      setTimeout(() => this.runGifs(url), 13000); // Loop back to start
     },
   },
 };
