@@ -51,7 +51,7 @@ export default {
       setTimeout(() => (this.bgKey = "ed"), 3000);
       setTimeout(() => (this.bgKey = "static"), 4000);
       setTimeout(() => (this.bgKey = "soon"), 5000);
-      setTimeout(() => (this.bgKey = "static"), 6000);
+      setTimeout(() => (this.bgKey = "static2"), 6000);
       setTimeout(() => (this.bgKey = "cab"), 7000);
       setTimeout(() => (this.bgKey = "static"), 8000);
       setTimeout(() => (this.bgKey = "sonic"), 9000);
