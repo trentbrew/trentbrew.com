@@ -22,7 +22,7 @@
           fill="#598681"
         />
       </svg>
-      <h1 style="margin-top: 0px">The Garden is Incipient</h1>
+      <h1 style="margin-top: 0px">The Art of Feeling OK</h1>
     </div>
     <p>
       <img src="" alt="" srcset="" />I recently discovered the concept of
