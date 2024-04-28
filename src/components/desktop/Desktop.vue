@@ -97,7 +97,7 @@ export default {
         },
         {
           icon: "shop.svg",
-          label: "⏳ Shop coming soon",
+          label: "🚧 Shop coming soon",
           //component: Shop,
           component: WIP,
           windowWidth: 800,
