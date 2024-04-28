@@ -46,18 +46,18 @@ export default {
   methods: {
     runGifs(url) {
       this.bgKey = "standby";
-      setTimeout(() => (this.bgKey = "glitch"), 1000);
-      setTimeout(() => (this.bgKey = "static2"), 2000);
-      setTimeout(() => (this.bgKey = "ed"), 3000);
-      setTimeout(() => (this.bgKey = "static"), 4000);
-      setTimeout(() => (this.bgKey = "soon"), 5000);
-      setTimeout(() => (this.bgKey = "static2"), 6000);
-      setTimeout(() => (this.bgKey = "cab"), 7000);
-      setTimeout(() => (this.bgKey = "static"), 8000);
-      setTimeout(() => (this.bgKey = "sonic"), 9000);
-      setTimeout(() => (this.bgKey = "static"), 10000);
-      setTimeout(() => (this.bgKey = "glitch2"), 11000);
-      setTimeout(() => this.runGifs(url), 12000); // Loop back to start
+      setTimeout(() => (this.bgKey = "glitch"), 2000); // 1 second
+      setTimeout(() => (this.bgKey = "static2"), 3000); // 1 second
+      setTimeout(() => (this.bgKey = "ed"), 4000); // 1.75 seconds
+      setTimeout(() => (this.bgKey = "static"), 5750); // 1 second
+      setTimeout(() => (this.bgKey = "soon"), 6750); // 1.75 seconds
+      setTimeout(() => (this.bgKey = "static2"), 8500); // 1 second
+      setTimeout(() => (this.bgKey = "cab"), 9500); // 1.75 seconds
+      setTimeout(() => (this.bgKey = "static"), 11250); // 1 second
+      setTimeout(() => (this.bgKey = "sonic"), 12250); // 1.75 seconds
+      setTimeout(() => (this.bgKey = "static"), 14000); // 1 second
+      setTimeout(() => (this.bgKey = "glitch2"), 15000); // 1 second
+      setTimeout(() => this.runGifs(url), 16000); // Loop back to start
     },
   },
 };
