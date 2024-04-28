@@ -69,7 +69,14 @@ export default {
 
 <template>
   <section>
-    <img id="tv" :src="assets[bgKey]" alt="Nothing to see here..." />
+    <!-- <Noise /> -->
+    <img
+      :src="assets[bgKey]"
+      id="tv"
+      width="100%"
+      height="100%"
+      alt="Nothing to see here..."
+    />
   </section>
 </template>
 
@@ -82,8 +89,8 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   object-fit: cover;
   background-color: black;
 }
