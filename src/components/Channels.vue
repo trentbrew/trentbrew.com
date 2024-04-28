@@ -50,11 +50,11 @@ export default {
       setTimeout(() => (this.bgKey = "static2"), 3000); // 1 second
       setTimeout(() => (this.bgKey = "ed"), 4000); // 1.75 seconds
       setTimeout(() => (this.bgKey = "static"), 5750); // 1 second
-      setTimeout(() => (this.bgKey = "soon"), 6750); // 1.75 seconds
+      setTimeout(() => (this.bgKey = "sonic"), 6750); // 1.75 seconds
       setTimeout(() => (this.bgKey = "static2"), 8500); // 1 second
       setTimeout(() => (this.bgKey = "cab"), 9500); // 1.75 seconds
       setTimeout(() => (this.bgKey = "static"), 11250); // 1 second
-      setTimeout(() => (this.bgKey = "sonic"), 12250); // 1.75 seconds
+      setTimeout(() => (this.bgKey = "soon"), 12250); // 1.75 seconds
       setTimeout(() => (this.bgKey = "static"), 14000); // 1 second
       setTimeout(() => (this.bgKey = "glitch2"), 15000); // 1 second
       setTimeout(() => this.runGifs(url), 16000); // Loop back to start
