@@ -100,7 +100,7 @@ export default {
           label: "⏳ Shop coming soon",
           //component: Shop,
           component: WIP,
-          windowWidth: 600,
+          windowWidth: 800,
           windowHeight: 450,
           // center: true,
         },
