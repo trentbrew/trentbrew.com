@@ -61,7 +61,9 @@ export default {
       setTimeout(() => (this.bgKey = "jazz"), 15000); // 1.75 seconds
       setTimeout(() => (this.bgKey = "static"), 16750); // 1 second
       setTimeout(() => (this.bgKey = "soon"), 17750); // 1.75 seconds
-      setTimeout(() => this.runGifs(url), 19500); // 1 second
+      setTimeout(() => (this.bgKey = "static2"), 19500); // 1 second
+      setTimeout(() => (this.bgKey = "glitch2"), 20500); // 1 second
+      setTimeout(() => this.runGifs(url), 21500); // 1 second
     },
   },
 };
