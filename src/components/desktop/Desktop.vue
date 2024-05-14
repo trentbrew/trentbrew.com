@@ -42,13 +42,14 @@ export default {
       dockItems: [
         // {
         //   icon: "term.svg",
-        //   label: "Terminal",
-        //   component: Terminal,
+        //   label: "Writing",
+        //   embed:
+        //     "https://dev.to/trentbrew/using-notion-as-a-headless-cms-with-nuxt-3mk",
         //   center: true,
         // },
         {
           icon: "music.svg",
-          label: "What I'm Listening To",
+          label: "Music",
           embed:
             "https://open.spotify.com/embed/playlist/7uUkcVP0SpSzyt9UUS9AJT?utm_source=generator&theme=0",
           windowWidth: 680,
@@ -95,21 +96,22 @@ export default {
           link: "https://github.com/trentbrew",
           newtab: true,
         },
+        // {
+        //   icon: "insta.svg",
+        //   label: "Instagram",
+        //   link: "https://www.instagram.com/trent.brew/",
+        //   newtab: true,
+        // },
         {
           icon: "shop.svg",
           label: "Shop coming soon",
-          //component: Shop,
           component: WIP,
           windowWidth: 700,
           windowHeight: 450,
-          // center: true,
         },
         {
           icon: "mail.svg",
           label: "Mail",
-          // component: WIP,
-          // windowWidth: 450,
-          // windowHeight: 300,
           link: "mailto:hello@trentbrew.com",
           newtab: true,
         },
