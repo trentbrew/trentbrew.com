@@ -15,7 +15,7 @@ export default {
       :text="[
         `Hi!`,
         `My name's Trent`,
-        `I'm a Software Designer based in LA`,
+        `I'm a Software Designer based in Chicago`,
         `Welcome to my website ^-^`,
         `Feel free to click around & explore my work...`,
       ]"

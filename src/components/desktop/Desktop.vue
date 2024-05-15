@@ -49,7 +49,7 @@ export default {
         // },
         {
           icon: "music.svg",
-          label: "Music",
+          label: "What I'm Listening To",
           embed:
             "https://open.spotify.com/embed/playlist/7uUkcVP0SpSzyt9UUS9AJT?utm_source=generator&theme=0",
           windowWidth: 680,
@@ -79,10 +79,10 @@ export default {
         },
         {
           icon: "garden.svg",
-          label: "Garden",
-          component: About,
-          windowWidth: 800,
-          windowHeight: 450,
+          label: "Notes",
+          embed: "https://trentbrew.framer.website/",
+          windowWidth: 1200,
+          windowHeight: 600,
         },
         {
           icon: "t_color.svg",
