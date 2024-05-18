@@ -79,10 +79,11 @@ export default {
         },
         {
           icon: "garden.svg",
-          label: "Notes",
-          embed: "https://trentbrew.framer.website/",
-          windowWidth: 1200,
-          windowHeight: 600,
+          label: "Garden",
+          // embed: "https://trentbrew.framer.website/",
+          component: About,
+          windowWidth: 800,
+          windowHeight: 500,
         },
         {
           icon: "t_color.svg",
