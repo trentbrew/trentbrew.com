@@ -51,7 +51,7 @@ export default {
           icon: "music.svg",
           label: "What I'm Listening To",
           embed:
-            "https://open.spotify.com/embed/playlist/7uUkcVP0SpSzyt9UUS9AJT?utm_source=generator&theme=0",
+            "https://open.spotify.com/embed/playlist/7mmPNDSTN9j1kVSnEVElZu?utm_source=generator&theme=0",
           windowWidth: 680,
           windowHeight: 420,
         },
