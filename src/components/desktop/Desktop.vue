@@ -50,7 +50,7 @@
 					{
 						icon: 'music.svg',
 						label: "What I'm Listening To",
-						embed: 'https://open.spotify.com/embed/playlist/27OfGiHtEQTzWkYHyk3JLa?si=BWbyEAxlRoSsRodUgE6iGQ?utm_source=generator&theme=0',
+						embed: 'https://open.spotify.com/embed/playlist/2TBhO6U6nbKDnpzgK3RwfR?si=BWbyEAxlRoSsRodUgE6iGQ?utm_source=generator&theme=0',
 						windowWidth: 680,
 						windowHeight: 420,
 					},
