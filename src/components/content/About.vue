@@ -1,51 +1,31 @@
 <template>
-  <div class="about">
-    <img
-      id="ohai"
-      src="../../content/animations/ohai2.gif"
-      width="120"
-      height="120"
-      alt="hello"
-    />
-    <div style="display: block; align-items: center; margin-top: 0px">
-      <svg
-        width="80"
-        height="80"
-        viewBox="0 0 44 44"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M20.9607 10.2139C19.9392 10.8092 18.3988 12.9937 17.6506 14.9079C17.1718 16.1328 17.0143 17.0582 17.0143 18.6455C17.0142 20.0654 17.0636 20.468 17.4153 21.9108C17.8137 23.5455 18.8246 26.0019 19.6687 27.3868C20.0604 28.0294 20.8428 28.9123 21.1761 29.0878C21.2913 29.1485 21.504 29.1981 21.6489 29.1981C22.9334 29.1981 25.217 24.9277 26.014 21.0354C26.1885 20.1836 26.2218 19.8183 26.2248 18.7243C26.2286 17.3639 26.1662 16.8717 25.8403 15.6924C25.4269 14.1964 24.2563 12.1559 23.1204 10.9513C22.1937 9.96871 21.6815 9.7938 20.9607 10.2139ZM8.4004 25.6106C8.07032 25.7565 7.95081 26.1379 8.018 26.8308C8.1696 28.3936 8.96928 29.9682 10.2565 31.2383C11.4319 32.3981 13.6912 33.485 15.7524 33.8823C17.2474 34.1705 19.254 33.9018 19.5307 33.3762C19.9273 32.6234 18.9228 30.1915 17.6553 28.8355C16.5032 27.6032 14.6183 26.6508 11.9815 25.9689C10.1749 25.5015 8.9289 25.377 8.4004 25.6106ZM32.9799 25.5796C30.7104 25.8859 27.4525 27.1685 26.1422 28.2714C24.989 29.242 23.8928 31.1098 23.6355 32.5428C23.4935 33.3335 23.7219 33.6152 24.6976 33.8525C26.6475 34.3266 29.6256 33.5981 31.9201 32.0859C33.0431 31.3457 33.9859 30.2382 34.6073 28.9292C35.0163 28.0676 35.192 27.4049 35.2123 26.647C35.2293 26.0138 35.0974 25.705 34.7534 25.572C34.528 25.485 33.6529 25.4887 32.9799 25.5796Z"
-          fill="#598681"
-        />
-      </svg>
-      <h1 style="margin-top: 0px">The Garden is Incipient</h1>
-    </div>
-    <p>
-      <img src="" alt="" srcset="" />I recently discovered the concept of
-      digital gardens while studying the work of
-      <a
-        style="
-          color: #598681 !important;
-          text-decoration: none !important;
-          font-weight: bold !important;
-        "
-        href="https://maggieappleton.com/garden"
-        target="_blank"
-        >Maggie Appleton</a
-      >.
-    </p>
-    <p>
-      I've been looking for a way to organize my thoughts and ideas in a way
-      that's more personal and less formal than a blog. I hope this can be that
-      place.
-    </p>
-    <p>More to come ✌🏿</p>
+	<div class="about">
+		<img id="ohai" src="../../content/animations/ohai2.gif" width="120" height="120" alt="hello" />
+		<div style="display: block; align-items: center; margin-top: 0px">
+			<svg width="80" height="80" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M20.9607 10.2139C19.9392 10.8092 18.3988 12.9937 17.6506 14.9079C17.1718 16.1328 17.0143 17.0582 17.0143 18.6455C17.0142 20.0654 17.0636 20.468 17.4153 21.9108C17.8137 23.5455 18.8246 26.0019 19.6687 27.3868C20.0604 28.0294 20.8428 28.9123 21.1761 29.0878C21.2913 29.1485 21.504 29.1981 21.6489 29.1981C22.9334 29.1981 25.217 24.9277 26.014 21.0354C26.1885 20.1836 26.2218 19.8183 26.2248 18.7243C26.2286 17.3639 26.1662 16.8717 25.8403 15.6924C25.4269 14.1964 24.2563 12.1559 23.1204 10.9513C22.1937 9.96871 21.6815 9.7938 20.9607 10.2139ZM8.4004 25.6106C8.07032 25.7565 7.95081 26.1379 8.018 26.8308C8.1696 28.3936 8.96928 29.9682 10.2565 31.2383C11.4319 32.3981 13.6912 33.485 15.7524 33.8823C17.2474 34.1705 19.254 33.9018 19.5307 33.3762C19.9273 32.6234 18.9228 30.1915 17.6553 28.8355C16.5032 27.6032 14.6183 26.6508 11.9815 25.9689C10.1749 25.5015 8.9289 25.377 8.4004 25.6106ZM32.9799 25.5796C30.7104 25.8859 27.4525 27.1685 26.1422 28.2714C24.989 29.242 23.8928 31.1098 23.6355 32.5428C23.4935 33.3335 23.7219 33.6152 24.6976 33.8525C26.6475 34.3266 29.6256 33.5981 31.9201 32.0859C33.0431 31.3457 33.9859 30.2382 34.6073 28.9292C35.0163 28.0676 35.192 27.4049 35.2123 26.647C35.2293 26.0138 35.0974 25.705 34.7534 25.572C34.528 25.485 33.6529 25.4887 32.9799 25.5796Z"
+					fill="#598681" />
+			</svg>
+			<h1 style="margin-top: 0px">The Garden is Incipient</h1>
+		</div>
+		<p>
+			<img src="" alt="" srcset="" />I recently discovered the concept of digital gardens while studying the work of
+			<a
+				style="color: #598681 !important; text-decoration: none !important; font-weight: bold !important"
+				href="https://maggieappleton.com/garden"
+				target="_blank"
+				>Maggie Appleton</a
+			>.
+		</p>
+		<p>
+			I've been looking for a way to organize my thoughts and ideas in a way that's more personal and less formal than a blog. I hope this can be that place.
+		</p>
+		<p>More to come ✌🏿</p>
 
-    <!-- <p>
+		<!-- <p>
       I can feel the shift when I present myself.
       It feels outside of myself.
       It feels like a force that nudges me further into myself.
@@ -55,7 +35,7 @@
       Inhibition is ... a choice.
     </p> -->
 
-    <!-- <ul>
+		<!-- <ul>
       <li>
         <span
           >I grew up in St. Louis, Missouri, and moved to Chicago in 2017 where
@@ -134,59 +114,59 @@
         </li></a
       >
     </ul> -->
-  </div>
+	</div>
 </template>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+	@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.about {
-  pointer-events: all !important;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  overflow: auto;
-  width: 100%;
-  height: 100%;
-  color: white;
-  background: #fff; // #E9F1F0
-  border-radius: 8px;
-  padding: 36px 240px 32px 64px;
-  box-sizing: border-box;
-}
+	.about {
+		pointer-events: all !important;
+		font-family: 'Poppins', sans-serif;
+		font-size: 14px;
+		overflow: auto;
+		width: 100%;
+		height: 100%;
+		color: white;
+		background: #fff; // #E9F1F0
+		border-radius: 8px;
+		padding: 36px 240px 32px 64px;
+		box-sizing: border-box;
+	}
 
-#ohai {
-  position: fixed;
-  bottom: 12px;
-  right: 96px;
-  //filter: invert(1) contrast(0.73);
-}
+	#ohai {
+		position: fixed;
+		bottom: 12px;
+		right: 96px;
+		//filter: invert(1) contrast(0.73);
+	}
 
-h1,
-h2,
-h3,
-b {
-  //color: $japanese_indigo;
-  color: black;
-}
+	h1,
+	h2,
+	h3,
+	b {
+		//color: $japanese_indigo;
+		color: black;
+	}
 
-.faves {
-  span {
-    margin: 0px !important;
-  }
-}
+	.faves {
+		span {
+			margin: 0px !important;
+		}
+	}
 
-img {
-  border-radius: 6px;
-  width: auto;
-}
+	img {
+		border-radius: 6px;
+		width: auto;
+	}
 
-p,
-li {
-  color: #999999;
-  max-width: 550px;
-}
+	p,
+	li {
+		color: #999999;
+		max-width: 550px;
+	}
 
-a {
-  color: black;
-}
+	a {
+		color: black;
+	}
 </style>
