@@ -88,7 +88,7 @@
 					// },
 					{
 						icon: 'garden.svg',
-						label: 'Musings',
+						label: 'The Garden',
 						// embed: 'https://musings.framer.website/',
 						// embed: 'https://therabbithole.framer.website/',
 						// embed: "https://trentbrew.framer.website/",
