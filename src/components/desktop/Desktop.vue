@@ -93,8 +93,8 @@
 						// embed: 'https://therabbithole.framer.website/',
 						// embed: "https://trentbrew.framer.website/",
 						component: About,
-						windowWidth: 900,
-						windowHeight: 600,
+						windowWidth: 800,
+						windowHeight: 400,
 					},
 					{
 						icon: 't_color.svg',
