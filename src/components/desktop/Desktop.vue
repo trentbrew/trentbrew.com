@@ -89,10 +89,10 @@
 					{
 						icon: 'garden.svg',
 						label: 'Musings',
-						embed: 'https://musings.framer.website/',
+						// embed: 'https://musings.framer.website/',
 						// embed: 'https://therabbithole.framer.website/',
 						// embed: "https://trentbrew.framer.website/",
-						// component: About,
+						component: About,
 						windowWidth: 900,
 						windowHeight: 600,
 					},
