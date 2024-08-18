@@ -14,6 +14,7 @@
 				category: '',
 				categoryCaption: '',
 				projects: [
+					// ----------------- WEB -----------------
 					{
 						title: 'Brevity',
 						category: 'Web',
@@ -45,6 +46,26 @@
 						dims: '1100x650',
 					},
 					{
+						title: 'Downloadify',
+						category: 'Web',
+						description: 'Convert Google Drive links for direct download',
+						stack: ['Vue'],
+						thumb: require('@/content/UX/downloadify/downloadify.gif'),
+						content: { embed: 'https://gumbo-widgets.vercel.app/googledrive' },
+						center: true,
+						dims: '1100x650',
+					},
+					{
+						title: 'DJ Gemini',
+						description: 'Music discovery powered by AI',
+						stack: ['HTML5', 'Node', 'Express', 'Gemini'],
+						thumb: require('@/content/UX/dj/dj2.gif'),
+						category: 'Web',
+						content: { embed: 'https://dj-gemini.vercel.app' },
+						center: true,
+						dims: '1100x650',
+					},
+					{
 						title: 'Drummerboi',
 						description: 'Tap to make music',
 						stack: ['HTML5', 'JQuery'],
@@ -54,15 +75,16 @@
 						newtab: true,
 					},
 					{
-						title: 'AI DJ',
-						description: 'Discover new music by describing the vibe (WIP)',
-						stack: ['HTML5', 'VanillaJS'],
-						thumb: require('@/content/UX/dj/dj2.gif'),
+						title: 'Iconic',
 						category: 'Web',
-						content: { embed: 'https://dj-gemini.vercel.app' },
+						description: 'REST API for SVG icons',
+						stack: ['Vue', 'Node', 'Express'],
+						thumb: require('@/content/UX/iconic/iconic.gif'),
+						content: { embed: 'https://www.iconic.rest/' },
 						center: true,
-						dims: '1100x650',
+						dims: '1200x650',
 					},
+					// ----------------- GAMES -----------------
 					{
 						title: 'Lost Things',
 						description: 'Totally not battleship',
@@ -71,14 +93,6 @@
 						category: 'Games',
 						content: { link: 'https://trentbrew.github.io/lost-things/' },
 						newtab: true,
-					},
-					{
-						title: 'Placeholder',
-						category: 'Web',
-					},
-					{
-						title: 'Placeholder',
-						category: 'Web',
 					},
 					{
 						title: 'Sonic GX',
@@ -109,21 +123,7 @@
 						},
 						dims: '420x420',
 					},
-					/*{
-                    title: 'Sonic Voyage',
-                    description: '',
-                    stack: ['VanillaJS'],
-                    thumb: require(),
-                    category: 'Games',
-                },
-                {
-                    title: '3D Tic Tac Toe',
-                    description: '',
-                    stack: [''],
-                    thumb: require(),
-                    category: 'Games'
-
-                },*/
+					// ----------------- DESIGN -----------------
 					{
 						title: 'Logo Playground',
 						description: 'Design experiments and other work',
@@ -149,6 +149,7 @@
 						title: 'Placeholder',
 						category: 'Logo',
 					},
+					// ----------------- ANIMATION -----------------
 					{
 						title: 'Socially Anxious Apple',
 						description: '🕒 0:19',
