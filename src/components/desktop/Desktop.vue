@@ -57,9 +57,9 @@
 					{
 						icon: 'document.svg',
 						label: 'CV',
-						embed: 'https://api.trentbrew.com/cv',
-						windowWidth: 800,
-						windowHeight: 350,
+						embed: 'https://api.trentbrew.com/trentbrew',
+						windowWidth: 900,
+						windowHeight: 380,
 						center: true,
 					},
 					{
@@ -76,22 +76,9 @@
 						windowWidth: 1000,
 						windowHeight: 400,
 					},
-					// {
-					// 	icon: 'garden.svg',
-					// 	label: 'Garden',
-					// 	embed: 'https://musings.framer.website/',
-					// 	// embed: 'https://therabbithole.framer.website/',
-					// 	// embed: "https://trentbrew.framer.website/",
-					// 	// component: About,
-					// 	windowWidth: 900,
-					// 	windowHeight: 600,
-					// },
 					{
 						icon: 'garden.svg',
 						label: 'The Garden',
-						// embed: 'https://musings.framer.website/',
-						// embed: 'https://therabbithole.framer.website/',
-						// embed: "https://trentbrew.framer.website/",
 						component: About,
 						windowWidth: 800,
 						windowHeight: 400,
@@ -149,7 +136,7 @@
 					embed: 'https://api.trentbrew.com/trentbrew',
 					deproxy: 'https://read.cv/trentbrew',
 					width: 900,
-					height: 400,
+					height: 380,
 					center: true,
 				});
 			} else {
