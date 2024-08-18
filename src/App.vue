@@ -18,7 +18,7 @@
         }
         try {
           const body = JSON.stringify(info)
-          await fetch('http://api.trentbrew.com/guestbook', {
+          await fetch('https://api.trentbrew.com/guestbook', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
