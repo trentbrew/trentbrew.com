@@ -11,6 +11,7 @@
         const info = {
           timestamp: new Date().toISOString(),
           timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+          localTime: new Date().toLocaleString(),
           userAgent: navigator.userAgent,
           isMobile: /iPhone|iPad|iPod|Android/i.test(navigator.userAgent),
           referrer: document.referrer,
