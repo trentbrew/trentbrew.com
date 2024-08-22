@@ -27,7 +27,7 @@
       GradientMesh,
       Gallery,
       About,
-      Shop,
+      // Shop,
     },
     data() {
       return {
