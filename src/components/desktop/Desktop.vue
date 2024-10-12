@@ -40,13 +40,6 @@
         fullscreen: false,
         dividerIndex: 5,
         dockItems: [
-          // {
-          //   icon: "term.svg",
-          //   label: "Writing",
-          //   embed:
-          //     "https://dev.to/trentbrew/using-notion-as-a-headless-cms-with-nuxt-3mk",
-          //   center: true,
-          // },
           {
             icon: 'music.svg',
             label: "What I'm Listening To",
@@ -87,7 +80,7 @@
           {
             icon: 't_color.svg',
             label: 'Twixxer',
-            link: 'https://x.com/trent_brew',
+            link: 'https://x.',
             newtab: true,
           },
           {
