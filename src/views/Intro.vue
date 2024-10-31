@@ -34,9 +34,8 @@
     mounted() {
       if (this.isMobile) {
         window.open('https://read.cv/trentbrew', '_self') // open CV on mobile
-        // } else {
-        //   window.open('https://trentbrew.com/desktop', '_self')
-        // }
+      } else {
+        window.open('https://trentbrew.com/desktop', '_self') // skip intro on desktop
       }
       setTimeout(() => {
         this.unveilMobile = true
