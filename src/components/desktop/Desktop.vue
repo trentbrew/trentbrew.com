@@ -72,9 +72,10 @@
           },
           {
             icon: 'garden.svg',
-            label: 'Working Notes',
-            embed: 'http://localhost:4321/',
-            // component: About,
+            label: 'The Garden',
+            // label: "Working Notes",
+            // embed: 'http://localhost:4321/',
+            component: About,
             windowWidth: 800,
             windowHeight: 400,
           },
@@ -451,7 +452,7 @@
     transform-origin: center center;
     user-select: none;
     transition: transform 0.1s ease;
-    
+
     &:active {
       cursor: grabbing;
     }
