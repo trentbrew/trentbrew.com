@@ -72,8 +72,9 @@
           },
           {
             icon: 'garden.svg',
-            label: 'The Garden',
-            component: About,
+            label: 'Working Notes',
+            embed: 'http://localhost:4321/',
+            // component: About,
             windowWidth: 800,
             windowHeight: 400,
           },
@@ -446,6 +447,14 @@
     width: 100%;
     height: 100%;
     border-radius: $rad;
+    position: relative;
+    transform-origin: center center;
+    user-select: none;
+    transition: transform 0.1s ease;
+    
+    &:active {
+      cursor: grabbing;
+    }
   }
 
   video {
