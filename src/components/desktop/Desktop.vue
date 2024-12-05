@@ -10,8 +10,8 @@
   import GradientMesh from '@/components/GradientMesh.vue'
   import Gallery from '@/components/content/Gallery.vue'
   import About from '@/components/content/About.vue'
-  import Shop from '@/components/content/Shop.vue'
   import WIP from '../content/WIP.vue'
+  import Shop from '@/components/content/Shop.vue'
 
   export default {
     name: 'Desktop',
@@ -38,13 +38,13 @@
         clicked: null,
         stretch: false,
         fullscreen: false,
-        dividerIndex: 5,
+        dividerIndex: 6,
         dockItems: [
           {
             icon: 'music.svg',
             label: "What I'm Listening To",
             embed:
-              'https://open.spotify.com/embed/album/416AXETVaE0ttgqi6aL9sG?si=eOBntkOnToCOpjB4oVqymA?utm_source=generator&theme=1',
+              'https://open.spotify.com/embed/album/4knin4mUVXdOknjQ3DtVvt?si=eOBntkOnToCOpjB4oVqymA?utm_source=generator&theme=1',
             windowWidth: 680,
             windowHeight: 420,
           },
@@ -73,17 +73,22 @@
           {
             icon: 'garden.svg',
             label: 'The Garden',
-            // label: "Working Notes",
-            // embed: 'http://localhost:4321/',
             component: About,
             windowWidth: 800,
             windowHeight: 400,
           },
+          // {
+          //   icon: 'bluesky.svg',
+          //   label: 'Bluesky',
+          //   link: 'https://bsky.app/profile/trentbrew.com',
+          //   newtab: true,
+          // },
           {
-            icon: 't_color.svg',
-            label: 'Twixxer',
-            link: 'https://x.',
-            newtab: true,
+            icon: 'shop.svg',
+            label: 'Shop coming soon',
+            component: WIP,
+            windowWidth: 700,
+            windowHeight: 450,
           },
           {
             icon: 'gh.svg',
@@ -97,13 +102,7 @@
           //   link: "https://www.instagram.com/trent.brew/",
           //   newtab: true,
           // },
-          {
-            icon: 'shop.svg',
-            label: 'Shop coming soon',
-            component: WIP,
-            windowWidth: 700,
-            windowHeight: 450,
-          },
+
           {
             icon: 'mail.svg',
             label: 'Mail',
