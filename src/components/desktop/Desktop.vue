@@ -44,7 +44,7 @@
             icon: 'music.svg',
             label: "What I'm Listening To",
             embed:
-              'https://open.spotify.com/embed/album/4knin4mUVXdOknjQ3DtVvt?si=eOBntkOnToCOpjB4oVqymA?utm_source=generator&theme=1',
+              'https://open.spotify.com/embed/album/51HFfu3GhuXa4VUnlpJJy8?si=eOBntkOnToCOpjB4oVqymA?utm_source=generator&theme=1',
             windowWidth: 680,
             windowHeight: 420,
           },
