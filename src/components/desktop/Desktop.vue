@@ -118,6 +118,14 @@
       About: () => About,
     },
     mounted() {
+      console.clear()
+      const hostname = window.location.hostname.split('.')
+      console.log('hostname', hostname)
+      const subdomain = hostname.length > 1 ? hostname[0] : null
+      console.log('subdomain', subdomain)
+      if (['gidget', 'timer', 'deepwork'].includes(subdomain)) {
+        window.location.href = 'https://trentbrew.com/tv'
+      }
       if (
         window.location.pathname == '/desktop' ||
         window.location.pathname == '/desktop/'
