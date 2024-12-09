@@ -38,7 +38,7 @@
         clicked: null,
         stretch: false,
         fullscreen: false,
-        dividerIndex: 6,
+        dividerIndex: 5,
         dockItems: [
           {
             icon: 'music.svg',
@@ -75,20 +75,13 @@
             label: 'The Garden',
             component: About,
             windowWidth: 800,
-            windowHeight: 400,
-          },
-          // {
-          //   icon: 'bluesky.svg',
-          //   label: 'Bluesky',
-          //   link: 'https://bsky.app/profile/trentbrew.com',
-          //   newtab: true,
-          // },
-          {
-            icon: 'shop.svg',
-            label: 'Shop coming soon',
-            component: WIP,
-            windowWidth: 700,
             windowHeight: 450,
+          },
+          {
+            icon: 'bluesky.svg',
+            label: 'Bluesky',
+            link: 'https://bsky.app/profile/trentbrew.com',
+            newtab: true,
           },
           {
             icon: 'gh.svg',
@@ -96,13 +89,13 @@
             link: 'https://github.com/trentbrew',
             newtab: true,
           },
-          // {
-          //   icon: "insta.svg",
-          //   label: "Instagram",
-          //   link: "https://www.instagram.com/trent.brew/",
-          //   newtab: true,
-          // },
-
+          {
+            icon: 'shop.svg',
+            label: 'Shop coming soon',
+            component: WIP,
+            windowWidth: 700,
+            windowHeight: 450,
+          },
           {
             icon: 'mail.svg',
             label: 'Mail',
