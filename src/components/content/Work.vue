@@ -78,7 +78,7 @@
             newtab: true,
           },
           {
-            title: 'Downloadify',
+            title: 'Download Thing',
             category: 'Web',
             description: 'Convert Google Drive links for direct download',
             stack: ['Vue'],
