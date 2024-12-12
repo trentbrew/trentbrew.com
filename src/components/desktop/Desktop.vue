@@ -11,6 +11,7 @@
   import Gallery from '@/components/content/Gallery.vue'
   import About from '@/components/content/About.vue'
   import WIP from '../content/WIP.vue'
+  import Blog from '@/components/content/Blog.vue'
   import Shop from '@/components/content/Shop.vue'
 
   export default {
@@ -27,6 +28,7 @@
       GradientMesh,
       Gallery,
       About,
+      Blog,
       // Shop,
     },
     data() {
@@ -58,7 +60,7 @@
           },
           {
             icon: 'doodles.svg',
-            label: 'Doodles',
+            label: 'Sketchbook',
             component: Art,
             windowWidth: 800,
             windowHeight: 400,
@@ -72,10 +74,11 @@
           },
           {
             icon: 'garden.svg',
-            label: 'The Garden',
-            component: About,
-            windowWidth: 800,
-            windowHeight: 450,
+            label: 'Musings',
+            component: Blog,
+            center: true,
+            windowWidth: 1000,
+            windowHeight: 500,
           },
           {
             icon: 'bluesky.svg',
