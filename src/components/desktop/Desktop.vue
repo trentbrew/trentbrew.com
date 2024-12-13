@@ -77,7 +77,7 @@
             label: 'Musings',
             component: Blog,
             center: true,
-            windowWidth: 940,
+            windowWidth: 1100,
             windowHeight: 500,
           },
           {
