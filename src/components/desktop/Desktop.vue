@@ -77,8 +77,8 @@
             label: 'Journal',
             embed: 'https://brew.build',
             center: true,
-            windowWidth: 1100,
-            windowHeight: 550,
+            windowWidth: 900,
+            windowHeight: 500,
           },
           {
             icon: 'bluesky.svg',
