@@ -74,11 +74,11 @@
           },
           {
             icon: 'garden.svg',
-            label: 'Musings',
-            component: Blog,
+            label: 'Journal',
+            embed: 'https://brew.build',
             center: true,
             windowWidth: 1100,
-            windowHeight: 500,
+            windowHeight: 550,
           },
           {
             icon: 'bluesky.svg',
@@ -381,6 +381,17 @@
 </template>
 
 <style lang="scss" scoped>
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+  }
+  iframe {
+    zoom: 0.8;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+  }
+
   .content-image {
     border: $bordered;
   }
