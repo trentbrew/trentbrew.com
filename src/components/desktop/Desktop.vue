@@ -46,7 +46,7 @@
             icon: 'music.svg',
             label: "What I'm Listening To",
             embed:
-              'https://open.spotify.com/embed/playlist/37i9dQZF1E4mILuSgxCk4l?si=eOBntkOnToCOpjB4oVqymA?utm_source=generator&theme=0',
+              'https://open.spotify.com/embed/album/4m4LfaeApHgaeSwpLAP3ll?si=eOBntkOnToCOpjB4oVqymA?utm_source=generator&theme=0',
             windowWidth: 680,
             windowHeight: 420,
           },
@@ -74,7 +74,7 @@
           },
           {
             icon: 'garden.svg',
-            label: 'Journal',
+            label: 'Dev Log',
             embed: 'https://brew.build',
             center: true,
             windowWidth: 900,
@@ -270,7 +270,18 @@
         :video="window.video"
       >
         <template v-if="window.embed">
-          <iframe :id="window.id" :src="window.embed" frameborder="0"></iframe>
+          <iframe
+            :data-context="
+              window.embed.includes('spotify.com')
+                ? 'spotify'
+                : window.embed.includes('api.trentbrew.com')
+                ? 'cv'
+                : null
+            "
+            :id="window.id"
+            :src="window.embed"
+            frameborder="0"
+          ></iframe>
         </template>
 
         <template v-if="window.component">
@@ -390,6 +401,13 @@
     zoom: 0.8;
     -moz-transform: scale(0.8);
     -moz-transform-origin: 0 0;
+  }
+
+  iframe[data-context='spotify'],
+  iframe[data-context='cv'] {
+    zoom: 1 !important;
+    -moz-transform: scale(1) !important;
+    -moz-transform-origin: 0 0 !important;
   }
 
   .content-image {
