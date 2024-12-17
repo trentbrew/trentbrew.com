@@ -430,9 +430,9 @@
     padding: 12px;
     border-radius: $rad;
     box-sizing: content-box;
+    //backdrop-filter: $blur;
     transition: 200ms;
     border: $bordered;
-    //backdrop-filter: $blur;
   }
 
   .window-header {

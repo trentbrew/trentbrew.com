@@ -401,7 +401,6 @@
   iframe {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
   }
   iframe {
     zoom: 0.8;
@@ -470,16 +469,16 @@
     height: $ui_height;
     width: $ui_width;
     border-radius: $rad;
-    // background-image: url('../../assets/wallpapers/tb.png');
+    background-image: url('../../assets/wallpapers/tb.png');
     // background-image: radial-gradient(
     //   circle at 1px 1px,
     //   #ffffff12 1px,
     //   transparent 0
     // );
     // background-size: 50px 30px;
-    // background-size: cover;
-    // background-position: center;
-    // background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     //background: #161616;
     //filter: brightness(0.8);
   }
