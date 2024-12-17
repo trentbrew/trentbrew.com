@@ -27,7 +27,7 @@
 </script>
 
 <template>
-  <div class="topbar">
+  <div class="topbar" style="display: hidden">
     <div class="topbar-section topbar-left">
       <div class="topbar-section-item">
         <span class="time">{{ currentTime }}</span>
