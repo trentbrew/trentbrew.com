@@ -262,7 +262,7 @@
       <Ribbons />
     </div>
     <div ref="desktop" class="desktop">
-      <Topbar />
+      <!-- <Topbar /> -->
       <Window
         v-for="(window, index) in windows"
         :key="index"
