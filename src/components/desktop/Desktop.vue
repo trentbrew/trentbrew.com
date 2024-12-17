@@ -74,7 +74,7 @@
           },
           {
             icon: 'garden.svg',
-            label: 'Dev Log',
+            label: 'Writing',
             embed: 'https://brew.build',
             center: true,
             windowWidth: 900,
