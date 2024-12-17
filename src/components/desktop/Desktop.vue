@@ -13,6 +13,8 @@
   import WIP from '../content/WIP.vue'
   import Blog from '@/components/content/Blog.vue'
   import Shop from '@/components/content/Shop.vue'
+  import Topbar from '@/components/topbar/Topbar.vue'
+  import Ribbons from '@/components/Ribbons.vue'
 
   export default {
     name: 'Desktop',
@@ -30,6 +32,8 @@
       About,
       Blog,
       // Shop,
+      Topbar,
+      Ribbons,
     },
     data() {
       return {
@@ -255,8 +259,10 @@
   >
     <div class="backdrop">
       <!-- <GradientMesh :index="3" /> -->
+      <Ribbons />
     </div>
     <div ref="desktop" class="desktop">
+      <Topbar />
       <Window
         v-for="(window, index) in windows"
         :key="index"
@@ -464,11 +470,17 @@
     height: $ui_height;
     width: $ui_width;
     border-radius: $rad;
-    background-image: url('../../assets/wallpapers/tb.png');
+    // background-image: url('../../assets/wallpapers/tb.png');
+    // background-image: radial-gradient(
+    //   circle at 1px 1px,
+    //   #ffffff12 1px,
+    //   transparent 0
+    // );
+    // background-size: 50px 30px;
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
     //background: #161616;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     //filter: brightness(0.8);
   }
 

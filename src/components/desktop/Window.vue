@@ -76,9 +76,6 @@
       this.$root.$on('windowSelected', (id) => {
         this.selectedWindow = id
       })
-      if (fullscreen) {
-        this.toggleExpand()
-      }
     },
     methods: {
       togglePeek() {
@@ -433,9 +430,9 @@
     padding: 12px;
     border-radius: $rad;
     box-sizing: content-box;
-    //backdrop-filter: $blur;
     transition: 200ms;
     border: $bordered;
+    //backdrop-filter: $blur;
   }
 
   .window-header {
@@ -464,19 +461,19 @@
     }
     .immersive {
       background-image: url('../../assets/window/black_immersive.svg');
-      background-size: 50%;
+      background-size: 75%;
     }
     .minimize {
       background-image: url('../../assets/window/black_minimize.svg');
-      background-size: 60%;
+      background-size: 80%;
     }
     .expand {
       background-image: url('../../assets/window/black_expand.svg');
-      background-size: 60%;
+      background-size: 80%;
     }
     .close {
       background-image: url('../../assets/window/black_exit.svg');
-      background-size: 50%;
+      background-size: 80%;
     }
     .window-controls {
       min-width: 100px;
@@ -517,7 +514,8 @@
   }
   .active {
     .window-title {
-      color: rgba($active_text, 0.8);
+      font-size: 0.9rem;
+      color: rgba($active_text, 0.6);
       font-weight: normal;
       opacity: 1;
     }
