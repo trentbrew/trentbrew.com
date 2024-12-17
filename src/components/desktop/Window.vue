@@ -515,7 +515,7 @@
   .active {
     .window-title {
       font-size: 0.9rem;
-      color: rgba($active_text, 0.6);
+      color: rgba($active_text, 1);
       font-weight: normal;
       opacity: 1;
     }
