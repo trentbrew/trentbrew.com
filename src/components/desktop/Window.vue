@@ -333,9 +333,9 @@
     background-size: 50%;
     background-position: center;
     padding: 6px;
-    height: 14px;
-    width: 14px;
-    margin-left: 6px;
+    height: 16px;
+    width: 16px;
+    margin-left: 3px;
     opacity: 0.5;
     cursor: pointer;
     filter: invert(0);
