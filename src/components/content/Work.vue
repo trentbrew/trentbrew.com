@@ -16,14 +16,18 @@
         projects: [
           // ----------------- WEB -----------------
           {
-            title: 'Brevity',
+            title: 'Zen Timer (Chrome Extension)',
             category: 'Web',
-            description: 'A minimalistic generative writing app (WIP)',
-            stack: ['Svelte', 'Gemini'],
-            thumb: require('@/content/UX/brevity/brevity.gif'),
-            content: { embed: 'https://app.brevity.ink/' },
+            description: 'A minimalist general purpose timer',
+            stack: ['Vue'],
+            thumb: require('@/content/UX/zen-timer/zentimer.gif'),
+            content: {
+              embed:
+                'https://chromewebstore.google.com/detail/zen-timer/blhcjlpiphllfghbhlbblfajnnhifehk?hl=en',
+            },
+            newtab: true,
             center: true,
-            dims: '1040x600',
+            dims: '1000x600',
           },
           {
             title: 'Geodata Playground',
@@ -46,6 +50,16 @@
             dims: '1200x650',
           },
           {
+            title: 'Brevity',
+            category: 'Web',
+            description: 'A minimalistic generative writing app (WIP)',
+            stack: ['Svelte', 'Gemini'],
+            thumb: require('@/content/UX/brevity/brevity.gif'),
+            content: { embed: 'https://app.brevity.ink/' },
+            center: true,
+            dims: '1040x600',
+          },
+          {
             title: 'Solar System',
             description: 'Explore the planets of the solar system',
             stack: ['HTML5', 'JQuery'],
@@ -57,7 +71,7 @@
           },
 
           {
-            title: 'DJ Gemini',
+            title: 'AI DJ',
             description: 'Music discovery powered by AI',
             stack: ['HTML5', 'Node', 'Express', 'Gemini'],
             thumb: require('@/content/UX/dj/dj2.gif'),
@@ -77,6 +91,7 @@
             },
             newtab: true,
           },
+
           {
             title: 'Download Thing',
             category: 'Web',
