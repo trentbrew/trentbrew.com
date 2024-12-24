@@ -65,7 +65,7 @@
           {
             icon: 'doodles.svg',
             label: 'Sketchbook',
-            component: Gallery,
+            component: Art,
             windowWidth: 800,
             windowHeight: 400,
           },
