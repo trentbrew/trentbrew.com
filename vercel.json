@@ -1,6 +1,6 @@
 {
   "version": 2,
   "outputDirectory": "dist",
-  "installCommand": "npm install -f",
+  "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build"
 }

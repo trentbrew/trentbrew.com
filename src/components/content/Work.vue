@@ -26,8 +26,6 @@
                 'https://chromewebstore.google.com/detail/zen-timer/blhcjlpiphllfghbhlbblfajnnhifehk?hl=en',
             },
             newtab: true,
-            center: true,
-            dims: '1000x600',
           },
           {
             title: 'Geodata Playground',

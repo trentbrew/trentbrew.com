@@ -1,7 +1,11 @@
 <script>
   import http from '@/api/http'
+  import Sketchbook from '@/components/content/Sketchbook.vue'
 
   export default {
+    components: {
+      Sketchbook,
+    },
     data() {
       return {
         loading: true,
@@ -24,22 +28,23 @@
 </script>
 
 <template>
-  <div class="gallery">
-    <div class="gallery-container">
-      <div
-        v-for="(image, index) in images"
-        :key="index"
-        :style="`background-image: url(${image.url});`"
-        class="gallery-item"
-      >
-        <div @click="handleImageClick(image)" class="clickable"></div>
+  <Sketchbook>
+    <div class="gallery">
+      <div class="gallery-container">
+        <div
+          v-for="(image, index) in images"
+          :key="index"
+          :style="`background-image: url(${image.url});`"
+          class="gallery-item"
+        >
+          <div @click="handleImageClick(image)" class="clickable"></div>
+        </div>
       </div>
     </div>
-  </div>
+  </Sketchbook>
 </template>
-.
 
-<style lang="scss" scoped>
+<!-- <style lang="scss" scoped>
   .clickable {
     height: 100%;
     width: 100%;
@@ -78,4 +83,4 @@
       filter: brightness(0.6);
     }
   }
-</style>
+</style> -->
