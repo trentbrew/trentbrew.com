@@ -81,7 +81,7 @@
             label: 'Writing',
             embed: 'https://brew.build',
             center: true,
-            windowWidth: 900,
+            windowWidth: 1000,
             windowHeight: 500,
           },
           {

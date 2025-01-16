@@ -16,6 +16,13 @@
         projects: [
           // ----------------- WEB -----------------
           {
+            title: '3D Turtle Labs Logo',
+            category: 'Web',
+            description: 'Interactive 3D logo',
+            stack: ['HTML5', 'CSS', 'ES6'],
+            thumb: require('@/content/logo/turtle/turtle.gif'),
+          },
+          {
             title: 'Zen Timer (Chrome Extension)',
             category: 'Web',
             description: 'A minimalist general purpose timer',
