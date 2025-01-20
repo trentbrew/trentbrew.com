@@ -60,7 +60,7 @@
             description: 'A minimalistic generative writing app (WIP)',
             stack: ['Svelte', 'Gemini'],
             thumb: require('@/content/UX/brevity/brevity.gif'),
-            content: { embed: 'https://app.brevity.ink/' },
+            content: { embed: 'https://brevity-frontend.vercel.app/' },
             center: true,
             dims: '1040x600',
           },
