@@ -29,8 +29,7 @@
             stack: ['Vue'],
             thumb: require('@/content/UX/zen-timer/zentimer.gif'),
             content: {
-              embed:
-                'https://chromewebstore.google.com/detail/zen-timer/blhcjlpiphllfghbhlbblfajnnhifehk?hl=en',
+              link: 'https://chromewebstore.google.com/detail/zen-timer/blhcjlpiphllfghbhlbblfajnnhifehk?hl=en',
             },
             newtab: true,
           },

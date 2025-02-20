@@ -33,9 +33,19 @@
 https://cdn.jsdelivr.net/npm/pocketbase-js@0.7.5/dist/pocketbase.umd.min.js
 "></script>
     <!-- 100% privacy-first analytics -->
+    <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://scripts.simpleanalyticscdn.com/latest.js"
+      src="https://www.googletagmanager.com/gtag/js?id=G-5DXNHZ6CT1"
     ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-5DXNHZ6CT1')
+    </script>
   </body>
 </html>
