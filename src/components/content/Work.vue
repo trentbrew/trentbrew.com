@@ -15,12 +15,17 @@
         categoryCaption: '',
         projects: [
           // ----------------- WEB -----------------
-          // {
-          //   title: '3D Turtle Labs Logo',
-          //   category: 'Web',
-          //   description: 'Interactive 3D logo',
-          //   stack: ['HTML5', 'CSS', 'ES6'],
-          // },
+          {
+            title: 'Amorphous',
+            category: 'Web',
+            description: 'A canvas for everything',
+            stack: ['Svelte', 'Zerosync'],
+            thumb: require('@/content/UX/amorphous/1.gif'),
+            content: {
+              link: 'https://amorphous.brew.build',
+            },
+            newtab: true,
+          },
           {
             title: 'Zen Timer (Chrome Extension)',
             category: 'Web',
@@ -28,7 +33,7 @@
             stack: ['Vue'],
             thumb: require('@/content/UX/zen-timer/zentimer.gif'),
             content: {
-              link: 'https://chromewebstore.google.com/detail/zen-timer/blhcjlpiphllfghbhlbblfajnnhifehk?hl=en',
+              link: 'https://chromewebstore.google.com/detail/zen-timer/blhcjlpiphllfghbhlbblfajnnhifehk',
             },
             newtab: true,
           },
