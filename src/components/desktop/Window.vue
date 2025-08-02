@@ -196,8 +196,13 @@
 <template>
   <vue-resizable ref="resizableComponent" class="resizable" :class="`
       ${selectedWindow != id ? 'inactive' : 'active'}
+      ${windowState.expanded ? 'expanded' : ''}
     `" :style="`
       padding: 0px 0px ${!windowState.immersive ? '24px' : '0px'} 0px;
+      left: ${left}px;
+      top: ${top}px;
+      width: ${width}px;
+      height: ${height}px;
       z-index: ${getElevation()};
       display: ${exit ? 'none' : 'block'};
       transition: ${preventTransitionParent ? '0ms' : '600ms'};
@@ -210,8 +215,8 @@
     <div class="window-container" :class="preExit && 'window-out'" @mouseup.prevent="windowSelected">
       <div class="window-border">
         <div @dblclick="toggleExpand" class="window-header" :style="!windowState.immersive || windowState.peek
-            ? 'height: 24px; opacity: 1;'
-            : 'height: 0px; opacity: 0;'
+          ? 'height: 24px; opacity: 1;'
+          : 'height: 0px; opacity: 0;'
           ">
           <div @mouseenter="togglePeek" @mouseleave="togglePeek" class="peek-trigger"
             :class="!windowState.immersive ? 'not-peekable' : 'hide'" :style="`
@@ -352,6 +357,11 @@
           /* Safari */
           -webkit-touch-callout: none;
           /* iOS Safari */
+        }
+
+        .resizable.expanded {
+          margin-top: 0 !important;
+          margin-left: 0 !important;
         }
 
         .window-container {
