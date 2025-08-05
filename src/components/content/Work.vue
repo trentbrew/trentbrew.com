@@ -122,7 +122,7 @@
           },
           {
             title: 'Sonic GX',
-            description: 'Sonic the Hedhehog platformer released in 2011',
+            description: 'Sonic the Hedhehog platformer released in 2010',
             stack: ['GameMaker', 'Windows'],
             thumb: require('@/content/games/sonic-gx/sonicgx2.gif'),
             category: 'Games',
