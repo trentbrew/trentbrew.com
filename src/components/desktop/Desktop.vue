@@ -16,6 +16,11 @@
   import Topbar from '@/components/topbar/Topbar.vue'
   import Ribbons from '@/components/Ribbons.vue'
 
+  const playlist = {
+    type: 'playlist',
+    id: '7uUkcVP0SpSzyt9UUS9AJT',
+  }
+
   export default {
     name: 'Desktop',
     directives: {
@@ -49,8 +54,7 @@
           {
             icon: 'music.svg',
             label: "What I'm Listening To",
-            embed:
-              'https://open.spotify.com/embed/playlist/7uUkcVP0SpSzyt9UUS9AJT?utm_source=generator&theme=0',
+            embed: `https://open.spotify.com/embed/${playlist.type}/${playlist.id}?utm_source=generator&theme=0`,
             windowWidth: 680,
             windowHeight: 420,
           },
@@ -207,7 +211,7 @@
         item = { ...item, open: false }
       })
       window.addEventListener('keyup', (e) => {
-        ; (e.key == 't' || e.key == 'T') &&
+        ;(e.key == 't' || e.key == 'T') &&
           this.pushWindow({
             title: 'Terminal',
             component: Terminal,
@@ -218,7 +222,7 @@
       })
     },
     destroyed() {
-      window.removeEventListener('keyup', (e) => { })
+      window.removeEventListener('keyup', (e) => {})
     },
     methods: {
       handleItemClick(index) {
@@ -251,24 +255,43 @@
 </script>
 
 <template>
-  <div class="desktop-container" :style="stretch ? 'height: calc(100vh - 24px);' : 'height: calc(100vh - 48px);'
-    ">
+  <div
+    class="desktop-container"
+    :style="
+      stretch ? 'height: calc(100vh - 24px);' : 'height: calc(100vh - 48px);'
+    "
+  >
     <div class="backdrop">
       <!-- <GradientMesh :index="3" /> -->
       <Ribbons />
     </div>
     <div ref="desktop" class="desktop">
       <!-- <Topbar /> -->
-      <Window v-for="(window, index) in windows" :key="index" :index="index" :id="window.id" :title="window.title"
-        :initialWidth="window.width" :initialHeight="window.height" :center="window.center" :embed="window.embed"
-        :video="window.video">
+      <Window
+        v-for="(window, index) in windows"
+        :key="index"
+        :index="index"
+        :id="window.id"
+        :title="window.title"
+        :initialWidth="window.width"
+        :initialHeight="window.height"
+        :center="window.center"
+        :embed="window.embed"
+        :video="window.video"
+      >
         <template v-if="window.embed">
-          <iframe :data-context="window.embed.includes('spotify.com')
-            ? 'spotify'
-            : window.embed.includes('https://api.trentbrew.com/cv-framer')
-              ? 'cv'
-              : null
-            " :id="window.id" :src="window.embed" frameborder="0"></iframe>
+          <iframe
+            :data-context="
+              window.embed.includes('spotify.com')
+                ? 'spotify'
+                : window.embed.includes('https://api.trentbrew.com/cv-framer')
+                ? 'cv'
+                : null
+            "
+            :id="window.id"
+            :src="window.embed"
+            frameborder="0"
+          ></iframe>
         </template>
 
         <template v-if="window.component">
@@ -277,48 +300,75 @@
 
         <template v-if="window.image">
           <div style="overflow: hidden">
-            <img class="content-image" :src="window.image" style="border-radius: 8px; width: 100%; max-height: 100%" />
+            <img
+              class="content-image"
+              :src="window.image"
+              style="border-radius: 8px; width: 100%; max-height: 100%"
+            />
           </div>
         </template>
 
         <template v-if="window.video">
-          <div style="overflow: hidden; width: 100%; height: 100%' background: black; border-radius: 8px;">
-            <video :id="window.id" :src="require(`@/content/${window.video}`)" class="video" width="100%" height="100%"
-              autoplay controls muted />
+          <div
+            style="overflow: hidden; width: 100%; height: 100%' background: black; border-radius: 8px;"
+          >
+            <video
+              :id="window.id"
+              :src="require(`@/content/${window.video}`)"
+              class="video"
+              width="100%"
+              height="100%"
+              autoplay
+              controls
+              muted
+            />
           </div>
         </template>
 
         <template v-if="window.casestudy">
           <div style="overflow: auto; border-radius: 8px; padding-right: 12px">
-            <img :src="require(`@/content/${window.casestudy}`)" style="width: 100%" />
+            <img
+              :src="require(`@/content/${window.casestudy}`)"
+              style="width: 100%"
+            />
           </div>
         </template>
       </Window>
     </div>
     <Dock :hide="fullscreen">
-      <div v-for="(item, index) in dockItems" :key="index" :style="`${item.newtab && 'cursor: pointer;'} ${index === dividerIndex && 'margin-left: 28px;'
-        }`" class="dock-item" @click="
+      <div
+        v-for="(item, index) in dockItems"
+        :key="index"
+        :style="`${item.newtab && 'cursor: pointer;'} ${
+          index === dividerIndex && 'margin-left: 28px;'
+        }`"
+        class="dock-item"
+        @click="
           item.link
             ? window.open(item.link, '_blank')
             : pushWindow({
-              title: item.label || 'Title',
-              link: item.link || null,
-              embed: item.embed || null, // String
-              component: item.component || null, // Component
-              image: item.image || null, // String
-              width: item.windowWidth || 600, // Number
-              height: item.windowHeight || 400, // Nmuber
-              positionX: item.windowPositionX || getRandomX(), // Number
-              positionY: item.windowPositionY || getRandomY(), // Number
-              center: item.center,
-            })
-          ">
+                title: item.label || 'Title',
+                link: item.link || null,
+                embed: item.embed || null, // String
+                component: item.component || null, // Component
+                image: item.image || null, // String
+                width: item.windowWidth || 600, // Number
+                height: item.windowHeight || 400, // Nmuber
+                positionX: item.windowPositionX || getRandomX(), // Number
+                positionY: item.windowPositionY || getRandomY(), // Number
+                center: item.center,
+              })
+        "
+      >
         <div v-if="index === dividerIndex" class="divider"></div>
         <div class="tooltip flex-center absolute">
           <span style="text-wrap: nowrap">{{ item.label }}</span>
           <div v-if="item.newtab" class="newtab"></div>
         </div>
-        <div class="dock-icon" :style="`background-image: url('${require(`@/assets/icons/${item.icon}`)}')`">
+        <div
+          class="dock-icon"
+          :style="`background-image: url('${require(`@/assets/icons/${item.icon}`)}')`"
+        >
           <!-- <div
             v-if="index === 0"
             style="
@@ -338,253 +388,256 @@
             <b style="color: white; font-size: 12px; line-height: 24px">2</b>
           </div> -->
         </div>
-        <div class="active-indicator" :style="activeWindows.includes(item.label)
-          ? 'height: 4px; opacity: 1;'
-          : 'height: 0px; opacity: 0;'
-          "></div>
+        <div
+          class="active-indicator"
+          :style="
+            activeWindows.includes(item.label)
+              ? 'height: 4px; opacity: 1;'
+              : 'height: 0px; opacity: 0;'
+          "
+        ></div>
       </div>
     </Dock>
   </div>
 </template>
 
-<style lang="scss"
-       scoped>
-        iframe {
-          width: 100%;
-          height: 100%;
-        }
+<style lang="scss" scoped>
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 
-        iframe {
-          zoom: 0.8;
-          -moz-transform: scale(0.8);
-          -moz-transform-origin: 0 0;
-        }
+  iframe {
+    zoom: 0.8;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+  }
 
-        iframe[data-context='spotify'],
-        iframe[data-context='cv'] {
-          zoom: 1 !important;
-          -moz-transform: scale(1) !important;
-          -moz-transform-origin: 0 0 !important;
-        }
+  iframe[data-context='spotify'],
+  iframe[data-context='cv'] {
+    zoom: 1 !important;
+    -moz-transform: scale(1) !important;
+    -moz-transform-origin: 0 0 !important;
+  }
 
-        .content-image {
-          border: $bordered;
-        }
+  .content-image {
+    border: $bordered;
+  }
 
-        .divider {
-          position: fixed;
-          width: 1px;
-          height: 56px;
-          background: rgba(255, 255, 255, 0.1);
-          transform: translateX(-46px);
-          transition: 200ms;
-          pointer-events: none;
-        }
+  .divider {
+    position: fixed;
+    width: 1px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(-46px);
+    transition: 200ms;
+    pointer-events: none;
+  }
 
-        .newtab {
-          background-image: url('../../assets/icons/newtab.svg');
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center;
-          width: 14px;
-          height: 14px;
-          margin-left: 6px;
-          opacity: 0.5;
-          filter: invert(0);
-        }
+  .newtab {
+    background-image: url('../../assets/icons/newtab.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+    opacity: 0.5;
+    filter: invert(0);
+  }
 
-        .item-container {
-          // desktop item
-          padding: 24px 18px 18px 18px;
-          border-radius: $rad;
+  .item-container {
+    // desktop item
+    padding: 24px 18px 18px 18px;
+    border-radius: $rad;
 
-          .icon {
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 56px;
-            width: 56px;
-            margin-bottom: 12px;
-          }
+    .icon {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 56px;
+      width: 56px;
+      margin-bottom: 12px;
+    }
 
-          span {
-            font-size: 14px;
-            font-weight: bold;
-            color: white;
-          }
+    span {
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+    }
 
-          &:hover {
-            background: #222222;
-          }
-        }
+    &:hover {
+      background: #222222;
+    }
+  }
 
-        .backdrop {
-          position: absolute;
-          height: $ui_height;
-          width: $ui_width;
-          border-radius: $rad;
-          background-image: url('../../assets/wallpapers/tb.png');
-          // background-image: radial-gradient(
-          //   circle at 1px 1px,
-          //   #ffffff12 1px,
-          //   transparent 0
-          // );
-          // background-size: 50px 30px;
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          //background: #161616;
-          //filter: brightness(0.8);
-        }
+  .backdrop {
+    position: absolute;
+    height: $ui_height;
+    width: $ui_width;
+    border-radius: $rad;
+    background-image: url('../../assets/wallpapers/tb.png');
+    // background-image: radial-gradient(
+    //   circle at 1px 1px,
+    //   #ffffff12 1px,
+    //   transparent 0
+    // );
+    // background-size: 50px 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    //background: #161616;
+    //filter: brightness(0.8);
+  }
 
-        .desktop-container {
-          background: linear-gradient($bezel_color, $bezel_color);
-        }
+  .desktop-container {
+    background: linear-gradient($bezel_color, $bezel_color);
+  }
 
-        .desktop {
-          width: 100%;
-          height: 100%;
-          border-radius: $rad;
-          position: relative;
-          transform-origin: center center;
-          user-select: none;
-          transition: transform 0.1s ease;
+  .desktop {
+    width: 100%;
+    height: 100%;
+    border-radius: $rad;
+    position: relative;
+    transform-origin: center center;
+    user-select: none;
+    transition: transform 0.1s ease;
 
-          &:active {
-            cursor: grabbing;
-          }
-        }
+    &:active {
+      cursor: grabbing;
+    }
+  }
 
-        video {
-          object-fit: cover;
-          border-radius: $rad;
-          width: calc(100vw - $bezel_width * 2);
-          height: 100%;
-        }
+  video {
+    object-fit: cover;
+    border-radius: $rad;
+    width: calc(100vw - $bezel_width * 2);
+    height: 100%;
+  }
 
-        .dock-item {
-          display: flex;
-          justify-content: center;
-          width: 56px;
-          height: 56px;
-          margin: 12px 9px;
-          transition: 150ms ease;
+  .dock-item {
+    display: flex;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    margin: 12px 9px;
+    transition: 150ms ease;
 
-          .active-indicator {
-            position: absolute;
-            bottom: 0px;
-            width: 8px;
-            background: white;
-            border-radius: 12px 12px 0px 0px;
-            transition: 300ms;
-          }
+    .active-indicator {
+      position: absolute;
+      bottom: 0px;
+      width: 8px;
+      background: white;
+      border-radius: 12px 12px 0px 0px;
+      transition: 300ms;
+    }
 
-          .tooltip {
-            position: absolute;
-            pointer-events: none;
-            opacity: 0;
-            transform: translateY(-64px);
-            padding: 12px 18px;
-            border: $bordered;
-            border-radius: 32px;
-            transition: 150ms;
-            color: $active_text;
-            background: #161616;
-            backdrop-filter: $blur;
-          }
+    .tooltip {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(-64px);
+      padding: 12px 18px;
+      border: $bordered;
+      border-radius: 32px;
+      transition: 150ms;
+      color: $active_text;
+      background: #161616;
+      backdrop-filter: $blur;
+    }
 
-          .dock-icon {
-            width: 100%;
-            height: 100%;
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-            transition: 150ms;
-          }
+    .dock-icon {
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 150ms;
+    }
 
-          &:hover {
-            .dock-icon {
-              transform: translateY(-8px);
-            }
+    &:hover {
+      .dock-icon {
+        transform: translateY(-8px);
+      }
 
-            .tooltip {
-              opacity: 1;
-              transform: translateY(-80px);
-            }
-          }
+      .tooltip {
+        opacity: 1;
+        transform: translateY(-80px);
+      }
+    }
 
-          &:active {
-            .dock-icon {
-              transform: translateY(-8px) scale(0.9);
-            }
-          }
-        }
+    &:active {
+      .dock-icon {
+        transform: translateY(-8px) scale(0.9);
+      }
+    }
+  }
 
-        /* width */
-        ::-webkit-scrollbar {
-          width: 8px;
-        }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 
-        /* Track */
-        ::-webkit-scrollbar-track {
-          background: transparent;
-        }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
 
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-          background: rgba(white, 1);
-          border-radius: 8px;
-        }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(white, 1);
+    border-radius: 8px;
+  }
 
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-          background: rgba(white, 0.4);
-        }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(white, 0.4);
+  }
 
-        .pulse {
-          margin: 100px;
-          display: block;
-          width: 22px;
-          height: 22px;
-          border-radius: 50%;
-          background: #cca92c;
-          cursor: pointer;
-          box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
-          animation: pulse 2s infinite;
-        }
+  .pulse {
+    margin: 100px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #cca92c;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+    animation: pulse 2s infinite;
+  }
 
-        .pulse:hover {
-          animation: none;
-        }
+  .pulse:hover {
+    animation: none;
+  }
 
-        @-webkit-keyframes pulse {
-          0% {
-            -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
-          }
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    }
 
-          70% {
-            -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
-          }
+    70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
 
-          100% {
-            -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-          }
-        }
+    100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+  }
 
-        @keyframes pulse {
-          0% {
-            -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
-            box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
-          }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+      box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    }
 
-          70% {
-            -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
-            box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
-          }
+    70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
 
-          100% {
-            -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-            box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-          }
-        }
-      </style>
+    100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+  }
+</style>
