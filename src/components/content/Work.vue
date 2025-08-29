@@ -100,16 +100,16 @@
             newtab: true,
           },
 
-          {
-            title: 'Download Thing',
-            category: 'Web',
-            description: 'Convert Google Drive links for direct download',
-            stack: ['Vue'],
-            thumb: require('@/content/UX/downloadify/downloadify.gif'),
-            content: { embed: 'https://gumbo-widgets.vercel.app/googledrive' },
-            center: true,
-            dims: '1100x650',
-          },
+          // {
+          //   title: 'Download Thing',
+          //   category: 'Web',
+          //   description: 'Convert Google Drive links for direct download',
+          //   stack: ['Vue'],
+          //   thumb: require('@/content/UX/downloadify/downloadify.gif'),
+          //   content: { embed: 'https://gumbo-widgets.vercel.app/googledrive' },
+          //   center: true,
+          //   dims: '1100x650',
+          // },
           // ----------------- GAMES -----------------
           {
             title: 'Lost Things',
