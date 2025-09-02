@@ -110,6 +110,17 @@
             center: true,
             dims: '1100x650',
           },
+
+          {
+            title: 'Fancy Forms',
+            category: 'Web',
+            description: 'Sandbox for form design & input validation',
+            stack: ['Vue'],
+            thumb: require('@/content/UX/fancy-forms/fancy-form.gif'),
+            content: { embed: 'https://trentbrew.github.io' },
+            center: true,
+            dims: '1100x650',
+          },
           // ----------------- GAMES -----------------
           {
             title: 'Lost Things',
