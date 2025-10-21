@@ -1,15 +1,15 @@
 <script>
-  export default {
-    props: {
-      activeCategory: String,
-      project: Object,
+export default {
+  props: {
+    activeCategory: String,
+    project: Object,
+  },
+  methods: {
+    handleFigureClick() {
+      this.$root.$emit('cardClicked', this.project)
     },
-    methods: {
-      handleFigureClick() {
-        this.$root.$emit('cardClicked', this.project)
-      },
-    },
-  }
+  },
+}
 </script>
 
 <template>
@@ -34,243 +34,257 @@
   </figure>
 </template>
 
-<style lang="scss"
-       scoped>
-        .Vue {
-          background: rgba(#adf7b6, 0.16);
-          color: #adf7b6 !important;
-        }
+<style lang="scss" scoped>
+.React {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
 
-        .Svelte {
-          background: rgba(#debcaf, 0.16);
-          color: #debcaf !important;
-        }
+.NextJS {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
 
-        .Gemini {
-          background: rgba(#6e9dc8, 0.16);
-          color: #6e9dc8 !important;
-        }
+.Vue {
+  background: rgba(#adf7b6, 0.16);
+  color: #adf7b6 !important;
+}
 
-        .OpenAI {
-          background: rgba(#6e9dc8, 0.16);
-          color: #6e9dc8 !important;
-        }
+.Svelte {
+  background: rgba(#debcaf, 0.16);
+  color: #debcaf !important;
+}
 
-        .Flutter {
-          background: rgba(#6e9dc8, 0.16);
-          color: #6e9dc8 !important;
-        }
+.Gemini {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
 
-        .MapboxGL {
-          background: rgba(#bcb7be, 0.16);
-          color: #bcb7be !important;
-        }
+.OpenAI {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
 
-        .Firebase {
-          background: rgba(#ffee93, 0.16);
-          color: #ffee93 !important;
-        }
+.Flutter {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
 
-        .Zerosync {
-          background: rgba(#ffee93, 0.16);
-          color: #ffee93 !important;
-        }
+.MapboxGL {
+  background: rgba(#bcb7be, 0.16);
+  color: #bcb7be !important;
+}
 
-        .Node {
-          background: rgba(#adf7b6, 0.16);
-          color: #ffc09f !important;
-        }
+.Firebase {
+  background: rgba(#ffee93, 0.16);
+  color: #ffee93 !important;
+}
 
-        .Express {
-          background: rgba(#ffee93, 0.16);
-          color: #debcaf !important;
-        }
+.InstantDB {
+  background: rgba(#ffee93, 0.16);
+  color: #ffee93 !important;
+}
 
-        .Django {
-          background: rgba(#debcaf, 0.16);
-          color: #debcaf !important;
-        }
+.Zerosync {
+  background: rgba(#ffee93, 0.16);
+  color: #ffee93 !important;
+}
 
-        .Laravel {
-          background: rgba(#debcaf, 0.16);
-          color: #debcaf !important;
-        }
+.Node {
+  background: rgba(#adf7b6, 0.16);
+  color: #ffc09f !important;
+}
 
-        .Azure {
-          background: rgba(#79addc, 0.16);
-          color: #79addc !important;
-        }
+.Express {
+  background: rgba(#ffee93, 0.16);
+  color: #debcaf !important;
+}
 
-        .GameMaker {
-          background: rgba(#ffc09f, 0.16);
-          color: #ffc09f !important;
-        }
+.Django {
+  background: rgba(#debcaf, 0.16);
+  color: #debcaf !important;
+}
 
-        .p5js {
-          background: rgba(#dfabbf, 0.16);
-          color: #dfabbf !important;
-        }
+.Laravel {
+  background: rgba(#debcaf, 0.16);
+  color: #debcaf !important;
+}
 
-        .HTML5 {
-          background: rgba(#ffee93, 0.16);
-          color: #ffee93 !important;
-        }
+.Azure {
+  background: rgba(#79addc, 0.16);
+  color: #79addc !important;
+}
 
-        .WebGL {
-          background: rgba(#bcb7be, 0.16);
-          color: #bcb7be !important;
-        }
+.GameMaker {
+  background: rgba(#ffc09f, 0.16);
+  color: #ffc09f !important;
+}
 
-        .JQuery {
-          background: rgba(#adf7b6, 0.16);
-          color: #adf7b6 !important;
-        }
+.p5js {
+  background: rgba(#dfabbf, 0.16);
+  color: #dfabbf !important;
+}
 
-        .VanillaJS {
-          background: rgba(#bcb7be, 0.16);
-          color: #bcb7be !important;
-        }
+.HTML5 {
+  background: rgba(#ffee93, 0.16);
+  color: #ffee93 !important;
+}
 
-        .CSS,
-        .SCSS,
-        .TailwindCSS {
-          background: rgba(#ffee93, 0.16);
-          color: #ffee93 !important;
-        }
+.WebGL {
+  background: rgba(#bcb7be, 0.16);
+  color: #bcb7be !important;
+}
 
-        .Figma {
-          background: rgba(#dfabbf, 0.16);
-          color: #dfabbf !important;
-        }
+.JQuery {
+  background: rgba(#adf7b6, 0.16);
+  color: #adf7b6 !important;
+}
 
-        .Windows {
-          background: rgba(#79addc, 0.16);
-          color: #79addc !important;
-        }
+.VanillaJS {
+  background: rgba(#bcb7be, 0.16);
+  color: #bcb7be !important;
+}
 
-        .Webflow {
-          background: rgba(#6e9dc8, 0.16);
-          color: #6e9dc8 !important;
-        }
+.CSS,
+.SCSS,
+.TailwindCSS {
+  background: rgba(#ffee93, 0.16);
+  color: #ffee93 !important;
+}
 
-        .AdobeAnimate {
-          background: rgba(#ffee93, 0.16);
-          color: #ffee93 !important;
-        }
+.Figma {
+  background: rgba(#dfabbf, 0.16);
+  color: #dfabbf !important;
+}
 
-        .Loom {
-          background: rgba(#dfabbf, 0.16);
-          color: #dfabbf !important;
-        }
+.Windows {
+  background: rgba(#79addc, 0.16);
+  color: #79addc !important;
+}
 
-        .Procreate {
-          background: rgba(#dfabbf, 0.16);
-          color: #dfabbf !important;
-        }
+.Webflow {
+  background: rgba(#6e9dc8, 0.16);
+  color: #6e9dc8 !important;
+}
 
-        .Stop-Motion {
-          background: rgba(#bcb7be, 0.16);
-          color: #bcb7be !important;
-        }
+.AdobeAnimate {
+  background: rgba(#ffee93, 0.16);
+  color: #ffee93 !important;
+}
 
-        .newtab {
-          background-image: url('../../assets/icons/newtab.svg');
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center;
-          height: 14px;
-          width: 14px;
-          margin-left: 8px;
-          opacity: 0.4;
-          filter: invert(0);
-        }
+.Loom {
+  background: rgba(#dfabbf, 0.16);
+  color: #dfabbf !important;
+}
 
-        .pill {
-          padding: 2px 6px;
-          margin-right: 8px;
-          border-radius: 12px;
-        }
+.Procreate {
+  background: rgba(#dfabbf, 0.16);
+  color: #dfabbf !important;
+}
 
-        .stack-container {
-          margin-top: 18px;
-        }
+.Stop-Motion {
+  background: rgba(#bcb7be, 0.16);
+  color: #bcb7be !important;
+}
 
-        b span {
-          padding-top: 12px;
-        }
+.newtab {
+  background-image: url('../../assets/icons/newtab.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 14px;
+  width: 14px;
+  margin-left: 8px;
+  opacity: 0.4;
+  filter: invert(0);
+}
 
-        .shade {
-          opacity: 0;
-          transition: 300ms;
-        }
+.pill {
+  padding: 2px 6px;
+  margin-right: 8px;
+  border-radius: 12px;
+}
 
-        figure.card {
-          margin: 0px !important;
-          padding: 0px !important;
-          position: relative;
-          height: 100%;
-          aspect-ratio: 16 / 9;
-          background-color: rgba(white, 0.1);
-          background-position: 50% 0px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          transition: 300ms ease;
-          overflow: hidden;
-          border-radius: 6px;
+.stack-container {
+  margin-top: 18px;
+}
 
-          cursor: pointer;
-          //box-shadow: $shadow;
+b span {
+  padding-top: 12px;
+}
 
-          &:hover {
-            //filter: brightness(0.8);
-            //transform: scale(1.04);
-            background-position: 50% -48px;
+.shade {
+  opacity: 0;
+  transition: 300ms;
+}
 
-            figcaption {
-              //opacity: 1;
-              transform: translateY(0px);
-            }
+figure.card {
+  margin: 0px !important;
+  padding: 0px !important;
+  position: relative;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: rgba(white, 0.1);
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 300ms ease;
+  overflow: hidden;
+  border-radius: 6px;
 
-            .shade {
-              opacity: 0.4;
-            }
-          }
+  cursor: pointer;
+  //box-shadow: $shadow;
 
-          figcaption {
-            bottom: 0;
-            position: absolute;
-            transform: translateY(148px);
-            box-sizing: content-box;
-            width: calc(100% - 40px);
-            height: 88px;
-            padding: 15px 20px;
-            justify-content: space-between;
-            align-items: center;
-            background: #161616;
-            border-radius: 0px;
-            transition: 300ms ease;
+  &:hover {
+    //filter: brightness(0.8);
+    //transform: scale(1.04);
+    background-position: 50% -48px;
 
-            //opacity: 0;
-            //backdrop-filter: $blur;
-            //border-top: $bordered;
-            //transition: transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
-            .info {
-              width: 100%;
-              color: rgba(white, 0.6);
+    figcaption {
+      //opacity: 1;
+      transform: translateY(0px);
+    }
 
-              h3 {
-                color: white !important;
-                margin: 0px;
-                font-size: 14px;
-                letter-spacing: 1px;
-                margin-bottom: 8px;
-              }
+    .shade {
+      opacity: 0.4;
+    }
+  }
 
-              span {
-                color: rgba(white, 0.4);
-                font-size: 12px;
-              }
-            }
-          }
-        }
-      </style>
+  figcaption {
+    bottom: 0;
+    position: absolute;
+    transform: translateY(148px);
+    box-sizing: content-box;
+    width: calc(100% - 40px);
+    height: 88px;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+    border-radius: 0px;
+    transition: 300ms ease;
+
+    //opacity: 0;
+    //backdrop-filter: $blur;
+    //border-top: $bordered;
+    //transition: transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
+    .info {
+      width: 100%;
+      color: rgba(white, 0.6);
+
+      h3 {
+        color: white !important;
+        margin: 0px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+      }
+
+      span {
+        color: rgba(white, 0.4);
+        font-size: 12px;
+      }
+    }
+  }
+}
+</style>
