@@ -16,6 +16,17 @@ export default {
       projects: [
         // ----------------- WEB -----------------
         {
+          title: 'GSAP Studio',
+          category: 'Web',
+          description: 'Collaborative AI animation tool',
+          stack: ['NextJS', 'InstantDB'],
+          thumb: require('@/content/UX/gsapstudio/img.gif'),
+          content: {
+            link: 'https://gsap-editor-web.vercel.app/editor',
+          },
+          newtab: true,
+        },
+        {
           title: 'CodeHQ',
           category: 'Web',
           description: 'Project-scoped agentic knowledge graph',
@@ -23,17 +34,6 @@ export default {
           thumb: require('@/content/UX/code-hq/video.gif'),
           content: {
             link: 'https://www.npmjs.com/package/code-hq',
-          },
-          newtab: true,
-        },
-        {
-          title: 'GSAP Studio',
-          category: 'Web',
-          description: 'Collaborative animation tool',
-          stack: ['NextJS', 'InstantDB'],
-          thumb: require('@/content/UX/gsapstudio/img.gif'),
-          content: {
-            link: 'https://gsap-editor-web.vercel.app/editor',
           },
           newtab: true,
         },
