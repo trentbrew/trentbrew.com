@@ -19,7 +19,7 @@ export default {
           title: 'GSAP Studio',
           category: 'Web',
           description: 'Collaborative AI animation tool',
-          stack: ['NextJS', 'InstantDB'],
+          stack: ['NextJS', 'InstantDB', 'OpenAI'],
           thumb: require('@/content/UX/gsapstudio/img.gif'),
           content: {
             link: 'https://gsap-editor-web.vercel.app/editor',
