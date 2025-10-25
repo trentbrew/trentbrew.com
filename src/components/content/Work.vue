@@ -16,6 +16,17 @@ export default {
       projects: [
         // ----------------- WEB -----------------
         {
+          title: 'CodeHQ',
+          category: 'Web',
+          description: 'Project-scoped agentic knowledge graph',
+          stack: ['React', 'OpenAI'],
+          thumb: require('@/content/UX/code-hq/video.gif'),
+          content: {
+            link: 'https://www.npmjs.com/package/code-hq',
+          },
+          newtab: true,
+        },
+        {
           title: 'GSAP Studio',
           category: 'Web',
           description: 'Collaborative animation tool',
@@ -26,17 +37,6 @@ export default {
           },
           newtab: true,
         },
-        // {
-        //   title: 'Turtle Chat',
-        //   category: 'Web',
-        //   description: 'Custom agent builder powered by OpenAI agents API',
-        //   stack: ['NextJS', 'InstantDB', 'OpenAI'],
-        //   thumb: require('@/content/UX/amorphous/1.gif'),
-        //   content: {
-        //     link: 'https://gsapstudio.brew.build',
-        //   },
-        //   newtab: true,
-        // },
         {
           title: 'Amorphous',
           category: 'Web',
