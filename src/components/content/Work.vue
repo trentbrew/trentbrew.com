@@ -100,7 +100,7 @@
             dims: '1100x650',
           },
 
-          {
+          /*{
             title: 'AI DJ',
             description: 'Music discovery powered by AI',
             stack: ['HTML5', 'Node', 'Express', 'Gemini'],
@@ -109,7 +109,7 @@
             content: { embed: 'https://dj-gemini.vercel.app' },
             center: true,
             dims: '1100x650',
-          },
+          },*/
           {
             title: 'Drummerboi',
             description: 'Tap to make music',
@@ -122,16 +122,16 @@
             newtab: true,
           },
 
-          {
-            title: 'Google Drive Downloader',
-            category: 'Web',
-            description: 'Convert Google Drive links for direct download',
-            stack: ['Vue'],
-            thumb: require('@/content/UX/downloadify/downloadify.gif'),
-            content: { embed: 'https://gumbo-widgets.vercel.app/googledrive' },
-            center: true,
-            dims: '1100x650',
-          },
+          // {
+          //   title: 'Google Drive Downloader',
+          //   category: 'Web',
+          //   description: 'Convert Google Drive links for direct download',
+          //   stack: ['Vue'],
+          //   thumb: require('@/content/UX/downloadify/downloadify.gif'),
+          //   content: { embed: 'https://gumbo-widgets.vercel.app/googledrive' },
+          //   center: true,
+          //   dims: '1100x650',
+          // },
 
           {
             title: 'Fancy Forms',
