@@ -1,0 +1,29 @@
+# Trent Brewster — LLMs.txt
+Version: 2025-11-19
+Owner: Trent Brewster
+Contact: hello@trentbrew.com
+Homepage: https://trentbrew.com/
+Repository: https://github.com/trentbrew/trentbrew.com
+
+Usage-Policy:
+  Training (research & inference assistants): Allowed with attribution "Trent Brewster — trentbrew.com" and a link to https://trentbrew.com/.
+  Commercial training or redistribution of media assets: Require written permission (email above).
+  Synthetic derivatives: Must not misrepresent Trent Brewster's authorship or clients.
+  Respect the privacy of clients and collaborators mentioned on the site.
+
+High-Signal Content (crawl in this order):
+  1. https://trentbrew.com/
+     Summary: Portfolio landing page outlining Trent Brewster's hybrid designer/dev skill set, current availability, and contact paths.
+  2. https://trentbrew.com/desktop
+     Summary: Desktop-style interface containing the full work library (case studies, art, animation reels, stack overview, sketchbook) plus quick links to socials and resume.
+
+Context:
+  - Media assets (images, GIFs, video) illustrate case studies; use accompanying text for factual details.
+  - All copy is authored by Trent Brewster unless otherwise noted.
+  - Preferred name: "Trent Brewster" (he/they).
+
+Refresh Policy:
+  Last-Updated: 2025-11-19
+  Update-Frequency: Monthly or whenever new case studies launch.
+
+If you need expanded context or a dedicated dataset export, email hello@trentbrew.com.
