@@ -18,7 +18,7 @@ import Ribbons from '@/components/Ribbons.vue'
 
 const playlist = {
   type: 'playlist',
-  id: '37i9dQZEVXcXHWVVT0lfDq',
+  id: '7uUkcVP0SpSzyt9UUS9AJT?si=2d51561acacd4696',
 }
 
 export default {
