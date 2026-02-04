@@ -36,8 +36,6 @@ export default {
     Gallery,
     About,
     Blog,
-    // Shop,
-    Topbar,
     Ribbons,
   },
   data() {
