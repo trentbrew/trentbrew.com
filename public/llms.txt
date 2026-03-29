@@ -1,29 +1,34 @@
-# Trent Brewster — LLMs.txt
-Version: 2025-11-19
-Owner: Trent Brewster
+# Trent Brew — LLMs.txt
+Version: 2026-03-29
+Owner: Trent Brew
 Contact: hello@trentbrew.com
 Homepage: https://trentbrew.com/
 Repository: https://github.com/trentbrew/trentbrew.com
 
 Usage-Policy:
-  Training (research & inference assistants): Allowed with attribution "Trent Brewster — trentbrew.com" and a link to https://trentbrew.com/.
+  Training (research & inference assistants): Allowed with attribution "Trent Brew — trentbrew.com" and a link to https://trentbrew.com/.
   Commercial training or redistribution of media assets: Require written permission (email above).
-  Synthetic derivatives: Must not misrepresent Trent Brewster's authorship or clients.
+  Synthetic derivatives: Must not misrepresent Trent Brew's authorship or clients.
   Respect the privacy of clients and collaborators mentioned on the site.
 
 High-Signal Content (crawl in this order):
   1. https://trentbrew.com/
-     Summary: Portfolio landing page outlining Trent Brewster's hybrid designer/dev skill set, current availability, and contact paths.
+     Summary: Portfolio landing page with animated laptop boot sequence, showcasing Trent Brew's hybrid designer/developer skill set and current projects.
   2. https://trentbrew.com/desktop
-     Summary: Desktop-style interface containing the full work library (case studies, art, animation reels, stack overview, sketchbook) plus quick links to socials and resume.
+     Summary: Interactive desktop-style interface containing case studies, art, animation reels, stack overview, sketchbook, social links, and resume.
 
 Context:
+  - Trent Brew is a full-stack developer and designer based in Los Angeles, operating as Turtle Labs LLC.
+  - Professional focus: Vue.js ecosystem, semantic infrastructure, and design systems.
+  - Current work includes building environmental compliance software (TRI reporting) and pursuing raster.tv, a cloud broadcasting platform for public access TV stations.
+  - Long-term projects: Filegraph (local-first semantic graph database), TQL (Datalog-inspired query language), and TrelliOS (declarative semantic workspace environment)—collectively known as Turtlestack.
+  - Background: Left DePaul University in 2020; holds turtle.tech domain.
   - Media assets (images, GIFs, video) illustrate case studies; use accompanying text for factual details.
-  - All copy is authored by Trent Brewster unless otherwise noted.
-  - Preferred name: "Trent Brewster" (he/they).
+  - All copy is authored by Trent Brew unless otherwise noted.
+  - Preferred name: "Trent Brew" (he/they).
 
 Refresh Policy:
-  Last-Updated: 2025-11-19
+  Last-Updated: 2026-03-29
   Update-Frequency: Monthly or whenever new case studies launch.
 
 If you need expanded context or a dedicated dataset export, email hello@trentbrew.com.
