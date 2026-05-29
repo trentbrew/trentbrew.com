@@ -107,9 +107,11 @@ export default {
         },
         {
           icon: 'mail.svg',
-          label: 'Mail',
-          link: 'mailto:hello@trentbrew.com',
-          newtab: true,
+          label: 'Book a call',
+          embed: 'https://cal.com/trent-brew-qvjrye?embed=true',
+          windowWidth: 500,
+          windowHeight: 500,
+          center: true,
         },
       ],
     }
