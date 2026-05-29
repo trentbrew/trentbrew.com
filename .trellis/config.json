@@ -1,0 +1,32 @@
+{
+  "rootPath": "/Users/trentbrew/TURTLE/Projects/Websites/trentbrew.com/app/client-vue",
+  "ignorePatterns": [
+    "node_modules",
+    ".git",
+    ".trellis",
+    "dist",
+    "build",
+    ".DS_Store",
+    "*.log",
+    "/dist",
+    ".env",
+    ".env.local",
+    ".env.*.local",
+    "npm-debug.log*",
+    "yarn-debug.log*",
+    "yarn-error.log*",
+    "pnpm-debug.log*",
+    ".idea",
+    ".vscode",
+    "*.suo",
+    "*.ntvs*",
+    "*.njsproj",
+    "*.sln",
+    "*.sw?",
+    ".notes"
+  ],
+  "debounceMs": 300,
+  "defaultBranch": "main",
+  "agentId": "agent:trentbrew",
+  "createdAt": "2026-04-15T05:19:47.830Z"
+}

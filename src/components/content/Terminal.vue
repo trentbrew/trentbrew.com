@@ -14,7 +14,7 @@
     <vue-typer :text="[
       `Hi!`,
       `My name's Trent`,
-      `I'm a Design Engineer based in LA`,
+      `I'm a Design Engineer based in SF`,
       `Welcome to my website ^-^`,
       `Feel free to click around & explore my work...`,
     ]" :repeat="0" :shuffle="false" initial-action="typing" :pre-type-delay="600" :type-delay="75"
@@ -34,7 +34,7 @@
   }
 
   .vue-typer {
-    font-family: monospace;
+    font-family: $primary-font, $fallback-font;
     font-size: 16px;
 
     &::before {
