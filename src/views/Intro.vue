@@ -32,6 +32,7 @@
       isMobile: () => window.innerWidth <= 600,
     },
     mounted() {
+      window.location.replace('https://static-tan-nine.vercel.app/')
       if (this.isMobile) {
         window.open('https://api.trentbrew.com/cv-framer', '_self') // open CV on mobile
       }
