@@ -10736,5 +10736,2989 @@
       ]
     },
     "hash": "trellis:op:497c3637c9e12d5ae3afd3e3e7db359c37daad66b20d481bbe8889910e1841ea"
+  },
+  {
+    "kind": "vcs:fileAdd",
+    "timestamp": "2026-06-13T11:20:49.448Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:497c3637c9e12d5ae3afd3e3e7db359c37daad66b20d481bbe8889910e1841ea",
+    "vcs": {
+      "filePath": "pnpm-lock.yaml",
+      "contentHash": "001f1440a401a9d5169a3d1b99ca91e657a010afd98ebaddfcb6650aa667d726",
+      "size": 360633,
+      "language": "yaml"
+    },
+    "hash": "trellis:op:49a1659f621d7361a588e93f4f08d78c3baf89ce6439baf5d5923cf10b92af27"
+  },
+  {
+    "kind": "vcs:branchAdvance",
+    "timestamp": "2026-06-13T11:20:49.451Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:49a1659f621d7361a588e93f4f08d78c3baf89ce6439baf5d5923cf10b92af27",
+    "vcs": {
+      "branchName": "main",
+      "targetOpHash": "trellis:op:49a1659f621d7361a588e93f4f08d78c3baf89ce6439baf5d5923cf10b92af27"
+    },
+    "hash": "trellis:op:4b1780b9fd76537e3ecf84ee7f98dab191ca1cc49a4c304109e967fcd76bcbc9"
+  },
+  {
+    "kind": "vcs:fileAdd",
+    "timestamp": "2026-06-13T11:20:49.454Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:49a1659f621d7361a588e93f4f08d78c3baf89ce6439baf5d5923cf10b92af27",
+    "vcs": {
+      "filePath": "justfile",
+      "contentHash": "0a6af7c6f8f36bce12df321608183fab0ba60b62852b51b13ef3b0382e6de26d",
+      "size": 21
+    },
+    "hash": "trellis:op:f4d2a53cfa25f502dc5e95be5f8aa630d73cb5612135203a59a29c23ee1344f8"
+  },
+  {
+    "kind": "vcs:branchAdvance",
+    "timestamp": "2026-06-13T11:20:49.457Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:f4d2a53cfa25f502dc5e95be5f8aa630d73cb5612135203a59a29c23ee1344f8",
+    "vcs": {
+      "branchName": "main",
+      "targetOpHash": "trellis:op:f4d2a53cfa25f502dc5e95be5f8aa630d73cb5612135203a59a29c23ee1344f8"
+    },
+    "hash": "trellis:op:7beeee48ff085c2a2e73533e54309f4145e3b1b03bc6a467b1b0c91146a7120a"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.004Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:7beeee48ff085c2a2e73533e54309f4145e3b1b03bc6a467b1b0c91146a7120a",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:heart",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:heart",
+          "a": "key",
+          "v": "heart"
+        },
+        {
+          "e": "icon:heart",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:heart",
+          "a": "catalogRef",
+          "v": "lucide:heart"
+        },
+        {
+          "e": "icon:heart",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.004Z"
+        },
+        {
+          "e": "icon:heart",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:75f255ac5ef753017621408518dbf0e2f2fd2d0c6d851d0e90a5426de7004517"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.008Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:75f255ac5ef753017621408518dbf0e2f2fd2d0c6d851d0e90a5426de7004517",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:heart"
+        }
+      ]
+    },
+    "hash": "trellis:op:c38e8f7dccb6b611c903092661946b2561ed372b823ab6ad788811a5f2020df1"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.011Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:c38e8f7dccb6b611c903092661946b2561ed372b823ab6ad788811a5f2020df1",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:star",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:star",
+          "a": "key",
+          "v": "star"
+        },
+        {
+          "e": "icon:star",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:star",
+          "a": "catalogRef",
+          "v": "lucide:star"
+        },
+        {
+          "e": "icon:star",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.010Z"
+        },
+        {
+          "e": "icon:star",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:270788fc88d7211803ada402b07f2786cb06bdb4fdb4aa88e7a283a82b83f73e"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.012Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:270788fc88d7211803ada402b07f2786cb06bdb4fdb4aa88e7a283a82b83f73e",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:star"
+        }
+      ]
+    },
+    "hash": "trellis:op:fde3f2414e7457f678133b5e0a175a423dbbc3fec82973eeea13d827f935e147"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.015Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:fde3f2414e7457f678133b5e0a175a423dbbc3fec82973eeea13d827f935e147",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:home",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:home",
+          "a": "key",
+          "v": "home"
+        },
+        {
+          "e": "icon:home",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:home",
+          "a": "catalogRef",
+          "v": "lucide:home"
+        },
+        {
+          "e": "icon:home",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.015Z"
+        }
+      ]
+    },
+    "hash": "trellis:op:b5440cd1e66cd1db58acb7cdd7bc5a977e88ead677d73684dc2eb48d6beca6f3"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.017Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:b5440cd1e66cd1db58acb7cdd7bc5a977e88ead677d73684dc2eb48d6beca6f3",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:home"
+        }
+      ]
+    },
+    "hash": "trellis:op:7dfac6f94a29fadd4e7bf139feeb6a3f7ce8c82e331b9aca25391a31cba65f18"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.019Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:7dfac6f94a29fadd4e7bf139feeb6a3f7ce8c82e331b9aca25391a31cba65f18",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:user",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:user",
+          "a": "key",
+          "v": "user"
+        },
+        {
+          "e": "icon:user",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:user",
+          "a": "catalogRef",
+          "v": "lucide:user"
+        },
+        {
+          "e": "icon:user",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.019Z"
+        },
+        {
+          "e": "icon:user",
+          "a": "category",
+          "v": "Users"
+        }
+      ]
+    },
+    "hash": "trellis:op:4a12ef8884ea89ce3142a1b5a616e1060692c21219af9b6fdf94ac35983b47af"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.021Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:4a12ef8884ea89ce3142a1b5a616e1060692c21219af9b6fdf94ac35983b47af",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:user"
+        }
+      ]
+    },
+    "hash": "trellis:op:af82695359157474443db37cf64df05d769e9b7928161e1adebb447d4f2e8f93"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.024Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:af82695359157474443db37cf64df05d769e9b7928161e1adebb447d4f2e8f93",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:settings",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:settings",
+          "a": "key",
+          "v": "settings"
+        },
+        {
+          "e": "icon:settings",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:settings",
+          "a": "catalogRef",
+          "v": "lucide:settings"
+        },
+        {
+          "e": "icon:settings",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.024Z"
+        },
+        {
+          "e": "icon:settings",
+          "a": "category",
+          "v": "UI"
+        }
+      ]
+    },
+    "hash": "trellis:op:d88bdd3d17585f63d922ae1413e9ded5e2c6ce1774a0d316329ec4929da14a3f"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.026Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:d88bdd3d17585f63d922ae1413e9ded5e2c6ce1774a0d316329ec4929da14a3f",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:settings"
+        }
+      ]
+    },
+    "hash": "trellis:op:ed8aa071d26d916e0c963b843e570b2513166f04fe07e0172cf00e07ea8149b3"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.028Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:ed8aa071d26d916e0c963b843e570b2513166f04fe07e0172cf00e07ea8149b3",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:search",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:search",
+          "a": "key",
+          "v": "search"
+        },
+        {
+          "e": "icon:search",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:search",
+          "a": "catalogRef",
+          "v": "lucide:search"
+        },
+        {
+          "e": "icon:search",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.028Z"
+        },
+        {
+          "e": "icon:search",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:8c76b0072abe483076c155638fc8106e507dce051a55f6f8f5912e00858cbd78"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.030Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:8c76b0072abe483076c155638fc8106e507dce051a55f6f8f5912e00858cbd78",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:search"
+        }
+      ]
+    },
+    "hash": "trellis:op:f6b2070d5e9ecbf449f5d0ecf763e9c9a7d21f0ca15dc5332c5bd279f8c99cfb"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.033Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:f6b2070d5e9ecbf449f5d0ecf763e9c9a7d21f0ca15dc5332c5bd279f8c99cfb",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:mail",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:mail",
+          "a": "key",
+          "v": "mail"
+        },
+        {
+          "e": "icon:mail",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:mail",
+          "a": "catalogRef",
+          "v": "lucide:mail"
+        },
+        {
+          "e": "icon:mail",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.033Z"
+        },
+        {
+          "e": "icon:mail",
+          "a": "category",
+          "v": "Communication"
+        }
+      ]
+    },
+    "hash": "trellis:op:253ff5793d22b1ce89928a1d0b385eb9dd20946465b83e48e71dd76cbe1ebb5a"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.035Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:253ff5793d22b1ce89928a1d0b385eb9dd20946465b83e48e71dd76cbe1ebb5a",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:mail"
+        }
+      ]
+    },
+    "hash": "trellis:op:db0504dac191bb38c36224f6b33ba205a3a057ebd8b250c542c9bb46229ca114"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.038Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:db0504dac191bb38c36224f6b33ba205a3a057ebd8b250c542c9bb46229ca114",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:phone",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:phone",
+          "a": "key",
+          "v": "phone"
+        },
+        {
+          "e": "icon:phone",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:phone",
+          "a": "catalogRef",
+          "v": "lucide:phone"
+        },
+        {
+          "e": "icon:phone",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.038Z"
+        },
+        {
+          "e": "icon:phone",
+          "a": "category",
+          "v": "Communication"
+        }
+      ]
+    },
+    "hash": "trellis:op:4686e0fd437ba90092f5b2e7c1b0b85f105aee0f3685ae1e2ceb8fa45e507b60"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.040Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:4686e0fd437ba90092f5b2e7c1b0b85f105aee0f3685ae1e2ceb8fa45e507b60",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:phone"
+        }
+      ]
+    },
+    "hash": "trellis:op:638810488c07950012916a0551f727104e25f008efd02f85cc98261ed50dcc22"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.043Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:638810488c07950012916a0551f727104e25f008efd02f85cc98261ed50dcc22",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:calendar",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:calendar",
+          "a": "key",
+          "v": "calendar"
+        },
+        {
+          "e": "icon:calendar",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:calendar",
+          "a": "catalogRef",
+          "v": "lucide:calendar"
+        },
+        {
+          "e": "icon:calendar",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.043Z"
+        },
+        {
+          "e": "icon:calendar",
+          "a": "category",
+          "v": "Time"
+        }
+      ]
+    },
+    "hash": "trellis:op:f55e1e2477daaaba80627e80c16bec03cdffaf71a28c073fc91fce36e25a3fc8"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.045Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:f55e1e2477daaaba80627e80c16bec03cdffaf71a28c073fc91fce36e25a3fc8",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:calendar"
+        }
+      ]
+    },
+    "hash": "trellis:op:35daeabaa3d0612ed9f566298b40ad1247f177e028a8075d3c2459efbe0d3f98"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.048Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:35daeabaa3d0612ed9f566298b40ad1247f177e028a8075d3c2459efbe0d3f98",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:clock",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:clock",
+          "a": "key",
+          "v": "clock"
+        },
+        {
+          "e": "icon:clock",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:clock",
+          "a": "catalogRef",
+          "v": "lucide:clock"
+        },
+        {
+          "e": "icon:clock",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.048Z"
+        },
+        {
+          "e": "icon:clock",
+          "a": "category",
+          "v": "Time"
+        }
+      ]
+    },
+    "hash": "trellis:op:03b4a1ea573592467446995269349f60a32ca7ca2a7b21b1b55f5818f356225f"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.050Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:03b4a1ea573592467446995269349f60a32ca7ca2a7b21b1b55f5818f356225f",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:clock"
+        }
+      ]
+    },
+    "hash": "trellis:op:4fb19d2687ddfb12cb6f41616a5acfabcb040eab82953f549a30dc79935096cd"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.053Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:4fb19d2687ddfb12cb6f41616a5acfabcb040eab82953f549a30dc79935096cd",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:check",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:check",
+          "a": "key",
+          "v": "check"
+        },
+        {
+          "e": "icon:check",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:check",
+          "a": "catalogRef",
+          "v": "lucide:check"
+        },
+        {
+          "e": "icon:check",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.052Z"
+        },
+        {
+          "e": "icon:check",
+          "a": "category",
+          "v": "UI"
+        }
+      ]
+    },
+    "hash": "trellis:op:c35938953420287e3c722273d0eaf2629e7315cf0b93c71fca4d92c75af4fe49"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.054Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:c35938953420287e3c722273d0eaf2629e7315cf0b93c71fca4d92c75af4fe49",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:check"
+        }
+      ]
+    },
+    "hash": "trellis:op:f38617c05836d4bba01c1e46060dddcaa85d1bdcffd95dba2b477a53d9ae2702"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.057Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:f38617c05836d4bba01c1e46060dddcaa85d1bdcffd95dba2b477a53d9ae2702",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:x",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:x",
+          "a": "key",
+          "v": "x"
+        },
+        {
+          "e": "icon:x",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:x",
+          "a": "catalogRef",
+          "v": "lucide:x"
+        },
+        {
+          "e": "icon:x",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.057Z"
+        },
+        {
+          "e": "icon:x",
+          "a": "category",
+          "v": "UI"
+        }
+      ]
+    },
+    "hash": "trellis:op:43d7ca65de23bcb22b963d2934b84de8198b6cbb027d47f89a3c585f6cae5b09"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.059Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:43d7ca65de23bcb22b963d2934b84de8198b6cbb027d47f89a3c585f6cae5b09",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:x"
+        }
+      ]
+    },
+    "hash": "trellis:op:5def0afb6d4f3795822c5bb4f9fc7bac2a3b6fb0779596ac295e30123e20b063"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.063Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:5def0afb6d4f3795822c5bb4f9fc7bac2a3b6fb0779596ac295e30123e20b063",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:plus",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:plus",
+          "a": "key",
+          "v": "plus"
+        },
+        {
+          "e": "icon:plus",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:plus",
+          "a": "catalogRef",
+          "v": "lucide:plus"
+        },
+        {
+          "e": "icon:plus",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.063Z"
+        },
+        {
+          "e": "icon:plus",
+          "a": "category",
+          "v": "UI"
+        }
+      ]
+    },
+    "hash": "trellis:op:8ca8fea6f426c655fffe1aab81009106bcbf33387e54506ffdb160536508db8e"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.066Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:8ca8fea6f426c655fffe1aab81009106bcbf33387e54506ffdb160536508db8e",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:plus"
+        }
+      ]
+    },
+    "hash": "trellis:op:d92c6176d5ac4dea7154a03debeba60c4699b2c3b6f0b742bdca47a9cb31592e"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.071Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:d92c6176d5ac4dea7154a03debeba60c4699b2c3b6f0b742bdca47a9cb31592e",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:minus",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:minus",
+          "a": "key",
+          "v": "minus"
+        },
+        {
+          "e": "icon:minus",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:minus",
+          "a": "catalogRef",
+          "v": "lucide:minus"
+        },
+        {
+          "e": "icon:minus",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.071Z"
+        },
+        {
+          "e": "icon:minus",
+          "a": "category",
+          "v": "UI"
+        }
+      ]
+    },
+    "hash": "trellis:op:53a35687de116409eef04592765505a2e7ca4912b4237cc390ae5ec9871fa3bb"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.073Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:53a35687de116409eef04592765505a2e7ca4912b4237cc390ae5ec9871fa3bb",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:minus"
+        }
+      ]
+    },
+    "hash": "trellis:op:f32fa7171e7f48f142691dec024bc2fb8e44d1723d348237cbd748e42212fe2d"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.077Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:f32fa7171e7f48f142691dec024bc2fb8e44d1723d348237cbd748e42212fe2d",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:arrow-right",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:arrow-right",
+          "a": "key",
+          "v": "arrow-right"
+        },
+        {
+          "e": "icon:arrow-right",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:arrow-right",
+          "a": "catalogRef",
+          "v": "lucide:arrow-right"
+        },
+        {
+          "e": "icon:arrow-right",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.077Z"
+        },
+        {
+          "e": "icon:arrow-right",
+          "a": "category",
+          "v": "Arrows"
+        }
+      ]
+    },
+    "hash": "trellis:op:298f10dfd81185cf12180bd62428717b3708f5830881f935b535bb9c0e849f42"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.079Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:298f10dfd81185cf12180bd62428717b3708f5830881f935b535bb9c0e849f42",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:arrow-right"
+        }
+      ]
+    },
+    "hash": "trellis:op:fe8381d7ab2a69cc2fdd86e46db7feae8c66dd9e8e746110ab05f84d9b10f74f"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.083Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:fe8381d7ab2a69cc2fdd86e46db7feae8c66dd9e8e746110ab05f84d9b10f74f",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:arrow-left",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:arrow-left",
+          "a": "key",
+          "v": "arrow-left"
+        },
+        {
+          "e": "icon:arrow-left",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:arrow-left",
+          "a": "catalogRef",
+          "v": "lucide:arrow-left"
+        },
+        {
+          "e": "icon:arrow-left",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.083Z"
+        },
+        {
+          "e": "icon:arrow-left",
+          "a": "category",
+          "v": "Arrows"
+        }
+      ]
+    },
+    "hash": "trellis:op:a83565889ce738b8b16462422ba5e612df58f781b5e4f3b39180b5a550567216"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.085Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:a83565889ce738b8b16462422ba5e612df58f781b5e4f3b39180b5a550567216",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:arrow-left"
+        }
+      ]
+    },
+    "hash": "trellis:op:eababfb6827cd6611f40eba017a47ba6cab5fcc9691090312d6cf1482e38e619"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.090Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:eababfb6827cd6611f40eba017a47ba6cab5fcc9691090312d6cf1482e38e619",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:chevron-down",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:chevron-down",
+          "a": "key",
+          "v": "chevron-down"
+        },
+        {
+          "e": "icon:chevron-down",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:chevron-down",
+          "a": "catalogRef",
+          "v": "lucide:chevron-down"
+        },
+        {
+          "e": "icon:chevron-down",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.090Z"
+        },
+        {
+          "e": "icon:chevron-down",
+          "a": "category",
+          "v": "Arrows"
+        }
+      ]
+    },
+    "hash": "trellis:op:187902078d3997649315710b274ea0a5e7530d3135115d62a8f88e7bcd610f88"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.093Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:187902078d3997649315710b274ea0a5e7530d3135115d62a8f88e7bcd610f88",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:chevron-down"
+        }
+      ]
+    },
+    "hash": "trellis:op:ab8ba8c2505041990db241641c26791acba73e7148647ecd7faa1f1b15e7a190"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.097Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:ab8ba8c2505041990db241641c26791acba73e7148647ecd7faa1f1b15e7a190",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:menu",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:menu",
+          "a": "key",
+          "v": "menu"
+        },
+        {
+          "e": "icon:menu",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:menu",
+          "a": "catalogRef",
+          "v": "lucide:menu"
+        },
+        {
+          "e": "icon:menu",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.097Z"
+        },
+        {
+          "e": "icon:menu",
+          "a": "category",
+          "v": "UI"
+        }
+      ]
+    },
+    "hash": "trellis:op:3af44216480cfb226c65b284a454c0ea568400007e096b3302881820cdb73dca"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.099Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:3af44216480cfb226c65b284a454c0ea568400007e096b3302881820cdb73dca",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:menu"
+        }
+      ]
+    },
+    "hash": "trellis:op:6223c3ce9bdee2e43f64e9734b53dbc6604e6ff4aaa27fa5564d2291e2e7ace0"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.104Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:6223c3ce9bdee2e43f64e9734b53dbc6604e6ff4aaa27fa5564d2291e2e7ace0",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:image",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:image",
+          "a": "key",
+          "v": "image"
+        },
+        {
+          "e": "icon:image",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:image",
+          "a": "catalogRef",
+          "v": "lucide:image"
+        },
+        {
+          "e": "icon:image",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.104Z"
+        },
+        {
+          "e": "icon:image",
+          "a": "category",
+          "v": "Media"
+        }
+      ]
+    },
+    "hash": "trellis:op:c4f0d2927e08d157e38e996e82ab63dd7ab9e108af9672e44eb29a0f32f608e8"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.106Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:c4f0d2927e08d157e38e996e82ab63dd7ab9e108af9672e44eb29a0f32f608e8",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:image"
+        }
+      ]
+    },
+    "hash": "trellis:op:b05b4752d56e46d8bae01701a3e55fdeeb69391ce064ee61851bcaf2cb6714e5"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.110Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:b05b4752d56e46d8bae01701a3e55fdeeb69391ce064ee61851bcaf2cb6714e5",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:file",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:file",
+          "a": "key",
+          "v": "file"
+        },
+        {
+          "e": "icon:file",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:file",
+          "a": "catalogRef",
+          "v": "lucide:file"
+        },
+        {
+          "e": "icon:file",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.110Z"
+        },
+        {
+          "e": "icon:file",
+          "a": "category",
+          "v": "Files"
+        }
+      ]
+    },
+    "hash": "trellis:op:3b45b66ba3ec201a944c6c583a8455e364dcfd271176d32b9e0c71abf7a8b203"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.112Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:3b45b66ba3ec201a944c6c583a8455e364dcfd271176d32b9e0c71abf7a8b203",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:file"
+        }
+      ]
+    },
+    "hash": "trellis:op:89d834704bf186929c793035f9b35f61124cd78b04d62f421c20524ea7f955c8"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.116Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:89d834704bf186929c793035f9b35f61124cd78b04d62f421c20524ea7f955c8",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:folder",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:folder",
+          "a": "key",
+          "v": "folder"
+        },
+        {
+          "e": "icon:folder",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:folder",
+          "a": "catalogRef",
+          "v": "lucide:folder"
+        },
+        {
+          "e": "icon:folder",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.116Z"
+        },
+        {
+          "e": "icon:folder",
+          "a": "category",
+          "v": "Files"
+        }
+      ]
+    },
+    "hash": "trellis:op:b71a01b5a0d26b9458bb53f58113ea2273723104f30b4842925f212494249cda"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.118Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:b71a01b5a0d26b9458bb53f58113ea2273723104f30b4842925f212494249cda",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:folder"
+        }
+      ]
+    },
+    "hash": "trellis:op:a6068bedf37b8a613a03d68e87e16ef2d46140c558af5121d2fa986ba9625f22"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.124Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:a6068bedf37b8a613a03d68e87e16ef2d46140c558af5121d2fa986ba9625f22",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:link",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:link",
+          "a": "key",
+          "v": "link"
+        },
+        {
+          "e": "icon:link",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:link",
+          "a": "catalogRef",
+          "v": "lucide:link"
+        },
+        {
+          "e": "icon:link",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.124Z"
+        },
+        {
+          "e": "icon:link",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:d0a6642d2dfe89ace492880e52c472926545885bc44bc92fff57341996546b49"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.126Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:d0a6642d2dfe89ace492880e52c472926545885bc44bc92fff57341996546b49",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:link"
+        }
+      ]
+    },
+    "hash": "trellis:op:6ce1dfe35f435ff5d8d2e42b2884eae934fd161cbe138df011656de9a4d3d6bd"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.130Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:6ce1dfe35f435ff5d8d2e42b2884eae934fd161cbe138df011656de9a4d3d6bd",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:globe",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:globe",
+          "a": "key",
+          "v": "globe"
+        },
+        {
+          "e": "icon:globe",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:globe",
+          "a": "catalogRef",
+          "v": "lucide:globe"
+        },
+        {
+          "e": "icon:globe",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.130Z"
+        },
+        {
+          "e": "icon:globe",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:6931693c3e46bb494997c78715ff65f93939958d72bff266c3de1fc48711dcfa"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.132Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:6931693c3e46bb494997c78715ff65f93939958d72bff266c3de1fc48711dcfa",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:globe"
+        }
+      ]
+    },
+    "hash": "trellis:op:d51c321adbe775a0e2ef5d2637eb7aa03095dff0c8a34496c004735ab3eb1020"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.137Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:d51c321adbe775a0e2ef5d2637eb7aa03095dff0c8a34496c004735ab3eb1020",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:sun",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:sun",
+          "a": "key",
+          "v": "sun"
+        },
+        {
+          "e": "icon:sun",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:sun",
+          "a": "catalogRef",
+          "v": "lucide:sun"
+        },
+        {
+          "e": "icon:sun",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.137Z"
+        },
+        {
+          "e": "icon:sun",
+          "a": "category",
+          "v": "Nature"
+        }
+      ]
+    },
+    "hash": "trellis:op:7d9e682c91eb836ae9d9ee8c1c394dd51a05c77826e1268e00414bc00d1bfca0"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.139Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:7d9e682c91eb836ae9d9ee8c1c394dd51a05c77826e1268e00414bc00d1bfca0",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:sun"
+        }
+      ]
+    },
+    "hash": "trellis:op:e6fe9655f083753083668b803e86fd08a3655d9f4b4a49ac813fc79629840d57"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.144Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:e6fe9655f083753083668b803e86fd08a3655d9f4b4a49ac813fc79629840d57",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:moon",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:moon",
+          "a": "key",
+          "v": "moon"
+        },
+        {
+          "e": "icon:moon",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:moon",
+          "a": "catalogRef",
+          "v": "lucide:moon"
+        },
+        {
+          "e": "icon:moon",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.144Z"
+        },
+        {
+          "e": "icon:moon",
+          "a": "category",
+          "v": "Nature"
+        }
+      ]
+    },
+    "hash": "trellis:op:7857a5e46ea75aaeb6b312d4f007d94b2a0531671085727ab80c314ce7e3fbb6"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.146Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:7857a5e46ea75aaeb6b312d4f007d94b2a0531671085727ab80c314ce7e3fbb6",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:moon"
+        }
+      ]
+    },
+    "hash": "trellis:op:6a51299aec2c73c0cbc206ac6facc6404cfef3921484370156c424ba0ed212e9"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.152Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:6a51299aec2c73c0cbc206ac6facc6404cfef3921484370156c424ba0ed212e9",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:cloud",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:cloud",
+          "a": "key",
+          "v": "cloud"
+        },
+        {
+          "e": "icon:cloud",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:cloud",
+          "a": "catalogRef",
+          "v": "lucide:cloud"
+        },
+        {
+          "e": "icon:cloud",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.152Z"
+        },
+        {
+          "e": "icon:cloud",
+          "a": "category",
+          "v": "Nature"
+        }
+      ]
+    },
+    "hash": "trellis:op:4afa71d273840435c536f3084d821d3f5cf4a7f531473dd7de0b954e89af3605"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.154Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:4afa71d273840435c536f3084d821d3f5cf4a7f531473dd7de0b954e89af3605",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:cloud"
+        }
+      ]
+    },
+    "hash": "trellis:op:075424459aabe4ff85f4940806d4f5f030b95cc409b52e3e4fea6e3a74fe6e37"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.160Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:075424459aabe4ff85f4940806d4f5f030b95cc409b52e3e4fea6e3a74fe6e37",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:zap",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:zap",
+          "a": "key",
+          "v": "zap"
+        },
+        {
+          "e": "icon:zap",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:zap",
+          "a": "catalogRef",
+          "v": "lucide:zap"
+        },
+        {
+          "e": "icon:zap",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.160Z"
+        },
+        {
+          "e": "icon:zap",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:0fdacede275ac81d6b1a8254a8efc17f5580aa0e4446978cd9bf4f26126d7058"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.162Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:0fdacede275ac81d6b1a8254a8efc17f5580aa0e4446978cd9bf4f26126d7058",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:zap"
+        }
+      ]
+    },
+    "hash": "trellis:op:3796e91925c331b796e4df4d4db39d2962f0568a1a31b2e39c8f722c43ec94d4"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.168Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:3796e91925c331b796e4df4d4db39d2962f0568a1a31b2e39c8f722c43ec94d4",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:bell",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:bell",
+          "a": "key",
+          "v": "bell"
+        },
+        {
+          "e": "icon:bell",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:bell",
+          "a": "catalogRef",
+          "v": "lucide:bell"
+        },
+        {
+          "e": "icon:bell",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.168Z"
+        },
+        {
+          "e": "icon:bell",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:549634b74ce76f16aa93dc81a4e900e4f1312fa2f26a99a373acb095c8126c8b"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.170Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:549634b74ce76f16aa93dc81a4e900e4f1312fa2f26a99a373acb095c8126c8b",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:bell"
+        }
+      ]
+    },
+    "hash": "trellis:op:f09c59934419a8f3c52a1644ef39b1cd493f1b57eb2a5f1c4a4594e38b599511"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.175Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:f09c59934419a8f3c52a1644ef39b1cd493f1b57eb2a5f1c4a4594e38b599511",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:bookmark",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:bookmark",
+          "a": "key",
+          "v": "bookmark"
+        },
+        {
+          "e": "icon:bookmark",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:bookmark",
+          "a": "catalogRef",
+          "v": "lucide:bookmark"
+        },
+        {
+          "e": "icon:bookmark",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.175Z"
+        },
+        {
+          "e": "icon:bookmark",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:2d312bde6b0262d67cd4d0a471e65a83ffbfde84de1eca8af8aaf81e5db68322"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.178Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:2d312bde6b0262d67cd4d0a471e65a83ffbfde84de1eca8af8aaf81e5db68322",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:bookmark"
+        }
+      ]
+    },
+    "hash": "trellis:op:009c649e121a45c15ea34b1b015a50094f0d36bb5a363036552dcc2cf5d9d93c"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.183Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:009c649e121a45c15ea34b1b015a50094f0d36bb5a363036552dcc2cf5d9d93c",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:tag",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:tag",
+          "a": "key",
+          "v": "tag"
+        },
+        {
+          "e": "icon:tag",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:tag",
+          "a": "catalogRef",
+          "v": "lucide:tag"
+        },
+        {
+          "e": "icon:tag",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.183Z"
+        },
+        {
+          "e": "icon:tag",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:55444f3b899098c6e6b5d1e50d23bef0e6808cbe1ab072f0c3502382fb9c415c"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.185Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:55444f3b899098c6e6b5d1e50d23bef0e6808cbe1ab072f0c3502382fb9c415c",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:tag"
+        }
+      ]
+    },
+    "hash": "trellis:op:a3fb2fe213dfaf33e8758bfb219582f23a3a153387b0bae1a6eef4e83860f20c"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.191Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:a3fb2fe213dfaf33e8758bfb219582f23a3a153387b0bae1a6eef4e83860f20c",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:palette",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:palette",
+          "a": "key",
+          "v": "palette"
+        },
+        {
+          "e": "icon:palette",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:palette",
+          "a": "catalogRef",
+          "v": "lucide:palette"
+        },
+        {
+          "e": "icon:palette",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.191Z"
+        },
+        {
+          "e": "icon:palette",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:d30464a901c23908de8b297662063fee08fa7a185682cc78ca277321d0bdd082"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.193Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:d30464a901c23908de8b297662063fee08fa7a185682cc78ca277321d0bdd082",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:palette"
+        }
+      ]
+    },
+    "hash": "trellis:op:e0c6a0600670c0f536620e032c9d42f6e7216b4ad840bc9ab3b5ec376a3edd31"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.198Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:e0c6a0600670c0f536620e032c9d42f6e7216b4ad840bc9ab3b5ec376a3edd31",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:type",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:type",
+          "a": "key",
+          "v": "type"
+        },
+        {
+          "e": "icon:type",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:type",
+          "a": "catalogRef",
+          "v": "lucide:type"
+        },
+        {
+          "e": "icon:type",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.198Z"
+        },
+        {
+          "e": "icon:type",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:f8dc1e3f309b4082d6d096e681f289642112c712aa3ae77b1b0d8a5551593f4f"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.201Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:f8dc1e3f309b4082d6d096e681f289642112c712aa3ae77b1b0d8a5551593f4f",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:type"
+        }
+      ]
+    },
+    "hash": "trellis:op:b4bc44d0fb5847aa8fe203491d3f4a628ec9120dbc3ffbb6cbf98ddac81bd9af"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.207Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:b4bc44d0fb5847aa8fe203491d3f4a628ec9120dbc3ffbb6cbf98ddac81bd9af",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:layers",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:layers",
+          "a": "key",
+          "v": "layers"
+        },
+        {
+          "e": "icon:layers",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:layers",
+          "a": "catalogRef",
+          "v": "lucide:layers"
+        },
+        {
+          "e": "icon:layers",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.206Z"
+        },
+        {
+          "e": "icon:layers",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:0b32076e0ebecc283df0116b1d5b39882d7ed3a29235fa9c04723b390d3eb58b"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.208Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:0b32076e0ebecc283df0116b1d5b39882d7ed3a29235fa9c04723b390d3eb58b",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:layers"
+        }
+      ]
+    },
+    "hash": "trellis:op:83bbd2ff3a5590229e02d9c970f7341d46110d2c4a91afe039262d13329839ae"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.215Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:83bbd2ff3a5590229e02d9c970f7341d46110d2c4a91afe039262d13329839ae",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:sparkles",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:sparkles",
+          "a": "key",
+          "v": "sparkles"
+        },
+        {
+          "e": "icon:sparkles",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:sparkles",
+          "a": "catalogRef",
+          "v": "lucide:sparkles"
+        },
+        {
+          "e": "icon:sparkles",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.215Z"
+        },
+        {
+          "e": "icon:sparkles",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:ae6eb8338be0fe62e13f6fe8c5f0d3f45ca39e4b0bbb8fccb84a65a0f0a6973e"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.217Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:ae6eb8338be0fe62e13f6fe8c5f0d3f45ca39e4b0bbb8fccb84a65a0f0a6973e",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:sparkles"
+        }
+      ]
+    },
+    "hash": "trellis:op:aafd15b32addfc8cf794b06e6442c4ed2a727f29361990546715c79cab24677b"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.223Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:aafd15b32addfc8cf794b06e6442c4ed2a727f29361990546715c79cab24677b",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:circle-alert",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:circle-alert",
+          "a": "key",
+          "v": "circle-alert"
+        },
+        {
+          "e": "icon:circle-alert",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:circle-alert",
+          "a": "catalogRef",
+          "v": "lucide:circle-alert"
+        },
+        {
+          "e": "icon:circle-alert",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.223Z"
+        },
+        {
+          "e": "icon:circle-alert",
+          "a": "category",
+          "v": "Shapes"
+        }
+      ]
+    },
+    "hash": "trellis:op:05b1430023ffc19351ac895dc465c96230f27617fa0f96b5c11815c4e644863e"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.225Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:05b1430023ffc19351ac895dc465c96230f27617fa0f96b5c11815c4e644863e",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:circle-alert"
+        }
+      ]
+    },
+    "hash": "trellis:op:9ec59c6573ac9e96b4296377b4e1043dc98b9920527472185b2b14f3f79f27e7"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.232Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:9ec59c6573ac9e96b4296377b4e1043dc98b9920527472185b2b14f3f79f27e7",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:info",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:info",
+          "a": "key",
+          "v": "info"
+        },
+        {
+          "e": "icon:info",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:info",
+          "a": "catalogRef",
+          "v": "lucide:info"
+        },
+        {
+          "e": "icon:info",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.232Z"
+        },
+        {
+          "e": "icon:info",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:37f5df07e39ac9f7810c843cb16ed8433717b5cec640275b09280425636d0305"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.235Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:37f5df07e39ac9f7810c843cb16ed8433717b5cec640275b09280425636d0305",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:info"
+        }
+      ]
+    },
+    "hash": "trellis:op:4bb1842b28ec20980a392cabfdea4b4f4d4772a4399092378b29596a90aed797"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.242Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:4bb1842b28ec20980a392cabfdea4b4f4d4772a4399092378b29596a90aed797",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:lock",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:lock",
+          "a": "key",
+          "v": "lock"
+        },
+        {
+          "e": "icon:lock",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:lock",
+          "a": "catalogRef",
+          "v": "lucide:lock"
+        },
+        {
+          "e": "icon:lock",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.242Z"
+        },
+        {
+          "e": "icon:lock",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:05799fd586295a795be99161e400b1a05b60b79140bd563d01ab2cff46eecd11"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.244Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:05799fd586295a795be99161e400b1a05b60b79140bd563d01ab2cff46eecd11",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:lock"
+        }
+      ]
+    },
+    "hash": "trellis:op:02e5671c60c9049689e948f184183c61580dec79175e2a5840a137a5a869aa35"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.249Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:02e5671c60c9049689e948f184183c61580dec79175e2a5840a137a5a869aa35",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:unlock",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:unlock",
+          "a": "key",
+          "v": "unlock"
+        },
+        {
+          "e": "icon:unlock",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:unlock",
+          "a": "catalogRef",
+          "v": "lucide:unlock"
+        },
+        {
+          "e": "icon:unlock",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.249Z"
+        }
+      ]
+    },
+    "hash": "trellis:op:a001ab61a1a442ed1f6aa5d61fbac1cdd837d0f9dce64b489046f1bed7e86d6a"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.252Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:a001ab61a1a442ed1f6aa5d61fbac1cdd837d0f9dce64b489046f1bed7e86d6a",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:unlock"
+        }
+      ]
+    },
+    "hash": "trellis:op:877559d4353d3fc35038b9991ffeb8ba5e2b57d89f92da43dc5286667ca556bd"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.258Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:877559d4353d3fc35038b9991ffeb8ba5e2b57d89f92da43dc5286667ca556bd",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:trash-2",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:trash-2",
+          "a": "key",
+          "v": "trash-2"
+        },
+        {
+          "e": "icon:trash-2",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:trash-2",
+          "a": "catalogRef",
+          "v": "lucide:trash-2"
+        },
+        {
+          "e": "icon:trash-2",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.258Z"
+        },
+        {
+          "e": "icon:trash-2",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:b27600a47212bd1af7d452f752b56bb17fe39bd507d9152f824cdf6dd3f08f81"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.260Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:b27600a47212bd1af7d452f752b56bb17fe39bd507d9152f824cdf6dd3f08f81",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:trash-2"
+        }
+      ]
+    },
+    "hash": "trellis:op:c9bc0a47454958ec0fb8ab70c339da7927536cf9248a42687730583bba5ab152"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.267Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:c9bc0a47454958ec0fb8ab70c339da7927536cf9248a42687730583bba5ab152",
+    "vcs": {
+      "facts": [
+        {
+          "e": "icon:pencil",
+          "a": "type",
+          "v": "Icon"
+        },
+        {
+          "e": "icon:pencil",
+          "a": "key",
+          "v": "pencil"
+        },
+        {
+          "e": "icon:pencil",
+          "a": "library",
+          "v": "lucide"
+        },
+        {
+          "e": "icon:pencil",
+          "a": "catalogRef",
+          "v": "lucide:pencil"
+        },
+        {
+          "e": "icon:pencil",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.267Z"
+        },
+        {
+          "e": "icon:pencil",
+          "a": "category",
+          "v": "Other"
+        }
+      ]
+    },
+    "hash": "trellis:op:f554feb980d5240df96b66f6bc6d9811bbff88108ae3490f2bcd0d7b0cd9de49"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.269Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:f554feb980d5240df96b66f6bc6d9811bbff88108ae3490f2bcd0d7b0cd9de49",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "icon:pencil"
+        }
+      ]
+    },
+    "hash": "trellis:op:380ead32a4c9f394bc657bf43332436b0bcf5b22894aced800b3d7040d959cfd"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.271Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:380ead32a4c9f394bc657bf43332436b0bcf5b22894aced800b3d7040d959cfd",
+    "vcs": {
+      "facts": [
+        {
+          "e": "font:inter",
+          "a": "type",
+          "v": "Font"
+        },
+        {
+          "e": "font:inter",
+          "a": "family",
+          "v": "Inter"
+        },
+        {
+          "e": "font:inter",
+          "a": "variants",
+          "v": "[\"regular\",\"500\",\"600\",\"700\"]"
+        },
+        {
+          "e": "font:inter",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.271Z"
+        },
+        {
+          "e": "font:inter",
+          "a": "category",
+          "v": "sans-serif"
+        },
+        {
+          "e": "font:inter",
+          "a": "catalogRef",
+          "v": "google-fonts:Inter"
+        }
+      ]
+    },
+    "hash": "trellis:op:9a9dca9ed66f45c40c61740ec96e44c640976d7d363cf2b1ee01fe7d94fff808"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.273Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:9a9dca9ed66f45c40c61740ec96e44c640976d7d363cf2b1ee01fe7d94fff808",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "font:inter"
+        }
+      ]
+    },
+    "hash": "trellis:op:6f10645951b0ce40f57765b1c7109db4652fbc61b6f7e2b304d609581330602e"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.275Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:6f10645951b0ce40f57765b1c7109db4652fbc61b6f7e2b304d609581330602e",
+    "vcs": {
+      "facts": [
+        {
+          "e": "font:roboto",
+          "a": "type",
+          "v": "Font"
+        },
+        {
+          "e": "font:roboto",
+          "a": "family",
+          "v": "Roboto"
+        },
+        {
+          "e": "font:roboto",
+          "a": "variants",
+          "v": "[\"regular\",\"500\",\"700\"]"
+        },
+        {
+          "e": "font:roboto",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.275Z"
+        },
+        {
+          "e": "font:roboto",
+          "a": "category",
+          "v": "sans-serif"
+        },
+        {
+          "e": "font:roboto",
+          "a": "catalogRef",
+          "v": "google-fonts:Roboto"
+        }
+      ]
+    },
+    "hash": "trellis:op:3c68baea0a994afa6c73b7fa7aabee82c4d039b79dcf3656eed0c95d8c83d2dc"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.277Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:3c68baea0a994afa6c73b7fa7aabee82c4d039b79dcf3656eed0c95d8c83d2dc",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "font:roboto"
+        }
+      ]
+    },
+    "hash": "trellis:op:4fc9b0ce8c93eff16bb72b9693b3bf22b2599b42aba7c7b3ce364f8cfaf0dfae"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.280Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:4fc9b0ce8c93eff16bb72b9693b3bf22b2599b42aba7c7b3ce364f8cfaf0dfae",
+    "vcs": {
+      "facts": [
+        {
+          "e": "font:open-sans",
+          "a": "type",
+          "v": "Font"
+        },
+        {
+          "e": "font:open-sans",
+          "a": "family",
+          "v": "Open Sans"
+        },
+        {
+          "e": "font:open-sans",
+          "a": "variants",
+          "v": "[\"regular\",\"600\",\"700\"]"
+        },
+        {
+          "e": "font:open-sans",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.280Z"
+        },
+        {
+          "e": "font:open-sans",
+          "a": "category",
+          "v": "sans-serif"
+        },
+        {
+          "e": "font:open-sans",
+          "a": "catalogRef",
+          "v": "google-fonts:Open Sans"
+        }
+      ]
+    },
+    "hash": "trellis:op:8e593f2112b232ba856d1936998f8fa5ec40732867b7678baa35dccacd033d91"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.282Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:8e593f2112b232ba856d1936998f8fa5ec40732867b7678baa35dccacd033d91",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "font:open-sans"
+        }
+      ]
+    },
+    "hash": "trellis:op:16c8dff7b16f89f99d0c4f5c0ea6e6200234c6f66c9201521bbeaf18c74df192"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.284Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:16c8dff7b16f89f99d0c4f5c0ea6e6200234c6f66c9201521bbeaf18c74df192",
+    "vcs": {
+      "facts": [
+        {
+          "e": "font:lora",
+          "a": "type",
+          "v": "Font"
+        },
+        {
+          "e": "font:lora",
+          "a": "family",
+          "v": "Lora"
+        },
+        {
+          "e": "font:lora",
+          "a": "variants",
+          "v": "[\"regular\",\"600\",\"700\"]"
+        },
+        {
+          "e": "font:lora",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.284Z"
+        },
+        {
+          "e": "font:lora",
+          "a": "category",
+          "v": "serif"
+        },
+        {
+          "e": "font:lora",
+          "a": "catalogRef",
+          "v": "google-fonts:Lora"
+        }
+      ]
+    },
+    "hash": "trellis:op:e727f5c1d4fc5d746e32038d597077d291284f5d7b6bcdb635b5dee421515ad1"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.287Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:e727f5c1d4fc5d746e32038d597077d291284f5d7b6bcdb635b5dee421515ad1",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "font:lora"
+        }
+      ]
+    },
+    "hash": "trellis:op:aaacebfa68fd199ecc661ba4b39c79be96ede2be7f31108751abc509bccfb42e"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.289Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:aaacebfa68fd199ecc661ba4b39c79be96ede2be7f31108751abc509bccfb42e",
+    "vcs": {
+      "facts": [
+        {
+          "e": "font:jetbrains-mono",
+          "a": "type",
+          "v": "Font"
+        },
+        {
+          "e": "font:jetbrains-mono",
+          "a": "family",
+          "v": "JetBrains Mono"
+        },
+        {
+          "e": "font:jetbrains-mono",
+          "a": "variants",
+          "v": "[\"regular\",\"500\",\"700\"]"
+        },
+        {
+          "e": "font:jetbrains-mono",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.289Z"
+        },
+        {
+          "e": "font:jetbrains-mono",
+          "a": "category",
+          "v": "monospace"
+        },
+        {
+          "e": "font:jetbrains-mono",
+          "a": "catalogRef",
+          "v": "google-fonts:JetBrains Mono"
+        }
+      ]
+    },
+    "hash": "trellis:op:fe5b4be1e01803cc83826954c921821532382bfbe2eec16bf7fab818c9d91b01"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.291Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:fe5b4be1e01803cc83826954c921821532382bfbe2eec16bf7fab818c9d91b01",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "font:jetbrains-mono"
+        }
+      ]
+    },
+    "hash": "trellis:op:039094c33abb7eb5e7cbc24ce91f44734661e13bda834bb0e213dd6258a5069a"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.294Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:039094c33abb7eb5e7cbc24ce91f44734661e13bda834bb0e213dd6258a5069a",
+    "vcs": {
+      "facts": [
+        {
+          "e": "font:system-ui",
+          "a": "type",
+          "v": "Font"
+        },
+        {
+          "e": "font:system-ui",
+          "a": "family",
+          "v": "system-ui"
+        },
+        {
+          "e": "font:system-ui",
+          "a": "variants",
+          "v": "[\"regular\"]"
+        },
+        {
+          "e": "font:system-ui",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.294Z"
+        },
+        {
+          "e": "font:system-ui",
+          "a": "category",
+          "v": "sans-serif"
+        },
+        {
+          "e": "font:system-ui",
+          "a": "tags",
+          "v": "system, native"
+        }
+      ]
+    },
+    "hash": "trellis:op:029fa57d21eec983ffec7e3a8aac8c943f89fb906252bd16b18af475113a67e2"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.297Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:029fa57d21eec983ffec7e3a8aac8c943f89fb906252bd16b18af475113a67e2",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "font:system-ui"
+        }
+      ]
+    },
+    "hash": "trellis:op:45a83e385667a4a4e5b0da3b336229cec0255c801eaf8ba02841f227b6daac2f"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.302Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:45a83e385667a4a4e5b0da3b336229cec0255c801eaf8ba02841f227b6daac2f",
+    "vcs": {
+      "facts": [
+        {
+          "e": "palette:neutral",
+          "a": "type",
+          "v": "ColorPalette"
+        },
+        {
+          "e": "palette:neutral",
+          "a": "name",
+          "v": "Neutral"
+        },
+        {
+          "e": "palette:neutral",
+          "a": "swatches",
+          "v": "{\"primary\":\"#18181b\",\"secondary\":\"#52525b\",\"accent\":\"#2563eb\",\"surface\":\"#fafafa\",\"background\":\"#ffffff\",\"border\":\"#e4e4e7\",\"success\":\"#16a34a\",\"warning\":\"#f59e0b\",\"danger\":\"#dc2626\"}"
+        },
+        {
+          "e": "palette:neutral",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.301Z"
+        },
+        {
+          "e": "palette:neutral",
+          "a": "description",
+          "v": "Balanced neutral palette for product UI"
+        },
+        {
+          "e": "palette:neutral",
+          "a": "tags",
+          "v": "neutral, default"
+        }
+      ]
+    },
+    "hash": "trellis:op:2e7dc8fb29db5639a4c5bd88dd57485f4256db3e4c1c782ef447e7419581c99a"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.304Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:2e7dc8fb29db5639a4c5bd88dd57485f4256db3e4c1c782ef447e7419581c99a",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "palette:neutral"
+        }
+      ]
+    },
+    "hash": "trellis:op:6f9b346cebdff13e4e395ae5d235fc290a8c19c64665433f23d0d3702d54887f"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.306Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:6f9b346cebdff13e4e395ae5d235fc290a8c19c64665433f23d0d3702d54887f",
+    "vcs": {
+      "facts": [
+        {
+          "e": "palette:warm-studio",
+          "a": "type",
+          "v": "ColorPalette"
+        },
+        {
+          "e": "palette:warm-studio",
+          "a": "name",
+          "v": "Warm Studio"
+        },
+        {
+          "e": "palette:warm-studio",
+          "a": "swatches",
+          "v": "{\"primary\":\"#7c2d12\",\"secondary\":\"#a16207\",\"accent\":\"#ea580c\",\"surface\":\"#fff7ed\",\"background\":\"#fffbeb\",\"border\":\"#fed7aa\",\"success\":\"#15803d\",\"warning\":\"#ca8a04\",\"danger\":\"#b91c1c\"}"
+        },
+        {
+          "e": "palette:warm-studio",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.306Z"
+        },
+        {
+          "e": "palette:warm-studio",
+          "a": "description",
+          "v": "Warm editorial palette for creative projects"
+        },
+        {
+          "e": "palette:warm-studio",
+          "a": "tags",
+          "v": "warm, editorial"
+        }
+      ]
+    },
+    "hash": "trellis:op:0624ff3b4994fdce0d46e97f609ced7f9dfc6319509c5ef6e24ec682c9c63088"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.308Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:0624ff3b4994fdce0d46e97f609ced7f9dfc6319509c5ef6e24ec682c9c63088",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "palette:warm-studio"
+        }
+      ]
+    },
+    "hash": "trellis:op:ad3d94f48c05981087b83950929d5e6ae411db3cef288cad5d6492c8bd88889b"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.319Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:ad3d94f48c05981087b83950929d5e6ae411db3cef288cad5d6492c8bd88889b",
+    "vcs": {
+      "facts": [
+        {
+          "e": "brand:project-brand",
+          "a": "type",
+          "v": "Brand"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "name",
+          "v": "Project Brand"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "paletteIds",
+          "v": "[\"palette:neutral\",\"palette:warm-studio\"]"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "fontIds",
+          "v": "[\"font:inter\",\"font:jetbrains-mono\",\"font:lora\",\"font:open-sans\",\"font:roboto\",\"font:system-ui\"]"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "iconLibrary",
+          "v": "lucide"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "enabledIconIds",
+          "v": "[\"icon:arrow-left\",\"icon:arrow-right\",\"icon:bell\",\"icon:bookmark\",\"icon:calendar\",\"icon:check\",\"icon:chevron-down\",\"icon:circle-alert\",\"icon:clock\",\"icon:cloud\",\"icon:file\",\"icon:folder\",\"icon:globe\",\"icon:heart\",\"icon:home\",\"icon:image\",\"icon:info\",\"icon:layers\",\"icon:link\",\"icon:lock\",\"icon:mail\",\"icon:menu\",\"icon:minus\",\"icon:moon\",\"icon:palette\",\"icon:pencil\",\"icon:phone\",\"icon:plus\",\"icon:search\",\"icon:settings\",\"icon:sparkles\",\"icon:star\",\"icon:sun\",\"icon:tag\",\"icon:trash-2\",\"icon:type\",\"icon:unlock\",\"icon:user\",\"icon:x\",\"icon:zap\"]"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.319Z"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "description",
+          "v": "Default project design direction for agents and UI."
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "primaryPaletteId",
+          "v": "palette:neutral"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "headingFontId",
+          "v": "font:inter"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "bodyFontId",
+          "v": "font:inter"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "monoFontId",
+          "v": "font:jetbrains-mono"
+        },
+        {
+          "e": "brand:project-brand",
+          "a": "semantics",
+          "v": "{\"tone\":[\"clear\",\"professional\"],\"mood\":[\"focused\"],\"audience\":[\"builders\"]}"
+        }
+      ]
+    },
+    "hash": "trellis:op:5ca64a787939dfedef1546a58cd2a839950e71a4e157a503c066216f6c290a48"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.321Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:5ca64a787939dfedef1546a58cd2a839950e71a4e157a503c066216f6c290a48",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "brand:project-brand"
+        }
+      ]
+    },
+    "hash": "trellis:op:cca4da39ca75202adacdbf0c63036e73feffe4f11c0dbb5ac00fc8854a53c1c4"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.323Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:cca4da39ca75202adacdbf0c63036e73feffe4f11c0dbb5ac00fc8854a53c1c4",
+    "vcs": {
+      "facts": [
+        {
+          "e": "project-brand:config",
+          "a": "type",
+          "v": "ProjectBrandConfig"
+        },
+        {
+          "e": "project-brand:config",
+          "a": "createdAt",
+          "v": "2026-06-13T11:25:10.323Z"
+        }
+      ]
+    },
+    "hash": "trellis:op:2a13b8876d4bf7d4c2c2fb6124bbe4d76416d6150f9d66247aabfc82db3c2827"
+  },
+  {
+    "kind": "vcs:storeLink",
+    "timestamp": "2026-06-13T11:25:10.325Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:2a13b8876d4bf7d4c2c2fb6124bbe4d76416d6150f9d66247aabfc82db3c2827",
+    "vcs": {
+      "links": [
+        {
+          "e1": "project:c9d6a2f9551d",
+          "a": "knows",
+          "e2": "project-brand:config"
+        }
+      ]
+    },
+    "hash": "trellis:op:d3155caddf11e834c0cf036919a9d25a3a84134efdaf073a76bc82e59408aa31"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.327Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:d3155caddf11e834c0cf036919a9d25a3a84134efdaf073a76bc82e59408aa31",
+    "vcs": {
+      "facts": [
+        {
+          "e": "project-brand:config",
+          "a": "localBrandId",
+          "v": "brand:project-brand"
+        }
+      ]
+    },
+    "hash": "trellis:op:26ad3c61085246d50ab300aaa365750ef7ab7584c8603fefff5f0d436a2cea81"
+  },
+  {
+    "kind": "vcs:storeAssert",
+    "timestamp": "2026-06-13T11:25:10.497Z",
+    "agentId": "unknown",
+    "previousHash": "trellis:op:26ad3c61085246d50ab300aaa365750ef7ab7584c8603fefff5f0d436a2cea81",
+    "vcs": {
+      "facts": [
+        {
+          "e": "project-brand:config",
+          "a": "resolvedSnapshot",
+          "v": "{\"id\":\"brand:project-brand\",\"name\":\"Project Brand\",\"description\":\"Default project design direction for agents and UI.\",\"paletteIds\":[\"palette:neutral\",\"palette:warm-studio\"],\"primaryPaletteId\":\"palette:neutral\",\"fontIds\":[\"font:inter\",\"font:jetbrains-mono\",\"font:lora\",\"font:open-sans\",\"font:roboto\",\"font:system-ui\"],\"headingFontId\":\"font:inter\",\"bodyFontId\":\"font:inter\",\"monoFontId\":\"font:jetbrains-mono\",\"iconLibrary\":\"lucide\",\"enabledIconIds\":[\"icon:arrow-left\",\"icon:arrow-right\",\"icon:bell\",\"icon:bookmark\",\"icon:calendar\",\"icon:check\",\"icon:chevron-down\",\"icon:circle-alert\",\"icon:clock\",\"icon:cloud\",\"icon:file\",\"icon:folder\",\"icon:globe\",\"icon:heart\",\"icon:home\",\"icon:image\",\"icon:info\",\"icon:layers\",\"icon:link\",\"icon:lock\",\"icon:mail\",\"icon:menu\",\"icon:minus\",\"icon:moon\",\"icon:palette\",\"icon:pencil\",\"icon:phone\",\"icon:plus\",\"icon:search\",\"icon:settings\",\"icon:sparkles\",\"icon:star\",\"icon:sun\",\"icon:tag\",\"icon:trash-2\",\"icon:type\",\"icon:unlock\",\"icon:user\",\"icon:x\",\"icon:zap\"],\"semantics\":{\"tone\":[\"clear\",\"professional\"],\"mood\":[\"focused\"],\"audience\":[\"builders\"]},\"createdAt\":\"2026-06-13T11:25:10.319Z\",\"resolvedAt\":\"2026-06-13T11:25:10.497Z\",\"palettes\":[{\"id\":\"palette:neutral\",\"name\":\"Neutral\",\"description\":\"Balanced neutral palette for product UI\",\"swatches\":{\"primary\":\"#18181b\",\"secondary\":\"#52525b\",\"accent\":\"#2563eb\",\"surface\":\"#fafafa\",\"background\":\"#ffffff\",\"border\":\"#e4e4e7\",\"success\":\"#16a34a\",\"warning\":\"#f59e0b\",\"danger\":\"#dc2626\"},\"tags\":[\"neutral\",\"default\"],\"createdAt\":\"2026-06-13T11:25:10.301Z\"},{\"id\":\"palette:warm-studio\",\"name\":\"Warm Studio\",\"description\":\"Warm editorial palette for creative projects\",\"swatches\":{\"primary\":\"#7c2d12\",\"secondary\":\"#a16207\",\"accent\":\"#ea580c\",\"surface\":\"#fff7ed\",\"background\":\"#fffbeb\",\"border\":\"#fed7aa\",\"success\":\"#15803d\",\"warning\":\"#ca8a04\",\"danger\":\"#b91c1c\"},\"tags\":[\"warm\",\"editorial\"],\"createdAt\":\"2026-06-13T11:25:10.306Z\"}],\"fonts\":[{\"id\":\"font:inter\",\"family\":\"Inter\",\"category\":\"sans-serif\",\"variants\":[\"regular\",\"500\",\"600\",\"700\"],\"tags\":[],\"catalogRef\":\"google-fonts:Inter\",\"createdAt\":\"2026-06-13T11:25:10.271Z\"},{\"id\":\"font:jetbrains-mono\",\"family\":\"JetBrains Mono\",\"category\":\"monospace\",\"variants\":[\"regular\",\"500\",\"700\"],\"tags\":[],\"catalogRef\":\"google-fonts:JetBrains Mono\",\"createdAt\":\"2026-06-13T11:25:10.289Z\"},{\"id\":\"font:lora\",\"family\":\"Lora\",\"category\":\"serif\",\"variants\":[\"regular\",\"600\",\"700\"],\"tags\":[],\"catalogRef\":\"google-fonts:Lora\",\"createdAt\":\"2026-06-13T11:25:10.284Z\"},{\"id\":\"font:open-sans\",\"family\":\"Open Sans\",\"category\":\"sans-serif\",\"variants\":[\"regular\",\"600\",\"700\"],\"tags\":[],\"catalogRef\":\"google-fonts:Open Sans\",\"createdAt\":\"2026-06-13T11:25:10.280Z\"},{\"id\":\"font:roboto\",\"family\":\"Roboto\",\"category\":\"sans-serif\",\"variants\":[\"regular\",\"500\",\"700\"],\"tags\":[],\"catalogRef\":\"google-fonts:Roboto\",\"createdAt\":\"2026-06-13T11:25:10.275Z\"},{\"id\":\"font:system-ui\",\"family\":\"system-ui\",\"category\":\"sans-serif\",\"variants\":[\"regular\"],\"tags\":[\"system\",\"native\"],\"createdAt\":\"2026-06-13T11:25:10.294Z\"}],\"icons\":[{\"id\":\"icon:arrow-left\",\"key\":\"arrow-left\",\"library\":\"lucide\",\"category\":\"Arrows\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:arrow-left\",\"createdAt\":\"2026-06-13T11:25:10.083Z\"},{\"id\":\"icon:arrow-right\",\"key\":\"arrow-right\",\"library\":\"lucide\",\"category\":\"Arrows\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:arrow-right\",\"createdAt\":\"2026-06-13T11:25:10.077Z\"},{\"id\":\"icon:bell\",\"key\":\"bell\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:bell\",\"createdAt\":\"2026-06-13T11:25:10.168Z\"},{\"id\":\"icon:bookmark\",\"key\":\"bookmark\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:bookmark\",\"createdAt\":\"2026-06-13T11:25:10.175Z\"},{\"id\":\"icon:calendar\",\"key\":\"calendar\",\"library\":\"lucide\",\"category\":\"Time\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:calendar\",\"createdAt\":\"2026-06-13T11:25:10.043Z\"},{\"id\":\"icon:check\",\"key\":\"check\",\"library\":\"lucide\",\"category\":\"UI\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:check\",\"createdAt\":\"2026-06-13T11:25:10.052Z\"},{\"id\":\"icon:chevron-down\",\"key\":\"chevron-down\",\"library\":\"lucide\",\"category\":\"Arrows\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:chevron-down\",\"createdAt\":\"2026-06-13T11:25:10.090Z\"},{\"id\":\"icon:circle-alert\",\"key\":\"circle-alert\",\"library\":\"lucide\",\"category\":\"Shapes\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:circle-alert\",\"createdAt\":\"2026-06-13T11:25:10.223Z\"},{\"id\":\"icon:clock\",\"key\":\"clock\",\"library\":\"lucide\",\"category\":\"Time\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:clock\",\"createdAt\":\"2026-06-13T11:25:10.048Z\"},{\"id\":\"icon:cloud\",\"key\":\"cloud\",\"library\":\"lucide\",\"category\":\"Nature\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:cloud\",\"createdAt\":\"2026-06-13T11:25:10.152Z\"},{\"id\":\"icon:file\",\"key\":\"file\",\"library\":\"lucide\",\"category\":\"Files\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:file\",\"createdAt\":\"2026-06-13T11:25:10.110Z\"},{\"id\":\"icon:folder\",\"key\":\"folder\",\"library\":\"lucide\",\"category\":\"Files\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:folder\",\"createdAt\":\"2026-06-13T11:25:10.116Z\"},{\"id\":\"icon:globe\",\"key\":\"globe\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:globe\",\"createdAt\":\"2026-06-13T11:25:10.130Z\"},{\"id\":\"icon:heart\",\"key\":\"heart\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:heart\",\"createdAt\":\"2026-06-13T11:25:10.004Z\"},{\"id\":\"icon:home\",\"key\":\"home\",\"library\":\"lucide\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:home\",\"createdAt\":\"2026-06-13T11:25:10.015Z\"},{\"id\":\"icon:image\",\"key\":\"image\",\"library\":\"lucide\",\"category\":\"Media\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:image\",\"createdAt\":\"2026-06-13T11:25:10.104Z\"},{\"id\":\"icon:info\",\"key\":\"info\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:info\",\"createdAt\":\"2026-06-13T11:25:10.232Z\"},{\"id\":\"icon:layers\",\"key\":\"layers\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:layers\",\"createdAt\":\"2026-06-13T11:25:10.206Z\"},{\"id\":\"icon:link\",\"key\":\"link\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:link\",\"createdAt\":\"2026-06-13T11:25:10.124Z\"},{\"id\":\"icon:lock\",\"key\":\"lock\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:lock\",\"createdAt\":\"2026-06-13T11:25:10.242Z\"},{\"id\":\"icon:mail\",\"key\":\"mail\",\"library\":\"lucide\",\"category\":\"Communication\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:mail\",\"createdAt\":\"2026-06-13T11:25:10.033Z\"},{\"id\":\"icon:menu\",\"key\":\"menu\",\"library\":\"lucide\",\"category\":\"UI\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:menu\",\"createdAt\":\"2026-06-13T11:25:10.097Z\"},{\"id\":\"icon:minus\",\"key\":\"minus\",\"library\":\"lucide\",\"category\":\"UI\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:minus\",\"createdAt\":\"2026-06-13T11:25:10.071Z\"},{\"id\":\"icon:moon\",\"key\":\"moon\",\"library\":\"lucide\",\"category\":\"Nature\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:moon\",\"createdAt\":\"2026-06-13T11:25:10.144Z\"},{\"id\":\"icon:palette\",\"key\":\"palette\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:palette\",\"createdAt\":\"2026-06-13T11:25:10.191Z\"},{\"id\":\"icon:pencil\",\"key\":\"pencil\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:pencil\",\"createdAt\":\"2026-06-13T11:25:10.267Z\"},{\"id\":\"icon:phone\",\"key\":\"phone\",\"library\":\"lucide\",\"category\":\"Communication\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:phone\",\"createdAt\":\"2026-06-13T11:25:10.038Z\"},{\"id\":\"icon:plus\",\"key\":\"plus\",\"library\":\"lucide\",\"category\":\"UI\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:plus\",\"createdAt\":\"2026-06-13T11:25:10.063Z\"},{\"id\":\"icon:search\",\"key\":\"search\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:search\",\"createdAt\":\"2026-06-13T11:25:10.028Z\"},{\"id\":\"icon:settings\",\"key\":\"settings\",\"library\":\"lucide\",\"category\":\"UI\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:settings\",\"createdAt\":\"2026-06-13T11:25:10.024Z\"},{\"id\":\"icon:sparkles\",\"key\":\"sparkles\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:sparkles\",\"createdAt\":\"2026-06-13T11:25:10.215Z\"},{\"id\":\"icon:star\",\"key\":\"star\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:star\",\"createdAt\":\"2026-06-13T11:25:10.010Z\"},{\"id\":\"icon:sun\",\"key\":\"sun\",\"library\":\"lucide\",\"category\":\"Nature\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:sun\",\"createdAt\":\"2026-06-13T11:25:10.137Z\"},{\"id\":\"icon:tag\",\"key\":\"tag\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:tag\",\"createdAt\":\"2026-06-13T11:25:10.183Z\"},{\"id\":\"icon:trash-2\",\"key\":\"trash-2\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:trash-2\",\"createdAt\":\"2026-06-13T11:25:10.258Z\"},{\"id\":\"icon:type\",\"key\":\"type\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:type\",\"createdAt\":\"2026-06-13T11:25:10.198Z\"},{\"id\":\"icon:unlock\",\"key\":\"unlock\",\"library\":\"lucide\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:unlock\",\"createdAt\":\"2026-06-13T11:25:10.249Z\"},{\"id\":\"icon:user\",\"key\":\"user\",\"library\":\"lucide\",\"category\":\"Users\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:user\",\"createdAt\":\"2026-06-13T11:25:10.019Z\"},{\"id\":\"icon:x\",\"key\":\"x\",\"library\":\"lucide\",\"category\":\"UI\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:x\",\"createdAt\":\"2026-06-13T11:25:10.057Z\"},{\"id\":\"icon:zap\",\"key\":\"zap\",\"library\":\"lucide\",\"category\":\"Other\",\"tags\":[],\"aliases\":[],\"catalogRef\":\"lucide:zap\",\"createdAt\":\"2026-06-13T11:25:10.160Z\"}]}"
+        }
+      ]
+    },
+    "hash": "trellis:op:3711293a9cc113b96eaefff33e0e08f22b181b2fb807cf2cf01e42c2e33b5f38"
+  },
+  {
+    "kind": "vcs:fileModify",
+    "timestamp": "2026-06-13T15:45:30.053Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:f4d2a53cfa25f502dc5e95be5f8aa630d73cb5612135203a59a29c23ee1344f8",
+    "vcs": {
+      "filePath": "src/components/desktop/Window.vue",
+      "contentHash": "a7fe1b3b31d9ea567f55021b1513282c7c7723e21adbea1147767f235377bc5a",
+      "oldContentHash": "66830d84d3d6770a5b76434ffe78ced662acb7ee81de7192a27b807e79a4daa5",
+      "size": 15938,
+      "language": "vue"
+    },
+    "hash": "trellis:op:495e395b5a60c0da2c6c4df7a649e1b2e30a2649944eafe963b91485d90db923"
+  },
+  {
+    "kind": "vcs:branchAdvance",
+    "timestamp": "2026-06-13T15:45:30.082Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:495e395b5a60c0da2c6c4df7a649e1b2e30a2649944eafe963b91485d90db923",
+    "vcs": {
+      "branchName": "main",
+      "targetOpHash": "trellis:op:495e395b5a60c0da2c6c4df7a649e1b2e30a2649944eafe963b91485d90db923"
+    },
+    "hash": "trellis:op:c2086e2b7b09a8f26dccdd407c2c19ddb5c301cb33598dffd40f435c94d2d387"
+  },
+  {
+    "kind": "vcs:fileModify",
+    "timestamp": "2026-06-13T15:45:30.101Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:495e395b5a60c0da2c6c4df7a649e1b2e30a2649944eafe963b91485d90db923",
+    "vcs": {
+      "filePath": "src/components/desktop/Desktop.vue",
+      "contentHash": "c02ab7b75b19a1d55b4af35b52159c5ef449ea72a5e2d77f5fa46079af581ab1",
+      "oldContentHash": "d7d5758e7d7b423aff7745855fb237731a5b70fed909600d429f7e83c435ba5b",
+      "size": 15159,
+      "language": "vue"
+    },
+    "hash": "trellis:op:472c02fff53dc555af5799e0f6f757f5732a822dfae7cf2a97a291089390de8b"
+  },
+  {
+    "kind": "vcs:branchAdvance",
+    "timestamp": "2026-06-13T15:45:30.121Z",
+    "agentId": "agent:trentbrew",
+    "previousHash": "trellis:op:472c02fff53dc555af5799e0f6f757f5732a822dfae7cf2a97a291089390de8b",
+    "vcs": {
+      "branchName": "main",
+      "targetOpHash": "trellis:op:472c02fff53dc555af5799e0f6f757f5732a822dfae7cf2a97a291089390de8b"
+    },
+    "hash": "trellis:op:7cd5d147d9d73ad3b06fcebe1bfb5fdcfb14c4fadc20a1ea15da233f543c5f6b"
   }
 ]
