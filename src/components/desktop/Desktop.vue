@@ -47,7 +47,7 @@ export default {
       clicked: null,
       stretch: false,
       fullscreen: false,
-      dividerIndex: 5,
+      dividerIndex: 6,
       dockItems: [
         {
           icon: 'music.svg',
@@ -87,6 +87,14 @@ export default {
           windowHeight: 500,
         },
         {
+          icon: 'playlab.svg',
+          label: 'Playlab',
+          embed: 'https://trellis-sync-3d-playground.vercel.app/',
+          center: true,
+          windowWidth: 1100,
+          windowHeight: 650,
+        },
+        {
           icon: 't_color.svg',
           label: 'Twixxer',
           link: 'https://x.com/trent_brew',
@@ -106,7 +114,7 @@ export default {
           windowHeight: 450,
         },
         {
-          icon: 'mail.svg',
+          icon: 'calendar.svg',
           label: 'Book a call',
           embed: 'https://cal.com/trent-brew-qvjrye?embed=true',
           windowWidth: 500,
