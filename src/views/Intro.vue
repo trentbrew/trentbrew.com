@@ -32,9 +32,11 @@
       isMobile: () => window.innerWidth <= 600,
     },
     mounted() {
-      window.location.replace('https://trentbrew.com/desktop')
-      if (this.isMobile) {
-        window.location.replace('https://api.trentbrew.com/cv-framer')
+      if (process.env.NODE_ENV === 'production') {
+        window.location.replace('https://trentbrew.com/desktop')
+        if (this.isMobile) {
+          window.location.replace('https://api.trentbrew.com/cv-framer')
+        }
       }
       setTimeout(() => {
         this.unveilMobile = true

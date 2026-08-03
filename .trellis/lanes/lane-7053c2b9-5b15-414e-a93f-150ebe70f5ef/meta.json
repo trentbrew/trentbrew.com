@@ -1,0 +1,12 @@
+{
+  "id": "lane-7053c2b9-5b15-414e-a93f-150ebe70f5ef",
+  "status": "active",
+  "baseBranch": "main",
+  "baseOpHash": "trellis:op:2678304f9583aba3590ef54083d600ea031ab0f01a5d34695e045d3ddae9d7cb",
+  "targetBranch": "main",
+  "headOpHash": "trellis:op:2678304f9583aba3590ef54083d600ea031ab0f01a5d34695e045d3ddae9d7cb",
+  "agentId": "agent:trentbrew",
+  "sessionId": "opencode:ses_03694d860ffevg9kCXHwuS16Nj",
+  "createdAt": "2026-08-03T20:57:50.923Z",
+  "updatedAt": "2026-08-03T20:57:50.923Z"
+}

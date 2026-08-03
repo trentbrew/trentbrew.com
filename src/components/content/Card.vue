@@ -201,6 +201,26 @@
     color: #bcb7be !important;
   }
 
+  .Nuxt {
+    background: rgba(#adf7b6, 0.16);
+    color: #adf7b6 !important;
+  }
+
+  .Rust {
+    background: rgba(#ffc09f, 0.16);
+    color: #ffc09f !important;
+  }
+
+  .Three\.js {
+    background: rgba(#bcb7be, 0.16);
+    color: #bcb7be !important;
+  }
+
+  .Trellis {
+    background: rgba(#adf7b6, 0.16);
+    color: #adf7b6 !important;
+  }
+
   .newtab {
     background-image: url('../../assets/icons/newtab.svg');
     background-repeat: no-repeat;
