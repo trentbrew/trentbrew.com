@@ -4,10 +4,6 @@ import router from './router'
 import store from './store'
 import { inject } from '@vercel/analytics'
 
-if (process.env.NODE_ENV === 'production') {
-  window.location.replace('https://brew.build')
-}
-
 new Vue({
   router,
   store,

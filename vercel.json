@@ -2,23 +2,5 @@
   "version": 2,
   "outputDirectory": "dist",
   "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "npm run build",
-  "redirects": [
-    {
-      "source": "/cv",
-      "destination": "https://api.trentbrew.com/cv-framer",
-      "permanent": false
-    },
-    {
-      "source": "/cv/",
-      "destination": "https://api.trentbrew.com/cv-framer",
-      "permanent": false
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "buildCommand": "npm run build"
 }

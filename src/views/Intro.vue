@@ -32,11 +32,8 @@
       isMobile: () => window.innerWidth <= 600,
     },
     mounted() {
-      if (process.env.NODE_ENV === 'production') {
-        window.location.replace('https://trentbrew.com/desktop')
-        if (this.isMobile) {
-          window.location.replace('https://api.trentbrew.com/cv-framer')
-        }
+      if (this.isMobile) {
+        window.open('https://api.trentbrew.com/cv-framer', '_self') // open CV on mobile
       }
       setTimeout(() => {
         this.unveilMobile = true

@@ -16,26 +16,6 @@
         projects: [
           // ----------------- WEB -----------------
           {
-            title: 'Trellis Studio',
-            category: 'Web',
-            description: 'Local-first graph for code, decisions & AI reasoning',
-            stack: ['Vue', 'Nuxt', 'Rust'],
-            thumb: require('@/content/UX/trellis-studio/trellis-studio.gif'),
-            content: { embed: 'https://trellis.computer' },
-            center: true,
-            dims: '1100x650',
-          },
-          {
-            title: 'Playlab (World Engine)',
-            category: 'Web',
-            description: 'Agent-native realtime-multiplayer 3D world engine',
-            stack: ['Svelte', 'Three.js', 'Trellis'],
-            thumb: require('@/content/UX/playlab/playlab.gif'),
-            content: { embed: 'https://trellis-sync-3d-playground.vercel.app/' },
-            center: true,
-            dims: '1100x650',
-          },
-          {
             title: 'Filegraph',
             category: 'Desktop',
             description: 'An OS for knowledge work & creative exploration',
@@ -174,7 +154,6 @@
             center: true,
             dims: '1100x650',
           },
-
           // ----------------- GAMES -----------------
           {
             title: 'Lost Things',
