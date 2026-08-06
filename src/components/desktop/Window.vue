@@ -41,9 +41,18 @@
       index: Number,
       id: String,
       title: String,
+      slug: String,
       spoof: Boolean,
       center: Boolean,
       fullscreen: Boolean,
+      initialLeft: {
+        type: Number,
+        default: null,
+      },
+      initialTop: {
+        type: Number,
+        default: null,
+      },
       initialWidth: {
         type: Number,
         default: 400,
@@ -66,7 +75,10 @@
       this.width = this.initialWidth
       this.height = this.initialHeight
       this.selectedWindow = this.id
-      if (!this.center) {
+      if (this.initialLeft != null) {
+        this.left = Math.max(0, Math.min(this.maxW - 40, this.initialLeft))
+        this.top = Math.max(0, Math.min(this.maxH - 60, this.initialTop))
+      } else if (!this.center) {
         this.left = this.getRandomX()
         this.top = this.getRandomY()
       } else {
@@ -166,6 +178,22 @@
         }
         if (data.eventName == 'drag:end') {
           this.preventEmbedHover = false
+          this.$root.$emit('windowGeometry', {
+            slug: this.slug,
+            width: this.width,
+            height: this.height,
+            left: this.left,
+            top: this.top,
+          })
+        }
+        if (data.eventName == 'resize:end') {
+          this.$root.$emit('windowGeometry', {
+            slug: this.slug,
+            width: this.width,
+            height: this.height,
+            left: this.left,
+            top: this.top,
+          })
         }
         setTimeout(() => {
           this.preventTransition = false

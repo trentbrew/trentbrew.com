@@ -116,8 +116,8 @@ export default {
           label: 'Book a call',
           slug: 'call',
           embed: 'https://cal.com/trent-brew-qvjrye/reference-schedule?embed=true&overlayCalendar=true',
-          windowWidth: 500,
-          windowHeight: 500,
+          windowWidth: 900,
+          windowHeight: 380,
           center: true,
         },
       ],
@@ -184,6 +184,9 @@ export default {
       if (id != this.zBuffer[0]) {
         this.zBufferUpdate(id)
       }
+    })
+    this.$root.$on('windowGeometry', (geometry) => {
+      this.saveWindowGeometry(geometry.slug, geometry)
     })
     this.$root.$on('cardClicked', (project) => {
       if (project.wip) {
@@ -253,6 +256,32 @@ export default {
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/^-+|-+$/g, '')
     },
+    saveWindowGeometry(slug, geometry) {
+      if (!slug || !geometry) return
+      try {
+        const all = JSON.parse(
+          localStorage.getItem('trentbrew.windowGeometry') || '{}'
+        )
+        all[slug] = {
+          width: geometry.width,
+          height: geometry.height,
+          left: geometry.left,
+          top: geometry.top,
+        }
+        localStorage.setItem('trentbrew.windowGeometry', JSON.stringify(all))
+      } catch (e) {}
+    },
+    loadWindowGeometry(slug) {
+      if (!slug) return null
+      try {
+        const all = JSON.parse(
+          localStorage.getItem('trentbrew.windowGeometry') || '{}'
+        )
+        return all[slug] || null
+      } catch (e) {
+        return null
+      }
+    },
     syncHash() {
       const slugs = this.windows
         .filter((w) => !w.closed)
@@ -315,6 +344,13 @@ export default {
       }
       this.windows = this.windows.filter((w) => !w.closed)
       const windowData = { ...data, slug }
+      const saved = slug ? this.loadWindowGeometry(slug) : null
+      if (saved) {
+        windowData.width = saved.width
+        windowData.height = saved.height
+        windowData.left = saved.left
+        windowData.top = saved.top
+      }
       this.windows.push(windowData)
       var latest = this.windows[this.windows.length - 1]
       latest.id = uid(8)
@@ -351,8 +387,8 @@ export default {
     <div ref="desktop" class="desktop">
       <!-- <Topbar /> -->
       <Window v-for="(window, index) in windows" :key="window.id" :index="index" :id="window.id" :title="window.title"
-        :initialWidth="window.width" :initialHeight="window.height" :center="window.center" :embed="window.embed"
-        :video="window.video">
+        :initialWidth="window.width" :initialHeight="window.height" :center="window.center" :initialLeft="window.left"
+        :initialTop="window.top" :slug="window.slug" :embed="window.embed" :video="window.video">
         <template v-if="window.embed">
           <iframe :data-context="window.embed.includes('spotify.com')
             ? 'spotify'
