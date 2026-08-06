@@ -52,6 +52,7 @@ export default {
         {
           icon: 'music.svg',
           label: "What I'm Listening To",
+          slug: 'music',
           embed: `https://open.spotify.com/embed/${playlist.type}/${playlist.id}?utm_source=generator&theme=0`,
           windowWidth: 680,
           windowHeight: 420,
@@ -59,6 +60,7 @@ export default {
         {
           icon: 'document.svg',
           label: 'CV',
+          slug: 'cv',
           embed: 'https://trentbrew-cv.framer.website/',
           windowWidth: 900,
           windowHeight: 380,
@@ -67,6 +69,7 @@ export default {
         {
           icon: 'doodles.svg',
           label: 'Sketchbook',
+          slug: 'sketchbook',
           component: Art,
           windowWidth: 800,
           windowHeight: 400,
@@ -74,6 +77,7 @@ export default {
         {
           icon: 'folder.svg',
           label: 'Playground',
+          slug: 'work',
           component: Work,
           windowWidth: 1000,
           windowHeight: 400,
@@ -81,6 +85,7 @@ export default {
         {
           icon: 'garden.svg',
           label: 'Writing',
+          slug: 'writing',
           embed: 'https://www.brew.build?theme=dark',
           center: true,
           windowWidth: 1000,
@@ -101,6 +106,7 @@ export default {
         {
           icon: 'shop.svg',
           label: 'Shop coming soon',
+          slug: 'shop',
           component: WIP,
           windowWidth: 700,
           windowHeight: 450,
@@ -108,7 +114,8 @@ export default {
         {
           icon: 'mail.svg',
           label: 'Book a call',
-          embed: 'https://cal.com/trent-brew-qvjrye?embed=true',
+          slug: 'call',
+          embed: 'https://cal.com/trent-brew-qvjrye/reference-schedule?embed=true&overlayCalendar=true',
           windowWidth: 500,
           windowHeight: 500,
           center: true,
@@ -130,6 +137,7 @@ export default {
   },
   mounted() {
     console.clear()
+    const initialHash = window.location.hash
     const hostname = window.location.hostname.split('.')
     console.log('hostname', hostname)
     const subdomain = hostname.length > 1 ? hostname[0] : null
@@ -143,6 +151,7 @@ export default {
     ) {
       this.pushWindow({
         title: 'CV',
+        slug: 'cv',
         embed: 'https://api.trentbrew.com/cv-framer',
         deproxy: 'https://api.trentbrew.com/cv-framer',
         width: 900,
@@ -154,6 +163,7 @@ export default {
         setTimeout(() => {
           this.pushWindow({
             title: 'Terminal',
+            slug: 'terminal',
             component: Terminal,
             width: 600,
             height: 400,
@@ -163,8 +173,12 @@ export default {
       })
     }
     this.$root.$on('closedWindow', (window) => {
+      const win = this.windows.find((w) => w.id === window.id)
+      if (win) win.closed = true
+      const idx = this.activeWindows.indexOf(window.title)
+      if (idx > -1) this.activeWindows.splice(idx, 1)
       this.$root.$emit('windowSelected', this.zBufferSet[1])
-      this.activeWindows.splice(this.activeWindows.indexOf(window.title), 1)
+      this.syncHash()
     })
     this.$root.$on('windowSelected', (id) => {
       if (id != this.zBuffer[0]) {
@@ -210,10 +224,13 @@ export default {
     this.dockItems.forEach((item) => {
       item = { ...item, open: false }
     })
+    window.addEventListener('hashchange', this.onHashChange)
+    this.openHashWindows(initialHash)
     window.addEventListener('keyup', (e) => {
       ; (e.key == 't' || e.key == 'T') &&
         this.pushWindow({
           title: 'Terminal',
+          slug: 'terminal',
           component: Terminal,
           width: 600,
           height: 400,
@@ -223,18 +240,88 @@ export default {
   },
   destroyed() {
     window.removeEventListener('keyup', (e) => { })
+    window.removeEventListener('hashchange', this.onHashChange)
   },
   methods: {
     handleItemClick(index) {
       this.clicked = index
     },
+    slugify(str) {
+      return String(str || '')
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+    },
+    syncHash() {
+      const slugs = this.windows
+        .filter((w) => !w.closed)
+        .map((w) => w.slug)
+        .filter(Boolean)
+      const next = slugs.length ? '#' + slugs.join(',') : window.location.pathname
+      if (window.location.hash !== (slugs.length ? '#' + slugs.join(',') : '')) {
+        history.replaceState(null, '', next)
+      }
+    },
+    windowFromDock(item) {
+      return {
+        title: item.label || 'Title',
+        slug: item.slug || null,
+        link: item.link || null,
+        embed: item.embed || null,
+        component: item.component || null,
+        image: item.image || null,
+        width: item.windowWidth || 600,
+        height: item.windowHeight || 400,
+        positionX: item.windowPositionX || this.getRandomX(),
+        positionY: item.windowPositionY || this.getRandomY(),
+        center: item.center,
+      }
+    },
+    openHashWindows(hash) {
+      ;(hash || window.location.hash)
+        .replace(/^#/, '')
+        .split(',')
+        .filter(Boolean)
+        .forEach((slug) => {
+          const item = this.dockItems.find((i) => i.slug === slug)
+          if (item && !item.link) this.pushWindow(this.windowFromDock(item))
+        })
+    },
+    onHashChange() {
+      const desired = new Set(
+        window.location.hash.replace(/^#/, '').split(',').filter(Boolean)
+      )
+      const open = new Set(
+        this.windows.filter((w) => !w.closed).map((w) => w.slug)
+      )
+      desired.forEach((slug) => {
+        if (!open.has(slug)) {
+          const item = this.dockItems.find((i) => i.slug === slug)
+          if (item && !item.link) this.pushWindow(this.windowFromDock(item))
+        }
+      })
+    },
     pushWindow(data) {
-      this.windows.push(data)
+      const slug = data.slug || this.slugify(data.title || '')
+      const existing = slug
+        ? this.windows.find((w) => !w.closed && w.slug === slug)
+        : null
+      if (existing) {
+        this.zBufferUpdate(existing.id)
+        this.$root.$emit('windowSelected', existing.id)
+        this.syncHash()
+        return
+      }
+      this.windows = this.windows.filter((w) => !w.closed)
+      const windowData = { ...data, slug }
+      this.windows.push(windowData)
       var latest = this.windows[this.windows.length - 1]
       latest.id = uid(8)
       this.zBufferUpdate(latest.id)
-      if (!this.activeWindows.includes(latest.id))
+      if (!this.activeWindows.includes(latest.title))
         this.activeWindows.push(latest.title)
+      this.syncHash()
     },
     zBufferUpdate(id) {
       // [0] is top of z-index
@@ -263,7 +350,7 @@ export default {
     </div>
     <div ref="desktop" class="desktop">
       <!-- <Topbar /> -->
-      <Window v-for="(window, index) in windows" :key="index" :index="index" :id="window.id" :title="window.title"
+      <Window v-for="(window, index) in windows" :key="window.id" :index="index" :id="window.id" :title="window.title"
         :initialWidth="window.width" :initialHeight="window.height" :center="window.center" :embed="window.embed"
         :video="window.video">
         <template v-if="window.embed">
@@ -308,6 +395,7 @@ export default {
             ? window.open(item.link, '_blank')
             : pushWindow({
               title: item.label || 'Title',
+              slug: item.slug || null,
               link: item.link || null,
               embed: item.embed || null, // String
               component: item.component || null, // Component
