@@ -17,8 +17,8 @@ import Topbar from '@/components/topbar/Topbar.vue'
 import Ribbons from '@/components/Ribbons.vue'
 
 const playlist = {
-  type: 'album',
-  id: '71TU73D09SdHKEtW5Z91He?si=vsdYBAiWRbiB-zI1mWiz_g',
+  type: 'playlist',
+  id: '7uUkcVP0SpSzyt9UUS9AJT',
 }
 
 export default {
@@ -116,8 +116,8 @@ export default {
           label: 'Book a call',
           slug: 'call',
           embed: 'https://cal.com/trent-brew-qvjrye/reference-schedule?embed=true&overlayCalendar=true',
-          windowWidth: 900,
-          windowHeight: 380,
+          windowWidth: 917,
+          windowHeight: 522,
           center: true,
         },
       ],

@@ -172,6 +172,7 @@
         if (data.eventName == 'resize:move') {
           this.windowState.expanded = false
           this.$parent.fullscreen = false
+          console.log(`Window resize: ${data.width}x${data.height}`)
         }
         if (data.eventName == 'drag:start') {
           this.preventEmbedHover = true
