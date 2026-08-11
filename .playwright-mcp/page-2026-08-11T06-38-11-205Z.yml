@@ -1,0 +1,336 @@
+- main [ref=f10e3]:
+  - generic [ref=f10e4]:
+    - link "➔ skip" [ref=f10e5] [cursor=pointer]:
+      - /url: /desktop
+      - generic [ref=f10e6]: ➔
+      - text: skip
+    - generic [ref=f10e7]:
+      - generic [ref=f10e14] [cursor=pointer]
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Writing
+                        - generic:
+                          - button
+                          - button
+                          - button
+                      - generic: Writing
+                      - generic:
+                        - button
+                        - button
+                        - button
+                    - iframe [ref=f10e34]:
+                      - generic [ref=f11e1]:
+                        - generic [ref=f11e3]:
+                          - generic [ref=f11e4]:
+                            - link "brew.build() _" [ref=f11e5] [cursor=pointer]:
+                              - /url: /
+                              - generic [ref=f11e6]:
+                                - text: brew.build()
+                                - generic [ref=f11e7]: _
+                            - generic [ref=f11e8]:
+                              - link "Home" [ref=f11e9] [cursor=pointer]:
+                                - /url: /
+                              - link "Archive" [ref=f11e11] [cursor=pointer]:
+                                - /url: /archive/
+                              - link "About" [ref=f11e13] [cursor=pointer]:
+                                - /url: /about/
+                          - generic:
+                            - link "Home":
+                              - /url: /
+                            - link "Archive":
+                              - /url: /archive/
+                            - link "About":
+                              - /url: /about/
+                          - generic [ref=f11e15]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: Theme Color
+                                  - button "Reset to Default"
+                                - generic: "180"
+                              - generic:
+                                - slider "Theme Color": "180"
+                        - generic [ref=f11e17]:
+                          - generic [ref=f11e19]:
+                            - generic [ref=f11e20]:
+                              - generic [ref=f11e21]: Notebooks
+                              - generic [ref=f11e23]:
+                                - link "View all posts in the Developer Tools category" [ref=f11e24] [cursor=pointer]:
+                                  - /url: /archive/category/Developer Tools/
+                                  - button "Developer Tools 2 posts" [ref=f11e25]:
+                                    - generic [ref=f11e26]:
+                                      - generic [ref=f11e27]: Developer Tools
+                                      - generic [ref=f11e28]: 2 posts
+                                - link "View all posts in the Essay category" [ref=f11e29] [cursor=pointer]:
+                                  - /url: /archive/category/Essay/
+                                  - button "Essay 3 posts" [ref=f11e30]:
+                                    - generic [ref=f11e31]:
+                                      - generic [ref=f11e32]: Essay
+                                      - generic [ref=f11e33]: 3 posts
+                                - link "View all posts in the Guides category" [ref=f11e34] [cursor=pointer]:
+                                  - /url: /archive/category/Guides/
+                                  - button "Guides 1 post" [ref=f11e35]:
+                                    - generic [ref=f11e36]:
+                                      - generic [ref=f11e37]: Guides
+                                      - generic [ref=f11e38]: 1 post
+                                - link "View all posts in the Notes category" [ref=f11e39] [cursor=pointer]:
+                                  - /url: /archive/category/Notes/
+                                  - button "Notes 4 posts" [ref=f11e40]:
+                                    - generic [ref=f11e41]:
+                                      - generic [ref=f11e42]: Notes
+                                      - generic [ref=f11e43]: 4 posts
+                                - link "View all posts in the React category" [ref=f11e44] [cursor=pointer]:
+                                  - /url: /archive/category/React/
+                                  - button "React 1 post" [ref=f11e45]:
+                                    - generic [ref=f11e46]:
+                                      - generic [ref=f11e47]: React
+                                      - generic [ref=f11e48]: 1 post
+                            - generic [ref=f11e49]:
+                              - generic [ref=f11e50]: Topics
+                              - generic [ref=f11e53]:
+                                - link "View all posts with the Agentic Development tag" [ref=f11e54] [cursor=pointer]:
+                                  - /url: /archive/tag/Agentic Development/
+                                  - text: Agentic Development
+                                - link "View all posts with the Agents tag" [ref=f11e55] [cursor=pointer]:
+                                  - /url: /archive/tag/Agents/
+                                  - text: Agents
+                                - link "View all posts with the AI tag" [ref=f11e56] [cursor=pointer]:
+                                  - /url: /archive/tag/AI/
+                                  - text: AI
+                                - link "View all posts with the AI Agents tag" [ref=f11e57] [cursor=pointer]:
+                                  - /url: /archive/tag/AI Agents/
+                                  - text: AI Agents
+                                - link "View all posts with the Bash tag" [ref=f11e58] [cursor=pointer]:
+                                  - /url: /archive/tag/Bash/
+                                  - text: Bash
+                                - link "View all posts with the Causal Graph tag" [ref=f11e59] [cursor=pointer]:
+                                  - /url: /archive/tag/Causal Graph/
+                                  - text: Causal Graph
+                                - link "View all posts with the Community Media tag" [ref=f11e60] [cursor=pointer]:
+                                  - /url: /archive/tag/Community Media/
+                                  - text: Community Media
+                                - link "View all posts with the Context Engineering tag" [ref=f11e61] [cursor=pointer]:
+                                  - /url: /archive/tag/Context Engineering/
+                                  - text: Context Engineering
+                                - link "View all posts with the Craftpunk tag" [ref=f11e62] [cursor=pointer]:
+                                  - /url: /archive/tag/Craftpunk/
+                                  - text: Craftpunk
+                                - link "View all posts with the Design tag" [ref=f11e63] [cursor=pointer]:
+                                  - /url: /archive/tag/Design/
+                                  - text: Design
+                                - link "View all posts with the Developer Tools tag" [ref=f11e64] [cursor=pointer]:
+                                  - /url: /archive/tag/Developer Tools/
+                                  - text: Developer Tools
+                                - link "View all posts with the Filegraph tag" [ref=f11e65] [cursor=pointer]:
+                                  - /url: /archive/tag/Filegraph/
+                                  - text: Filegraph
+                                - link "View all posts with the Frontend tag" [ref=f11e66] [cursor=pointer]:
+                                  - /url: /archive/tag/Frontend/
+                                  - text: Frontend
+                                - link "View all posts with the Game Engine tag" [ref=f11e67] [cursor=pointer]:
+                                  - /url: /archive/tag/Game Engine/
+                                  - text: Game Engine
+                                - link "View all posts with the IDE tag" [ref=f11e68] [cursor=pointer]:
+                                  - /url: /archive/tag/IDE/
+                                  - text: IDE
+                                - link "View all posts with the JSON-LD tag" [ref=f11e69] [cursor=pointer]:
+                                  - /url: /archive/tag/JSON-LD/
+                                  - text: JSON-LD
+                                - link "View all posts with the Knowledge Graph tag" [ref=f11e70] [cursor=pointer]:
+                                  - /url: /archive/tag/Knowledge Graph/
+                                  - text: Knowledge Graph
+                                - link "View all posts with the Knowledge Graphs tag" [ref=f11e71] [cursor=pointer]:
+                                  - /url: /archive/tag/Knowledge Graphs/
+                                  - text: Knowledge Graphs
+                                - link "View all posts with the Local-First tag" [ref=f11e72] [cursor=pointer]:
+                                  - /url: /archive/tag/Local-First/
+                                  - text: Local-First
+                                - link "View all posts with the Migration tag" [ref=f11e73] [cursor=pointer]:
+                                  - /url: /archive/tag/Migration/
+                                  - text: Migration
+                                - link "View all posts with the Multiplayer tag" [ref=f11e74] [cursor=pointer]:
+                                  - /url: /archive/tag/Multiplayer/
+                                  - text: Multiplayer
+                                - link "View all posts with the Next.js tag" [ref=f11e75] [cursor=pointer]:
+                                  - /url: /archive/tag/Next.js/
+                                  - text: Next.js
+                                - link "View all posts with the Notion tag" [ref=f11e76] [cursor=pointer]:
+                                  - /url: /archive/tag/Notion/
+                                  - text: Notion
+                                - link "View all posts with the Open Source tag" [ref=f11e77] [cursor=pointer]:
+                                  - /url: /archive/tag/Open Source/
+                                  - text: Open Source
+                                - link "View all posts with the Process tag" [ref=f11e78] [cursor=pointer]:
+                                  - /url: /archive/tag/Process/
+                                  - text: Process
+                                - link "View all posts with the Public Access tag" [ref=f11e79] [cursor=pointer]:
+                                  - /url: /archive/tag/Public Access/
+                                  - text: Public Access
+                                - link "View all posts with the Raster tag" [ref=f11e80] [cursor=pointer]:
+                                  - /url: /archive/tag/Raster/
+                                  - text: Raster
+                                - link "View all posts with the React tag" [ref=f11e81] [cursor=pointer]:
+                                  - /url: /archive/tag/React/
+                                  - text: React
+                                - link "View all posts with the Reactivity tag" [ref=f11e82] [cursor=pointer]:
+                                  - /url: /archive/tag/Reactivity/
+                                  - text: Reactivity
+                                - link "View all posts with the Realtime tag" [ref=f11e83] [cursor=pointer]:
+                                  - /url: /archive/tag/Realtime/
+                                  - text: Realtime
+                                - link "View all posts with the Scripting tag" [ref=f11e84] [cursor=pointer]:
+                                  - /url: /archive/tag/Scripting/
+                                  - text: Scripting
+                                - link "View all posts with the Semantic Web tag" [ref=f11e85] [cursor=pointer]:
+                                  - /url: /archive/tag/Semantic Web/
+                                  - text: Semantic Web
+                                - link "View all posts with the Svelte tag" [ref=f11e86] [cursor=pointer]:
+                                  - /url: /archive/tag/Svelte/
+                                  - text: Svelte
+                                - link "View all posts with the Three.js tag" [ref=f11e87] [cursor=pointer]:
+                                  - /url: /archive/tag/Three.js/
+                                  - text: Three.js
+                                - link "View all posts with the Threlte tag" [ref=f11e88] [cursor=pointer]:
+                                  - /url: /archive/tag/Threlte/
+                                  - text: Threlte
+                                - link "View all posts with the TQL tag" [ref=f11e89] [cursor=pointer]:
+                                  - /url: /archive/tag/TQL/
+                                  - text: TQL
+                                - link "View all posts with the Trellis tag" [ref=f11e90] [cursor=pointer]:
+                                  - /url: /archive/tag/Trellis/
+                                  - text: Trellis
+                                - link "View all posts with the Vue tag" [ref=f11e91] [cursor=pointer]:
+                                  - /url: /archive/tag/Vue/
+                                  - text: Vue
+                                - link "View all posts with the Web Dev tag" [ref=f11e92] [cursor=pointer]:
+                                  - /url: /archive/tag/Web Dev/
+                                  - text: Web Dev
+                          - main [ref=f11e93]:
+                            - generic [ref=f11e95]:
+                              - generic [ref=f11e96]:
+                                - generic [ref=f11e97]:
+                                  - generic [ref=f11e98]:
+                                    - link "3D worlds as graphs" [ref=f11e99] [cursor=pointer]:
+                                      - /url: /posts/world-engine/
+                                    - generic [ref=f11e102]: An agent-native, realtime-multiplayer 3D world engine where a game is a graph, and the renderer, the systems, the netcode, and the AI all read from the same file. Built on Trellis. Now open source.
+                                  - generic [ref=f11e103]:
+                                    - link "Essay" [ref=f11e105] [cursor=pointer]:
+                                      - /url: /archive/category/Essay/
+                                    - generic [ref=f11e106]: ·
+                                    - generic [ref=f11e107]: 2 Days ago
+                                - link "3D worlds as graphs" [ref=f11e108] [cursor=pointer]:
+                                  - /url: /posts/world-engine/
+                                  - img "Cover Image of the Post" [ref=f11e110]
+                              - generic [ref=f11e111]:
+                                - generic [ref=f11e112]:
+                                  - generic [ref=f11e113]:
+                                    - link "Alliance for Community Media" [ref=f11e114] [cursor=pointer]:
+                                      - /url: /posts/acm/
+                                    - generic [ref=f11e117]: "A quick recap from ACM Madison: first conference, Raster booth, what stuck, what is next."
+                                  - generic [ref=f11e118]:
+                                    - link "Notes" [ref=f11e120] [cursor=pointer]:
+                                      - /url: /archive/category/Notes/
+                                    - generic [ref=f11e121]: ·
+                                    - generic [ref=f11e122]: 1 Month ago
+                                - link "Alliance for Community Media" [ref=f11e123] [cursor=pointer]:
+                                  - /url: /posts/acm/
+                              - generic [ref=f11e126]:
+                                - generic [ref=f11e127]:
+                                  - generic [ref=f11e128]:
+                                    - link "A Polite Lie Told to Gravity" [ref=f11e129] [cursor=pointer]:
+                                      - /url: /posts/trellis-studio/
+                                    - generic [ref=f11e132]: "Trellis Studio is a local-first graph for things that grow but can't hold their own weight: code, decisions, and the reasoning of AI agents."
+                                  - generic [ref=f11e133]:
+                                    - link "Essay" [ref=f11e135] [cursor=pointer]:
+                                      - /url: /archive/category/Essay/
+                                    - generic [ref=f11e136]: ·
+                                    - generic [ref=f11e137]: 2 Months ago
+                                - link "A Polite Lie Told to Gravity" [ref=f11e138] [cursor=pointer]:
+                                  - /url: /posts/trellis-studio/
+                                  - img "Cover Image of the Post" [ref=f11e140]
+                              - generic [ref=f11e141]:
+                                - generic [ref=f11e142]:
+                                  - generic [ref=f11e143]:
+                                    - 'link "Filegraph: Toward a Semantic OS" [ref=f11e144] [cursor=pointer]':
+                                      - /url: /posts/filegraph/
+                                    - generic [ref=f11e147]: Turning your filesystem into a queryable knowledge graph with inspectable AI reasoning
+                                  - generic [ref=f11e148]:
+                                    - link "Essay" [ref=f11e150] [cursor=pointer]:
+                                      - /url: /archive/category/Essay/
+                                    - generic [ref=f11e151]: ·
+                                    - generic [ref=f11e152]: 4 Months ago
+                                - 'link "Filegraph: Toward a Semantic OS" [ref=f11e153] [cursor=pointer]':
+                                  - /url: /posts/filegraph/
+                              - generic [ref=f11e156]:
+                                - generic [ref=f11e157]:
+                                  - generic [ref=f11e158]:
+                                    - link "What I Learned Building a Knowledge Graph for AI Agents" [ref=f11e159] [cursor=pointer]:
+                                      - /url: /posts/introducing-codehq/
+                                    - generic [ref=f11e162]: AI assistants struggle with scattered context. I built something that lets them query project knowledge like a database.
+                                  - generic [ref=f11e163]:
+                                    - link "Developer Tools" [ref=f11e165] [cursor=pointer]:
+                                      - /url: /archive/category/Developer Tools/
+                                    - generic [ref=f11e166]: ·
+                                    - generic [ref=f11e167]: 9 Months ago
+                                - link "What I Learned Building a Knowledge Graph for AI Agents" [ref=f11e168] [cursor=pointer]:
+                                  - /url: /posts/introducing-codehq/
+                                  - img "Cover Image of the Post" [ref=f11e170]
+                              - generic [ref=f11e171]:
+                                - generic [ref=f11e172]:
+                                  - generic [ref=f11e173]:
+                                    - link "Beyond Embeddings" [ref=f11e174] [cursor=pointer]:
+                                      - /url: /posts/beyond-embeddings/
+                                    - generic [ref=f11e177]: An exploration into alternative ways to measure similarity
+                                  - generic [ref=f11e178]:
+                                    - link "Notes" [ref=f11e180] [cursor=pointer]:
+                                      - /url: /archive/category/Notes/
+                                    - generic [ref=f11e181]: ·
+                                    - generic [ref=f11e182]: 1 Year ago
+                                - link "Beyond Embeddings" [ref=f11e183] [cursor=pointer]:
+                                  - /url: /posts/beyond-embeddings/
+                                  - img "Cover Image of the Post" [ref=f11e185]
+                              - generic [ref=f11e186]:
+                                - generic [ref=f11e187]:
+                                  - generic [ref=f11e188]:
+                                    - link "React Runes" [ref=f11e189] [cursor=pointer]:
+                                      - /url: /posts/react-runes/
+                                    - generic [ref=f11e192]: React Runes is an experimental library designed to bring Svelte 5-inspired reactivity and ergonomics to your React and Next.js applications.
+                                  - generic [ref=f11e193]:
+                                    - link "React" [ref=f11e195] [cursor=pointer]:
+                                      - /url: /archive/category/React/
+                                    - generic [ref=f11e196]: ·
+                                    - generic [ref=f11e197]: 1 Year ago
+                                - link "React Runes" [ref=f11e198] [cursor=pointer]:
+                                  - /url: /posts/react-runes/
+                              - generic [ref=f11e201]:
+                                - generic [ref=f11e202]:
+                                  - generic [ref=f11e203]:
+                                    - link "Embeddable Mermaids" [ref=f11e204] [cursor=pointer]:
+                                      - /url: /posts/mermaid-embeds/
+                                    - generic [ref=f11e207]: The easiest way to add Mermaid.js diagrams to any site using a simple iframe—no build tools, no config, just paste and go.
+                                  - generic [ref=f11e208]:
+                                    - link "Developer Tools" [ref=f11e210] [cursor=pointer]:
+                                      - /url: /archive/category/Developer Tools/
+                                    - generic [ref=f11e211]: ·
+                                    - generic [ref=f11e212]: 1 Year ago
+                                - link "Embeddable Mermaids" [ref=f11e213] [cursor=pointer]:
+                                  - /url: /posts/mermaid-embeds/
+                                  - img "Cover Image of the Post" [ref=f11e215]
+                          - generic [ref=f11e216]: © 2026 Trent Brew
+            - generic:
+              - generic: What I'm Listening To
+              - generic: CV
+              - generic: Sketchbook
+              - generic: Playground
+              - generic: Writing
+              - generic: Twixxer
+              - generic: GitHub
+              - generic: Shop coming soon
+              - generic: Book a call

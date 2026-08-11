@@ -88,8 +88,8 @@ export default {
           slug: 'writing',
           embed: 'https://www.brew.build?theme=dark',
           center: true,
-          windowWidth: 1000,
-          windowHeight: 500,
+          windowWidth: 800,
+          windowHeight: 400,
         },
         {
           icon: 't_color.svg',
