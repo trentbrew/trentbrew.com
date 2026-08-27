@@ -6,13 +6,12 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "Intro",
-    component: () => import("@/views/Intro.vue"),
+    name: "Desktop",
+    component: () => import("@/views/Screen.vue"),
   },
   {
     path: "/desktop",
-    name: "Desktop",
-    component: () => import("@/views/Screen.vue"),
+    redirect: "/",
   },
   {
     path: "/go/:id",

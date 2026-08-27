@@ -146,6 +146,7 @@ export default {
       window.location.href = 'https://trentbrew.com/tv'
     }
     if (
+      window.location.pathname == '/' ||
       window.location.pathname == '/desktop' ||
       window.location.pathname == '/desktop/'
     ) {
