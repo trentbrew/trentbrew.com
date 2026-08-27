@@ -199,7 +199,6 @@ export default {
       if (data.eventName == 'resize:move') {
         this.windowState.expanded = false
         this.$parent.fullscreen = false
-        console.log(`Window resize: ${data.width}x${data.height}`)
       }
       if (data.eventName == 'drag:start') {
         this.preventEmbedHover = true
@@ -215,6 +214,11 @@ export default {
         })
       }
       if (data.eventName == 'resize:end') {
+        const w = Math.round(this.width)
+        const h = Math.round(this.height)
+        console.log(
+          `[window] ${this.slug || this.title} → ${w}×${h} (dock: windowWidth: ${w}, windowHeight: ${h})`
+        )
         this.$root.$emit('windowGeometry', {
           slug: this.slug,
           width: this.width,

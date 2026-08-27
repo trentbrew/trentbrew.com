@@ -37,6 +37,7 @@ export default {
     About,
     Blog,
     Ribbons,
+    Topbar,
   },
   data() {
     return {
@@ -88,8 +89,8 @@ export default {
           slug: 'writing',
           embed: 'https://www.brew.build?theme=dark',
           center: true,
-          windowWidth: 920,
-          windowHeight: 460,
+          windowWidth: 1000,
+          windowHeight: 400,
         },
         {
           icon: 't_color.svg',
@@ -151,12 +152,11 @@ export default {
       window.location.pathname == '/desktop/'
     ) {
       this.pushWindow({
-        title: 'CV',
-        slug: 'cv',
-        embed: 'https://api.trentbrew.com/cv-framer',
-        deproxy: 'https://api.trentbrew.com/cv-framer',
-        width: 1035,
-        height: 437,
+        title: 'Terminal',
+        slug: 'terminal',
+        component: Terminal,
+        width: 600,
+        height: 400,
         center: true,
       })
     } else {
@@ -345,14 +345,12 @@ export default {
       }
       this.windows = this.windows.filter((w) => !w.closed)
       const windowData = { ...data, slug }
-      const saved = slug ? this.loadWindowGeometry(slug) : null
+      const saved = slug && !data.center ? this.loadWindowGeometry(slug) : null
       if (saved) {
         windowData.width = saved.width
         windowData.height = saved.height
-        if (!data.center) {
-          windowData.left = saved.left
-          windowData.top = saved.top
-        }
+        windowData.left = saved.left
+        windowData.top = saved.top
       }
       this.windows.push(windowData)
       var latest = this.windows[this.windows.length - 1]
@@ -381,7 +379,7 @@ export default {
 </script>
 
 <template>
-  <div class="desktop-container" :style="stretch ? 'height: calc(100vh - 24px);' : 'height: calc(100vh - 48px);'
+  <div class="desktop-container" :style="stretch ? 'height: calc(100vh - 48px);' : 'height: calc(100vh - 72px);'
     ">
     <div class="backdrop">
       <!-- <GradientMesh :index="3" /> -->

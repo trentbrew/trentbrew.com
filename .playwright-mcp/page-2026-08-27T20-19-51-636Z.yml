@@ -1,0 +1,39 @@
+- generic [ref=f1e4]:
+  - generic [ref=f1e7]:
+    - generic [ref=f1e8]:
+      - generic [ref=f1e9]:
+        - button "Home" [ref=f1e10] [cursor=pointer]
+        - tablist "Desktop" [ref=f1e14]:
+          - button "Desktop 1" [pressed] [ref=f1e15] [cursor=pointer]
+          - button "Desktop 2" [ref=f1e17] [cursor=pointer]
+          - button "Desktop 3" [ref=f1e19] [cursor=pointer]
+          - button "Desktop 4" [ref=f1e21] [cursor=pointer]
+          - button "Desktop 5" [ref=f1e23] [cursor=pointer]
+      - generic "Thursday" [ref=f1e26]:
+        - generic [ref=f1e27]: 13:19
+        - generic [ref=f1e28]: Thu, Aug 27
+      - button "Settings" [ref=f1e30] [cursor=pointer]
+    - generic [ref=f1e36]:
+      - generic [ref=f1e37]:
+        - generic:
+          - generic: Terminal
+          - generic:
+            - button
+            - button
+            - button
+        - generic [ref=f1e38]: Terminal
+        - generic [ref=f1e40]:
+          - button [ref=f1e41]
+          - button [ref=f1e42]
+          - button [ref=f1e43]
+      - generic [ref=f1e44]: $
+  - generic [ref=f1e56]:
+    - generic [ref=f1e57]: What I'm Listening To
+    - generic [ref=f1e59]: CV
+    - generic [ref=f1e61]: Sketchbook
+    - generic [ref=f1e63]: Playground
+    - generic [ref=f1e65]: Writing
+    - generic [ref=f1e67] [cursor=pointer]: Twixxer
+    - generic [ref=f1e69] [cursor=pointer]: GitHub
+    - generic [ref=f1e71]: Shop coming soon
+    - generic [ref=f1e73]: Book a call

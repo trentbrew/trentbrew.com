@@ -1,0 +1,36 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: idle
+      - generic "Thursday" [ref=e13]:
+        - generic [ref=e14]: 13:15
+        - generic [ref=e15]: Thu, Aug 27
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic:
+          - generic: Terminal
+          - generic:
+            - button
+            - button
+            - button
+        - generic [ref=e20]: Terminal
+        - generic [ref=e22]:
+          - button [ref=e23]
+          - button [ref=e24]
+          - button [ref=e25]
+      - generic [ref=e28]:
+        - text: $
+        - generic [ref=e29]:
+          - generic [ref=e30]: H
+          - generic [ref=e31]: i
+          - generic [ref=e32]: "!"
+  - generic [ref=e42]:
+    - generic [ref=e43]: What I'm Listening To
+    - generic [ref=e45]: CV
+    - generic [ref=e47]: Sketchbook
+    - generic [ref=e49]: Playground
+    - generic [ref=e51]: Writing
+    - generic [ref=e53] [cursor=pointer]: Twixxer
+    - generic [ref=e55] [cursor=pointer]: GitHub
+    - generic [ref=e57]: Shop coming soon
+    - generic [ref=e59]: Book a call

@@ -9,12 +9,12 @@ export default {
 <style lang="scss" scoped>
 .dock-container {
   position: fixed;
-  transform: translateY(-36px);
+  transform: translateY(0px);
   margin: auto;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  padding: 16px 10px;
+  padding: 8px 10px;
   background: #161616;
   max-width: fit-content;
   height: $dock_height;

@@ -1,0 +1,62 @@
+[     130ms] [LOG] [HMR] Waiting for update signal from WDS... @ webpack-internal:///./node_modules/.pnpm/webpack@4.47.0/node_modules/webpack/hot/log.js:23
+[     184ms] [INFO] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools @ webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:8841
+[     184ms] [INFO] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html @ webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:8849
+[     186ms] [WARNING] Ignoring Event: localhost @ https://plausible.io/js/script.js:0
+[     192ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ https://va.vercel-scripts.com/v1/script.debug.js:0
+[     193ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:8080/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:8080/, sv: 0.1.3, sdkn: @vercel/analytics, sdkv: 1.6.1, ts: 1787860767582} /_vercel/insights/view @ https://va.vercel-scripts.com/v1/script.debug.js:0
+[     490ms] [ERROR] [Vue warn]: Unknown custom element: <Topbar> - did you register the component correctly? For recursive components, make sure to provide the "name" option.
+
+found in
+
+---> <Desktop> at src/components/desktop/Desktop.vue
+       <Screen> at src/views/Screen.vue
+         <App> at src/App.vue
+           <Root> @ webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:4661
+[     492ms] [ERROR] [Vue warn]: Error in mounted hook: "ReferenceError: Waves is not defined"
+
+found in
+
+---> <Ribbons> at src/components/Ribbons.vue
+       <Desktop> at src/components/desktop/Desktop.vue
+         <Screen> at src/views/Screen.vue
+           <App> at src/App.vue
+             <Root> @ webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:4661
+[     492ms] [ERROR] ReferenceError: Waves is not defined
+    at VueComponent.createRibbons (webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/Ribbons.vue?vue&type=script&lang=js:42:7)
+    at VueComponent.mounted (webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/Ribbons.vue?vue&type=script&lang=js:7:10)
+    at invokeWithErrorHandling (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3072:61)
+    at callHook$1 (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:4087:13)
+    at Object.insert (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:4480:13)
+    at invokeInsertHook (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:6999:38)
+    at VueComponent.patch [as __patch__] (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:7213:9)
+    at Vue._update (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3824:25)
+    at VueComponent.updateComponent (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3930:16)
+    at Watcher.get (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3501:33) @ webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3103
+[     493ms] [LOG] hostname [localhost] @ webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/desktop/Desktop.vue?vue&type=script&lang=js:194
+[     494ms] [LOG] subdomain null @ webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/desktop/Desktop.vue?vue&type=script&lang=js:196
+[   41405ms] [ERROR] [Vue warn]: Error in mounted hook: "ReferenceError: Waves is not defined"
+
+found in
+
+---> <Ribbons> at src/components/Ribbons.vue
+       <Desktop>
+         <Screen> at src/views/Screen.vue
+           <App> at src/App.vue
+             <Root> @ webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:4661
+[   41405ms] [ERROR] ReferenceError: Waves is not defined
+    at VueComponent.createRibbons (webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/Ribbons.vue?vue&type=script&lang=js:42:7)
+    at VueComponent.mounted (webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/Ribbons.vue?vue&type=script&lang=js:7:10)
+    at invokeWithErrorHandling (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3072:61)
+    at callHook$1 (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:4087:13)
+    at Object.insert (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:4480:13)
+    at invokeInsertHook (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:6999:38)
+    at VueComponent.patch [as __patch__] (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:7213:9)
+    at Vue._update (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3824:25)
+    at VueComponent.updateComponent (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3930:16)
+    at Watcher.get (webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3501:33) @ webpack-internal:///./node_modules/.pnpm/vue@2.7.16/node_modules/vue/dist/vue.runtime.esm.js:3103
+[   41406ms] [LOG] hostname [localhost] @ webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/desktop/Desktop.vue?vue&type=script&lang=js:195
+[   41406ms] [LOG] subdomain null @ webpack-internal:///./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/babel-loader@8.4.1_@babel+core@7.29.0_webpack@4.47.0/node_modules/babel-loader/lib/index.js!./node_modules/.pnpm/cache-loader@4.1.0_webpack@4.47.0/node_modules/cache-loader/dist/cjs.js?!./node_modules/.pnpm/vue-loader@15.11.1_@vue+compiler-sfc@3.5.31_cache-loader@4.1.0_webpack@4.47.0__css-load_96f0868f9f114531bdcfa48c322cb453/node_modules/vue-loader/lib/index.js?!./src/components/desktop/Desktop.vue?vue&type=script&lang=js:197
+[   41433ms] [LOG] [HMR] Reload all css @ webpack-internal:///./node_modules/.pnpm/mini-css-extract-plugin@0.9.0_webpack@4.47.0/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js:204

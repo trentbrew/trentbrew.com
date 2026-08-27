@@ -1,0 +1,25 @@
+- generic [ref=e4]:
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic:
+        - generic: Terminal
+        - generic:
+          - button
+          - button
+          - button
+      - generic [ref=e12]: Terminal
+      - generic [ref=e14]:
+        - button [ref=e15]
+        - button [ref=e16]
+        - button [ref=e17]
+    - generic [ref=e18]: $
+  - generic [ref=e30]:
+    - generic [ref=e31]: What I'm Listening To
+    - generic [ref=e33]: CV
+    - generic [ref=e35]: Sketchbook
+    - generic [ref=e37]: Playground
+    - generic [ref=e39]: Writing
+    - generic [ref=e41] [cursor=pointer]: Twixxer
+    - generic [ref=e43] [cursor=pointer]: GitHub
+    - generic [ref=e45]: Shop coming soon
+    - generic [ref=e47]: Book a call
