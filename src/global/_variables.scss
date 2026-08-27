@@ -49,6 +49,7 @@ $fallback-font: 'Courier New', monospace;
 
 body {
   font-family: $primary-font, $fallback-font !important;
+  background: black;
   padding: 0 !important;
   margin: 0 !important;
 }
