@@ -62,8 +62,8 @@ export default {
           label: 'CV',
           slug: 'cv',
           embed: 'https://trentbrew-cv.framer.website/',
-          windowWidth: 900,
-          windowHeight: 380,
+          windowWidth: 1035,
+          windowHeight: 437,
           center: true,
         },
         {
@@ -88,8 +88,8 @@ export default {
           slug: 'writing',
           embed: 'https://www.brew.build?theme=dark',
           center: true,
-          windowWidth: 800,
-          windowHeight: 400,
+          windowWidth: 920,
+          windowHeight: 460,
         },
         {
           icon: 't_color.svg',
@@ -155,8 +155,8 @@ export default {
         slug: 'cv',
         embed: 'https://api.trentbrew.com/cv-framer',
         deproxy: 'https://api.trentbrew.com/cv-framer',
-        width: 900,
-        height: 380,
+        width: 1035,
+        height: 437,
         center: true,
       })
     } else {
@@ -270,7 +270,7 @@ export default {
           top: geometry.top,
         }
         localStorage.setItem('trentbrew.windowGeometry', JSON.stringify(all))
-      } catch (e) {}
+      } catch (e) { }
     },
     loadWindowGeometry(slug) {
       if (!slug) return null
@@ -309,7 +309,7 @@ export default {
       }
     },
     openHashWindows(hash) {
-      ;(hash || window.location.hash)
+      ; (hash || window.location.hash)
         .replace(/^#/, '')
         .split(',')
         .filter(Boolean)
@@ -349,8 +349,10 @@ export default {
       if (saved) {
         windowData.width = saved.width
         windowData.height = saved.height
-        windowData.left = saved.left
-        windowData.top = saved.top
+        if (!data.center) {
+          windowData.left = saved.left
+          windowData.top = saved.top
+        }
       }
       this.windows.push(windowData)
       var latest = this.windows[this.windows.length - 1]
