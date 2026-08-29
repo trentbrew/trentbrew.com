@@ -109,15 +109,19 @@ export default {
     },
     setInitialPosition() {
       const { width: areaW, height: areaH } = this.getDesktopBounds()
+      const maxLeft = Math.max(0, areaW - this.width)
+      const maxTop = Math.max(0, areaH - this.height)
       if (this.initialLeft != null) {
-        this.left = Math.max(0, Math.min(areaW - 40, this.initialLeft))
-        this.top = Math.max(0, Math.min(areaH - 60, this.initialTop))
+        this.left = Math.min(maxLeft, Math.max(0, this.initialLeft))
+        this.top = Math.min(maxTop, Math.max(0, this.initialTop))
       } else if (!this.center) {
-        this.left = this.getRandomX()
-        this.top = this.getRandomY()
+        const x = this.getRandomX()
+        const y = this.getRandomY()
+        this.left = Math.min(maxLeft, Math.max(0, x))
+        this.top = Math.min(maxTop, Math.max(0, y))
       } else {
-        this.left = areaW / 2 - this.width / 2
-        this.top = areaH / 2.6 - this.height / 2
+        this.left = Math.max(0, (areaW - this.width) / 2)
+        this.top = Math.max(0, (areaH - this.height) / 2)
       }
     },
     togglePeek() {
@@ -153,8 +157,8 @@ export default {
       this.$parent.fullscreen = this.windowState.expanded
       if (this.windowState.expanded) {
         this.prev = [this.width, this.height, this.top, this.left]
-        this.width = this.maxW - 24
-        this.height = this.maxH - (this.windowState.immersive ? 24 : 48)
+        this.width = this.maxW
+        this.height = this.maxH
         this.top = 0
         this.left = 0
       } else {
