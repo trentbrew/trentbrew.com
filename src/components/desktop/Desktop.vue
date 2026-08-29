@@ -72,7 +72,7 @@ export default {
           label: 'Sketchbook',
           slug: 'sketchbook',
           component: Art,
-          windowWidth: 800,
+          windowWidth: 1150,
           windowHeight: 400,
         },
         {
@@ -89,7 +89,7 @@ export default {
           slug: 'writing',
           embed: 'https://www.brew.build?theme=dark',
           center: true,
-          windowWidth: 1000,
+          windowWidth: 1150,
           windowHeight: 400,
         },
         {
