@@ -80,8 +80,9 @@ export default {
           label: 'Playground',
           slug: 'work',
           component: Work,
-          windowWidth: 1035,
-          windowHeight: 437,
+          windowWidth: 1150,
+          windowHeight: 400,
+          center: true,
         },
         {
           icon: 'garden.svg',
