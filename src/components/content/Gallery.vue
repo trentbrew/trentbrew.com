@@ -11,7 +11,7 @@
     async mounted() {
       http.get(`/api/v1/gallery`).then((res) => {
         this.loading = false
-        this.images = res.data.sort((a, b) => a.index - b.index)
+        this.images = Array.isArray(res.data) ? res.data.sort((a, b) => a.index - b.index) : []
         console.log('sorted images: ', this.images)
       })
     },
