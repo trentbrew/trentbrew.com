@@ -49,6 +49,7 @@ export default {
       stretch: false,
       fullscreen: false,
       dividerIndex: 5,
+      initialWindowsOpened: false,
       dockItems: [
         {
           icon: 'music.svg',
@@ -65,7 +66,6 @@ export default {
           embed: 'https://trentbrew-cv.framer.website/',
           windowWidth: 1035,
           windowHeight: 437,
-          center: true,
         },
         {
           icon: 'doodles.svg',
@@ -82,16 +82,14 @@ export default {
           component: Work,
           windowWidth: 1150,
           windowHeight: 400,
-          center: true,
         },
         {
           icon: 'garden.svg',
           label: 'Writing',
           slug: 'writing',
           embed: 'https://www.brew.build?theme=dark',
-          center: true,
-          windowWidth: 1150,
-          windowHeight: 400,
+          windowWidth: 1035,
+          windowHeight: 437,
         },
         {
           icon: 't_color.svg',
@@ -120,7 +118,6 @@ export default {
           embed: 'https://cal.com/trent-brew-qvjrye/reference-schedule?embed=true&overlayCalendar=true',
           windowWidth: 917,
           windowHeight: 522,
-          center: true,
         },
       ],
     }
@@ -139,7 +136,9 @@ export default {
   },
   mounted() {
     console.clear()
-    const initialHash = window.location.hash
+    if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname + window.location.search)
+    }
     const hostname = window.location.hostname.split('.')
     console.log('hostname', hostname)
     const subdomain = hostname.length > 1 ? hostname[0] : null
@@ -147,48 +146,18 @@ export default {
     if (['gidget', 'timer', 'deepwork'].includes(subdomain)) {
       window.location.href = 'https://trentbrew.com/tv'
     }
-    if (
-      window.location.pathname == '/' ||
-      window.location.pathname == '/desktop' ||
-      window.location.pathname == '/desktop/'
-    ) {
-      this.pushWindow({
-        title: 'Terminal',
-        slug: 'terminal',
-        component: Terminal,
-        width: 600,
-        height: 400,
-        center: true,
-      })
-    } else {
-      this.$watch('popup', () => {
-        setTimeout(() => {
-          this.pushWindow({
-            title: 'Terminal',
-            slug: 'terminal',
-            component: Terminal,
-            width: 600,
-            height: 400,
-            center: true,
-          })
-        }, 2000)
-      })
-    }
+    this.openInitialWindows()
     this.$root.$on('closedWindow', (window) => {
       const win = this.windows.find((w) => w.id === window.id)
       if (win) win.closed = true
       const idx = this.activeWindows.indexOf(window.title)
       if (idx > -1) this.activeWindows.splice(idx, 1)
       this.$root.$emit('windowSelected', this.zBufferSet[1])
-      this.syncHash()
     })
     this.$root.$on('windowSelected', (id) => {
       if (id != this.zBuffer[0]) {
         this.zBufferUpdate(id)
       }
-    })
-    this.$root.$on('windowGeometry', (geometry) => {
-      this.saveWindowGeometry(geometry.slug, geometry)
     })
     this.$root.$on('cardClicked', (project) => {
       if (project.wip) {
@@ -197,7 +166,6 @@ export default {
           image: 'animations/comingsoon.gif',
           width: 360,
           height: 275,
-          center: true,
         })
       } else if (project.content.link) {
         window.open(project.content.link, '_blank')
@@ -214,7 +182,6 @@ export default {
           casestudy: project.content.casestudy || null,
           width: parseInt(project.dims.split('x')[0]),
           height: parseInt(project.dims.split('x')[1]),
-          center: true,
         })
       }
     })
@@ -229,8 +196,6 @@ export default {
     this.dockItems.forEach((item) => {
       item = { ...item, open: false }
     })
-    window.addEventListener('hashchange', this.onHashChange)
-    this.openHashWindows(initialHash)
     window.addEventListener('keyup', (e) => {
       ; (e.key == 't' || e.key == 'T') &&
         this.pushWindow({
@@ -245,9 +210,39 @@ export default {
   },
   destroyed() {
     window.removeEventListener('keyup', (e) => { })
-    window.removeEventListener('hashchange', this.onHashChange)
   },
   methods: {
+    openInitialWindows() {
+      if (this.initialWindowsOpened) return
+      if (
+        window.location.pathname == '/' ||
+        window.location.pathname == '/desktop' ||
+        window.location.pathname == '/desktop/'
+      ) {
+        this.pushWindow({
+          title: 'Terminal',
+          slug: 'terminal',
+          component: Terminal,
+          width: 600,
+          height: 400,
+          center: true,
+        })
+      } else {
+        this.$watch('popup', () => {
+          setTimeout(() => {
+            this.pushWindow({
+              title: 'Terminal',
+              slug: 'terminal',
+              component: Terminal,
+              width: 600,
+              height: 400,
+              center: true,
+            })
+          }, 2000)
+        })
+      }
+      this.initialWindowsOpened = true
+    },
     handleItemClick(index) {
       this.clicked = index
     },
@@ -258,81 +253,6 @@ export default {
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/^-+|-+$/g, '')
     },
-    saveWindowGeometry(slug, geometry) {
-      if (!slug || !geometry) return
-      try {
-        const all = JSON.parse(
-          localStorage.getItem('trentbrew.windowGeometry') || '{}'
-        )
-        all[slug] = {
-          width: geometry.width,
-          height: geometry.height,
-          left: geometry.left,
-          top: geometry.top,
-        }
-        localStorage.setItem('trentbrew.windowGeometry', JSON.stringify(all))
-      } catch (e) { }
-    },
-    loadWindowGeometry(slug) {
-      if (!slug) return null
-      try {
-        const all = JSON.parse(
-          localStorage.getItem('trentbrew.windowGeometry') || '{}'
-        )
-        return all[slug] || null
-      } catch (e) {
-        return null
-      }
-    },
-    syncHash() {
-      const slugs = this.windows
-        .filter((w) => !w.closed)
-        .map((w) => w.slug)
-        .filter(Boolean)
-      const next = slugs.length ? '#' + slugs.join(',') : window.location.pathname
-      if (window.location.hash !== (slugs.length ? '#' + slugs.join(',') : '')) {
-        history.replaceState(null, '', next)
-      }
-    },
-    windowFromDock(item) {
-      return {
-        title: item.label || 'Title',
-        slug: item.slug || null,
-        link: item.link || null,
-        embed: item.embed || null,
-        component: item.component || null,
-        image: item.image || null,
-        width: item.windowWidth || 600,
-        height: item.windowHeight || 400,
-        positionX: item.windowPositionX || this.getRandomX(),
-        positionY: item.windowPositionY || this.getRandomY(),
-        center: item.center,
-      }
-    },
-    openHashWindows(hash) {
-      ; (hash || window.location.hash)
-        .replace(/^#/, '')
-        .split(',')
-        .filter(Boolean)
-        .forEach((slug) => {
-          const item = this.dockItems.find((i) => i.slug === slug)
-          if (item && !item.link) this.pushWindow(this.windowFromDock(item))
-        })
-    },
-    onHashChange() {
-      const desired = new Set(
-        window.location.hash.replace(/^#/, '').split(',').filter(Boolean)
-      )
-      const open = new Set(
-        this.windows.filter((w) => !w.closed).map((w) => w.slug)
-      )
-      desired.forEach((slug) => {
-        if (!open.has(slug)) {
-          const item = this.dockItems.find((i) => i.slug === slug)
-          if (item && !item.link) this.pushWindow(this.windowFromDock(item))
-        }
-      })
-    },
     pushWindow(data) {
       const slug = data.slug || this.slugify(data.title || '')
       const existing = slug
@@ -341,39 +261,20 @@ export default {
       if (existing) {
         this.zBufferUpdate(existing.id)
         this.$root.$emit('windowSelected', existing.id)
-        this.syncHash()
         return
       }
       this.windows = this.windows.filter((w) => !w.closed)
-      const windowData = { ...data, slug }
-      const saved = slug && !data.center ? this.loadWindowGeometry(slug) : null
-      if (saved) {
-        windowData.width = saved.width
-        windowData.height = saved.height
-        windowData.left = saved.left
-        windowData.top = saved.top
-      }
-      this.windows.push(windowData)
+      this.windows.push({ ...data, slug })
       var latest = this.windows[this.windows.length - 1]
       latest.id = uid(8)
       this.zBufferUpdate(latest.id)
       if (!this.activeWindows.includes(latest.title))
         this.activeWindows.push(latest.title)
-      this.syncHash()
     },
     zBufferUpdate(id) {
       // [0] is top of z-index
       this.zBuffer = [id, ...this.zBuffer]
       this.zBufferSet = Array.from(new Set(this.zBuffer))
-    },
-    random(min, max) {
-      Math.random() * (max - min) + min
-    },
-    getRandomX() {
-      return this.random(0, this.maxW - 24)
-    },
-    getRandomY() {
-      return this.random(0, this.maxH - 24)
     },
   },
 }
@@ -383,14 +284,13 @@ export default {
   <div class="desktop-container" :style="stretch ? 'height: calc(100vh - 48px);' : 'height: calc(100vh - 72px);'
     ">
     <div class="backdrop">
-      <!-- <GradientMesh :index="3" /> -->
       <Ribbons />
     </div>
     <div ref="desktop" class="desktop">
       <!-- <Topbar /> -->
       <Window v-for="(window, index) in windows" :key="window.id" :index="index" :id="window.id" :title="window.title"
-        :initialWidth="window.width" :initialHeight="window.height" :center="window.center" :initialLeft="window.left"
-        :initialTop="window.top" :slug="window.slug" :embed="window.embed" :video="window.video">
+        :initialWidth="window.width" :initialHeight="window.height" :center="window.center" :slug="window.slug"
+        :embed="window.embed" :video="window.video">
         <template v-if="window.embed">
           <iframe :data-context="window.embed.includes('spotify.com')
             ? 'spotify'
@@ -440,8 +340,6 @@ export default {
               image: item.image || null, // String
               width: item.windowWidth || 600, // Number
               height: item.windowHeight || 400, // Nmuber
-              positionX: item.windowPositionX || getRandomX(), // Number
-              positionY: item.windowPositionY || getRandomY(), // Number
               center: item.center,
             })
           ">
@@ -555,18 +453,8 @@ iframe[data-context='brew'] {
   height: $ui_height;
   width: $ui_width;
   border-radius: $rad;
-  background-image: url('../../assets/wallpapers/tb.png');
-  // background-image: radial-gradient(
-  //   circle at 1px 1px,
-  //   #ffffff12 1px,
-  //   transparent 0
-  // );
-  // background-size: 50px 30px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  //background: #161616;
-  //filter: brightness(0.8);
+  background: #161616;
+  overflow: hidden;
 }
 
 .desktop-container {

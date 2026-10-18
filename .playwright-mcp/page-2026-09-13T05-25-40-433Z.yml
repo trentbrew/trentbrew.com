@@ -1,0 +1,1431 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic:
+          - generic: Terminal
+          - generic:
+            - button
+            - button
+            - button
+        - generic [ref=e12]: Terminal
+        - generic [ref=e14]:
+          - button [ref=e15]
+          - button [ref=e16]
+          - button [ref=e17]
+      - generic: $
+    - generic [ref=e29]:
+      - generic:
+        - generic: Sketchbook
+        - generic:
+          - button
+          - button
+          - button
+      - generic [ref=e30]: Sketchbook
+      - generic [ref=e32]:
+        - button [ref=e33]
+        - button [ref=e34]
+        - button [ref=e35]
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic:
+          - generic: Playground
+          - generic:
+            - button
+            - button
+            - button
+        - generic [ref=e48]: Playground
+        - generic [ref=e50]:
+          - button [ref=e51]
+          - button [ref=e52]
+          - button [ref=e53]
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Interactive
+                - generic:
+                  - generic:
+                    - link "Web":
+                      - /url: "#"
+                    - link "Games":
+                      - /url: "#"
+              - generic:
+                - generic: Visual
+                - generic:
+                  - link "Design":
+                    - /url: "#"
+                  - link "Animation":
+                    - /url: "#"
+            - generic:
+              - generic:
+                - generic:
+                  - figure "GSAP Studio AI-powered motion design instrument NextJS InstantDB OpenAI":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "GSAP Studio" [level=3]
+                        - text: AI-powered motion design instrument
+                        - generic:
+                          - generic: NextJS
+                          - generic: InstantDB
+                          - generic: OpenAI
+                  - figure "CodeHQ Project-scoped agentic knowledge graph React OpenAI":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "CodeHQ" [level=3]
+                        - text: Project-scoped agentic knowledge graph
+                        - generic:
+                          - generic: React
+                          - generic: OpenAI
+                  - figure "Amorphous A canvas for everything Svelte Zerosync":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Amorphous" [level=3]
+                        - text: A canvas for everything
+                        - generic:
+                          - generic: Svelte
+                          - generic: Zerosync
+                  - figure "Zen Timer (Chrome Extension) A minimalist general purpose timer Vue":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Zen Timer (Chrome Extension)" [level=3]
+                        - text: A minimalist general purpose timer
+                        - generic: Vue
+                  - figure "Geodata Playground 3D geodata visualization powered by DeckGL Vue WebGL":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Geodata Playground" [level=3]
+                        - text: 3D geodata visualization powered by DeckGL
+                        - generic:
+                          - generic: Vue
+                          - generic: WebGL
+                  - figure "Iconic REST API for SVG icons Vue Node Express":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Iconic" [level=3]
+                        - text: REST API for SVG icons
+                        - generic:
+                          - generic: Vue
+                          - generic: Node
+                          - generic: Express
+                  - figure "Brevity A minimalistic generative writing app (WIP) Svelte Gemini":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Brevity" [level=3]
+                        - text: A minimalistic generative writing app (WIP)
+                        - generic:
+                          - generic: Svelte
+                          - generic: Gemini
+                  - figure "Solar System Explore the planets of the solar system HTML5 JQuery":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Solar System" [level=3]
+                        - text: Explore the planets of the solar system
+                        - generic:
+                          - generic: HTML5
+                          - generic: JQuery
+                  - figure "Drummerboi Tap to make music HTML5 JQuery":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Drummerboi" [level=3]
+                        - text: Tap to make music
+                        - generic:
+                          - generic: HTML5
+                          - generic: JQuery
+                  - figure "Fancy Forms Sandbox for form design & input validation Vue":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading "Fancy Forms" [level=3]
+                        - text: Sandbox for form design & input validation
+                        - generic: Vue
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic:
+          - generic: Writing
+          - generic:
+            - button
+            - button
+            - button
+        - generic [ref=e66]:
+          - generic [ref=e67]: Writing
+          - generic [ref=e68] [cursor=pointer]
+        - generic [ref=e69]:
+          - button [ref=e70]
+          - button [ref=e71]
+          - button [ref=e72]
+      - iframe [ref=e73]:
+        - generic [ref=f1e1]:
+          - generic [ref=f1e3]:
+            - generic [ref=f1e4]:
+              - link "brew.build() _" [ref=f1e5] [cursor=pointer]:
+                - /url: /
+                - generic [ref=f1e6]:
+                  - text: brew.build()
+                  - generic [ref=f1e7]: _
+              - generic [ref=f1e8]:
+                - link "Home" [ref=f1e9] [cursor=pointer]:
+                  - /url: /
+                - link "Archive" [ref=f1e11] [cursor=pointer]:
+                  - /url: /archive/
+                - link "About" [ref=f1e13] [cursor=pointer]:
+                  - /url: /about/
+            - generic:
+              - link "Home":
+                - /url: /
+              - link "Archive":
+                - /url: /archive/
+              - link "About":
+                - /url: /about/
+            - generic [ref=f1e15]:
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Theme Color
+                    - button "Reset to Default"
+                  - generic: "180"
+                - generic:
+                  - slider "Theme Color": "180"
+          - generic [ref=f1e16]:
+            - generic [ref=f1e17]:
+              - generic [ref=f1e19]:
+                - generic [ref=f1e20]:
+                  - generic [ref=f1e21]: Notebooks
+                  - generic [ref=f1e23]:
+                    - link "View all posts in the Developer Tools category" [ref=f1e24] [cursor=pointer]:
+                      - /url: /archive/category/Developer Tools/
+                      - button "Developer Tools 2 posts" [ref=f1e25]:
+                        - generic [ref=f1e26]:
+                          - generic [ref=f1e27]: Developer Tools
+                          - generic [ref=f1e28]: 2 posts
+                    - link "View all posts in the Essay category" [ref=f1e29] [cursor=pointer]:
+                      - /url: /archive/category/Essay/
+                      - button "Essay 3 posts" [ref=f1e30]:
+                        - generic [ref=f1e31]:
+                          - generic [ref=f1e32]: Essay
+                          - generic [ref=f1e33]: 3 posts
+                    - link "View all posts in the Guides category" [ref=f1e34] [cursor=pointer]:
+                      - /url: /archive/category/Guides/
+                      - button "Guides 1 post" [ref=f1e35]:
+                        - generic [ref=f1e36]:
+                          - generic [ref=f1e37]: Guides
+                          - generic [ref=f1e38]: 1 post
+                    - link "View all posts in the Notes category" [ref=f1e39] [cursor=pointer]:
+                      - /url: /archive/category/Notes/
+                      - button "Notes 4 posts" [ref=f1e40]:
+                        - generic [ref=f1e41]:
+                          - generic [ref=f1e42]: Notes
+                          - generic [ref=f1e43]: 4 posts
+                    - link "View all posts in the React category" [ref=f1e44] [cursor=pointer]:
+                      - /url: /archive/category/React/
+                      - button "React 1 post" [ref=f1e45]:
+                        - generic [ref=f1e46]:
+                          - generic [ref=f1e47]: React
+                          - generic [ref=f1e48]: 1 post
+                - generic [ref=f1e49]:
+                  - generic [ref=f1e50]: Topics
+                  - generic [ref=f1e53]:
+                    - link "View all posts with the Agentic Development tag" [ref=f1e54] [cursor=pointer]:
+                      - /url: /archive/tag/Agentic Development/
+                      - text: Agentic Development
+                    - link "View all posts with the Agents tag" [ref=f1e55] [cursor=pointer]:
+                      - /url: /archive/tag/Agents/
+                      - text: Agents
+                    - link "View all posts with the AI tag" [ref=f1e56] [cursor=pointer]:
+                      - /url: /archive/tag/AI/
+                      - text: AI
+                    - link "View all posts with the AI Agents tag" [ref=f1e57] [cursor=pointer]:
+                      - /url: /archive/tag/AI Agents/
+                      - text: AI Agents
+                    - link "View all posts with the Bash tag" [ref=f1e58] [cursor=pointer]:
+                      - /url: /archive/tag/Bash/
+                      - text: Bash
+                    - link "View all posts with the Causal Graph tag" [ref=f1e59] [cursor=pointer]:
+                      - /url: /archive/tag/Causal Graph/
+                      - text: Causal Graph
+                    - link "View all posts with the Community Media tag" [ref=f1e60] [cursor=pointer]:
+                      - /url: /archive/tag/Community Media/
+                      - text: Community Media
+                    - link "View all posts with the Context Engineering tag" [ref=f1e61] [cursor=pointer]:
+                      - /url: /archive/tag/Context Engineering/
+                      - text: Context Engineering
+                    - link "View all posts with the Craftpunk tag" [ref=f1e62] [cursor=pointer]:
+                      - /url: /archive/tag/Craftpunk/
+                      - text: Craftpunk
+                    - link "View all posts with the Design tag" [ref=f1e63] [cursor=pointer]:
+                      - /url: /archive/tag/Design/
+                      - text: Design
+                    - link "View all posts with the Developer Tools tag" [ref=f1e64] [cursor=pointer]:
+                      - /url: /archive/tag/Developer Tools/
+                      - text: Developer Tools
+                    - link "View all posts with the Filegraph tag" [ref=f1e65] [cursor=pointer]:
+                      - /url: /archive/tag/Filegraph/
+                      - text: Filegraph
+                    - link "View all posts with the Frontend tag" [ref=f1e66] [cursor=pointer]:
+                      - /url: /archive/tag/Frontend/
+                      - text: Frontend
+                    - link "View all posts with the Game Engine tag" [ref=f1e67] [cursor=pointer]:
+                      - /url: /archive/tag/Game Engine/
+                      - text: Game Engine
+                    - link "View all posts with the IDE tag" [ref=f1e68] [cursor=pointer]:
+                      - /url: /archive/tag/IDE/
+                      - text: IDE
+                    - link "View all posts with the JSON-LD tag" [ref=f1e69] [cursor=pointer]:
+                      - /url: /archive/tag/JSON-LD/
+                      - text: JSON-LD
+                    - link "View all posts with the Knowledge Graph tag" [ref=f1e70] [cursor=pointer]:
+                      - /url: /archive/tag/Knowledge Graph/
+                      - text: Knowledge Graph
+                    - link "View all posts with the Knowledge Graphs tag" [ref=f1e71] [cursor=pointer]:
+                      - /url: /archive/tag/Knowledge Graphs/
+                      - text: Knowledge Graphs
+                    - link "View all posts with the Local-First tag" [ref=f1e72] [cursor=pointer]:
+                      - /url: /archive/tag/Local-First/
+                      - text: Local-First
+                    - link "View all posts with the Migration tag" [ref=f1e73] [cursor=pointer]:
+                      - /url: /archive/tag/Migration/
+                      - text: Migration
+                    - link "View all posts with the Multiplayer tag" [ref=f1e74] [cursor=pointer]:
+                      - /url: /archive/tag/Multiplayer/
+                      - text: Multiplayer
+                    - link "View all posts with the Next.js tag" [ref=f1e75] [cursor=pointer]:
+                      - /url: /archive/tag/Next.js/
+                      - text: Next.js
+                    - link "View all posts with the Notion tag" [ref=f1e76] [cursor=pointer]:
+                      - /url: /archive/tag/Notion/
+                      - text: Notion
+                    - link "View all posts with the Open Source tag" [ref=f1e77] [cursor=pointer]:
+                      - /url: /archive/tag/Open Source/
+                      - text: Open Source
+                    - link "View all posts with the Process tag" [ref=f1e78] [cursor=pointer]:
+                      - /url: /archive/tag/Process/
+                      - text: Process
+                    - link "View all posts with the Public Access tag" [ref=f1e79] [cursor=pointer]:
+                      - /url: /archive/tag/Public Access/
+                      - text: Public Access
+                    - link "View all posts with the Raster tag" [ref=f1e80] [cursor=pointer]:
+                      - /url: /archive/tag/Raster/
+                      - text: Raster
+                    - link "View all posts with the React tag" [ref=f1e81] [cursor=pointer]:
+                      - /url: /archive/tag/React/
+                      - text: React
+                    - link "View all posts with the Reactivity tag" [ref=f1e82] [cursor=pointer]:
+                      - /url: /archive/tag/Reactivity/
+                      - text: Reactivity
+                    - link "View all posts with the Realtime tag" [ref=f1e83] [cursor=pointer]:
+                      - /url: /archive/tag/Realtime/
+                      - text: Realtime
+                    - link "View all posts with the Scripting tag" [ref=f1e84] [cursor=pointer]:
+                      - /url: /archive/tag/Scripting/
+                      - text: Scripting
+                    - link "View all posts with the Semantic Web tag" [ref=f1e85] [cursor=pointer]:
+                      - /url: /archive/tag/Semantic Web/
+                      - text: Semantic Web
+                    - link "View all posts with the Svelte tag" [ref=f1e86] [cursor=pointer]:
+                      - /url: /archive/tag/Svelte/
+                      - text: Svelte
+                    - link "View all posts with the Three.js tag" [ref=f1e87] [cursor=pointer]:
+                      - /url: /archive/tag/Three.js/
+                      - text: Three.js
+                    - link "View all posts with the Threlte tag" [ref=f1e88] [cursor=pointer]:
+                      - /url: /archive/tag/Threlte/
+                      - text: Threlte
+                    - link "View all posts with the TQL tag" [ref=f1e89] [cursor=pointer]:
+                      - /url: /archive/tag/TQL/
+                      - text: TQL
+                    - link "View all posts with the Trellis tag" [ref=f1e90] [cursor=pointer]:
+                      - /url: /archive/tag/Trellis/
+                      - text: Trellis
+                    - link "View all posts with the Vue tag" [ref=f1e91] [cursor=pointer]:
+                      - /url: /archive/tag/Vue/
+                      - text: Vue
+                    - link "View all posts with the Web Dev tag" [ref=f1e92] [cursor=pointer]:
+                      - /url: /archive/tag/Web Dev/
+                      - text: Web Dev
+              - main [ref=f1e93]:
+                - generic [ref=f1e95]:
+                  - generic [ref=f1e96]:
+                    - generic [ref=f1e97]:
+                      - generic [ref=f1e98]:
+                        - link "3D worlds as graphs" [ref=f1e99] [cursor=pointer]:
+                          - /url: /posts/world-engine/
+                        - generic [ref=f1e102]: An agent-native, realtime-multiplayer 3D world engine where a game is a graph, and the renderer, the systems, the netcode, and the AI all read from the same file. Built on Trellis. Now open source.
+                      - generic [ref=f1e103]:
+                        - link "Essay" [ref=f1e105] [cursor=pointer]:
+                          - /url: /archive/category/Essay/
+                        - generic [ref=f1e106]: ·
+                        - generic [ref=f1e107]: 28 Days ago
+                    - link "3D worlds as graphs" [ref=f1e108] [cursor=pointer]:
+                      - /url: /posts/world-engine/
+                      - img "Cover Image of the Post" [ref=f1e110]
+                  - generic [ref=f1e111]:
+                    - generic [ref=f1e112]:
+                      - generic [ref=f1e113]:
+                        - link "Alliance for Community Media" [ref=f1e114] [cursor=pointer]:
+                          - /url: /posts/acm/
+                        - generic [ref=f1e117]: "A quick recap from ACM Madison: first conference, Raster booth, what stuck, what is next."
+                      - generic [ref=f1e118]:
+                        - link "Notes" [ref=f1e120] [cursor=pointer]:
+                          - /url: /archive/category/Notes/
+                        - generic [ref=f1e121]: ·
+                        - generic [ref=f1e122]: 2 Months ago
+                    - link "Alliance for Community Media" [ref=f1e123] [cursor=pointer]:
+                      - /url: /posts/acm/
+                  - generic [ref=f1e126]:
+                    - generic [ref=f1e127]:
+                      - generic [ref=f1e128]:
+                        - link "A Polite Lie Told to Gravity" [ref=f1e129] [cursor=pointer]:
+                          - /url: /posts/trellis-studio/
+                        - generic [ref=f1e132]: "Trellis Studio is a local-first graph for things that grow but can't hold their own weight: code, decisions, and the reasoning of AI agents."
+                      - generic [ref=f1e133]:
+                        - link "Essay" [ref=f1e135] [cursor=pointer]:
+                          - /url: /archive/category/Essay/
+                        - generic [ref=f1e136]: ·
+                        - generic [ref=f1e137]: 3 Months ago
+                    - link "A Polite Lie Told to Gravity" [ref=f1e138] [cursor=pointer]:
+                      - /url: /posts/trellis-studio/
+                      - img "Cover Image of the Post" [ref=f1e140]
+                  - generic [ref=f1e141]:
+                    - generic [ref=f1e142]:
+                      - generic [ref=f1e143]:
+                        - 'link "Filegraph: Toward a Semantic OS" [ref=f1e144] [cursor=pointer]':
+                          - /url: /posts/filegraph/
+                        - generic [ref=f1e147]: Turning your filesystem into a queryable knowledge graph with inspectable AI reasoning
+                      - generic [ref=f1e148]:
+                        - link "Essay" [ref=f1e150] [cursor=pointer]:
+                          - /url: /archive/category/Essay/
+                        - generic [ref=f1e151]: ·
+                        - generic [ref=f1e152]: 5 Months ago
+                    - 'link "Filegraph: Toward a Semantic OS" [ref=f1e153] [cursor=pointer]':
+                      - /url: /posts/filegraph/
+                  - generic [ref=f1e156]:
+                    - generic [ref=f1e157]:
+                      - generic [ref=f1e158]:
+                        - link "What I Learned Building a Knowledge Graph for AI Agents" [ref=f1e159] [cursor=pointer]:
+                          - /url: /posts/introducing-codehq/
+                        - generic [ref=f1e162]: AI assistants struggle with scattered context. I built something that lets them query project knowledge like a database.
+                      - generic [ref=f1e163]:
+                        - link "Developer Tools" [ref=f1e165] [cursor=pointer]:
+                          - /url: /archive/category/Developer Tools/
+                        - generic [ref=f1e166]: ·
+                        - generic [ref=f1e167]: 10 Months ago
+                    - link "What I Learned Building a Knowledge Graph for AI Agents" [ref=f1e168] [cursor=pointer]:
+                      - /url: /posts/introducing-codehq/
+                      - img "Cover Image of the Post" [ref=f1e170]
+                  - generic [ref=f1e171]:
+                    - generic [ref=f1e172]:
+                      - generic [ref=f1e173]:
+                        - link "Beyond Embeddings" [ref=f1e174] [cursor=pointer]:
+                          - /url: /posts/beyond-embeddings/
+                        - generic [ref=f1e177]: An exploration into alternative ways to measure similarity
+                      - generic [ref=f1e178]:
+                        - link "Notes" [ref=f1e180] [cursor=pointer]:
+                          - /url: /archive/category/Notes/
+                        - generic [ref=f1e181]: ·
+                        - generic [ref=f1e182]: 1 Year ago
+                    - link "Beyond Embeddings" [ref=f1e183] [cursor=pointer]:
+                      - /url: /posts/beyond-embeddings/
+                      - img "Cover Image of the Post" [ref=f1e185]
+                  - generic [ref=f1e186]:
+                    - generic [ref=f1e187]:
+                      - generic [ref=f1e188]:
+                        - link "React Runes" [ref=f1e189] [cursor=pointer]:
+                          - /url: /posts/react-runes/
+                        - generic [ref=f1e192]: React Runes is an experimental library designed to bring Svelte 5-inspired reactivity and ergonomics to your React and Next.js applications.
+                      - generic [ref=f1e193]:
+                        - link "React" [ref=f1e195] [cursor=pointer]:
+                          - /url: /archive/category/React/
+                        - generic [ref=f1e196]: ·
+                        - generic [ref=f1e197]: 1 Year ago
+                    - link "React Runes" [ref=f1e198] [cursor=pointer]:
+                      - /url: /posts/react-runes/
+                  - generic [ref=f1e201]:
+                    - generic [ref=f1e202]:
+                      - generic [ref=f1e203]:
+                        - link "Embeddable Mermaids" [ref=f1e204] [cursor=pointer]:
+                          - /url: /posts/mermaid-embeds/
+                        - generic [ref=f1e207]: The easiest way to add Mermaid.js diagrams to any site using a simple iframe—no build tools, no config, just paste and go.
+                      - generic [ref=f1e208]:
+                        - link "Developer Tools" [ref=f1e210] [cursor=pointer]:
+                          - /url: /archive/category/Developer Tools/
+                        - generic [ref=f1e211]: ·
+                        - generic [ref=f1e212]: 1 Year ago
+                    - link "Embeddable Mermaids" [ref=f1e213] [cursor=pointer]:
+                      - /url: /posts/mermaid-embeds/
+                      - img "Cover Image of the Post" [ref=f1e215]
+            - generic [ref=f1e216]:
+              - generic:
+                - button "Back to Top"
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - generic:
+          - generic: What I'm Listening To
+          - generic:
+            - button
+            - button
+            - button
+        - generic [ref=e86]:
+          - generic [ref=e87]: What I'm Listening To
+          - generic [ref=e88] [cursor=pointer]
+        - generic [ref=e89]:
+          - button [ref=e90]
+          - button [ref=e91]
+          - button [ref=e92]
+      - iframe [ref=e93]:
+        - generic [ref=f2e1]:
+          - generic [ref=f2e4]:
+            - generic [ref=f2e5]:
+              - img "/~ cover" [ref=f2e8] [cursor=pointer]
+              - button "Play on Spotify" [ref=f2e10] [cursor=pointer]
+              - generic [ref=f2e13]:
+                - heading [level=1] [ref=f2e14]:
+                  - link "/~" [ref=f2e18] [cursor=pointer]:
+                    - /url: https://open.spotify.com/playlist/7uUkcVP0SpSzyt9UUS9AJT?go=1&sp_cid=5c8660d82a486808a435afe93c0c886c&utm_source=embed_player_p&utm_medium=desktop
+                - generic [ref=f2e19]:
+                  - list "Tags" [ref=f2e20]:
+                    - generic "Preview" [ref=f2e21]
+                  - heading [level=2] [ref=f2e22]:
+                    - link "Trent" [ref=f2e27] [cursor=pointer]:
+                      - /url: https://open.spotify.com/playlist/7uUkcVP0SpSzyt9UUS9AJT?go=1&sp_cid=5c8660d82a486808a435afe93c0c886c&utm_source=embed_player_p&utm_medium=desktop
+                - button "Save on Spotify" [ref=f2e29] [cursor=pointer]
+              - generic [ref=f2e36]:
+                - generic [ref=f2e37]:
+                  - button "Previous" [disabled] [ref=f2e38]
+                  - button "Next" [disabled] [ref=f2e42]
+                - button "More" [ref=f2e47] [cursor=pointer]
+                - button "Play" [ref=f2e52] [cursor=pointer]
+            - list "Track list" [ref=f2e58]:
+              - listitem [ref=f2e59]:
+                - button "Play track" [ref=f2e61] [cursor=pointer]:
+                  - generic [ref=f2e62]: "1"
+                - heading "Welcome" [level=3] [ref=f2e63]
+                - heading "Sam Wilkes, Sam Gendel" [level=4] [ref=f2e64]
+                - generic [ref=f2e65]: 02:36
+              - listitem [ref=f2e66]:
+                - button "Play track" [ref=f2e68] [cursor=pointer]:
+                  - generic [ref=f2e69]: "2"
+                - heading "Isn't It True" [level=3] [ref=f2e70]
+                - heading "Brendan Eder Ensemble, Henry Solomon" [level=4] [ref=f2e71]
+                - generic [ref=f2e72]: 02:41
+              - listitem [ref=f2e73]:
+                - button "Play track" [ref=f2e75] [cursor=pointer]:
+                  - generic [ref=f2e76]: "3"
+                - heading "Space 8" [level=3] [ref=f2e77]
+                - heading "Nala Sinephro" [level=4] [ref=f2e78]
+                - generic [ref=f2e79]: 17:32
+              - listitem [ref=f2e80]:
+                - button "Play track" [ref=f2e82] [cursor=pointer]:
+                  - generic [ref=f2e83]: "4"
+                - heading "October" [level=3] [ref=f2e84]
+                - heading "Okonski" [level=4] [ref=f2e85]
+                - generic [ref=f2e86]: 03:39
+              - listitem [ref=f2e87]:
+                - button "Play track" [ref=f2e89] [cursor=pointer]:
+                  - generic [ref=f2e90]: "5"
+                - heading "Flying to America" [level=3] [ref=f2e91]
+                - heading "Marco Parisi" [level=4] [ref=f2e92]
+                - generic [ref=f2e93]: 07:48
+              - listitem [ref=f2e94]:
+                - button "Play track" [ref=f2e96] [cursor=pointer]:
+                  - generic [ref=f2e97]: "6"
+                - heading "Sun" [level=3] [ref=f2e98]
+                - heading "GODTET" [level=4] [ref=f2e99]
+                - generic [ref=f2e100]: 04:00
+              - listitem [ref=f2e101]:
+                - button "Play track" [ref=f2e103] [cursor=pointer]:
+                  - generic [ref=f2e104]: "7"
+                - heading "Cloud Boat" [level=3] [ref=f2e105]
+                - heading "Masahiro Takahashi" [level=4] [ref=f2e106]
+                - generic [ref=f2e107]: 05:30
+              - listitem [ref=f2e108]:
+                - button "Play track" [ref=f2e110] [cursor=pointer]:
+                  - generic [ref=f2e111]: "8"
+                - heading "coldzero" [level=3] [ref=f2e112]
+                - heading "Wun Two" [level=4] [ref=f2e113]
+                - generic [ref=f2e114]: 02:05
+              - listitem [ref=f2e115]:
+                - button "Play track" [ref=f2e117] [cursor=pointer]:
+                  - generic [ref=f2e118]: "9"
+                - heading "Wobbly Day" [level=3] [ref=f2e119]
+                - heading "GlobulDub" [level=4] [ref=f2e120]
+                - generic [ref=f2e121]: 03:12
+              - listitem [ref=f2e122]:
+                - button "Play track" [ref=f2e124] [cursor=pointer]:
+                  - generic [ref=f2e125]: "10"
+                - heading "Love In Memory" [level=3] [ref=f2e126]
+                - heading "Finn Rees, SHOLTO" [level=4] [ref=f2e127]
+                - generic [ref=f2e128]: 02:59
+              - listitem [ref=f2e129]:
+                - button "Play track" [ref=f2e131] [cursor=pointer]:
+                  - generic [ref=f2e132]: "11"
+                - heading "The Colour Purple - Live From Malibu" [level=3] [ref=f2e133]
+                - heading "Yussef Dayes" [level=4] [ref=f2e134]
+                - generic [ref=f2e135]: 02:43
+              - listitem [ref=f2e136]:
+                - button "Play track" [ref=f2e138] [cursor=pointer]:
+                  - generic [ref=f2e139]: "12"
+                - heading "whidbey" [level=3] [ref=f2e140]
+                - heading "Buddy Ross" [level=4] [ref=f2e141]
+                - generic [ref=f2e142]: 03:54
+              - listitem [ref=f2e143]:
+                - button "Play track" [ref=f2e145] [cursor=pointer]:
+                  - generic [ref=f2e146]: "13"
+                - heading "The Coast" [level=3] [ref=f2e147]
+                - heading "Elijah Fox" [level=4] [ref=f2e148]
+                - generic [ref=f2e149]: 02:40
+              - listitem [ref=f2e150]:
+                - button "Play track" [ref=f2e152] [cursor=pointer]:
+                  - generic [ref=f2e153]: "14"
+                - heading "TRACK ONE" [level=3] [ref=f2e154]
+                - heading "Sam Gendel, Sam Wilkes" [level=4] [ref=f2e155]
+                - generic [ref=f2e156]: 05:52
+              - listitem [ref=f2e157]:
+                - button "Play track" [ref=f2e159] [cursor=pointer]:
+                  - generic [ref=f2e160]: "15"
+                - heading "Snow" [level=3] [ref=f2e161]
+                - heading "Sam Wilkes, Craig Weinrib, Dylan Day" [level=4] [ref=f2e162]
+                - generic [ref=f2e163]: 02:08
+              - listitem [ref=f2e164]:
+                - button "Play track" [ref=f2e166] [cursor=pointer]:
+                  - generic [ref=f2e167]: "16"
+                - heading "Love Is the Message - Live at Abbey Road Studios" [level=3] [ref=f2e168]
+                - heading "Yussef Dayes, Alfa Mist, Mansur Brown, Rocco Palladino" [level=4] [ref=f2e169]
+                - generic [ref=f2e170]: 10:46
+              - listitem [ref=f2e171]:
+                - button "Play track" [ref=f2e173] [cursor=pointer]:
+                  - generic [ref=f2e174]: "17"
+                - heading "CHASING LIGHT" [level=3] [ref=f2e175]
+                - heading "Moses Yoofee Trio, Noah Fürbringer, Moses Yoofee, cowboyklobe" [level=4] [ref=f2e176]
+                - generic [ref=f2e177]: 03:00
+              - listitem [ref=f2e178]:
+                - button "Play track" [ref=f2e180] [cursor=pointer]:
+                  - generic [ref=f2e181]: "18"
+                - heading "Feelm Intermission" [level=3] [ref=f2e182]
+                - heading "Underground Canopy, Bluestaeb, S. Fidelity" [level=4] [ref=f2e183]
+                - generic [ref=f2e184]: 01:04
+              - listitem [ref=f2e185]:
+                - button "Play track" [ref=f2e187] [cursor=pointer]:
+                  - generic [ref=f2e188]: "19"
+                - heading "Plantwood (Day)" [level=3] [ref=f2e189]
+                - heading "Lynn Avery, Cole Pulice" [level=4] [ref=f2e190]
+                - generic [ref=f2e191]: 04:21
+              - listitem [ref=f2e192]:
+                - button "Play track" [ref=f2e194] [cursor=pointer]:
+                  - generic [ref=f2e195]: "20"
+                - heading "Today" [level=3] [ref=f2e196]
+                - heading "Sam Wilkes, Sam Gendel" [level=4] [ref=f2e197]
+                - generic [ref=f2e198]: 05:37
+              - listitem [ref=f2e199]:
+                - button "Play track" [ref=f2e201] [cursor=pointer]:
+                  - generic [ref=f2e202]: "21"
+                - heading "Mountain Steppa - Live From Malibu" [level=3] [ref=f2e203]
+                - heading "Yussef Dayes" [level=4] [ref=f2e204]
+                - generic [ref=f2e205]: 02:21
+              - listitem [ref=f2e206]:
+                - button "Play track" [ref=f2e208] [cursor=pointer]:
+                  - generic [ref=f2e209]: "22"
+                - heading "F L Y (1991 MIX)" [level=3] [ref=f2e210]
+                - heading "Spectrum" [level=4] [ref=f2e211]
+                - generic [ref=f2e212]: 05:06
+              - listitem [ref=f2e213]:
+                - button "Play track" [ref=f2e215] [cursor=pointer]:
+                  - generic [ref=f2e216]: "23"
+                - heading "Clues (Part I)" [level=3] [ref=f2e217]
+                - heading "Jack J" [level=4] [ref=f2e218]
+                - generic [ref=f2e219]: 04:19
+              - listitem [ref=f2e220]:
+                - button "Play track" [ref=f2e222] [cursor=pointer]:
+                  - generic [ref=f2e223]: "24"
+                - heading "Higher Plains" [level=3] [ref=f2e224]
+                - heading "Clever Austin" [level=4] [ref=f2e225]
+                - generic [ref=f2e226]: 03:44
+              - listitem [ref=f2e227]:
+                - button "Play track" [ref=f2e229] [cursor=pointer]:
+                  - generic [ref=f2e230]: "25"
+                - heading "Crust" [level=3] [ref=f2e231]
+                - heading "Flying Lotus" [level=4] [ref=f2e232]
+                - generic [ref=f2e233]: 02:13
+              - listitem [ref=f2e234]:
+                - button "Play track" [ref=f2e236] [cursor=pointer]:
+                  - generic [ref=f2e237]: "26"
+                - heading "Idea 5 (Call My Name) [feat. LULU.]" [level=3] [ref=f2e238]
+                - heading "Kokoroko, LULU." [level=4] [ref=f2e239]
+                - generic [ref=f2e240]: 04:51
+              - listitem [ref=f2e241]:
+                - button "Play track" [ref=f2e243] [cursor=pointer]:
+                  - generic [ref=f2e244]: "27"
+                - heading "AJ’s Vibe" [level=3] [ref=f2e245]
+                - heading "Robert Glasper" [level=4] [ref=f2e246]
+                - generic [ref=f2e247]: 06:15
+              - listitem [ref=f2e248]:
+                - button "Play track" [ref=f2e250] [cursor=pointer]:
+                  - generic [ref=f2e251]: "28"
+                - heading "Oceanside" [level=3] [ref=f2e252]
+                - heading "Nitsua" [level=4] [ref=f2e253]
+                - generic [ref=f2e254]: 02:30
+              - listitem [ref=f2e255]:
+                - button "Play track" [ref=f2e257] [cursor=pointer]:
+                  - generic [ref=f2e258]: "29"
+                - heading "family" [level=3] [ref=f2e259]
+                - heading "Lionmilk" [level=4] [ref=f2e260]
+                - generic [ref=f2e261]: 02:56
+              - listitem [ref=f2e262]:
+                - button "Play track" [ref=f2e264] [cursor=pointer]:
+                  - generic [ref=f2e265]: "30"
+                - heading "Snowfall Serenade" [level=3] [ref=f2e266]
+                - heading "Volodja Brodsky" [level=4] [ref=f2e267]
+                - generic [ref=f2e268]: 04:01
+              - listitem [ref=f2e269]:
+                - button "Play track" [ref=f2e271] [cursor=pointer]:
+                  - generic [ref=f2e272]: "31"
+                - heading "Fellows" [level=3] [ref=f2e273]
+                - heading "Nujabes" [level=4] [ref=f2e274]
+                - generic [ref=f2e275]: 02:03
+              - listitem [ref=f2e276]:
+                - button "Play track" [ref=f2e278] [cursor=pointer]:
+                  - generic [ref=f2e279]: "32"
+                - heading "Field Museum" [level=3] [ref=f2e280]
+                - heading "Okonski" [level=4] [ref=f2e281]
+                - generic [ref=f2e282]: 03:34
+              - listitem [ref=f2e283]:
+                - button "Play track" [ref=f2e285] [cursor=pointer]:
+                  - generic [ref=f2e286]: "33"
+                - heading "Someday" [level=3] [ref=f2e287]
+                - heading "Sam Wilkes, Jacob Mann" [level=4] [ref=f2e288]
+                - generic [ref=f2e289]: 03:22
+              - listitem [ref=f2e290]:
+                - button "Play track" [ref=f2e292] [cursor=pointer]:
+                  - generic [ref=f2e293]: "34"
+                - heading "irreplaceable" [level=3] [ref=f2e294]
+                - heading "Lionmilk" [level=4] [ref=f2e295]
+                - generic [ref=f2e296]: 03:35
+              - listitem [ref=f2e297]:
+                - button "Play track" [ref=f2e299] [cursor=pointer]:
+                  - generic [ref=f2e300]: "35"
+                - heading "Music Will Explain" [level=3] [ref=f2e301]
+                - heading "Mocky" [level=4] [ref=f2e302]
+                - generic [ref=f2e303]: 03:19
+              - listitem [ref=f2e304]:
+                - button "Play track" [ref=f2e306] [cursor=pointer]:
+                  - generic [ref=f2e307]: "36"
+                - heading "Touch" [level=3] [ref=f2e308]
+                - heading "Mansur Brown" [level=4] [ref=f2e309]
+                - generic [ref=f2e310]: 03:51
+              - listitem [ref=f2e311]:
+                - button "Play track" [ref=f2e313] [cursor=pointer]:
+                  - generic [ref=f2e314]: "37"
+                - heading "VOL 1 ITEM 2" [level=3] [ref=f2e315]
+                - heading "HOMESHAKE" [level=4] [ref=f2e316]
+                - generic [ref=f2e317]: 01:48
+              - listitem [ref=f2e318]:
+                - button "Play track" [ref=f2e320] [cursor=pointer]:
+                  - generic [ref=f2e321]: "38"
+                - heading "aglaonema pictum tricolor" [level=3] [ref=f2e322]
+                - heading "Ciao Ciao Marigold" [level=4] [ref=f2e323]
+                - generic [ref=f2e324]: 02:51
+              - listitem [ref=f2e325]:
+                - button "Play track" [ref=f2e327] [cursor=pointer]:
+                  - generic [ref=f2e328]: "39"
+                - heading "outtaluv" [level=3] [ref=f2e329]
+                - heading "Eyesoh" [level=4] [ref=f2e330]
+                - generic [ref=f2e331]: 02:16
+              - listitem [ref=f2e332]:
+                - button "Play track" [ref=f2e334] [cursor=pointer]:
+                  - generic [ref=f2e335]: "40"
+                - heading "Aseda" [level=3] [ref=f2e336]
+                - heading "KWAME YEBOAH" [level=4] [ref=f2e337]
+                - generic [ref=f2e338]: 05:27
+              - listitem [ref=f2e339]:
+                - button "Play track" [ref=f2e341] [cursor=pointer]:
+                  - generic [ref=f2e342]: "41"
+                - heading "Dropout" [level=3] [ref=f2e343]
+                - heading "Dirty Art Club, Zodiac Lovers, King Caiman" [level=4] [ref=f2e344]
+                - generic [ref=f2e345]: 02:04
+              - listitem [ref=f2e346]:
+                - button "Play track" [ref=f2e348] [cursor=pointer]:
+                  - generic [ref=f2e349]: "42"
+                - heading "Luck of Lucien" [level=3] [ref=f2e350]
+                - heading "A Tribe Called Quest" [level=4] [ref=f2e351]
+                - generic [ref=f2e352]: 04:42
+              - listitem [ref=f2e353]:
+                - button "Play track" [disabled] [ref=f2e355]:
+                  - generic [ref=f2e356]: "43"
+                - heading "Improvisation, Pt. 3" [level=3] [ref=f2e357]
+                - heading "Swooping" [level=4] [ref=f2e358]
+                - generic [ref=f2e359]: 02:42
+              - listitem [ref=f2e360]:
+                - button "Play track" [ref=f2e362] [cursor=pointer]:
+                  - generic [ref=f2e363]: "44"
+                - heading "Aaaannnnteeeeennnaaaaaa" [level=3] [ref=f2e364]
+                - heading "HYUKOH, 落日飛車 Sunset Rollercoaster" [level=4] [ref=f2e365]
+                - generic [ref=f2e366]: 06:50
+              - listitem [ref=f2e367]:
+                - button "Play track" [ref=f2e369] [cursor=pointer]:
+                  - generic [ref=f2e370]: "45"
+                - heading "Spiritual Sun" [level=3] [ref=f2e371]
+                - heading "Ellen Reid, Shabaka Hutchings" [level=4] [ref=f2e372]
+                - generic [ref=f2e373]: 03:21
+              - listitem [ref=f2e374]:
+                - button "Play track" [ref=f2e376] [cursor=pointer]:
+                  - generic [ref=f2e377]: "46"
+                - heading "tom is in heaven" [level=3] [ref=f2e378]
+                - heading "Lionmilk" [level=4] [ref=f2e379]
+                - generic [ref=f2e380]: 03:49
+              - listitem [ref=f2e381]:
+                - button "Play track" [ref=f2e383] [cursor=pointer]:
+                  - generic [ref=f2e384]: "47"
+                - heading "Clip" [level=3] [ref=f2e385]
+                - heading "John Roberts" [level=4] [ref=f2e386]
+                - generic [ref=f2e387]: 02:05
+              - listitem [ref=f2e388]:
+                - button "Play track" [ref=f2e390] [cursor=pointer]:
+                  - generic [ref=f2e391]: "48"
+                - heading "When Vanishing" [level=3] [ref=f2e392]
+                - heading "King Krule" [level=4] [ref=f2e393]
+                - generic [ref=f2e394]: 03:12
+              - listitem [ref=f2e395]:
+                - button "Play track" [ref=f2e397] [cursor=pointer]:
+                  - generic [ref=f2e398]: "49"
+                - heading "In the Midst of It All" [level=3] [ref=f2e399]
+                - heading "Tom Misch, Sam Wills" [level=4] [ref=f2e400]
+                - generic [ref=f2e401]: 05:42
+              - listitem [ref=f2e402]:
+                - button "Play track" [ref=f2e404] [cursor=pointer]:
+                  - generic [ref=f2e405]: "50"
+                - heading "Stay Positive" [level=3] [ref=f2e406]
+                - heading "Aves" [level=4] [ref=f2e407]
+                - generic [ref=f2e408]: 03:01
+              - listitem [ref=f2e409]:
+                - button "Play track" [ref=f2e411] [cursor=pointer]:
+                  - generic [ref=f2e412]: "51"
+                - heading "Kickinit Alone" [level=3] [ref=f2e413]
+                - heading "Kiefer" [level=4] [ref=f2e414]
+                - generic [ref=f2e415]: 03:13
+              - listitem [ref=f2e416]:
+                - button "Play track" [ref=f2e418] [cursor=pointer]:
+                  - generic [ref=f2e419]: "52"
+                - heading "Flump - Ishmael Ensemble Rework" [level=3] [ref=f2e420]
+                - heading "Snazzback, Ishmael Ensemble" [level=4] [ref=f2e421]
+                - generic [ref=f2e422]: 04:33
+              - listitem [ref=f2e423]:
+                - button "Play track" [ref=f2e425] [cursor=pointer]:
+                  - generic [ref=f2e426]: "53"
+                - heading "UFO" [level=3] [ref=f2e427]
+                - heading "Space Ghost" [level=4] [ref=f2e428]
+                - generic [ref=f2e429]: 04:02
+              - listitem [ref=f2e430]:
+                - button "Play track" [ref=f2e432] [cursor=pointer]:
+                  - generic [ref=f2e433]: "54"
+                - heading "The Light" [level=3] [ref=f2e434]
+                - heading "Cate Le Bon, Group Listening" [level=4] [ref=f2e435]
+                - generic [ref=f2e436]: 01:52
+              - listitem [ref=f2e437]:
+                - button "Play track" [ref=f2e439] [cursor=pointer]:
+                  - generic [ref=f2e440]: "55"
+                - heading "Continuum 2" [level=3] [ref=f2e441]
+                - heading "Nala Sinephro" [level=4] [ref=f2e442]
+                - generic [ref=f2e443]: 07:01
+              - listitem [ref=f2e444]:
+                - button "Play track" [ref=f2e446] [cursor=pointer]:
+                  - generic [ref=f2e447]: "56"
+                - heading "Pre-Board" [level=3] [ref=f2e448]
+                - heading "Sam Wilkes, Jacob Mann" [level=4] [ref=f2e449]
+                - generic [ref=f2e450]: 01:49
+              - listitem [ref=f2e451]:
+                - button "Play track" [ref=f2e453] [cursor=pointer]:
+                  - generic [ref=f2e454]: "57"
+                - heading "Tesifa" [level=3] [ref=f2e455]
+                - heading "Laney Tripp, Jacob Cummings" [level=4] [ref=f2e456]
+                - generic [ref=f2e457]: 02:17
+              - listitem [ref=f2e458]:
+                - button "Play track" [ref=f2e460] [cursor=pointer]:
+                  - generic [ref=f2e461]: "58"
+                - heading "Turpentine" [level=3] [ref=f2e462]
+                - heading "Alabaster DePlume" [level=4] [ref=f2e463]
+                - generic [ref=f2e464]: 02:26
+              - listitem [ref=f2e465]:
+                - button "Play track" [ref=f2e467] [cursor=pointer]:
+                  - generic [ref=f2e468]: "59"
+                - heading "Joy" [level=3] [ref=f2e469]
+                - heading "Kadhja Bonet" [level=4] [ref=f2e470]
+                - generic [ref=f2e471]: 04:07
+              - listitem [ref=f2e472]:
+                - button "Play track" [ref=f2e474] [cursor=pointer]:
+                  - generic [ref=f2e475]: "60"
+                - heading "Havin' a Ball" [level=3] [ref=f2e476]
+                - heading "Billy Kyle" [level=4] [ref=f2e477]
+                - generic [ref=f2e478]: 02:43
+              - listitem [ref=f2e479]:
+                - button "Play track" [ref=f2e481] [cursor=pointer]:
+                  - generic [ref=f2e482]: "61"
+                - heading "to-ring-go - take 2" [level=3] [ref=f2e483]
+                - heading "A L E X, Hyewon" [level=4] [ref=f2e484]
+                - generic [ref=f2e485]: 08:00
+              - listitem [ref=f2e486]:
+                - button "Play track" [ref=f2e488] [cursor=pointer]:
+                  - generic [ref=f2e489]: "62"
+                - heading "TRACK ONE" [level=3] [ref=f2e490]
+                - heading "Sam Gendel, Sam Wilkes" [level=4] [ref=f2e491]
+                - generic [ref=f2e492]: 05:52
+              - listitem [ref=f2e493]:
+                - button "Play track" [ref=f2e495] [cursor=pointer]:
+                  - generic [ref=f2e496]: "63"
+                - heading "Changed" [level=3] [ref=f2e497]
+                - heading "The 5th Dimension" [level=4] [ref=f2e498]
+                - generic [ref=f2e499]: 03:47
+              - listitem [ref=f2e500]:
+                - button "Play track" [ref=f2e502] [cursor=pointer]:
+                  - generic [ref=f2e503]: "64"
+                - heading "Mary's Theme - Mixed" [level=3] [ref=f2e504]
+                - heading "Stelvio Cipriani" [level=4] [ref=f2e505]
+                - generic [ref=f2e506]: 01:34
+              - listitem [ref=f2e507]:
+                - button "Play track" [ref=f2e509] [cursor=pointer]:
+                  - generic [ref=f2e510]: "65"
+                - heading "The Fours" [level=3] [ref=f2e511]
+                - heading "Makaya McCraven" [level=4] [ref=f2e512]
+                - generic [ref=f2e513]: 03:26
+              - listitem [ref=f2e514]:
+                - button "Play track" [ref=f2e516] [cursor=pointer]:
+                  - generic [ref=f2e517]: "66"
+                - heading "Isms" [level=3] [ref=f2e518]
+                - heading "Makaya McCraven" [level=4] [ref=f2e519]
+                - generic [ref=f2e520]: 03:15
+              - listitem [ref=f2e521]:
+                - button "Play track" [ref=f2e523] [cursor=pointer]:
+                  - generic [ref=f2e524]: "67"
+                - heading "Jazz (We've Got)" [level=3] [ref=f2e525]
+                - heading "Explicit A Tribe Called Quest" [level=4] [ref=f2e526]:
+                  - generic "Explicit" [ref=f2e527]: E
+                  - text: A Tribe Called Quest
+                - generic [ref=f2e528]: 04:10
+              - listitem [ref=f2e529]:
+                - button "Play track" [ref=f2e531] [cursor=pointer]:
+                  - generic [ref=f2e532]: "68"
+                - heading "Hard Times" [level=3] [ref=f2e533]
+                - heading "Thes One" [level=4] [ref=f2e534]
+                - generic [ref=f2e535]: 01:51
+              - listitem [ref=f2e536]:
+                - button "Play track" [ref=f2e538] [cursor=pointer]:
+                  - generic [ref=f2e539]: "69"
+                - heading "Celestial Hands" [level=3] [ref=f2e540]
+                - heading "BADBADNOTGOOD" [level=4] [ref=f2e541]
+                - generic [ref=f2e542]: 05:33
+              - listitem [ref=f2e543]:
+                - button "Play track" [ref=f2e545] [cursor=pointer]:
+                  - generic [ref=f2e546]: "70"
+                - heading "74 Miles Away - Live In Hollywood, CA/1967" [level=3] [ref=f2e547]
+                - heading "The Cannonball Adderley Quintet" [level=4] [ref=f2e548]
+                - generic [ref=f2e549]: 13:54
+              - listitem [ref=f2e550]:
+                - button "Play track" [ref=f2e552] [cursor=pointer]:
+                  - generic [ref=f2e553]: "71"
+                - heading "Circular Spectacles" [level=3] [ref=f2e554]
+                - heading "Ciao Ciao Marigold" [level=4] [ref=f2e555]
+                - generic [ref=f2e556]: 01:54
+              - listitem [ref=f2e557]:
+                - button "Play track" [ref=f2e559] [cursor=pointer]:
+                  - generic [ref=f2e560]: "72"
+                - heading "Glowing (feat. Pera Krstajic)" [level=3] [ref=f2e561]
+                - heading "Kiefer, Pera Krstajic" [level=4] [ref=f2e562]
+                - generic [ref=f2e563]: 04:36
+              - listitem [ref=f2e564]:
+                - button "Play track" [ref=f2e566] [cursor=pointer]:
+                  - generic [ref=f2e567]: "73"
+                - heading "Siri, How Do I Know If I Have Commitment Issues?" [level=3] [ref=f2e568]
+                - heading "Sam Wilkes, Jacob Mann" [level=4] [ref=f2e569]
+                - generic [ref=f2e570]: 04:13
+              - listitem [ref=f2e571]:
+                - button "Play track" [ref=f2e573] [cursor=pointer]:
+                  - generic [ref=f2e574]: "74"
+                - heading "All The Words We Don’t Say - Omari Jazz Remix" [level=3] [ref=f2e575]
+                - heading "Hiatus Kaiyote, Omari Jazz" [level=4] [ref=f2e576]
+                - generic [ref=f2e577]: 01:10
+              - listitem [ref=f2e578]:
+                - button "Play track" [ref=f2e580] [cursor=pointer]:
+                  - generic [ref=f2e581]: "75"
+                - heading "ode to rahsaan" [level=3] [ref=f2e582]
+                - heading "berlioz" [level=4] [ref=f2e583]
+                - generic [ref=f2e584]: 03:30
+              - listitem [ref=f2e585]:
+                - button "Play track" [ref=f2e587] [cursor=pointer]:
+                  - generic [ref=f2e588]: "76"
+                - heading "Universal Beings" [level=3] [ref=f2e589]
+                - heading "Makaya McCraven, Jeff Parker, Anna Butterss, Josh Johnson, Carlos Niño, Miguel Atwood-Ferguson" [level=4] [ref=f2e590]
+                - generic [ref=f2e591]: 04:08
+              - listitem [ref=f2e592]:
+                - button "Play track" [ref=f2e594] [cursor=pointer]:
+                  - generic [ref=f2e595]: "77"
+                - heading "Young Mountain - Remix" [level=3] [ref=f2e596]
+                - heading "Gregory Rogove, Devendra Banhart" [level=4] [ref=f2e597]
+                - generic [ref=f2e598]: 02:02
+              - listitem [ref=f2e599]:
+                - button "Play track" [ref=f2e601] [cursor=pointer]:
+                  - generic [ref=f2e602]: "78"
+                - heading "Greenpoint" [level=3] [ref=f2e603]
+                - heading "Elijah Fox" [level=4] [ref=f2e604]
+                - generic [ref=f2e605]: 02:06
+              - listitem [ref=f2e606]:
+                - button "Play track" [ref=f2e608] [cursor=pointer]:
+                  - generic [ref=f2e609]: "79"
+                - heading "Pearls Before Swine" [level=3] [ref=f2e610]
+                - heading "Move 78, Aver" [level=4] [ref=f2e611]
+                - generic [ref=f2e612]: 03:42
+              - listitem [ref=f2e613]:
+                - button "Play track" [ref=f2e615] [cursor=pointer]:
+                  - generic [ref=f2e616]: "80"
+                - heading "Broken Beauty" [level=3] [ref=f2e617]
+                - heading "Niclas Knudsen, Jonathan Bremer, Felix Ewert" [level=4] [ref=f2e618]
+                - generic [ref=f2e619]: 03:40
+              - listitem [ref=f2e620]:
+                - button "Play track" [ref=f2e622] [cursor=pointer]:
+                  - generic [ref=f2e623]: "81"
+                - heading "Echo Sax No.4" [level=3] [ref=f2e624]
+                - heading "Caleb Arredondo" [level=4] [ref=f2e625]
+                - generic [ref=f2e626]: 01:41
+              - listitem [ref=f2e627]:
+                - button "Play track" [ref=f2e629] [cursor=pointer]:
+                  - generic [ref=f2e630]: "82"
+                - heading "Morphine-Cigarettes" [level=3] [ref=f2e631]
+                - heading "Dirty Art Club" [level=4] [ref=f2e632]
+                - generic [ref=f2e633]: 01:40
+              - listitem [ref=f2e634]:
+                - button "Play track" [ref=f2e636] [cursor=pointer]:
+                  - generic [ref=f2e637]: "83"
+                - heading "Chasing the Drum" [level=3] [ref=f2e638]
+                - heading "Yussef Dayes" [level=4] [ref=f2e639]
+                - generic [ref=f2e640]: 05:40
+              - listitem [ref=f2e641]:
+                - button "Play track" [ref=f2e643] [cursor=pointer]:
+                  - generic [ref=f2e644]: "84"
+                - heading "deep in it" [level=3] [ref=f2e645]
+                - heading "berlioz, Ted Jasper" [level=4] [ref=f2e646]
+                - generic [ref=f2e647]: 02:34
+              - listitem [ref=f2e648]:
+                - button "Play track" [ref=f2e650] [cursor=pointer]:
+                  - generic [ref=f2e651]: "85"
+                - heading "Annie's Tune" [level=3] [ref=f2e652]
+                - heading "DARGZ, Charlie Stacey" [level=4] [ref=f2e653]
+                - generic [ref=f2e654]: 04:23
+              - listitem [ref=f2e655]:
+                - button "Play track" [ref=f2e657] [cursor=pointer]:
+                  - generic [ref=f2e658]: "86"
+                - heading "Move Love" [level=3] [ref=f2e659]
+                - heading "Robert Glasper, We Are KING" [level=4] [ref=f2e660]
+                - generic [ref=f2e661]: 03:18
+              - listitem [ref=f2e662]:
+                - button "Play track" [ref=f2e664] [cursor=pointer]:
+                  - generic [ref=f2e665]: "87"
+                - heading "Eu Pensei" [level=3] [ref=f2e666]
+                - heading "Pedro Mizutani, Skinshape" [level=4] [ref=f2e667]
+                - generic [ref=f2e668]: 02:12
+              - listitem [ref=f2e669]:
+                - button "Play track" [ref=f2e671] [cursor=pointer]:
+                  - generic [ref=f2e672]: "88"
+                - heading "Dreamer" [level=3] [ref=f2e673]
+                - heading "Kiefer" [level=4] [ref=f2e674]
+                - generic [ref=f2e675]: 04:37
+              - listitem [ref=f2e676]:
+                - button "Play track" [ref=f2e678] [cursor=pointer]:
+                  - generic [ref=f2e679]: "89"
+                - heading "Dream State" [level=3] [ref=f2e680]
+                - heading "Kamasi Washington, André 3000" [level=4] [ref=f2e681]
+                - generic [ref=f2e682]: 08:39
+              - listitem [ref=f2e683]:
+                - button "Play track" [ref=f2e685] [cursor=pointer]:
+                  - generic [ref=f2e686]: "90"
+                - heading "THE CIRCLE GAME" [level=3] [ref=f2e687]
+                - heading "Sam Gendel, Sam Wilkes" [level=4] [ref=f2e688]
+                - generic [ref=f2e689]: 05:04
+              - listitem [ref=f2e690]:
+                - button "Play track" [ref=f2e692] [cursor=pointer]:
+                  - generic [ref=f2e693]: "91"
+                - heading "Midday" [level=3] [ref=f2e694]
+                - heading "Resavoir" [level=4] [ref=f2e695]
+                - generic [ref=f2e696]: 03:53
+              - listitem [ref=f2e697]:
+                - button "Play track" [ref=f2e699] [cursor=pointer]:
+                  - generic [ref=f2e700]: "92"
+                - heading "Heavenly" [level=3] [ref=f2e701]
+                - heading "Resavoir" [level=4] [ref=f2e702]
+                - generic [ref=f2e703]: 01:57
+              - listitem [ref=f2e704]:
+                - button "Play track" [ref=f2e706] [cursor=pointer]:
+                  - generic [ref=f2e707]: "93"
+                - heading "Didn't Cha Know" [level=3] [ref=f2e708]
+                - heading "Sam Gendel" [level=4] [ref=f2e709]
+                - generic [ref=f2e710]: 02:05
+              - listitem [ref=f2e711]:
+                - button "Play track" [ref=f2e713] [cursor=pointer]:
+                  - generic [ref=f2e714]: "94"
+                - heading "Turquoise Galaxy" [level=3] [ref=f2e715]
+                - heading "Yussef Dayes" [level=4] [ref=f2e716]
+                - generic [ref=f2e717]: 03:11
+              - listitem [ref=f2e718]:
+                - button "Play track" [ref=f2e720] [cursor=pointer]:
+                  - generic [ref=f2e721]: "95"
+                - heading "Silky Spring" [level=3] [ref=f2e722]
+                - heading "Yuuf" [level=4] [ref=f2e723]
+                - generic [ref=f2e724]: 03:44
+              - listitem [ref=f2e725]:
+                - button "Play track" [ref=f2e727] [cursor=pointer]:
+                  - generic [ref=f2e728]: "96"
+                - heading "Recordasiñhas" [level=3] [ref=f2e729]
+                - heading "Tom Ford" [level=4] [ref=f2e730]
+                - generic [ref=f2e731]: 01:09
+              - listitem [ref=f2e732]:
+                - button "Play track" [ref=f2e734] [cursor=pointer]:
+                  - generic [ref=f2e735]: "97"
+                - heading "Vegan Butter - Intro" [level=3] [ref=f2e736]
+                - heading "Reuben James, Tivon Pennicott" [level=4] [ref=f2e737]
+                - generic [ref=f2e738]: 01:36
+              - listitem [ref=f2e739]:
+                - button "Play track" [ref=f2e741] [cursor=pointer]:
+                  - generic [ref=f2e742]: "98"
+                - heading "Bear Good Fruit" [level=3] [ref=f2e743]
+                - heading "Mad Keys" [level=4] [ref=f2e744]
+                - generic [ref=f2e745]: 01:02
+              - listitem [ref=f2e746]:
+                - button "Play track" [ref=f2e748] [cursor=pointer]:
+                  - generic [ref=f2e749]: "99"
+                - heading "Hours in the Morning" [level=3] [ref=f2e750]
+                - heading "Joss Moog" [level=4] [ref=f2e751]
+                - generic [ref=f2e752]: 01:19
+              - listitem [ref=f2e753]:
+                - button "Play track" [ref=f2e755] [cursor=pointer]:
+                  - generic [ref=f2e756]: "100"
+                - heading "Coffee Cup" [level=3] [ref=f2e757]
+                - heading "Will Sessions" [level=4] [ref=f2e758]
+                - generic [ref=f2e759]: 01:27
+          - alert [ref=f2e760]
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic:
+          - generic: CV
+          - generic:
+            - button
+            - button
+            - button
+        - generic [ref=e106]:
+          - generic [ref=e107]: CV
+          - generic [ref=e108] [cursor=pointer]
+        - generic [ref=e109]:
+          - button [ref=e110]
+          - button [ref=e111]
+          - button [ref=e112]
+      - iframe [ref=e114]:
+        - generic [ref=f3e1]:
+          - generic [ref=f3e5]:
+            - banner [ref=f3e9]:
+              - generic [ref=f3e15]:
+                - heading "Trent Brew" [level=1] [ref=f3e17]
+                - paragraph [ref=f3e19]: Product Engineer in LA
+            - generic [ref=f3e20]:
+              - heading "About" [level=3] [ref=f3e24]
+              - paragraph [ref=f3e26]: A creative, passionate builder interested in the intersection of UX and AI.
+            - generic [ref=f3e27]:
+              - heading "Core Skills" [level=3] [ref=f3e31]
+              - generic [ref=f3e32]:
+                - paragraph [ref=f3e36]: Web Design
+                - paragraph [ref=f3e40]: UI/UX
+                - paragraph [ref=f3e44]: Front-end Development
+                - paragraph [ref=f3e48]: Graphic Design
+                - paragraph [ref=f3e52]: Art Direction
+                - paragraph [ref=f3e56]: Interaction Design
+                - paragraph [ref=f3e60]: Brand Identity
+                - paragraph [ref=f3e64]: Animation
+                - paragraph [ref=f3e68]: REST APIs
+                - paragraph [ref=f3e72]: Product Development
+                - paragraph [ref=f3e76]: Prompt Engineering
+                - paragraph [ref=f3e80]: AI/ML
+            - generic [ref=f3e81]:
+              - heading "Experience" [level=3] [ref=f3e85]
+              - generic [ref=f3e86]:
+                - generic [ref=f3e90] [cursor=pointer]:
+                  - generic [ref=f3e94]:
+                    - heading "Turtle Labs" [level=2] [ref=f3e96]
+                    - paragraph [ref=f3e98]: Founder, Product Engineer
+                  - paragraph [ref=f3e101]: Jul 2024 - Present
+                - generic [ref=f3e110] [cursor=pointer]:
+                  - generic [ref=f3e114]:
+                    - heading "Toolkit" [level=2] [ref=f3e116]
+                    - paragraph [ref=f3e118]: Full-Stack Engineer
+                  - paragraph [ref=f3e121]: Nov 2025 - Apr 2026
+                - generic [ref=f3e130] [cursor=pointer]:
+                  - generic [ref=f3e134]:
+                    - heading "Gumbo Media" [level=2] [ref=f3e136]
+                    - paragraph [ref=f3e138]: Lead Designer
+                  - paragraph [ref=f3e141]: Jun 2022 - Nov 2025
+                - generic [ref=f3e150] [cursor=pointer]:
+                  - generic [ref=f3e154]:
+                    - heading "64 Robots" [level=2] [ref=f3e156]
+                    - paragraph [ref=f3e158]: Front-end Developer
+                  - paragraph [ref=f3e161]: Aug 2022 - Nov 2022
+                - generic [ref=f3e170] [cursor=pointer]:
+                  - generic [ref=f3e174]:
+                    - heading "Lofty Labs" [level=2] [ref=f3e176]
+                    - paragraph [ref=f3e178]: Software Engineer
+                  - paragraph [ref=f3e181]: Mar 2021 - Jan 2022
+                - generic [ref=f3e190] [cursor=pointer]:
+                  - generic [ref=f3e194]:
+                    - heading "Harbor Global" [level=2] [ref=f3e196]
+                    - paragraph [ref=f3e198]: Web Developer Intern
+                  - paragraph [ref=f3e201]: Mar 2020 - Mar 2021
+            - generic [ref=f3e207]:
+              - heading "tech-stack" [level=3] [ref=f3e211]
+              - list [ref=f3e214]:
+                - listitem [ref=f3e215]
+                - listitem [aria-hidden] [ref=f3e277]
+                - listitem [aria-hidden] [ref=f3e339]
+            - generic [ref=f3e401]:
+              - heading "Web design" [level=3] [ref=f3e405]
+              - generic [ref=f3e407]:
+                - list [ref=f3e408]:
+                  - listitem "1 of 9" [ref=f3e409]:
+                    - generic [ref=f3e415]:
+                      - generic [ref=f3e416]:
+                        - heading "SPEAK MPLS" [level=2] [ref=f3e418]
+                        - paragraph [ref=f3e420]: Web design for Minneapolis-based public media center
+                      - link [ref=f3e422] [cursor=pointer]:
+                        - /url: https://speakmpls.com
+                        - paragraph [ref=f3e425]: Click to view
+                  - listitem "2 of 9" [ref=f3e430]:
+                    - generic [ref=f3e436]:
+                      - generic [ref=f3e437]:
+                        - heading "Gumbo Media" [level=2] [ref=f3e439]
+                        - paragraph [ref=f3e441]: Website redesign for Chicago-based creative agency
+                      - link [ref=f3e443] [cursor=pointer]:
+                        - /url: https://www.gumbo.media/
+                        - paragraph [ref=f3e446]: Click to view
+                  - listitem "3 of 9" [ref=f3e451]:
+                    - generic [ref=f3e457]:
+                      - generic [ref=f3e458]:
+                        - heading "Telos" [level=2] [ref=f3e460]
+                        - paragraph [ref=f3e462]: Website & branding for LA-based agency specializing in human-centered software and digital products
+                      - link [ref=f3e464] [cursor=pointer]:
+                        - /url: https://www.tag.us.com/
+                        - paragraph [ref=f3e467]: Click to view
+                  - listitem "4 of 9" [ref=f3e472]:
+                    - generic [ref=f3e478]:
+                      - generic [ref=f3e479]:
+                        - heading "Faires Sekiya" [level=2] [ref=f3e481]
+                        - paragraph [ref=f3e483]: Web design, branding, and social media management for Chicago-based cinematographer
+                      - link [ref=f3e485] [cursor=pointer]:
+                        - /url: https://faires.film
+                        - paragraph [ref=f3e488]: Click to view
+                  - listitem [aria-hidden] [ref=f3e493]:
+                    - generic [ref=f3e499]:
+                      - generic [ref=f3e500]:
+                        - heading [level=2] [ref=f3e502]: NewRoot
+                        - paragraph [ref=f3e504]: Website redesign for education non-profit
+                      - link [ref=f3e506] [cursor=pointer]:
+                        - /url: https://patilicious13.gumroad.com/l/zkhyi
+                        - paragraph [ref=f3e509]: Click to view
+                  - listitem [aria-hidden] [ref=f3e514]:
+                    - generic [ref=f3e520]:
+                      - generic [ref=f3e521]:
+                        - heading [level=2] [ref=f3e523]: The Rolling Archives
+                        - paragraph [ref=f3e525]: The Rolling Archives is a digital scrapbook that aims to amplify the voices of Black women & girls by uncovering the spaces & experiences that shape them
+                      - link [ref=f3e527] [cursor=pointer]:
+                        - /url: https://www.therollingarchives.org/
+                        - paragraph [ref=f3e530]: Click to view
+                  - listitem [aria-hidden] [ref=f3e535]:
+                    - generic [ref=f3e541]:
+                      - generic [ref=f3e542]:
+                        - heading [level=2] [ref=f3e544]: Podular
+                        - paragraph [ref=f3e546]: Web design & branding for Chicago-based startup building IoT kiosk products
+                      - link [ref=f3e548] [cursor=pointer]:
+                        - /url: https://podular.vercel.app/
+                        - paragraph [ref=f3e551]: Click to view
+                  - listitem [aria-hidden] [ref=f3e556]:
+                    - generic [ref=f3e562]:
+                      - generic [ref=f3e563]:
+                        - heading [level=2] [ref=f3e565]: Redo Whitebirch
+                        - paragraph [ref=f3e567]: Website for non-profit focusing on the rehabilitation of Skateparks in St. Louis
+                      - link [ref=f3e569] [cursor=pointer]:
+                        - /url: https://redowhitebirch.org/
+                        - paragraph [ref=f3e572]: Click to view
+                  - listitem [aria-hidden] [ref=f3e577]:
+                    - generic [ref=f3e583]:
+                      - generic [ref=f3e584]:
+                        - heading [level=2] [ref=f3e586]: Turtle Labs
+                        - paragraph [ref=f3e588]: Website for my agency Turtle Labs, showcasing custom software projects & services
+                      - link [ref=f3e590] [cursor=pointer]:
+                        - /url: https://turtle.tech
+                        - paragraph [ref=f3e593]: Click to view
+                - group "Carousel pagination controls":
+                  - button "Previous"
+                  - button "Next" [ref=f3e598] [cursor=pointer]
+            - generic [ref=f3e599]:
+              - heading "Apps + Extensions" [level=3] [ref=f3e603]
+              - generic [ref=f3e605]:
+                - list [ref=f3e606]:
+                  - listitem "1 of 8" [ref=f3e607]:
+                    - generic [ref=f3e613]:
+                      - generic [ref=f3e614]:
+                        - heading "PlayLab" [level=2] [ref=f3e616]
+                        - paragraph [ref=f3e618]: 3D game engine for realtime multiplayer, powered by Trellis
+                      - link [ref=f3e620] [cursor=pointer]:
+                        - /url: https://trellis-sync-3d-playground.vercel.app/?room=parkour&mode=edit&game=parkour
+                        - paragraph [ref=f3e623]: Click to view
+                  - listitem "2 of 8" [ref=f3e628]:
+                    - generic [ref=f3e634]:
+                      - generic [ref=f3e635]:
+                        - heading "Trellis Studio" [level=2] [ref=f3e637]
+                        - paragraph [ref=f3e639]: A local-first graph workspace that understands your world and your work.
+                      - link [ref=f3e641] [cursor=pointer]:
+                        - /url: https://trellis.computer/
+                        - paragraph [ref=f3e644]: Click to view
+                  - listitem "3 of 8" [ref=f3e649]:
+                    - generic [ref=f3e655]:
+                      - generic [ref=f3e656]:
+                        - heading "Raster.tv" [level=2] [ref=f3e658]
+                        - paragraph [ref=f3e660]: Web-based TV Guide CMS for public access broadcasters
+                      - link [ref=f3e662] [cursor=pointer]:
+                        - /url: https://raster.tv
+                        - paragraph [ref=f3e665]: Click to view
+                  - listitem "4 of 8" [ref=f3e670]:
+                    - generic [ref=f3e676]:
+                      - generic [ref=f3e677]:
+                        - heading "Amorphous" [level=2] [ref=f3e679]
+                        - paragraph [ref=f3e681]: A canvas for everything
+                      - link [ref=f3e683] [cursor=pointer]:
+                        - /url: https://amorphous.brew.build/
+                        - paragraph [ref=f3e686]: Click to view
+                  - listitem [aria-hidden] [ref=f3e691]:
+                    - generic [ref=f3e697]:
+                      - generic [ref=f3e698]:
+                        - heading [level=2] [ref=f3e700]: Zen Timer
+                        - paragraph [ref=f3e702]: A glanceable, minimalist timer designed to maximize flow and minimize anxiety
+                      - link [ref=f3e704] [cursor=pointer]:
+                        - /url: https://chromewebstore.google.com/detail/zen-timer/blhcjlpiphllfghbhlbblfajnnhifehk
+                        - paragraph [ref=f3e707]: Click to view
+                  - listitem [aria-hidden] [ref=f3e712]:
+                    - generic [ref=f3e718]:
+                      - generic [ref=f3e719]:
+                        - heading [level=2] [ref=f3e721]: Iconic
+                        - paragraph [ref=f3e723]: REST API for curated UI icons & SVGs
+                      - link [ref=f3e725] [cursor=pointer]:
+                        - /url: https://iconic.rest
+                        - paragraph [ref=f3e728]: Click to view
+                  - listitem [aria-hidden] [ref=f3e733]:
+                    - generic [ref=f3e739]:
+                      - generic [ref=f3e740]:
+                        - heading [level=2] [ref=f3e742]: Code Canvas
+                        - paragraph [ref=f3e744]: Experimental web-based spatial IDE
+                      - link [ref=f3e746] [cursor=pointer]:
+                        - /url: https://cursive-code.vercel.app/code-canvas
+                        - paragraph [ref=f3e749]: Click to view
+                  - listitem [aria-hidden] [ref=f3e754]:
+                    - generic [ref=f3e760]:
+                      - generic [ref=f3e761]:
+                        - heading [level=2] [ref=f3e763]: GSAP Studio
+                        - paragraph [ref=f3e765]: AI-powered motion design experiment
+                      - link [ref=f3e767] [cursor=pointer]:
+                        - /url: https://gsap-editor-web.vercel.app/editor
+                        - paragraph [ref=f3e770]: Click to view
+                - group "Carousel pagination controls":
+                  - button "Previous"
+                  - button "Next" [ref=f3e775] [cursor=pointer]
+            - generic [ref=f3e776]:
+              - heading "Design + Branding" [level=3] [ref=f3e780]
+              - generic [ref=f3e782]:
+                - list [ref=f3e783]:
+                  - listitem "1 of 6" [ref=f3e784]:
+                    - generic [ref=f3e790]:
+                      - generic [ref=f3e791]:
+                        - heading "SPEAK MPLS" [level=2] [ref=f3e793]
+                        - paragraph [ref=f3e795]: Marketing collatoral & branding for Minessota-based media center
+                      - link [ref=f3e797] [cursor=pointer]:
+                        - /url: https://www.canva.com/design/DAGIC4KKVso/2GXuGQFLGB7arCu2ZYqJYg/watch?utm_content=DAGIC4KKVso&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h646eb9d3d2
+                        - paragraph [ref=f3e800]: Click to view
+                  - listitem "2 of 6" [ref=f3e805]:
+                    - generic [ref=f3e811]:
+                      - generic [ref=f3e812]:
+                        - heading "Podular" [level=2] [ref=f3e814]
+                        - paragraph [ref=f3e816]: Logo, custom typeface, branding, and marketing materials for smart-kiost startup
+                      - link [ref=f3e818] [cursor=pointer]:
+                        - /url: https://www.canva.com/design/DAGQCyusY8A/mhNtd_XCZpef19DpFKRFlg/view?utm_content=DAGQCyusY8A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8a577c9ec4
+                        - paragraph [ref=f3e821]: Click to view
+                  - listitem "3 of 6" [ref=f3e826]:
+                    - generic [ref=f3e832]:
+                      - generic [ref=f3e833]:
+                        - heading "Living Cities" [level=2] [ref=f3e835]
+                        - paragraph [ref=f3e837]: Social media & editorial design for non-profit focused on closing income and wealth gaps in the United States
+                      - link [ref=f3e839] [cursor=pointer]:
+                        - /url: https://www.canva.com/design/DAGsjijxwW4/vgKPMnZTuwDMqWckB1Wnig/view?utm_content=DAGsjijxwW4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b354b7320
+                        - paragraph [ref=f3e842]: Click to view
+                  - listitem "4 of 6" [ref=f3e847]:
+                    - generic [ref=f3e853]:
+                      - generic [ref=f3e854]:
+                        - heading "Gumbo Glyphs" [level=2] [ref=f3e856]
+                        - paragraph [ref=f3e858]: Custom iconography & illustration for Chicago-based creative agency
+                      - link [ref=f3e860] [cursor=pointer]:
+                        - /url: https://www.canva.com/design/DAGsjtt9DnE/vELZUIOGlaWROY_kl0IGqg/view?utm_content=DAGsjtt9DnE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e813602c9#1
+                        - paragraph [ref=f3e863]: Click to view
+                  - listitem [aria-hidden] [ref=f3e868]:
+                    - generic [ref=f3e874]:
+                      - generic [ref=f3e875]:
+                        - heading [level=2] [ref=f3e877]: Hidden Gems Consulting
+                        - paragraph [ref=f3e879]: Logo design & branding for manufacturing consulting firm
+                      - link [ref=f3e881] [cursor=pointer]:
+                        - /url: https://www.canva.com/design/DAGsjk0xGHo/buFTrozjflopVEApeEmemA/view?utm_content=DAGsjk0xGHo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3e803deb0d
+                        - paragraph [ref=f3e884]: Click to view
+                  - listitem [aria-hidden] [ref=f3e889]:
+                    - generic [ref=f3e895]:
+                      - generic [ref=f3e896]:
+                        - heading [level=2] [ref=f3e898]: Leadershipwise
+                        - paragraph [ref=f3e900]: UI/UX & branding for leadership training app
+                      - link [ref=f3e902] [cursor=pointer]:
+                        - /url: https://www.canva.com/design/DAGsjpEHOiw/pVEzpKymeuB5RCpKSpN46g/view?utm_content=DAGsjpEHOiw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f4a5c5aad
+                        - paragraph [ref=f3e905]: Click to view
+                - group "Carousel pagination controls":
+                  - button "Previous"
+                  - button "Next" [ref=f3e910] [cursor=pointer]
+            - generic [ref=f3e911]:
+              - heading "Links" [level=3] [ref=f3e915]
+              - generic [ref=f3e916]:
+                - generic [ref=f3e917]:
+                  - link [ref=f3e920] [cursor=pointer]:
+                    - /url: https://cal.com/trent-brew-qvjrye/30min
+                    - paragraph [ref=f3e923]: Book a call
+                  - link [ref=f3e930] [cursor=pointer]:
+                    - /url: https://github.com/trentbrew
+                    - paragraph [ref=f3e933]: GitHub
+                - generic [ref=f3e938]:
+                  - link [ref=f3e940] [cursor=pointer]:
+                    - /url: https://x.com/trent_brew
+                    - paragraph [ref=f3e943]: Twixxer
+                  - link [ref=f3e950] [cursor=pointer]:
+                    - /url: https://www.instagram.com/trent.brew/
+                    - paragraph [ref=f3e953]: Instagram
+                - generic [ref=f3e958]:
+                  - link [ref=f3e961] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/trentbrew/
+                    - paragraph [ref=f3e964]: LinkedIn
+                  - link [ref=f3e971] [cursor=pointer]:
+                    - /url: https://brew.build
+                    - paragraph [ref=f3e974]: Blog
+          - link [ref=f3e979] [cursor=pointer]:
+            - /url: https://www.framer.com
+            - paragraph [ref=f3e984]: Create a free website with Framer, the website builder loved by startups, designers and agencies.
+  - generic [ref=e123]:
+    - generic [ref=e124]: What I'm Listening To
+    - generic [ref=e127]: CV
+    - generic [ref=e130]: Sketchbook
+    - generic [ref=e133]: Playground
+    - generic [ref=e136]: Writing
+    - generic [ref=e139] [cursor=pointer]: Twixxer
+    - generic [ref=e141] [cursor=pointer]: GitHub
+    - generic [ref=e143]: Shop coming soon
+    - generic [ref=e145]: Book a call

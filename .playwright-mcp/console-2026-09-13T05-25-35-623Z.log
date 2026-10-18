@@ -1,0 +1,45 @@
+[     699ms] [ERROR] ReferenceError: Waves is not defined
+    at a.createRibbons (https://trentbrew.com/js/chunk-027a9ef9.916cdf0a.js:3:100738)
+    at a.mounted (https://trentbrew.com/js/chunk-027a9ef9.916cdf0a.js:3:99516)
+    at Qe (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:20764)
+    at Mn (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:28742)
+    at Object.insert (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:32194)
+    at T (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:52822)
+    at a.__patch__ (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:54147)
+    at An.t._update (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:26330)
+    at a.r (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:27093)
+    at t.get (https://trentbrew.com/js/chunk-vendors.1f34f944.js:7:23312) @ https://trentbrew.com/js/chunk-vendors.1f34f944.js:6
+[     699ms] [LOG] hostname [trentbrew, com] @ https://trentbrew.com/js/chunk-027a9ef9.916cdf0a.js:2
+[     700ms] [LOG] subdomain trentbrew @ https://trentbrew.com/js/chunk-027a9ef9.916cdf0a.js:2
+[    1975ms] [LOG] sorted images:  [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://trentbrew.com/js/chunk-027a9ef9.916cdf0a.js:2
+[    2000ms] [LOG] page:view / @ https://www.brew.build/_astro/hoisted.DFiKD_U9.js:0
+[    2024ms] [LOG] profileElement:  null @ https://www.brew.build/_astro/hoisted.DFiKD_U9.js:0
+[    2107ms] [LOG] [Framer On-Page Editing] Unavailable because site is embedded in iframe @ https://framer.com/edit/init.mjs:33
+[    3285ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3286ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3287ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3287ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [ERROR] Permissions policy violation: encrypted-media is not allowed in this document. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3288ms] [WARNING] Encrypted Media access has been blocked because of a Feature Policy applied to the current document. See https://crbug.com/414348233 for more details. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0

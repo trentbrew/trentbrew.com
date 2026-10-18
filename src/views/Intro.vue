@@ -44,17 +44,15 @@
     },
     methods: {
       handleMouseEnter() {
+        if (this.beginBoot || this.clicked) return
         this.hovering = true
-        setTimeout(() => {
-          this.allowClick = true
-        }, 1200)
+        this.allowClick = true
       },
       handleMouseLeave() {
         this.hovering = false
-        this.allowClick = false
       },
       handleClick() {
-        if (this.allowClick) {
+        if (this.allowClick && !this.beginBoot) {
           this.beginBoot = true
           this.preboot = true
           this.clickActive = true
@@ -74,6 +72,11 @@
           }, 5500)
         }
       },
+      handleKeydown(event) {
+        if (event.key !== 'Enter' && event.key !== ' ') return
+        event.preventDefault()
+        this.handleClick()
+      },
     },
   }
 </script>
@@ -81,11 +84,23 @@
 <template>
   <main>
     <div>
-      <router-link v-if="!isMobile" to="/desktop" class="absolute skip" :style="(beginBoot || hovering) && 'transform: translateX(-60px); opacity: 0'
-        ">
-        <span class="arrow">➔</span>
+      <router-link
+        v-if="!isMobile"
+        to="/desktop"
+        class="absolute skip"
+        :class="{ 'skip--hidden': beginBoot || hovering }"
+      >
         <b>skip</b>
+        <span class="arrow" aria-hidden="true">→</span>
       </router-link>
+      <p
+        v-if="unveil && !isMobile && !beginBoot && !clicked"
+        class="enter-hint"
+        :class="{ 'enter-hint--hidden': hovering }"
+        aria-hidden="true"
+      >
+        enter <span class="enter-hint__arrow">↓</span>
+      </p>
       <div class="root" :style="clickActive && 'transform: scale(0.95)'">
         <div v-if="isMobile" class="mobile-veil absolute flex justify-center align-end fill-screen" style="
             z-index: 9999;
@@ -122,12 +137,21 @@
             </svg>
           </div>
           <div v-if="!isMobile" class="zoomable">
-            <div class="flex-center window" :class="clicked
+            <button
+              type="button"
+              class="flex-center window"
+              :class="clicked
                 ? 'next window-hover'
                 : boot || preboot
                   ? 'window-hover'
                   : 'window flex-center'
-              " @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave" @click="handleClick">
+              "
+              aria-label="Enter site"
+              @mouseenter="handleMouseEnter"
+              @mouseleave="handleMouseLeave"
+              @click="handleClick"
+              @keydown="handleKeydown"
+            >
               <div class="laptop-aura" :style="clicked && 'transition-delay: 20s !important'"></div>
               <div class="laptop">
                 <div class="base">
@@ -157,25 +181,19 @@
                   <div class="side back"></div>
                 </div>
               </div>
-            </div>
+            </button>
           </div>
         </div>
         <div class="absolute bg-image" :class="clicked ? 'desktop-modal-transition' : 'desktop-modal'"
           :style="`${hovering && 'animation-play-state: paused'};`">
           <!--GradientMesh :index="2" :style="`${popup && 'display: none;'}`" /-->
         </div>
-        <div class="desktop-modal-final absolute bg-image" :style="desktopReady
-            ? `
-        opacity: 1;
-        pointer-events: all;
-        transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
-      `
-            : `
-        opacity: 0;
-        pointer-events: none;
-        transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);
-      `
-          ">
+        <div
+          class="desktop-modal-final absolute bg-image"
+          :style="desktopReady
+            ? 'opacity: 1; pointer-events: all; z-index: 999999; transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);'
+            : 'opacity: 0; pointer-events: none; z-index: 1; transition: 1600ms cubic-bezier(0.85, 0, 0.15, 1);'"
+        >
           <Screen :popup="popup" />
         </div>
       </div>
@@ -256,31 +274,79 @@
         }
 
         .skip {
-          color: #000000;
-          bottom: 64px;
-          left: 120px;
-          opacity: 0.4;
-          font-size: 16px;
-          transform: translateX(-32px);
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          color: #1a1a1a;
+          bottom: 32px;
+          right: 32px;
+          left: auto;
+          opacity: 0.72;
+          font-size: 14px;
+          letter-spacing: 0.04em;
           cursor: pointer;
-          transition: 600ms !important;
-          font-weight: bold;
+          transition: opacity 400ms ease, transform 400ms ease !important;
+          font-weight: 600;
           text-decoration: none;
+          text-transform: lowercase;
           z-index: 9999;
 
           .arrow {
-            position: absolute;
-            transform: translateX(-36px);
-            transition: 200ms !important;
             font-weight: normal;
+            transition: transform 200ms ease !important;
           }
 
           &:hover {
             opacity: 1 !important;
 
             .arrow {
-              transform: translateX(-24px);
+              transform: translateX(3px);
             }
+          }
+
+          &--hidden {
+            opacity: 0 !important;
+            transform: translateY(8px);
+            pointer-events: none;
+          }
+        }
+
+        .enter-hint {
+          position: absolute;
+          bottom: 96px;
+          left: 50%;
+          margin: 0;
+          transform: translateX(-50%);
+          color: #2a2a2a;
+          opacity: 0.55;
+          font-size: 13px;
+          font-weight: 500;
+          letter-spacing: 0.14em;
+          text-transform: lowercase;
+          z-index: 1000;
+          pointer-events: none;
+          transition: opacity 400ms ease, transform 400ms ease;
+
+          &__arrow {
+            display: inline-block;
+            margin-left: 8px;
+            animation: hint-bob 2.2s ease-in-out infinite;
+          }
+
+          &--hidden {
+            opacity: 0;
+            transform: translateX(-50%) translateY(6px);
+          }
+        }
+
+        @keyframes hint-bob {
+          0%,
+          100% {
+            transform: translateY(0);
+          }
+
+          50% {
+            transform: translateY(4px);
           }
         }
 
@@ -294,8 +360,6 @@
           left: 0px;
           width: 100vw;
           height: 100vh;
-          opacity: 1;
-          z-index: 999999;
         }
 
         .desktop-modal {
@@ -312,7 +376,7 @@
           transition: 1500ms cubic-bezier(0.33, 1, 0.68, 1), opacity 0s;
           animation: pulse 2s ease infinite $pulse_delay;
           pointer-events: none;
-          z-index: 999999;
+          z-index: 40;
         }
 
         .desktop-modal-transition {
@@ -334,7 +398,7 @@
           pointer-events: none;
           transition: 2s cubic-bezier(0.85, 0, 0.15, 1), opacity 0s;
           animation-play-state: paused !important;
-          z-index: 999999;
+          z-index: 80;
 
           video {
             border-radius: 6px;
@@ -342,6 +406,8 @@
         }
 
         .zoomable {
+          position: relative;
+          z-index: 100;
           transition: 3s;
         }
 
@@ -389,8 +455,12 @@
         }
 
         .window {
-          height: 20em;
-          width: 20em;
+          appearance: none;
+          border: none;
+          background: transparent;
+          padding: 0;
+          height: 24em;
+          width: 24em;
           position: relative;
           perspective: 90em;
           opacity: 1;
@@ -399,6 +469,18 @@
           cursor: pointer;
           transition: opacity 1s !important;
           animation: pulse 2s ease infinite $pulse_delay;
+
+          &::before {
+            content: '';
+            position: absolute;
+            inset: -2.5em;
+            z-index: 0;
+          }
+
+          &:focus-visible {
+            outline: 2px solid #1a1a1a;
+            outline-offset: 8px;
+          }
         }
 
         .laptop-aura {

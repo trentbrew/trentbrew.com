@@ -45,14 +45,6 @@ export default {
     spoof: Boolean,
     center: Boolean,
     fullscreen: Boolean,
-    initialLeft: {
-      type: Number,
-      default: null,
-    },
-    initialTop: {
-      type: Number,
-      default: null,
-    },
     initialWidth: {
       type: Number,
       default: 400,
@@ -111,17 +103,14 @@ export default {
       const { width: areaW, height: areaH } = this.getDesktopBounds()
       const maxLeft = Math.max(0, areaW - this.width)
       const maxTop = Math.max(0, areaH - this.height)
-      if (this.initialLeft != null) {
-        this.left = Math.min(maxLeft, Math.max(0, this.initialLeft))
-        this.top = Math.min(maxTop, Math.max(0, this.initialTop))
-      } else if (!this.center) {
-        const x = this.getRandomX()
-        const y = this.getRandomY()
-        this.left = Math.min(maxLeft, Math.max(0, x))
-        this.top = Math.min(maxTop, Math.max(0, y))
-      } else {
+      if (this.center) {
         this.left = Math.max(0, (areaW - this.width) / 2)
         this.top = Math.max(0, (areaH - this.height) / 2)
+      } else {
+        const x = this.getClusteredX(areaW)
+        const y = this.getClusteredY(areaH)
+        this.left = Math.min(maxLeft, Math.max(0, x))
+        this.top = Math.min(maxTop, Math.max(0, y))
       }
     },
     togglePeek() {
@@ -209,13 +198,6 @@ export default {
       }
       if (data.eventName == 'drag:end') {
         this.preventEmbedHover = false
-        this.$root.$emit('windowGeometry', {
-          slug: this.slug,
-          width: this.width,
-          height: this.height,
-          left: this.left,
-          top: this.top,
-        })
       }
       if (data.eventName == 'resize:end') {
         const w = Math.round(this.width)
@@ -223,13 +205,6 @@ export default {
         console.log(
           `[window] ${this.slug || this.title} → ${w}×${h} (dock: windowWidth: ${w}, windowHeight: ${h})`
         )
-        this.$root.$emit('windowGeometry', {
-          slug: this.slug,
-          width: this.width,
-          height: this.height,
-          left: this.left,
-          top: this.top,
-        })
       }
       setTimeout(() => {
         this.preventTransition = false
@@ -242,14 +217,18 @@ export default {
       var buffer = this.$parent.zBuffer
       return 9999 + (buffer.length - buffer.indexOf(this.id))
     },
-    rand(min, max) {
-      return parseInt(Math.random() * (max - min) + min)
+    jitter(spread) {
+      return (Math.random() * 2 - 1) * spread
     },
-    getRandomX() {
-      return this.rand(this.maxW / 12, this.maxW - (this.initialWidth + 120))
+    getClusteredX(areaW) {
+      const centerX = (areaW - this.width) / 2
+      const spreadX = Math.min(320, Math.max(100, areaW * 0.14))
+      return centerX + this.jitter(spreadX)
     },
-    getRandomY() {
-      return this.rand(this.maxH / 12, this.maxH - (this.initialHeight + 300))
+    getClusteredY(areaH) {
+      const centerY = (areaH - this.height) / 2 - 32
+      const spreadY = Math.min(220, Math.max(80, areaH * 0.11))
+      return centerY + this.jitter(spreadY)
     },
   },
   filters: {
