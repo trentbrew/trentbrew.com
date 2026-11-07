@@ -1,5 +1,5 @@
 <script>
-  import http from '@/api/http'
+  import { fetchGalleryImages } from '@/api/gallery'
 
   export default {
     data() {
@@ -9,11 +9,8 @@
       }
     },
     async mounted() {
-      http.get(`/api/v1/gallery`).then((res) => {
-        this.loading = false
-        this.images = Array.isArray(res.data) ? res.data.sort((a, b) => a.index - b.index) : []
-        console.log('sorted images: ', this.images)
-      })
+      this.images = await fetchGalleryImages()
+      this.loading = false
     },
     methods: {
       handleImageClick(image) {
@@ -37,7 +34,6 @@
     </div>
   </div>
 </template>
-.
 
 <style lang="scss" scoped>
   .clickable {

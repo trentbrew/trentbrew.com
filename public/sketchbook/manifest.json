@@ -1,0 +1,476 @@
+[
+  {
+    "index": -16,
+    "title": "BMP",
+    "filename": "00_bmp.png",
+    "size": 2958004
+  },
+  {
+    "index": 8,
+    "title": "laptop",
+    "filename": "01_laptop.jpg",
+    "size": 144380
+  },
+  {
+    "index": -14,
+    "title": "halfpipe",
+    "filename": "02_halfpipe.png",
+    "size": 505044
+  },
+  {
+    "index": -12,
+    "title": "wishful",
+    "filename": "03_wishful.jpg",
+    "size": 1027416
+  },
+  {
+    "index": -11,
+    "title": "2023",
+    "filename": "04_2023.png",
+    "size": 2418589
+  },
+  {
+    "index": -16,
+    "title": "her",
+    "filename": "05_her.jpg",
+    "size": 298734
+  },
+  {
+    "index": -7,
+    "title": "revelation",
+    "filename": "06_revelation.png",
+    "size": 1104753
+  },
+  {
+    "index": -7,
+    "title": "weight",
+    "filename": "07_weight.jpg",
+    "size": 1052544
+  },
+  {
+    "index": -3.5,
+    "title": "A Good Day",
+    "filename": "08_a-good-day.png",
+    "size": 320476
+  },
+  {
+    "index": -3,
+    "title": "brewcrew",
+    "filename": "09_brewcrew.png",
+    "size": 53368
+  },
+  {
+    "index": -3,
+    "title": "walk",
+    "filename": "10_walk.png",
+    "size": 105154
+  },
+  {
+    "index": -1,
+    "title": "clippers",
+    "filename": "11_clippers.png",
+    "size": 22365
+  },
+  {
+    "index": 0,
+    "title": "river",
+    "filename": "12_river.jpeg",
+    "size": 1600634
+  },
+  {
+    "index": 0,
+    "title": "light",
+    "filename": "13_light.jpg",
+    "size": 521631
+  },
+  {
+    "index": 1.9,
+    "title": "buds",
+    "filename": "14_buds.png",
+    "size": 383383
+  },
+  {
+    "index": 1.95,
+    "title": "illumination",
+    "filename": "15_illumination.png",
+    "size": 665542
+  },
+  {
+    "index": 1.95,
+    "title": "think",
+    "filename": "16_think.jpg",
+    "size": 644776
+  },
+  {
+    "index": 1.99,
+    "title": "jazz",
+    "filename": "17_jazz.jpg",
+    "size": 866553
+  },
+  {
+    "index": 2.99,
+    "title": "stares",
+    "filename": "18_stares.jpg",
+    "size": 94689
+  },
+  {
+    "index": 3,
+    "title": "mirror",
+    "filename": "19_mirror.jpeg",
+    "size": 151223
+  },
+  {
+    "index": 6.1,
+    "title": "sunrise",
+    "filename": "20_sunrise.jpeg",
+    "size": 127086
+  },
+  {
+    "index": 7,
+    "title": "october",
+    "filename": "21_october.jpg",
+    "size": 104213
+  },
+  {
+    "index": 8,
+    "title": "We See You",
+    "filename": "22_we-see-you.png",
+    "size": 2387706
+  },
+  {
+    "index": 10,
+    "title": "adaptation",
+    "filename": "23_adaptation.png",
+    "size": 2552407
+  },
+  {
+    "index": 10,
+    "title": "kia",
+    "filename": "24_kia.png",
+    "size": 1286834
+  },
+  {
+    "index": 11,
+    "title": "currents",
+    "filename": "25_currents.jpeg",
+    "size": 314448
+  },
+  {
+    "index": 12,
+    "title": "strand",
+    "filename": "26_strand.jpg",
+    "size": 160899
+  },
+  {
+    "index": 13,
+    "title": "friends",
+    "filename": "27_friends.jpg",
+    "size": 1772868
+  },
+  {
+    "index": 14,
+    "title": "sonic",
+    "filename": "28_sonic.jpg",
+    "size": 68192
+  },
+  {
+    "index": 15,
+    "title": "portrait",
+    "filename": "29_portrait.jpeg",
+    "size": 57464
+  },
+  {
+    "index": 17,
+    "title": "aloof",
+    "filename": "30_aloof.jpg",
+    "size": 298380
+  },
+  {
+    "index": 19,
+    "title": "Togetherness",
+    "filename": "31_togetherness.png",
+    "size": 2610760
+  },
+  {
+    "index": 21,
+    "title": "cover",
+    "filename": "32_cover.png",
+    "size": 2246457
+  },
+  {
+    "index": 23,
+    "title": "skateboard2.0",
+    "filename": "33_skateboard2-0.jpg",
+    "size": 5205916
+  },
+  {
+    "index": 24,
+    "title": "naruto",
+    "filename": "34_naruto.jpg",
+    "size": 500687
+  },
+  {
+    "index": 25,
+    "title": "isabella",
+    "filename": "35_isabella.jpg",
+    "size": 430733
+  },
+  {
+    "index": 26,
+    "title": "hug",
+    "filename": "36_hug.jpg",
+    "size": 127998
+  },
+  {
+    "index": 27,
+    "title": "winter",
+    "filename": "37_winter.jpg",
+    "size": 1045778
+  },
+  {
+    "index": 28,
+    "title": "angel",
+    "filename": "38_angel.jpg",
+    "size": 433965
+  },
+  {
+    "index": 29,
+    "title": "alien",
+    "filename": "39_alien.jpg",
+    "size": 463398
+  },
+  {
+    "index": 30,
+    "title": "coal",
+    "filename": "40_coal.jpg",
+    "size": 2893972
+  },
+  {
+    "index": 31,
+    "title": "ghost",
+    "filename": "41_ghost.jpg",
+    "size": 541533
+  },
+  {
+    "index": 32,
+    "title": "music",
+    "filename": "42_music.jpg",
+    "size": 3061099
+  },
+  {
+    "index": 33,
+    "title": "scholar",
+    "filename": "43_scholar.jpg",
+    "size": 1014724
+  },
+  {
+    "index": 34,
+    "title": "denial",
+    "filename": "44_denial.jpg",
+    "size": 270568
+  },
+  {
+    "index": 35,
+    "title": "honesty",
+    "filename": "45_honesty.jpg",
+    "size": 348911
+  },
+  {
+    "index": 36,
+    "title": "enso",
+    "filename": "46_enso.jpg",
+    "size": 1401014
+  },
+  {
+    "index": 37,
+    "title": "24hours",
+    "filename": "47_24hours.png",
+    "size": 1986241
+  },
+  {
+    "index": 37.1,
+    "title": "restraint",
+    "filename": "48_restraint.png",
+    "size": 1218317
+  },
+  {
+    "index": 38,
+    "title": "ma",
+    "filename": "49_ma.jpg",
+    "size": 408131
+  },
+  {
+    "index": 39,
+    "title": "overcast",
+    "filename": "50_overcast.png",
+    "size": 860109
+  },
+  {
+    "index": 40,
+    "title": "overstimulation",
+    "filename": "51_overstimulation.jpg",
+    "size": 517354
+  },
+  {
+    "index": 41,
+    "title": "dehydrated",
+    "filename": "52_dehydrated.jpg",
+    "size": 412912
+  },
+  {
+    "index": 42,
+    "title": "spill",
+    "filename": "53_spill.jpg",
+    "size": 418276
+  },
+  {
+    "index": 43,
+    "title": "digest",
+    "filename": "54_digest.jpg",
+    "size": 540911
+  },
+  {
+    "index": 44,
+    "title": "noise",
+    "filename": "55_noise.jpg",
+    "size": 186108
+  },
+  {
+    "index": 45,
+    "title": "ocean",
+    "filename": "56_ocean.jpg",
+    "size": 465966
+  },
+  {
+    "index": 46,
+    "title": "sleepy",
+    "filename": "57_sleepy.jpg",
+    "size": 281797
+  },
+  {
+    "index": 47,
+    "title": "padding",
+    "filename": "58_padding.jpg",
+    "size": 230335
+  },
+  {
+    "index": 48,
+    "title": "18",
+    "filename": "59_18.png",
+    "size": 4262033
+  },
+  {
+    "index": 49,
+    "title": "aisha",
+    "filename": "60_aisha.jpg",
+    "size": 827289
+  },
+  {
+    "index": 50,
+    "title": "gelatophobia",
+    "filename": "61_gelatophobia.jpg",
+    "size": 697973
+  },
+  {
+    "index": 51,
+    "title": "ubloe",
+    "filename": "62_ubloe.jpg",
+    "size": 1508055
+  },
+  {
+    "index": 52,
+    "title": "fakejoy",
+    "filename": "63_fakejoy.jpg",
+    "size": 1986356
+  },
+  {
+    "index": 53,
+    "title": "tails",
+    "filename": "64_tails.jpg",
+    "size": 616374
+  },
+  {
+    "index": 54,
+    "title": "lazy",
+    "filename": "65_lazy.jpg",
+    "size": 1405262
+  },
+  {
+    "index": 55,
+    "title": "body",
+    "filename": "66_body.jpg",
+    "size": 1983274
+  },
+  {
+    "index": 56,
+    "title": "lads",
+    "filename": "67_lads.jpg",
+    "size": 1469092
+  },
+  {
+    "index": 57,
+    "title": "insomnia",
+    "filename": "68_insomnia.jpg",
+    "size": 1191736
+  },
+  {
+    "index": 58,
+    "title": "skateboard1.0",
+    "filename": "69_skateboard1-0.jpg",
+    "size": 996439
+  },
+  {
+    "index": 59,
+    "title": "progress",
+    "filename": "70_progress.jpg",
+    "size": 3602983
+  },
+  {
+    "index": 61,
+    "title": "girls",
+    "filename": "71_girls.jpg",
+    "size": 1279390
+  },
+  {
+    "index": 62,
+    "title": "sundays",
+    "filename": "72_sundays.jpg",
+    "size": 603320
+  },
+  {
+    "index": 63,
+    "title": "happynight",
+    "filename": "73_happynight.jpg",
+    "size": 1912019
+  },
+  {
+    "index": 64,
+    "title": "intention",
+    "filename": "74_intention.png",
+    "size": 1063371
+  },
+  {
+    "index": 66,
+    "title": "bleed",
+    "filename": "75_bleed.jpg",
+    "size": 645087
+  },
+  {
+    "index": 67,
+    "title": "youcandoit",
+    "filename": "76_youcandoit.jpg",
+    "size": 2524401
+  },
+  {
+    "index": 68,
+    "title": "arm",
+    "filename": "77_arm.jpg",
+    "size": 2068348
+  },
+  {
+    "index": 69,
+    "title": "masks",
+    "filename": "78_masks.jpeg",
+    "size": 143227
+  }
+]

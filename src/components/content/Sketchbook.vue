@@ -1,11 +1,7 @@
 <script>
-  import http from '@/api/http'
-  import Sketchbook from '@/components/content/Sketchbook.vue'
+  import { fetchGalleryImages } from '@/api/gallery'
 
   export default {
-    components: {
-      Sketchbook,
-    },
     data() {
       return {
         loading: true,
@@ -13,11 +9,8 @@
       }
     },
     async mounted() {
-      http.get(`/api/v1/gallery`).then((res) => {
-        this.loading = false
-        this.images = Array.isArray(res.data) ? res.data.sort((a, b) => a.index - b.index) : []
-        console.log('sorted images: ', this.images)
-      })
+      this.images = await fetchGalleryImages()
+      this.loading = false
     },
     methods: {
       handleImageClick(image) {
@@ -28,23 +21,21 @@
 </script>
 
 <template>
-  <Sketchbook>
-    <div class="gallery">
-      <div class="gallery-container">
-        <div
-          v-for="(image, index) in images"
-          :key="index"
-          :style="`background-image: url(${image.url});`"
-          class="gallery-item"
-        >
-          <div @click="handleImageClick(image)" class="clickable"></div>
-        </div>
+  <div class="gallery">
+    <div class="gallery-container">
+      <div
+        v-for="(image, index) in images"
+        :key="index"
+        :style="`background-image: url(${image.url});`"
+        class="gallery-item"
+      >
+        <div @click="handleImageClick(image)" class="clickable"></div>
       </div>
     </div>
-  </Sketchbook>
+  </div>
 </template>
 
-<!-- <style lang="scss" scoped>
+<style lang="scss" scoped>
   .clickable {
     height: 100%;
     width: 100%;
@@ -83,4 +74,4 @@
       filter: brightness(0.6);
     }
   }
-</style> -->
+</style>

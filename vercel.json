@@ -2,5 +2,9 @@
   "version": 2,
   "outputDirectory": "dist",
   "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "npm run build"
+  "buildCommand": "npm run build",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
 }
